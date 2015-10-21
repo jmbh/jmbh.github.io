@@ -6,8 +6,10 @@ permalink: /about/
 
 ### More Information
 
-Hi, I recently graduated from a master's in Methodology and Statistics
+Hi, I recently graduated from a master's in Methodology and Statistics.
+
+
 
 ### Contact me
 
-jonashaslbeck [at] gmail.com
+![_config.yml]({{ site.baseurl }}/images/email.png)
