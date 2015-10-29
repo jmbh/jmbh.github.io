@@ -35,12 +35,13 @@ We now use our knowledge about the variables to specify the domain (or type) of 
 
 
 {% highlight r %}
-type <- c("c", "g", "g", "c", "c", "g", "c", "c", "p", "p", "p", 
-          "p", "p", "p", "c", "p", "c", "g", "p", "p", "p", "p", 
-          "g", "g", "g", "g", "g", "g", "c", "c", "g")
+type <- c("c", "g", "g", "c", "c", "g", "c", "c", "p", "p",
+          "p", "p", "p", "p", "c", "p", "c", "g", "p", "p",
+          "p", "p", "g", "g", "g", "g", "g", "g", "c", "c",
+          "g")
 
-cat <- c(2, 1, 1, 3, 2, 1, 5, 3, 1, 1, 1, 1, 1, 1, 2, 1, 4, 1, 
-          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1)
+cat <- c(2, 1, 1, 3, 2, 1, 5, 3, 1, 1, 1, 1, 1, 1, 2, 1, 4,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1)
 {% endhighlight %}
 
 The estimation algorithm requires us to make an assumption about the highest order interaction in the true graph We here assume that there are at most pairwise interactions in the true graph and set d=2. The algorithm includes an L1-penalty to obtain a sparse estimate. We can select the regularization parameter lambda using cross validation (CV) or the Extended Bayesian Information Criterion (EBIC). Here, we choose the EBIC, which is known to be a bit more conservative than CV but is computationally faster.
