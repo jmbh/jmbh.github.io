@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Publications
-permalink: /publications/
+title: Papers
+permalink: /papers/
 ---
-
 
 Haslbeck J. M. B., Wood G., Witte M. (in press). Temporal dynamics of number-space interaction
 in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
