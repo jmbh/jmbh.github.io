@@ -6,9 +6,9 @@ category: R
 
 Determining conditional independence relationships through undirected graphical models is a key component in the statistical analysis of complex obervational data in a wide variety of disciplines. In many situations one seeks to estimate the underlying graphical model of a dataset that includes *variables of different domains*.
 
-For instance, take a typical dataset in the social, behavioral and medical sciences, where one is interested in interactions, for example between gender or country (categorical), frequencies of behaviors or experiences (count) and the dose of a drug (continuous). Other examples are Internet-scale marketing data or high-throughput sequencing data. 
+As an example, take a typical dataset in the social, behavioral and medical sciences, where one is interested in interactions, for example between gender or country (categorical), frequencies of behaviors or experiences (count) and the dose of a drug (continuous). Other examples are Internet-scale marketing data or high-throughput sequencing data. 
 
-There are methods available to estimate mixed graphical models from mixed continuous data, however, these usually have two drawbacks: first, there is a possible information loss due to necessary transformations and second, they cannot incorporate (nominal) categorical variables (for an overview see [here](http://arxiv.org/abs/1510.05677)). A [new method](http://arxiv.org/abs/1510.06871) implemented in the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) addresses these limiations. 
+There are methods available to estimate mixed graphical models from mixed continuous data, however, these usually have two drawbacks: first, there is a possible information loss due to necessary transformations and second, they cannot incorporate (nominal) categorical variables (for an overview see [here](http://arxiv.org/abs/1510.05677)). A [new method](http://arxiv.org/abs/1510.06871) implemented in the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) addresses these limitations. 
 
 
 In the following, we use the mgm-package to estimate the conditional independence network in a dataset of questionnaire responses of individuals diagnosed with Autism Spectrum Disoder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
@@ -21,23 +21,11 @@ The dataset consists of responses of 3521 individuals to a questionnaire includi
 
 {% highlight r %}
 dim(data)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ## [1] 3521   28
-{% endhighlight %}
 
-
-
-{% highlight r %}
 round(data[1:4, 1:5],2)
-{% endhighlight %}
 
-
-
-{% highlight text %}
 ##      sex IQ agediagnosis opennessdiagwp successself
 ## [1,]   1  6            0              1        1.92
 ## [2,]   2  6            7              1        5.40
