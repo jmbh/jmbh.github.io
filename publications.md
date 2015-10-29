@@ -11,5 +11,5 @@ in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimenta
 Haslbeck J. M. B., Waldorp L. J. (submitted). Structure Estimation for Mixed Graphical models in
 High Dimensions. The Annals of Applied Statistics. [[PDF]](http://arxiv.org/pdf/1510.05677v1.pdf)
 
-Haslbeck J. M. B., Waldorp L. J. (in preparation). mgm: Structure Estimation for Mixed Graphical
-Models in high-dimensional Data. The Journal of Statistical Software.
+Haslbeck J. M. B., Waldorp L. J. (submitted). mgm: Structure Estimation for Mixed Graphical
+Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](http://arxiv.org/pdf/1510.06871v1.pdf)
