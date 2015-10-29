@@ -21,11 +21,9 @@ The dataset consists of responses of 3521 individuals to a questionnaire includi
 
 {% highlight r %}
 dim(data)
-
 ## [1] 3521   28
 
 round(data[1:4, 1:5],2)
-
 ##      sex IQ agediagnosis opennessdiagwp successself
 ## [1,]   1  6            0              1        1.92
 ## [2,]   2  6            7              1        5.40
@@ -70,13 +68,12 @@ group_list <- list("Demographics"=c(1,14,15,28),
 # define nice colors
 group_cols <- c("#E35959","#8FC45A","#4B71B3","#E8ED61")
 
-# add names to variables
-colnames(fit$adj) <- datalist$colnames
-
 # plot
 library(qgraph)
 qgraph(fit$adj, 
-       vsize=3, layout="spring", edge.color = rgb(33,33,33,100, maxColorValue = 255), 
+       vsize=3, layout="spring", 
+       edge.color = rgb(33,33,33,100, 
+       maxColorValue = 255), 
        color=group_cols,
        border.width=1.5,
        border.color="black",
@@ -84,7 +81,7 @@ qgraph(fit$adj,
        nodeNames=datalist$colnames,
        legend=TRUE, 
        legend.mode="groups",
-       legend.cex=.5)
+       legend.cex=.75)
 {% endhighlight %}
 
 ![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/unnamed-chunk-6-1.png) 
@@ -92,7 +89,7 @@ qgraph(fit$adj,
 
 A reproducible example can be found in the examples of [the package](https://cran.r-project.org/web/packages/mgm/index.html) or more elaboratly explained [in the corresponding paper](http://arxiv.org/abs/1510.06871). [Here](http://arxiv.org/abs/1510.05677) is a paper explaining the theory behind the implemented algorithm.
 
-Computationally efficient methods for Gaussian data are implemented in the [huge package](https://cran.r-project.org/web/packages/huge/index.html) and the [glasso package](https://cran.r-project.org/web/packages/glasso/index.html). For binary data, there is the [IsingFit package](https://cran.fhcrc.org/web/packages/IsingFit/index.html)
+Computationally efficient methods for Gaussian data are implemented in the [huge](https://cran.r-project.org/web/packages/huge/index.html) package and the [glasso](https://cran.r-project.org/web/packages/glasso/index.html) package. For binary data, there is the [IsingFit](https://cran.fhcrc.org/web/packages/IsingFit/index.html) package.
 
 Great free resources about graphical models are Chapter 17 in the freely available book [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/local.ftp/Springer/OLD/ESLII_print4.pdf) and the Coursera course [Probabilistic Graphical Models](https://www.coursera.org/course/pgm).
 
