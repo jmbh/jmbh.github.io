@@ -4,4 +4,4 @@ title: Links
 permalink: /links/
 ---
 
-[R-bloggers.com](https://http://www.r-bloggers.com/)
+[R-bloggers.com](http://www.r-bloggers.com/)
