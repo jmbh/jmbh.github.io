@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estimating mixed graphical models
-category: R
+category: r
 ---
 
 Determining conditional independence relationships through undirected graphical models is a key component in the statistical analysis of complex obervational data in a wide variety of disciplines. In many situations one seeks to estimate the underlying graphical model of a dataset that includes *variables of different domains*.
