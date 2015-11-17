@@ -5,6 +5,9 @@
 # Name of your site (displayed in the header)
 name: Jonas Haslbeck
 
+# categories
+category: R, misc
+
 # Short bio or description (displayed in the header)
 description: MSc Student Methods & Statistics
 
