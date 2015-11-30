@@ -16,11 +16,7 @@ layout: null
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
 
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
@@ -30,6 +26,3 @@ layout: null
 {% endfor %}
 
 
-
-	</channel>
-</rss>
