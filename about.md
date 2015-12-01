@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, I recently graduated from a master's in Methodology and Statistics Utrecht University, The Netherlands. I am interested in cognitive science, statistical modeling, network science and philosophy of science.
+Hi, I am currently a PhD student at the [Psychosystems](psychosystems.org) group at the University of Amsterdam, where I work on time series data in the field of Psychopathology. I am also interested in cognitive psychology, motor control, philosopy of science, statistical modeling and network science. Since 2013, I am an Editor at the [Journal of European Psychology Students](http://jeps.efpsa.org) and I occasionally post on their blog, the [JEPS Bulletin](http://blog.efpsa.org).
 
 
 ### Contact
-![_config.yml]({{ site.baseurl }}/images/email.png)
+
+jonashaslbeck@gmail.com
