@@ -11,7 +11,7 @@ As an example, take a typical dataset in the social, behavioral and medical scie
 There are methods available to estimate mixed graphical models from mixed continuous data, however, these usually have two drawbacks: first, there is a possible information loss due to necessary transformations and second, they cannot incorporate (nominal) categorical variables (for an overview see [here](http://arxiv.org/abs/1510.05677)). A [new method](http://arxiv.org/abs/1510.06871) implemented in the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) addresses these limitations. 
 
 
-In the following, we use the mgm-package to estimate the conditional independence network in a dataset of questionnaire responses of individuals diagnosed with Autism Spectrum Disoder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
+In the following, we use the mgm-package to estimate the conditional independence network in a dataset of questionnaire responses of individuals diagnosed with Autism Spectrum Disorder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
 
 
 
