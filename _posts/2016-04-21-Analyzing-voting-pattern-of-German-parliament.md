@@ -12,12 +12,14 @@ As we look at the pull population, I simply compute weighted sample (population)
 
 Here are the networks for the time points .25 and .75 in the normalized [0,1] time interval: green edges (positive correlation) indicate that two politicians tend to vote for/against the same bills. If the correlation is 1, they vote identically. The reverse is true for red edges (negative correlations).
 
-![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t25.jpg) 
+[Mention how this is plotted]
+
+![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t25_full.jpg) 
 ![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/legend.jpg) 
 
 Talk about clusters .... Introduce second plot
 
-![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t25.jpg) 
+![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t75_full.jpg) 
 
 Some more blabla about change!
 
