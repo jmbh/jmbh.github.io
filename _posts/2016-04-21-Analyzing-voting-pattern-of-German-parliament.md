@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing the voting pattern of German parliament
+title: Analyzing voting pattern of German parliament
 category: r
 ---
 
@@ -13,15 +13,14 @@ As we look at the pull population, I simply compute weighted sample (population)
 Here are the networks for the time points .25 and .75 in the normalized [0,1] time interval: green edges (positive correlation) indicate that two politicians tend to vote for/against the same bills. If the correlation is 1, they vote identically. The reverse is true for red edges (negative correlations).
 
 ![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t25.jpg) 
-
 ![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/legend.jpg) 
 
 Talk about clusters .... Introduce second plot
 
 ![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/bundestag18_cor_t25.jpg) 
 
-Some more blabla
- 
+Some more blabla about change!
+
 
 Next, we look into how strongly politicians vote with other politicians of their own and other parties. To this end we simply take the average of the corresponding sub-matrices of the weighted correlation matrices. For instance, we take all correlations between members of "DIE LINKE" and "CDU/CSU" and take the average of those. Repeated for all time steps, this gives us the following graph:
 
