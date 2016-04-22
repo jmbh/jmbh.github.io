@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analyzing voting pattern of German parliament
-category: 
+category: s
 ---
 
 
