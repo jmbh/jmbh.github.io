@@ -27,9 +27,10 @@ Some more blabla about change!
 Next, we look into how strongly politicians vote with other politicians of their own and other parties. To this end we simply take the average of the corresponding sub-matrices of the weighted correlation matrices. For instance, we take all correlations between members of "DIE LINKE" and "CDU/CSU" and take the average of those. Repeated for all time steps, this gives us the following graph:
 
 
-![center](http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/dfdf.html) 
+
 
 Test:
+{% include http://jmbh.github.io//figs/2016-04-24-Analyzing-Voting-Pattern-of-German-Parliament/dfdf.html %}
 
 
 
