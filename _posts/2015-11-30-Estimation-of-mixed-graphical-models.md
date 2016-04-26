@@ -14,9 +14,7 @@ There are methods available to estimate mixed graphical models from mixed contin
 In the following, we use the mgm-package to estimate the conditional independence network in a dataset of questionnaire responses of individuals diagnosed with Autism Spectrum Disorder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
 
 
-
-
-The dataset consists of responses of 3521 individuals to a questionnaire including 28 variables of domains continuous, count and categorical.
+The dataset consists of responses of 3521 individuals to a questionnaire including 28 variables of domains continuous, count and categorical and is available [here](https://github.com/jmbh/AutismData).
 
 
 {% highlight r %}
@@ -25,10 +23,10 @@ dim(data)
 
 round(data[1:4, 1:5],2)
 ##      sex IQ agediagnosis opennessdiagwp successself
-## [1,]   1  6            0              1        1.92
-## [2,]   2  6            7              1        5.40
-## [3,]   1  5            4              2        5.66
-## [4,]   1  6            8              1        8.00
+## [1,]   1  6        -0.96              1        2.21
+## [2,]   2  6        -0.52              1        6.11
+## [3,]   1  5        -0.71              2        5.62
+## [4,]   1  6        -0.45              1        8.00
 {% endhighlight %}
 
 We now use our knowledge about the variables to specify the domain (or type) of each variable and the number of categories for categorical variables (for non-categorical variables we choose 1). "c", "g", "p" stands for categorical, Gaussian and Poisson (count), respectively.
@@ -60,32 +58,35 @@ The fit function returns all estimated parameters and a weighted and unweighted 
 
 
 {% highlight r %}
-# group variables
-group_list <- list("Demographics"=c(1,14,15,28), 
-                "Psychological"=c(2,4,5,6,18,20,21),
-                "Social environment" = c(7,16,17,19,26,27),
-                "Medical"=c(3,8,9,10,11,12,13,22,23,24,25))
 
-# define nice colors
-group_cols <- c("#E35959","#8FC45A","#4B71B3","#E8ED61")
+# define group labels
+groups_type <- list("Demographics"=c(1,14,15,28), 
+                    "Psychological"=c(2,4,5,6,18,20,21),
+                    "Social environment" = c(7,16,17,19,26,27),
+                    "Medical"=c(3,8,9,10,11,12,13,22,23,24,25))
+
+# pick some nice colors
+group_col <- c("#72CF53", "#53B0CF", "#FFB026", "#ED3939")
 
 # plot
-library(qgraph)
-qgraph(fit$adj, 
-       vsize=3, layout="spring", 
-       edge.color = rgb(33,33,33,100, 
-       maxColorValue = 255), 
-       color=group_cols,
+
+qgraph(graph, 
+       vsize=3.5, 
+       esize=4, 
+       layout="spring", 
+       edge.color = rgb(33,33,33,100, maxColorValue = 255), 
+       color=group_col,
        border.width=1.5,
        border.color="black",
-       groups=group_list,
+       groups=groups_type,
        nodeNames=datalist$colnames,
        legend=TRUE, 
-       legend.mode="groups",
-       legend.cex=.75)
+       legend.mode="style2",
+       legend.cex=.5)
+             
 {% endhighlight %}
 
-![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/unnamed-chunk-6-1.png) 
+![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/JSS_autism_figure.jpg) 
 
 
 A reproducible example can be found in the examples of [the package](https://cran.r-project.org/web/packages/mgm/index.html) or more elaboratly explained [in the corresponding paper](http://arxiv.org/abs/1510.06871). [Here](http://arxiv.org/abs/1510.05677) is a paper explaining the theory behind the implemented algorithm.
