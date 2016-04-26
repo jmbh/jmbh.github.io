@@ -33,9 +33,9 @@ diag(signs) <- 0
 
 {% endhighlight %}
 
-fit$par.labels indicates which column/row in the parameter matrix coresponds to which variables. For categorical variables, there is more than one column/row in the parameter matrix. For a detailed explanation of the parameters in fit$mpar.matrix, see [this paper].
+fit$par.labels indicates which column/row in the parameter matrix coresponds to which variables. For categorical variables, there is more than one column/row in the parameter matrix. For a detailed explanation of the parameters in fit$mpar.matrix, see [this paper](http://arxiv.org/abs/1510.06871).
 
-There are more than one row/column in 
+We now construct a matrix that gives colors to edges, depending on whether the corresponding edge weight is positive/negative (for interactions between continuous variables) or undefined (for interactions involving categorical variables):
 
 
 {% highlight r %}
@@ -63,6 +63,14 @@ groups_typeV <- list("Gaussian"=which(datalist$type=='g'),
 # pick some nice colors
 group_col <- c("#72CF53", "#53B0CF", "#ED3939")
 
+{% endhighlight %}
+
+Finally, we plot the graphical model with edge weights and signs (where defined) using qgraph:
+
+{% highlight r %}
+
+library(qgraph)
+
 qgraph(wgraph, 
        vsize=3.5, 
        esize=5, 
@@ -81,7 +89,6 @@ qgraph(wgraph,
 {% endhighlight %}
 
 
-
 ![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Autism_VarTypes_sign.jpg) 
 
 Red edges correspond to negative edge weights and green edge weights correspond to positive edge weights. The width of the edges are proportional to the absolut value of the parameter weight. Grey edges connect categorical variables to continuous variables or other categorical variables and are computed from more than one parameter and thus we cannot assign a sign to these edges.
@@ -94,3 +101,13 @@ library(mgm)
 fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
 
 {% endhighlight %}
+
+
+
+
+
+
+
+
+
+
