@@ -16,9 +16,13 @@ We obtained this graph by fitting a mixed graphical model using the mgmfit() fun
 
 
 {% highlight r %}
+datalist <- readRDS('autism_datalist.RDS') # available on Github
+data <- datalist$data
+type <- type
+lev <- datalist$lev
 
 library(mgm)
-fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
+fit <- mgmfit(data, type, lev, lamda.sel="EBIC", d=2)
 
 {% endhighlight %}
 
