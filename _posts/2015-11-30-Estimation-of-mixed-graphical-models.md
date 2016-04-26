@@ -52,8 +52,6 @@ fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
 {% endhighlight %}
 
 
-
-
 The fit function returns all estimated parameters and a weighted and unweighted (binarized) adjacency matrix. Here we use the [qgraph](http://www.jstatsoft.org/article/view/v048i04/v48i04.pdf) package to visualize the graph:
 
 

@@ -4,13 +4,17 @@ title: A closer look at interactions between categorical variables in mixed grap
 category: r
 ---
 
-In a [previous post](http://jmbh.github.io/_posts/2015-11-30-Estimation-of-mixed-graphical-models.md) we recovered the conditional independence structure in a dataset .... limitation ...
+In a [previous post](http://jmbh.github.io/_posts/2015-11-30-Estimation-of-mixed-graphical-models.md) we recovered the conditional independence structure in a [dataset](https://github.com/jmbh/AutismData) of *mixed variables* describing different aspects of the life of individuals diagnosed with Autism Spectrum Disorder. While depicting the independence structure in multivariate data set gives a first overview of the inter-relations, in most applications we interested in the exact parameter estimates. For instance for interactions between continuous variables, we are interested in the sign and the size of parameters. In the case of interactions between categorical variables, we are interested in the signs and sizes of parameters describing the (possibly) non-linear relationship between them.
 
-The figute was the following
+In this post, we take the analysis a step further and show how to use the output of the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html) to take a closer look at the recovered dependencies. We start out with the conditional dependence graph estimated in the previous post, however, now with variables grouped by their type:
 
-[FIgure]
 
-Now we would like to zoom in...
+
+![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/unnamed-chunk-6-1.png) 
+
+
+
+
 
 
 
