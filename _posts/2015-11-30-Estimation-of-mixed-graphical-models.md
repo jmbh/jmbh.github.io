@@ -69,8 +69,9 @@ groups_type <- list("Demographics"=c(1,14,15,28),
 group_col <- c("#72CF53", "#53B0CF", "#FFB026", "#ED3939")
 
 # plot
+library(qgraph)
 
-qgraph(graph, 
+qgraph(fit$adj, 
        vsize=3.5, 
        esize=4, 
        layout="spring", 
@@ -89,7 +90,7 @@ qgraph(graph,
 ![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/JSS_autism_figure.jpg) 
 
 
-A reproducible example can be found in the examples of [the package](https://cran.r-project.org/web/packages/mgm/index.html) or more elaboratly explained [in the corresponding paper](http://arxiv.org/abs/1510.06871). [Here](http://arxiv.org/abs/1510.05677) is a paper explaining the theory behind the implemented algorithm.
+The data to reproduce this analysis can be found [here](https://github.com/jmbh/AutismData). More information about estimating mixed graphical models and the [mgm packagepackage](https://cran.r-project.org/web/packages/mgm/index.html) can be found [in this paper](http://arxiv.org/abs/1510.06871). [Here](http://arxiv.org/abs/1510.05677) is a paper explaining the theory behind the implemented algorithm.
 
 Computationally efficient methods for Gaussian data are implemented in the [huge](https://cran.r-project.org/web/packages/huge/index.html) package and the [glasso](https://cran.r-project.org/web/packages/glasso/index.html) package. For binary data, there is the [IsingFit](https://cran.fhcrc.org/web/packages/IsingFit/index.html) package.
 
