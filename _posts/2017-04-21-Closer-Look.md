@@ -45,6 +45,7 @@ We now construct a matrix that gives colors to edges, depending on whether the c
 {% highlight r %}
 
 # add signs to weighted adjacency matrix
+wgraph <- fit$wadj
 wgraph[which(lev==1), which(lev==1)] <- wgraph[which(lev==1), which(lev==1)]*signs
 
 # define colors of edges: sign obtainable (green/red) or not (grey)
@@ -55,7 +56,6 @@ edgeColor[edgeColor==-1] <- 'firebrick2'
 edgeColor[edgeColor==1] <- 'chartreuse4'
 edgeColor[edgeColor==999] <- 'grey'
 edgeColor[edgeColor==0] <- 'orange' #just to fill
-
 
 colnames(graph) <- datalist$colnames
 
