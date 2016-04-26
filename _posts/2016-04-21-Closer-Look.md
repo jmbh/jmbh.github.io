@@ -25,16 +25,8 @@ fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
 We now also display the weights of the dependencies. For interactions between continuous (Gaussian, Poisson) variables, we can also recover the sign of the dependency, as it only depends on one parameter:
 
 
-{% highlight r %}
-
-library(mgm)
-fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
-
-{% endhighlight %}
-
 ![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Autism_VarTypes_sign.jpg) 
 
-
-
+Red edges correspond to negative edge weights and green edge weights correspond to positive edge weights. The width of the edges are proportional to the absolut value of the parameter weight. Grey edges connect categorical variables to continuous variables or other categorical variables and are computed from more than one parameter and thus we cannot assign a sign to these edges.
 
 
