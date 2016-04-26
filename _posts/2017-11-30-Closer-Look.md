@@ -1,8 +1,23 @@
 ---
 layout: post
-title: Estimating mixed graphical models
+title: A closer look at interactions between categorical variables in mixed graphical models
 category: r
 ---
+
+In a [previous post](http://jmbh.github.io/_posts/2015-11-30-Estimation-of-mixed-graphical-models.md) we recovered the conditional independence structure in a dataset .... limitation ...
+
+The figute was the following
+
+[FIgure]
+
+Now we would like to zoom in...
+
+
+
+
+
+### OLD ###
+
 
 Determining conditional independence relationships through undirected graphical models is a key component in the statistical analysis of complex obervational data in a wide variety of disciplines. In many situations one seeks to estimate the underlying graphical model of a dataset that includes *variables of different domains*.
 
