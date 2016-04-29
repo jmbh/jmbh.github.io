@@ -30,6 +30,10 @@ fit <- mgmfit(data, type, lev, lamda.sel = "EBIC", d = 2)
 
 {% endhighlight %}
 
+
+Display edge weights and signs
+------
+
 We now also display the weights of the dependencies. In addition, for interactions between continuous (Gaussian, Poisson) variables, we are able determine the sign of the dependency, as it only depends on one parameter. The signs are saved in fit$signs. To make plotting easier, there is also a matrix fit$edgecolor, which gives colors to positive (green), negative (red) and undefined (grey) edge signs. 
 
 Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix fit$wadj instead of the unweighted adjacency matrix fit$adj:
@@ -72,9 +76,13 @@ This gives us the following figure:
 
 ![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Autism_VarTypes_WeightAndSign.jpg) 
 
-Red edges correspond to negative edge weights and green edge weights correspond to positive edge weights. The width of the edges are proportional to the absolut value of the parameter weight. Grey edges connect categorical variables to continuous variables or to other categorical variables and are computed from more than one parameter and thus we cannot assign a sign to these edges.
+Red edges correspond to negative edge weights and green edge weights correspond to positive edge weights. The width of the edges is proportional to the absolut value of the parameter weight. Grey edges connect categorical variables to continuous variables or to other categorical variables and are computed from more than one parameter and thus we cannot assign a sign to these edges.
 
 While the interaction between continuous variables can be interpreted as a conditional covariance similar to the well-known multivariate Gaussian case, the interpretation of edge-weights involving categorical variables is more intricate as they are comprised of several parameters.
+
+Interpretation of Interaction: Continuous-Categorical
+------
+
 
 We first consider the edge weight between the continuous Gaussian variable 'Working hours' and the categorical variable 'Type of Work', which has the categories (1) No work, (2) Supervised work, (3) Unpaid work and (4) Paid work. We get the estimated parameters behind this edge weight from the matrix of all estimated parameters in the mixed graphical model fit$mpar.matrix:
 
@@ -94,6 +102,8 @@ fit$par.labels indicates which parameters in fit$mpar.matrix belong to the inter
 
 The four values we got from the model parameter matrix represent the interactions of the continuous variable 'Working hours' with each of the categories of 'Type of work'. These can be interpreted in a straight forward way of incraesing/decreasing the probability of a category depending on 'Working hours'. We see that the probability of category (a) 'No work' is greatly decreased by an increase of 'Working hours'. This makes sense as somebody who does not work has to work 0 hours. Next, working hours seem not to predict the probability of categories (b) 'Supervised work' and (c) 'Unpaid work'. However, increasing working hours does increase the probabilty of category (d) 'Paid work', which indicates that individuals who get paid for their work, work longer hours. Note that these interactions are unique in the sense that the influence of all other variables is partialed out!
 
+Interpretation of Interaction: Categorical-Categorical
+------
 
 Next we consider the edge weight between the categorical variables (14) 'Type of Housing' and the variable (15) 'Type of Work' from above. 'Type of Housing' has to categories, (a) 'Not independent' and (b) 'Independent'. As in the previous example, we take the relevant parameters from the model parameter matrix:
 
