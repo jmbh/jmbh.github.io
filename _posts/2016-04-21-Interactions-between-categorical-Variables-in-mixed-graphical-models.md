@@ -4,6 +4,7 @@ title: Interactions between categorical variables in mixed graphical models
 category: 
 ---
 
+{:center: style="text-align: center"}
 In a [previous post](http://jmbh.github.io/_posts/2015-11-30-Estimation-of-mixed-graphical-models.md) we recovered the conditional independence structure in a dataset of *mixed variables* describing different aspects of the life of individuals diagnosed with Autism Spectrum Disorder, using the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html). While depicting the independence structure in multivariate data set gives a first overview of the relations between variables, in most applications we interested in the exact parameter estimates. For instance, for interactions between continuous variables, we would like to know the sign and the size of parameters. In the case of interactions between categorical variables, we are interested in the signs and sizes of the set of parameters that describes the exact non-linear relationship between variables.
 
 In this post, we take the analysis a step further and show how to use the output of the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html) to take a closer look at the recovered dependencies. Specificly, we will recover the sign and weight of interaction parameter between continuous variables and zoom into interactions between categorical and continuous variables and between two categorical variables. Both the dataset and the code are available on [Github](https://github.com/jmbh/AutismData).
