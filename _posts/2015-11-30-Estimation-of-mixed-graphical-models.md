@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Estimating mixed graphical models
+title: Estimating Mixed Graphical Models
 category: r
 ---
 
