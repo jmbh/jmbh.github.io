@@ -19,7 +19,7 @@ in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimenta
 
 #### Stable
 
-mgm: Estimation of Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://cran.r-project.org/web/packages/mgm/index.html)
+mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://cran.r-project.org/web/packages/mgm/index.html)
 
 
 #### Under Development
