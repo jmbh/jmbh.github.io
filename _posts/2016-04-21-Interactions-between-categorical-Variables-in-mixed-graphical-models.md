@@ -37,7 +37,7 @@ Display Edge Weights and Signs
 
 We now also display the weights of the dependencies. In addition, for interactions between continuous (Gaussian, Poisson) variables, we are able determine the sign of the dependency, as it only depends on one parameter. The signs are saved in fit$signs. To make plotting easier, there is also a matrix fit$edgecolor, which gives colors to positive (green), negative (red) and undefined (grey) edge signs. 
 
-Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix fit$wadj instead of the unweighted adjacency matrix fit$adj:
+Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix fit$adj:
 
 
 {% highlight r %}
