@@ -37,7 +37,7 @@ Display Edge Weights and Signs
 
 We now also display the weights of the dependencies. In addition, for interactions between continuous (Gaussian, Poisson) variables, we are able determine the sign of the dependency, as it only depends on one parameter. The signs are saved in fit$signs. To make plotting easier, there is also a matrix fit$edgecolor, which gives colors to positive (green), negative (red) and undefined (grey) edge signs. 
 
-Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix fit$adj:
+Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix `fit$adj`:
 
 
 {% highlight r %}
@@ -85,7 +85,7 @@ Interpretation of Interaction: Continuous - Categorical
 ------
 
 
-We first consider the edge weight between the continuous Gaussian variable 'Working hours' and the categorical variable 'Type of Work', which has the categories (1) No work, (2) Supervised work, (3) Unpaid work and (4) Paid work. We get the estimated parameters behind this edge weight from the matrix of all estimated parameters in the mixed graphical model fit$mpar.matrix:
+We first consider the edge weight between the continuous Gaussian variable 'Working hours' and the categorical variable 'Type of Work', which has the categories (1) No work, (2) Supervised work, (3) Unpaid work and (4) Paid work. We get the estimated parameters behind this edge weight from the matrix of all estimated parameters in the mixed graphical model `fit$mpar.matrix`:
 
 {% highlight r %}
 
@@ -99,7 +99,7 @@ matrix(fit$mpar.matrix[fit$par.labels == 16, fit$par.labels == 17], ncol=1)
 
 {% endhighlight %}
 
-fit$par.labels indicates which parameters in fit$mpar.matrix belong to the interaction between which two variables. Note that in the case of jointly Gaussian data, fit$mpar.matrix is equivalent to the inverse covariance matrix and each interaction would be represented by 1 value only.
+`fit$par.labels` indicates which parameters in `fit$mpar.matrix` belong to the interaction between which two variables. Note that in the case of jointly Gaussian data, `fit$mpar.matrix` is equivalent to the inverse covariance matrix and each interaction would be represented by 1 value only.
 
 The four values we got from the model parameter matrix represent the interactions of the continuous variable 'Working hours' with each of the categories of 'Type of work'. These can be interpreted in a straight forward way of incraesing/decreasing the probability of a category depending on 'Working hours'. We see that the probability of category (a) 'No work' is greatly decreased by an increase of 'Working hours'. This makes sense as somebody who does not work has to work 0 hours. Next, working hours seem not to predict the probability of categories (b) 'Supervised work' and (c) 'Unpaid work'. However, increasing working hours does increase the probabilty of category (d) 'Paid work', which indicates that individuals who get paid for their work, work longer hours. Note that these interactions are unique in the sense that the influence of all other variables is partialed out!
 
@@ -125,15 +125,4 @@ Having supervised or unpaid work, does not predict a probability of living indep
 
 
 The interpretations above correspond to the typical interpretation of parameters in a multinomial regression model, which is indeed used in the node wise regression approach we use in the mgm packge to estimate the mixed graphical model. For details about the exact parameterization of the multinomial regression model check chapter 4 in the [glmnet paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/pdf/nihms201118.pdf). Note that because we use the node wise regression, we could also look at how the categories in (16) 'Type of work' predict (17) 'Working hours' or how the categories of (14) 'Type of housing' predict the probabilities of (16) 'Type of Housing'. These parameters can be obtained by exchanging the row indices with the column indices. For an elaborate explanation of the node wise regresssion approach and the exact structure of the model parameter matrix please check the [mgm paper](http://arxiv.org/pdf/1510.06871v2.pdf).
-
-
-
-
-
-
-
-
-
-
-
 
