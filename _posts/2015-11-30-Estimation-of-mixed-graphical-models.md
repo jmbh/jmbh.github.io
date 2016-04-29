@@ -18,6 +18,8 @@ The dataset consists of responses of 3521 individuals to a questionnaire includi
 
 
 {% highlight r %}
+
+
 dim(data)
 ## [1] 3521   28
 
