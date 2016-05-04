@@ -1,0 +1,126 @@
+---
+title: "NetworkAnalysisWorkshop_Codefile"
+author: "jonashaslbeck@gmail.com"
+date: "May 1, 2016"
+output: html_document
+---
+
+# Constructing Networks
+
+```{r}
+
+# construct a network
+AdjacencyMatrix <- matrix(0,4,4)
+AdjacencyMatrix[1,2] <- AdjacencyMatrix[2,1] <- 1
+AdjacencyMatrix[2,3] <- AdjacencyMatrix[3,2] <- 1
+AdjacencyMatrix[2,4] <- AdjacencyMatrix[4,2] <- 1
+
+AdjacencyMatrix
+
+# visualize
+qgraph(AdjacencyMatrix)
+
+```
+
+
+# Constructing Random Networks
+
+```{r}
+
+p <- 20
+AdjMatrix <- matrix(0,p,p)
+set.seed(22)
+AdjMatrix[upper.tri(AdjMatrix)] <- sample(0:1,(p*(p-1))/2, 
+                                         prob=c(.9,.1),replace=TRUE)
+AdjMatrix <- AdjMatrix + t(AdjMatrix)
+
+AdjMatrix[1:5,1:5]
+
+qgraph(AdjMatrix)
+
+
+
+```
+
+
+
+
+# Correlation Networks
+
+
+```{r}
+
+download.file(url='http://jmbh.github.io/figs/efpsa_workshop/BDIdata.RDS',
+              destfile = 'BDIdata.RDS')
+
+BDI_data <- readRDS('BDIdata.RDS')
+
+# look at data
+# data
+BDI_data$data[1:3,1:5]
+#labels
+BDI_data$vnames[1:5]
+
+
+CorMatrix <- cor(BDI_data$data)
+round(CorMatrix[1:4, 1:4],2)
+
+qgraph(CorMatrix, nodeNames=BDI_data$vnames, legend.cex = .3, vsize=4)
+
+
+qgraph(CorMatrix, nodeNames=BDI_data$vnames, 
+       legend.cex = .3, layout='spring', vsize=3)
+
+```
+
+
+
+# Conditional Independence Networks
+
+```{r}
+
+# BDI data
+
+fit <- mgmfit(BDI_data$data, rep('g', 28), rep(1, 28), pbar=FALSE)
+
+round(fit$wadj[1:4, 1:4],2)
+
+
+qgraph(fit$wadj, nodeNames=BDI_data$vnames, 
+       legend.cex = .3, layout='spring', vsize=3)
+
+
+# Autism data
+
+download.file(url='http://jmbh.github.io/figs/efpsa_workshop/autism_datalist.RDS',
+              destfile = 'autism_datalist.RDS')
+Autism_data <- readRDS('autism_datalist.RDS')
+
+
+fit2 <- mgmfit(Autism_data$data[1:300,], Autism_data$type, Autism_data$lev, d=1, pbar=FALSE)
+
+round(fit2$wadj[1:4, 1:4],2)
+
+
+qgraph(fit2$wadj, nodeNames=Autism_data$colnames, 
+       layout='spring', edge.color=fit2$edgecolor, 
+       legend.cex=.3, vsize=3)
+
+
+groups_typeV <- list("Gaussian"=which(Autism_data$type=='g'), 
+                     "Poisson"=which(Autism_data$type=='p'),
+                     "Categorical"=which(Autism_data$type=='c'))
+
+# pick some nice colors
+group_colV <- c("#72CF53", "#53B0CF", "#ED3939")
+
+
+qgraph(fit2$wadj, nodeNames=Autism_data$colnames, 
+       layout='spring', edge.color=fit2$edgecolor, 
+       legend.cex=.3, vsize=3, color=group_colV, 
+       groups=groups_typeV)
+
+```
+
+
+
