@@ -25,14 +25,14 @@ type <- datalist$type
 lev <- datalist$lev
 
 > dim(data)
-## [1] 3521   28
+ [1] 3521   28
 
 > round(data[1:4, 1:5],2)
-##      sex IQ agediagnosis opennessdiagwp successself
-## [1,]   1  6        -0.96              1        2.21
-## [2,]   2  6        -0.52              1        6.11
-## [3,]   1  5        -0.71              2        5.62
-## [4,]   1  6        -0.45              1        8.00
+      sex IQ agediagnosis opennessdiagwp successself
+ [1,]   1  6        -0.96              1        2.21
+ [2,]   2  6        -0.52              1        6.11
+ [3,]   1  5        -0.71              2        5.62
+ [4,]   1  6        -0.45              1        8.00
 
 {% endhighlight %}
 
