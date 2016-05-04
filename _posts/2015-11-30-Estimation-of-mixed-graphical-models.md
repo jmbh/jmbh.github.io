@@ -19,29 +19,36 @@ The dataset consists of responses of 3521 individuals to a questionnaire includi
 
 {% highlight r %}
 
+datalist <- readRDS('autism_datalist.RDS')
+data <- datalist$data
+type <- datalist$type
+lev <- datalist$lev
 
-dim(data)
+> dim(data)
 ## [1] 3521   28
 
-round(data[1:4, 1:5],2)
+> round(data[1:4, 1:5],2)
 ##      sex IQ agediagnosis opennessdiagwp successself
 ## [1,]   1  6        -0.96              1        2.21
 ## [2,]   2  6        -0.52              1        6.11
 ## [3,]   1  5        -0.71              2        5.62
 ## [4,]   1  6        -0.45              1        8.00
+
 {% endhighlight %}
 
-We now use our knowledge about the variables to specify the domain (or type) of each variable and the number of categories for categorical variables (for non-categorical variables we choose 1). "c", "g", "p" stands for categorical, Gaussian and Poisson (count), respectively.
-
+We used our knowledge about the variables to specify the domain (type) of each variable and the number of categories for categorical variables (for non-categorical variables we choose 1). "c", "g", "p" stands for categorical, Gaussian and Poisson (count), respectively:
 
 {% highlight r %}
-type <- c("c", "g", "g", "c", "c", "g", "c", "c", "p", "p",
-          "p", "p", "p", "p", "c", "p", "c", "g", "p", "p",
-          "p", "p", "g", "g", "g", "g", "g", "g", "c", "c",
-          "g")
 
-cat <- c(2, 1, 1, 3, 2, 1, 5, 3, 1, 1, 1, 1, 1, 1, 2, 1, 4,
-         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1)
+> type
+ [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p"
+[14] "c" "p" "c" "g" "p" "p" "p" "p" "g" "g" "g" "g" "g"
+[27] "c" "g"
+
+> lev
+ [1] 2 1 1 2 1 5 3 1 1 1 1 1 1 2 1 4 1 1 1 1 1 1 1 1 1 1 3
+[28] 1
+
 {% endhighlight %}
 
 The estimation algorithm requires us to make an assumption about the highest order interaction in the true graph. Here we assume that there are at most pairwise interactions in the true graph and set d = 2. The algorithm includes an L1-penalty to obtain a sparse estimate. We can select the regularization parameter lambda using cross validation (CV) or the Extended Bayesian Information Criterion (EBIC). Here, we choose the EBIC, which is known to be a bit more conservative than CV but is computationally faster.
@@ -50,7 +57,8 @@ The estimation algorithm requires us to make an assumption about the highest ord
 {% highlight r %}
 library(mgm)
 
-fit <- mgmfit(data, type, cat, lamda.sel="EBIC", d=2)
+fit <- mgmfit(data, type, cat, lambda.sel="EBIC", d=2)
+
 {% endhighlight %}
 
 
