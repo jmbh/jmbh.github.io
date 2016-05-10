@@ -29,7 +29,9 @@ mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github
 
 # Presentations
 
-Haslbeck J.M.B. (2016). Workshop: Applying Network Analysis to Psychological Data. EFPSA Congress 2016, Vilmeiro, Portugal. 
+Haslbeck J.M.B. (2016). Workshop: Applying Network Analysis to Psychological Data. EFPSA Congress 2016, Vilmeiro, Portugal. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Slides.html) [[Code RMD]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Codefile.Rmd) [[Code HTML]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Codefile.html)
+
+Haslbeck J.M.B. (2016). Understanding Mental Disorders as Complex Networks. EFPSA Congress 2016, Vilmeiro, Portugal. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/efpsa2016_talk_online.pdf)
 
 Haslbeck J.M.B. (2016). Structure estimation for mixed graphical models in high-dimensional data. Psychoco 2016, University of Liège, Belgium. [[Slides]](http://jmbh.github.io/figs/About/psychoco2016_slides.pdf)
 
