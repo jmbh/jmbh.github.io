@@ -36,7 +36,7 @@ We see that right after the time the parliament was elected and the big coalitio
 
 As the number of seats the parties have in the parliament differs widely, it is hard to read agreement *within* parties from the above graph. For instance, the cycle of CDU/CSU seems to be filled with more and thicker green edges than the one of SPD, however, this could well be because there are simply more politicians and hence more edges (307 vs. 191) displayed. Therefore, we have a closer look at within-party agreement in the following graph:
 
-<img src="http://jmbh.github.io/figs/bundestag/bundestag_agreement_time.jpg"  width="400" height="350", align="middle">
+<img src="http://jmbh.github.io/figs/bundestag/bundestag_agreement_time.jpg"  width="400" height="350" align="middle">
 
 Collapsed over time we see the members of the left party agree most with each other and the members of the social democratic party agree the least with each other. The largest changes in agreement are in the green and left party: from late 2014 to mid-2015, members of the green party seem to agree less with each other than usual, while members of the left party seem to agree more with each other than usual.
 
