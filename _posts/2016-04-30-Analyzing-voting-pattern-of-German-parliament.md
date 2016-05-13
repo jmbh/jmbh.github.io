@@ -4,9 +4,9 @@ title: Graphical Analysis of German Parliament Voting Pattern
 category: kkk
 ---
 
-While looking for a nice example dataset for the estimation of [time-varying graphical models](https://cran.r-project.org/web/packages/mgm/index.html), I got side-tracked and ended up downloading [all available voting data](https://www.bundestag.de/abstimmung) of the current German parliament, which are 136 bills in the period from 26.11.2013 - 14.04.2016. Both the preprocessed data and the code to reproduce all figures in this post are available at [Github](https://github.com/jmbh/bundestag).
+We use network visualizations to have a closer look at the voting pattern in the current German parliament. I downloaded the data [here](https://www.bundestag.de/abstimmung) and both the preprocessed data and the code reproducing all figures in this post are available at [Github](https://github.com/jmbh/bundestag).
 
-Missing values, invalid votes, abstention from voting and not showing up for the vote was coded as  (-1), such that all other responses are a yes (1) or no (2) vote. As we will use correlation as a measure of voting similarity, voting behavior coded as (-1) can be regarded as noise in the dataset. 36 of the 659 members of parliament were removed from the data because more than 50% of the votes were coded as (-1). The reason was that they either joined or left the parliament during the analyzed period of time.
+Missing values, invalid votes, abstention from voting and not showing up for the vote was coded as  (-1), such that all other responses are a yes (1) or no (2) vote. As we will use correlation as a measure of voting similarity, voting behavior coded as (-1) can be regarded as noise in the dataset. 36 of the 659 members of parliament were removed from the data because more than 50% of the votes were coded as (-1). The reason was that they either joined or left the parliament during the analyzed time period.
 
 *Disclaimer: note that only for a fraction of the bills passed in the German parliament votes are recorded (and used here) and that relations between single members of parliaments might be artifacts of the noise-coding. Moreover, the data is very scarce (136 bills). Therefore we should not draw any strong conclusions from this coarse-grained analysis.*
 
@@ -36,7 +36,7 @@ We see that right after the time the parliament was elected and the big coalitio
 
 As the number of seats the parties have in the parliament differs widely, it is hard to read agreement *within* parties from the above graph. For instance, the cycle of CDU/CSU seems to be filled with more and thicker green edges than the one of SPD, however, this could well be because there are simply more politicians and hence more edges (307 vs. 191) displayed. Therefore, we have a closer look at within-party agreement in the following graph:
 
-![center](http://jmbh.github.io/figs/bundestag/bundestag_agreement_time.jpg =400x350) 
+<img src="http://jmbh.github.io/figs/bundestag/bundestag_agreement_time.jpg"  width="400" height="350" alt="Computer Hope">
 
 Collapsed over time we see the members of the left party agree most with each other and the members of the social democratic party agree the least with each other. The largest changes in agreement are in the green and left party: from late 2014 to mid-2015, members of the green party seem to agree less with each other than usual, while members of the left party seem to agree more with each other than usual.
 
