@@ -6,7 +6,7 @@ category: kkk
 
 We use network visualizations to look into the voting patterns in the current German parliament. I downloaded the data [here](https://www.bundestag.de/abstimmung) and all figures can be reproduced using the R code available on [Github](https://github.com/jmbh/bundestag).
 
-Missing values, invalid votes, abstention from voting and not showing up for the vote was coded as  (-1), such that all other responses are a yes (1) or no (2) vote. We use pearson correlation as a measure of voting similarity and voting behavior coded as (-1) is regarded as noise in the dataset. 36 of the 659 members of parliament were removed from the data because more than 50% of the votes were coded as (-1). The reason was that they either joined or left the parliament during the analyzed time period.
+Missing values, invalid votes, abstention from voting and not showing up for the vote were coded as  (-1), such that all other responses are a yes (1) or no (2) vote. We use pearson correlation as a measure of voting similarity and voting behavior coded as (-1) is regarded as noise in the dataset. 36 of the 659 members of parliament were removed from the data because more than 50% of the votes were coded as (-1). The reason was that they either joined or left the parliament during the analyzed time period.
 
 *Disclaimer: note that only for a fraction of the bills passed in the German parliament votes are recorded (and used here) and that relations between single members of parliaments might be artifacts of the noise-coding. Moreover, the data is quite scarce (136 bills). Therefore we should not draw any strong conclusions from this coarse-grained analysis.*
 
