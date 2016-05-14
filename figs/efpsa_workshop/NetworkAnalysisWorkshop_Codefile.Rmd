@@ -16,6 +16,7 @@ library(devtools)
 #install_github('jmbh/mgm')
 library(qgraph)
 library(mgm)
+library(httr) # downloading data from https
 
 ```
 
@@ -64,11 +65,8 @@ qgraph(AdjMatrix) # visualize
 
 
 ```{r}
-
-## download example data
-url='http://jmbh.github.io/figs/efpsa_workshop/BDIdata.RDS'
-download.file(url, destfile = 'BDIdata.RDS')
-
+url='https://jmbh.github.io/figs/efpsa_workshop/BDIdata.RDS'
+GET(url, write_disk("BDIdata.RDS", overwrite=TRUE))
 BDI_data <- readRDS('BDIdata.RDS')
 
 # look at data
@@ -116,7 +114,7 @@ qgraph(fit$wadj, nodeNames=BDI_data$vnames,
 
 ## Autism data
 url='http://jmbh.github.io/figs/efpsa_workshop/autism_datalist.RDS'
-download.file(url, destfile = 'autism_datalist.RDS')
+GET(url, write_disk("autism_datalist.RDS", overwrite=TRUE))
 Autism_data <- readRDS('autism_datalist.RDS')
 
 # fit mixed graphical model
@@ -126,7 +124,7 @@ Autism_data <- readRDS('autism_datalist.RDS')
 
 # instead we download the fit object here:
 url='http://jmbh.github.io/figs/efpsa_workshop/fitobj_mixed.RDS'
-download.file(url, destfile = 'autism_datalist.RDS')
+GET(url, write_disk("fitobj_mixed.RDS", overwrite=TRUE))
 fit2 <- readRDS('fitobj_mixed.RDS')
 
 # look at edges between first 10 variables
