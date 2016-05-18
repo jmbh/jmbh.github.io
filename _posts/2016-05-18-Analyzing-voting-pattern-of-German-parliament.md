@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Graphical Analysis of German Parliament Voting Pattern
-category: kkk
+category: r
 ---
 
 We use network visualizations to look into the voting patterns in the current German parliament. I downloaded the data [here](https://www.bundestag.de/abstimmung) and all figures can be reproduced using the R code available on [Github](https://github.com/jmbh/bundestag).
