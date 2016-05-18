@@ -18,7 +18,7 @@ We first compute the correlations between the voting behavior of all pairs of me
 
 ![center](http://jmbh.github.io/figs/bundestag/bundestag_cor_full.jpg) 
 
-(For readers on R-Bloggers.com: [Click here for the original post with larger figures.](http://jmbh.github.io/Analyzing-voting-pattern-of-German-parliament/))
+(For readers on R-Bloggers.com: [click here for the original post with larger figures.](http://jmbh.github.io/Analyzing-voting-pattern-of-German-parliament/))
 
 Green edges indicate positive correlations (voter agreement) and red edges indicate negative correlations (voter disagreement). The width of the edges is proportional to the strength (absolute value) of the correlation. We see that the green party (B90/GRUENE) clusters together, as well as the left party (DIE LINKE). The third and biggest cluster consists of members of the two largest parties, the social democrats (SPD) and the conservatives (CDU/CSU). This is the structure we would expect intuitively, as social democrats and conservatives currently form the government in a grand coalition.
 
