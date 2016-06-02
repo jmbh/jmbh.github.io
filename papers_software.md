@@ -29,6 +29,8 @@ mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github
 
 # Presentations
 
+Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. 5th VOC Conference, Tilburg University, The Netherlands. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/voc2016_slides.pdf)
+
 Haslbeck J.M.B. (2016). Workshop: Applying Network Analysis to Psychological Data. EFPSA Congress 2016, Vimeiro, Portugal. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Slides.html) [[Code RMD]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Codefile.Rmd) [[Code HTML]](http://jmbh.github.io/figs/efpsa_workshop/NetworkAnalysisWorkshop_Codefile.html)
 
 Haslbeck J.M.B. (2016). Understanding Mental Disorders as Complex Networks. EFPSA Congress 2016, Vimeiro, Portugal. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/efpsa2016_talk_online.pdf)
