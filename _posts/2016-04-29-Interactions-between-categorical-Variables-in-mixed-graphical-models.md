@@ -37,7 +37,7 @@ Display Edge Weights and Signs
 
 We now also display the weights of the dependencies. In addition, for interactions between continuous (Gaussian, Poisson) variables, we are able determine the sign of the dependency, as it only depends on one parameter. The signs are saved in `fit$signs`. To make plotting easier, there is also a matrix `fit$edgecolor`, which gives colors to positive (green), negative (red) and undefined (grey) edge signs. 
 
-Now, to plot the weighted adjacency matrix with signs (where defined), we give fit$edgecolor as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix `fit$adj`:
+Now, to plot the weighted adjacency matrix with signs (where defined), we give `fit$edgecolor` as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix `fit$adj`:
 
 
 {% highlight r %}
@@ -59,7 +59,7 @@ qgraph(wgraph,
        vsize=3.5, 
        esize=5, 
        layout=Q0$layout, # gives us the same layout as above
-       edge.color = edgeColor, 
+       edge.color = fit$edgecolor, 
        color=group_col,
        border.width=1.5,
        border.color="black",
@@ -124,5 +124,5 @@ Again, the rows represent the categories of variable (14) 'Type of Housing'. The
 Having supervised or unpaid work, does not predict a probability of living independently or not that is different for individuals with no work. Having paid work, however, decreases the probability of living not independently and increases the probability of living independently, compared to the reference category 'no work'.
 
 
-The interpretations above correspond to the typical interpretation of parameters in a multinomial regression model, which is indeed what is used in the node wise regression approach we use in the mgm packge to estimate mixed graphical models. For details about the exact parameterization of the multinomial regression model check chapter 4 in the [glmnet paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/pdf/nihms201118.pdf). Note that because we use the node wise regression approach, we could also look at how the categories in (16) 'Type of work' predict (17) 'Working hours' or how the categories of (14) 'Type of housing' predict the probabilities of (16) 'Type of Housing'. These parameters can be obtained by exchanging the row indices with the column indices when subsetting `fit$mpar.matrix`. For an elaborate explanation of the node wise regresssion approach and the exact structure of the model parameter matrix please check the [mgm paper](http://arxiv.org/pdf/1510.06871v2.pdf).
+The interpretations above correspond to the typical interpretation of parameters in a multinomial regression model, which is indeed what is used in the node wise regression approach we use in the mgm packge to estimate mixed graphical models. For details about the exact parameterization of the multinomial regression model check chapter 4 in the [glmnet paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/pdf/nihms201118.pdf). Note that because we use the node wise regression approach, we could also look at how the categories in (16) 'Type of work' predict (17) 'Working hours' or how the categories of (14) 'Type of housing' predict the probabilities of (16) 'Type of Work'. These parameters can be obtained by exchanging the row indices with the column indices when subsetting `fit$mpar.matrix`. For an elaborate explanation of the node wise regresssion approach and the exact structure of the model parameter matrix please check the [mgm paper](http://arxiv.org/pdf/1510.06871v2.pdf).
 
