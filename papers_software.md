@@ -20,14 +20,14 @@ in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimenta
 # Software
 
 #### Stable
-
+ 
 mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://cran.r-project.org/web/packages/mgm/index.html)
 
 
 #### Under Development
 
 mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github.com/jmbh/mta)
-
+cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/jmbh/cstab)
 
 # Presentations
 
