@@ -6,7 +6,9 @@ permalink: /papers_software/
 
 # Papers
 
-Haslbeck J. M. B., Waldorp L. J. (submitted). mgm: Structure Estimation for Time-Varying Mixed Graphical
+Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](http://arxiv.org/pdf/1608.07494v1.pdf)
+
+Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical
 Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](http://arxiv.org/pdf/1510.06871v2.pdf)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed Graphical models in
@@ -28,6 +30,8 @@ mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github
 
 
 # Presentations
+
+Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. COMPSTAT 2016, Oviedo, Spain. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/TVG_compstat2016.pdf)
 
 Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. 5th VOC Conference, Tilburg University, The Netherlands. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/voc2016_slides.pdf)
 
