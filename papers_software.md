@@ -32,6 +32,8 @@ cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stabilit
 
 # Presentations
 
+Haslbeck J.M.B. (2016). Time-varying mixed graphical models. Conference on Complex Systems 2016, Amsterdam, The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_CCS2016.pdf)
+
 Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. COMPSTAT 2016, Oviedo, Spain. [[Slides]](http://jmbh.github.io/figs/About/TVG_compstat2016.pdf)
 
 Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. 5th VOC Conference, Tilburg University, The Netherlands. [[Slides]](http://jmbh.github.io/figs/efpsa_workshop/voc2016_slides.pdf)
