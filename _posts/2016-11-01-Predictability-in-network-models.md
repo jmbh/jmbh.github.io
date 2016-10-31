@@ -18,7 +18,7 @@ In this blogpost, we use the R-package [mgm](https://cran.r-project.org/web/pack
 Load Data
 ------
 
-We load the data which the authors made freely available (thank you,[ McNally et al.](http://cpx.sagepub.com/content/3/6/836.short)!):
+We load the data which the authors made freely available:
 
 {% highlight r %}
 data <- read.csv('http://psychosystems.org/wp-content/uploads/2014/10/Wenchuan.csv')
@@ -28,7 +28,7 @@ dim(data)
 [1] 344  17
 {% endhighlight %}
 
-The datasets contains complete responses to 17 PTSD symptoms of 344 individuals. The answer categories for the intensity of symptoms ranges from 1 'not at all' to 5 'extremely'.
+The datasets contains complete responses to 17 PTSD symptoms of 344 individuals. The answer categories for the intensity of symptoms ranges from 1 'not at all' to 5 'extremely'. The exact wording of all symptoms is in the [paper of McNally and colleagues](http://cpx.sagepub.com/content/3/6/836.short).
 
 
 Estimate Network Model
@@ -50,7 +50,7 @@ For more info on how to estimate Mixed Graphical Models using the mgm package se
 Compute Predictability of Nodes
 ------
 
-Now that we obtained the network model, we compute the predictability of each node, that is, how well we can predict any given node by all other nodes in the network. The predictability (or error) measure can be easily computed next to estimation, because we estimate the graph by taking each node in turn and regressing all other nodes on it. As a measure for predictability we pick the propotion of explained variance, as it is straight forward to interpret:  0 means the node at hand is not explained at all by other nodes in the nentwork, 1 means perfect prediction. We centered all variables before estimation in order to remove any influence of the intercepts. For a detailed description of how to compute predictions and to choose predictability measures, [check out this preprint](https://arxiv.org/abs/1610.09108). In case there are additional variable types (e.g. categorical) in the network, we can choose an apropriate measure for these variables (e.g. % correct classification, see `?predict.mgm`).
+After estimating the network model we are ready to compute the predictability for each node. Node wise predictability (or error) can be easily computed, because the graph is estimated by taking each node in turn and regressing all other nodes on it. As a measure for predictability we pick the propotion of explained variance, as it is straight forward to interpret:  0 means the node at hand is not explained at all by other nodes in the nentwork, 1 means perfect prediction. We centered all variables before estimation in order to remove any influence of the intercepts. For a detailed description of how to compute predictions and to choose predictability measures, [check out this preprint](https://arxiv.org/abs/1610.09108). In case there are additional variable types (e.g. categorical) in the network, we can choose an apropriate measure for these variables (e.g. % correct classification, see `?predict.mgm`).
 
 {% highlight r %}
 pred_obj <- predict(fit_obj, data, 
@@ -88,7 +88,7 @@ We provide the estimated weighted adjacency matrix and the node wise predictabil
 
 {% highlight r %}
 library(qgraph)
-jpeg(paste0(figDir, 'McNellyNetwork.jpg'), width = 1500, height = 1500)
+jpeg(paste0(figDir, 'McNallyNetwork.jpg'), width = 1500, height = 1500)
 qgraph(fit_obj$wadj, # weighted adjacency matrix as input
        layout = 'spring', 
        pie = pred_obj$error$Error, # provide errors as input
@@ -106,14 +106,14 @@ dev.off()
 
 Each variable is represented by a node and the edges correspond to partial correlations, because in this dataset the MGM consists only of conditional Gaussian variables. The green color of the edges indicates that all partial correlations in this graph are positive, and the edge-width is proportional to the absolute value of the partial correlation. The blue pie chart behind the node indicates the predictability measure for each node.
 
-We see that intrusive memories, traumatic dreams and flashbacks cluster together. We see that avoidance of thoughts (avoidth) about trauma interacts with avoidance of acitivies reminiscent of the trauma (avoidact) and that hypervigilant (hyper) behavior is related to feeling easily startled (startle). But there are also less obvious interactions, for instance between anger and concentration problems.
+We see that intrusive memories, traumatic dreams and flashbacks cluster together. Also, we observe that avoidance of thoughts (avoidth) about trauma interacts with avoidance of acitivies reminiscent of the trauma (avoidact) and that hypervigilant (hyper) behavior is related to feeling easily startled (startle). But there are also less obvious interactions, for instance between anger and concentration problems.
 
-Now, if we would like to reduce problems, the network model suggests to intervene on the variables anger and startle. But what the network structure does not tell us is *how much* we could possibly change sleep through the variables anger and startle. The predictability measure gives us an answer to this question: 53.1%. If the goal was to intervene on amnesia, we see that all adjacent nodes in the network explain only 32.7% of its variance. In addition, we see that there are many small edge weights, suggesting that it is hard to intervene on amnesia via other nodes in the symptom network. Thus, one would possibly try to find additional variables that are not included in the network that interact with amnesia or try to intervene on amnesia directly. 
+Now, if we would like to reduce sleep problems, the network model suggests to intervene on the variables anger and startle. But what the network structure does not tell us is *how much* we could possibly change sleep through the variables anger and startle. The predictability measure gives us an answer to this question: 53.1%. If the goal was to intervene on amnesia, we see that all adjacent nodes in the network explain only 32.7% of its variance. In addition, we see that there are many small edges connected to amnesia, suggesting that it is hard to intervene on amnesia via other nodes in the symptom network. Thus, one would possibly try to find additional variables that are not included in the network that interact with amnesia or try to intervene on amnesia directly. 
 
-Of course there are limitions to interpreting explained variance as predicted treatment outcome: first, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data and hence assume that all people are the same, which is an assumption that is always violated to some extent. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some degree as we can use the direction of time to decide on causality.
+Of course, there are limitions to interpreting explained variance as predicted treatment outcome: first, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data (each row is one person) and hence assume that all people are the same, which is an assumption that is always violated to some extent. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some degree as we can use the direction of time to decide on causality.
 
 
-Compare: Within vs. Out of Sample Predictability
+Compare Within vs. Out of Sample Predictability
 ------
 
 So far we looked into how well we can predict nodes by all other nodes within our sample. But in most situations we are interested in the predictability of nodes in new, unseen data. In what follows, we compare the within sample predictability with the out of sample predictability.
@@ -149,23 +149,16 @@ mean(pred_obj_test$error$Error) # mean explained variance test data
 [1] 0.4494118
 {% endhighlight %}
 
-As to be expected, the explained variance is higher in the training dataset. This is because we fit the model to structure that is specific to the training data and is not present in the population (noise!). Note that both means are lower than the mean we would get by taking the mean of the explained variances above, because we used less observation to estimate the model and hence have less power to detect edges.
+As to be expected, the explained variance is higher in the training dataset. This is because we fit the model to structure that is specific to the training data and is not present in the population (noise). Note that both means are lower than the mean we would get by taking the mean of the explained variances above, because we used less observation to estimate the model and hence have less power to detect edges.
 
-While the explained variance values are lower in the test set, there is a strong correlation between the explained variance of a node in the training- and the test set:
+While the explained variance values are lower in the test set, there is a strong correlation between the explained variance of a node in the training- and the test set
 
 {% highlight r %}
 cor(pred_obj_train$error$Error, pred_obj_test$error$Error)
 [1] 0.8018155
 {% endhighlight %}
 
-This means that if a node has high explained variance in the training set, it tends to also have a high explained variance in the test set.
-
-
-
-
- ((e.g. [huge](https://cran.r-project.org/web/packages/huge/index.html), [glasso](https://cran.r-project.org/web/packages/glasso/index.html), [mgm](https://cran.r-project.org/web/packages/mgm/index.html)) and visualize network models (e.g. [igraph](https://cran.r-project.org/web/packages/igraph/index.html), [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html), [ggnet2](https://briatte.github.io/ggnet/), [ggraph](https://github.com/thomasp85/ggraph)).
-There are now many
-
+which means that if a node has high explained variance in the training set, it tends to also have a high explained variance in the test set.
 
 
 
