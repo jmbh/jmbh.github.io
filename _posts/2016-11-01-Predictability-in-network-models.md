@@ -102,7 +102,7 @@ dev.off()
 
 ![center](http://jmbh.github.io/figs/2016-11-01-Predictability-in-network-models/McNellyNetwork.jpg) 
 
-[[Click here for the original post with larger figures]](http://)
+[[Click here for the original post with larger figures]](http://jmbh.github.io/Predictability-in-network-models/)
 
 Each variable is represented by a node and the edges correspond to partial correlations, because in this dataset the MGM consists only of conditional Gaussian variables. The green color of the edges indicates that all partial correlations in this graph are positive, and the edge-width is proportional to the absolute value of the partial correlation. The blue pie chart behind the node indicates the predictability measure for each node.
 
@@ -113,7 +113,7 @@ Now, if we would like to reduce sleep problems, the network model suggests to in
 Limitations!
 ------
 
-Of course, there are limitions to interpreting explained variance as predicted treatment outcome: first, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data (each row is one person) and hence assume that all people are the same, which is an assumption that is always violated to some extent. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some degree as we can use the direction of time to decide on causality.
+Of course, there are limitations to interpreting explained variance as predicted treatment outcome: first, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data (each row is one person) and hence assume that all people are the same, which is an assumption that is always violated to some extent. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some degree as we can use the direction of time to decide on causality.
 
 
 Compare Within vs. Out of Sample Predictability
