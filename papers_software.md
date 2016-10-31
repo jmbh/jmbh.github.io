@@ -6,13 +6,15 @@ permalink: /papers_software/
 
 # Papers
 
-Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](http://arxiv.org/pdf/1608.07494v1.pdf)
+Haslbeck J. M. B., Waldorp L. J. (Submitted). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+
+Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical
-Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](http://arxiv.org/pdf/1510.06871v2.pdf)
+Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed Graphical models in
-High Dimensions. The Annals of Applied Statistics. [[PDF]](http://arxiv.org/pdf/1510.05677v1.pdf)
+High Dimensions. The Annals of Applied Statistics. [[PDF]](https://arxiv.org/abs/1510.05677)
 
 Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction
 in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
