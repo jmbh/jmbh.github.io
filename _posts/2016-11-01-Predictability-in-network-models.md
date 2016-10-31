@@ -37,6 +37,7 @@ Estimate Network Model
 We estimate a [Mixed Graphical Model (MGM)](http://www.jmlr.org/proceedings/papers/v33/yang14a.pdf), where we treat all variables as continuous-Gaussian variables. Hence we set the type of all variables to `type = 'g'` and the number of categories for each variable to 1, which is the default for continuous variables `lev = 1`:
 
 {% highlight r %}
+install.packages('mgm')
 library(mgm)
 fit_obj <- mgmfit(data = data, 
                   type = rep('g', p),
@@ -87,6 +88,7 @@ Visualize Network & Predictability
 We provide the estimated weighted adjacency matrix and the node wise predictability measures as arguments to `qgraph()` ...
 
 {% highlight r %}
+install.packages('qgraph')
 library(qgraph)
 jpeg(paste0(figDir, 'McNallyNetwork.jpg'), width = 1500, height = 1500)
 qgraph(fit_obj$wadj, # weighted adjacency matrix as input
