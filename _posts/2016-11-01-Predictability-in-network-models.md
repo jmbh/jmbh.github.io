@@ -4,25 +4,28 @@ title: Predictability in Network Models
 category: 
 ---
 
-Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in almost any area of science. The majority of these applications focus on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?
+Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in almost any area of science. The majority of these applications focuses on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?
 
 Predictability interesting for several reasons:
 
-- it gives us an idea of how practically relevant edges are: if node A is connected to many other nodes but these only explain, let's say, 1% of its variance, how interesting are these edges connecting A to other nodes?
-- we get an indication of where we should intervene in a network if we would like to achieve a change in a certain set of node and let's us estimate how efficient an intervention will be
-- it tells us to which extent different parts of the network are self-determined or determined by other factors that are not included in the network
+1. it gives us an idea of how *practically relevant* edges are: if node A is connected to many other nodes but these only explain, let's say, 1% of its variance, how interesting are these edges connecting A to other nodes?
+2. we get an indication of how to design an *intervention* in order to achieve a change in a certain set of nodes and we can estimate how efficient the intervention will be
+3. it tells us to which extent different parts of the network are *self-determined* or determined by other factors that are not included in the network
 
-In this blogpost, we use the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) to estimate a network model and compute node wise predictability measures for a [dataset]((http://cpx.sagepub.com/content/3/6/836.short)) on [Post Traumatic Stress Disorder (PTSD)](https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder) symptoms of [Chinese earthquake victims](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake). We visualize the network model and predictability using the [qgraph package](https://cran.r-project.org/web/packages/qgraph/index.html) and discuss how the combination of network model and node wise predictability can be used to design effective interventions on the symptom network.
+In this blogpost, we use the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) to estimate a network model and compute node wise predictability measures for a [dataset](http://cpx.sagepub.com/content/3/6/836.short) on [Post Traumatic Stress Disorder (PTSD)](https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder) symptoms of [Chinese earthquake victims](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake). We visualize the network model and predictability using [the qgraph package](https://cran.r-project.org/web/packages/qgraph/index.html) and discuss how the combination of network model and node wise predictability can be used to design effective interventions on the symptom network.
 
 
 Load Data
 ------
 
-We load the data which the authors made freely available:
+We load the data which the authors made freely available (thank you,[ McNally et al.](http://cpx.sagepub.com/content/3/6/836.short)!):
 
 {% highlight r %}
 data <- read.csv('http://psychosystems.org/wp-content/uploads/2014/10/Wenchuan.csv')
+data <- na.omit(data)
+p <- ncol(data)
 dim(data)
+[1] 344  17
 {% endhighlight %}
 
 The datasets contains complete responses to 17 PTSD symptoms of 344 individuals. The answer categories for the intensity of symptoms ranges from 1 'not at all' to 5 'extremely'.
@@ -31,7 +34,7 @@ The datasets contains complete responses to 17 PTSD symptoms of 344 individuals.
 Estimate Network Model
 ------
 
-We treat all variables as continuous and hence set the type of all variables to `type = 'g'` and the number of categories for each variable to 1, which is the default for continuous variables `lev = 1`:
+We estimate a [Mixed Graphical Model (MGM)](http://www.jmlr.org/proceedings/papers/v33/yang14a.pdf), where we treat all variables as continuous-Gaussian variables. Hence we set the type of all variables to `type = 'g'` and the number of categories for each variable to 1, which is the default for continuous variables `lev = 1`:
 
 {% highlight r %}
 library(mgm)
@@ -41,13 +44,13 @@ fit_obj <- mgmfit(data = data,
                   rule.reg = 'OR')
 {% endhighlight %}
 
-We combine estimates from the neighborhood regression procedure using the OR-rule. For details and info about this and other tuning parameters check the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf). [In a previous post I](http://jmbh.github.io/Estimation-of-mixed-graphical-models/), showed in more detail how to use the `mgmfit()` function to fit Mixed Graphical Models. [This paper](http://www.jstor.org/stable/25463463) by Meinshausen and Buehlmann shows that we use the neighborhood regression approach to estimate the whole graph.
+For more info on how to estimate Mixed Graphical Models using the mgm package see [this previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) or the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf).
 
 
 Compute Predictability of Nodes
 ------
 
-Now that we obtained the network model we compute the predictability of each node, that is, how well we can predict any given node by all other nodes in the network. The predictability (or error) measure can be easily computed next to estimation, because we estimate the graph by taking each node and regressing all other nodes on it. We have to choose a specific measure and pick the proportion of explained variance, as it is straight forward to interpret: 0 means the node at hand is not explained at all by other nodes in the nentwork, 1 means perfect prediction. We centered all variables before estimation in order to remove any influence of the intercepts. For a detailed description of how to compute predictions and to choose predictability measures, [check out this paper](https://arxiv.org/abs/1610.09108). In case we are additional variable types (e.g. categorical) in the network, we can choose an apropriate measure for these variables (e.g. %correct classification).
+Now that we obtained the network model, we compute the predictability of each node, that is, how well we can predict any given node by all other nodes in the network. The predictability (or error) measure can be easily computed next to estimation, because we estimate the graph by taking each node in turn and regressing all other nodes on it. As a measure for predictability we pick the propotion of explained variance, as it is straight forward to interpret:  0 means the node at hand is not explained at all by other nodes in the nentwork, 1 means perfect prediction. We centered all variables before estimation in order to remove any influence of the intercepts. For a detailed description of how to compute predictions and to choose predictability measures, [check out this preprint](https://arxiv.org/abs/1610.09108). In case there are additional variable types (e.g. categorical) in the network, we can choose an apropriate measure for these variables (e.g. % correct classification, see `?predict.mgm`).
 
 {% highlight r %}
 pred_obj <- predict(fit_obj, data, 
@@ -103,11 +106,11 @@ dev.off()
 
 Each variable is represented by a node and the edges correspond to partial correlations, because in this dataset the MGM consists only of conditional Gaussian variables. The green color of the edges indicates that all partial correlations in this graph are positive, and the edge-width is proportional to the absolute value of the partial correlation. The blue pie chart behind the node indicates the predictability measure for each node.
 
-We can make many observations about the interactions between symptoms: for example, we see that intrusive memories, traumatic dreams and flashbacks cluster together. We see that avoidance of thoughts (avoidth) about trauma interacts with avoidance of acitivies reminiscent of the trauma (avoidact) and that hypervigilant (hyper) behavior is related to feeling easily startled (startle). But there are also less obvious interactions, for instance between anger and concentration problems.
+We see that intrusive memories, traumatic dreams and flashbacks cluster together. We see that avoidance of thoughts (avoidth) about trauma interacts with avoidance of acitivies reminiscent of the trauma (avoidact) and that hypervigilant (hyper) behavior is related to feeling easily startled (startle). But there are also less obvious interactions, for instance between anger and concentration problems.
 
-Now, if we are interested in designing interventions, we can use the network model to judge their efficiency: if we would like to work on sleep problems, the network model suggests to intervene on the variables anger and startle. But what the network structure does not tell us is *how much* we could possibly change sleep through the variables anger and startle. The predictability measure gives us an answer to this question: 53.1%. If the goal was to intervene on Amnesia, we see that all adjacent nodes in the network explain only 32.7% of its variance. In addition, we see that there are many small edge weights, suggesting that it is hard to intervene on amnesia via other nodes in the symptom network. Thus, one could try to find additional variables that are not included in the network that interact with amnesia or try to intervene on amnesia directly. 
+Now, if we would like to reduce problems, the network model suggests to intervene on the variables anger and startle. But what the network structure does not tell us is *how much* we could possibly change sleep through the variables anger and startle. The predictability measure gives us an answer to this question: 53.1%. If the goal was to intervene on amnesia, we see that all adjacent nodes in the network explain only 32.7% of its variance. In addition, we see that there are many small edge weights, suggesting that it is hard to intervene on amnesia via other nodes in the symptom network. Thus, one would possibly try to find additional variables that are not included in the network that interact with amnesia or try to intervene on amnesia directly. 
 
-Of course there are limitions to interpreting explained variance as predicted treatment outcome. First, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data and hence assume that all people are the same, which is an assumption that likely to be violated. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some extent as we can use the direction of time to decide on causality.
+Of course there are limitions to interpreting explained variance as predicted treatment outcome: first, we cannot know the causal direction of the edges, so any edge could point in one or both directions. However, if there is no edge, there is also no causal effect in any direction. Also, it is often reasonable to combine the network model with general knoweldge: for instance, it seems more likely that amnesia causes being upset than the other way around. Second, we estimated the model on cross-sectional data and hence assume that all people are the same, which is an assumption that is always violated to some extent. To solve this problems one would need (many) repeated measurements of a single person, in order to estimate a model specific to that person. This also solves the first problem to some degree as we can use the direction of time to decide on causality.
 
 
 Compare: Within vs. Out of Sample Predictability
