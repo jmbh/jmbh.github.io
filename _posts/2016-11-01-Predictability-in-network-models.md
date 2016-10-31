@@ -6,6 +6,10 @@ category: r
 
 [[Click here for the original post with larger figures]](http://)
 
+Network models are [everywhere](http://www.sachaepskamp.com/files/NA/NetworkTakeover.pdf).
+
+....
+
 Network models (or Graphical models) have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables. Applications are found in basically any field field of of science, running the gammut from statistical mechanics, biology, neuroscience and XX to XX and XX. Many software packages are available to estimate network models (e.g. [huge](https://cran.r-project.org/web/packages/huge/index.html), [glasso](https://cran.r-project.org/web/packages/glasso/index.html), [mgm](https://cran.r-project.org/web/packages/mgm/index.html)) and to visualize them (e.g. [igraph](https://cran.r-project.org/web/packages/igraph/index.html), [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html), [ggnet2](https://briatte.github.io/ggnet/), [ggraph](https://github.com/thomasp85/ggraph)). This allows the analysis of the network structure both visually and using network analysis tools.
 
 If the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: 'how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?'
