@@ -110,6 +110,7 @@ We see that intrusive memories, traumatic dreams and flashbacks cluster together
 
 Now, if we would like to reduce sleep problems, the network model suggests to intervene on the variables anger and startle. But what the network structure does not tell us is *how much* we could possibly change sleep through the variables anger and startle. The predictability measure gives us an answer to this question: 53.1%. If the goal was to intervene on amnesia, we see that all adjacent nodes in the network explain only 32.7% of its variance. In addition, we see that there are many small edges connected to amnesia, suggesting that it is hard to intervene on amnesia via other nodes in the symptom network. Thus, one would possibly try to find additional variables that are not included in the network that interact with amnesia or try to intervene on amnesia directly. 
 
+
 Limitations!
 ------
 
