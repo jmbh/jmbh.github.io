@@ -8,9 +8,9 @@ Network models have become a popular way to abstract complex systems and gain in
 
 Predictability is interesting for several reasons:
 
-1. it gives us an idea of how *practically relevant* edges are: if node A is connected to many other nodes but these only explain, let's say, only 1% of its variance, how interesting are the edges connected to A?
-2. we get an indication of how to design an *intervention* in order to achieve a change in a certain set of nodes and we can estimate how efficient the intervention will be
-3. it tells us to which extent different parts of the network are *self-determined or determined by other factors* that are not included in the network
+1. It gives us an idea of how *practically relevant* edges are: if node A is connected to many other nodes but these only explain, let's say, only 1% of its variance, how interesting are the edges connected to A?
+2. We get an indication of how to design an *intervention* in order to achieve a change in a certain set of nodes and we can estimate how efficient the intervention will be
+3. It tells us to which extent different parts of the network are *self-determined or determined by other factors* that are not included in the network
 
 In this blogpost, we use the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) to estimate a network model and compute node wise predictability measures for a [dataset](http://cpx.sagepub.com/content/3/6/836.short) on [Post Traumatic Stress Disorder (PTSD)](https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder) symptoms of [Chinese earthquake victims](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake). We visualize the network model and predictability using [the qgraph package](https://cran.r-project.org/web/packages/qgraph/index.html) and discuss how the combination of network model and node wise predictability can be used to design effective interventions on the symptom network.
 
