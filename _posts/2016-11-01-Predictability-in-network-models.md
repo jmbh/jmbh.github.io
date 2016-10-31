@@ -4,18 +4,15 @@ title: Predictability in Network Models
 category: 
 ---
 
-Network models are [everywhere](http://www.sachaepskamp.com/files/NA/NetworkTakeover.pdf).
+Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in almost any area of science. The majority of these applications focus on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?
 
-....
+Predictability interesting for several reasons:
 
-Network models (or Graphical models) have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables. Applications are found in basically any field field of of science, running the gammut from statistical mechanics, biology, neuroscience and XX to XX and XX. Many software packages are available to estimate network models (e.g. [huge](https://cran.r-project.org/web/packages/huge/index.html), [glasso](https://cran.r-project.org/web/packages/glasso/index.html), [mgm](https://cran.r-project.org/web/packages/mgm/index.html)) and to visualize them (e.g. [igraph](https://cran.r-project.org/web/packages/igraph/index.html), [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html), [ggnet2](https://briatte.github.io/ggnet/), [ggraph](https://github.com/thomasp85/ggraph)). This allows the analysis of the network structure both visually and using network analysis tools.
+- it gives us an idea of how practically relevant edges are: if node A is connected to many other nodes but these only explain, let's say, 1% of its variance, how interesting are these edges connecting A to other nodes?
+- we get an indication of where we should intervene in a network if we would like to achieve a change in a certain set of node and let's us estimate how efficient an intervention will be
+- it tells us to which extent different parts of the network are self-determined or determined by other factors that are not included in the network
 
-If the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: 'how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?'
-
-This is often interesting information because it gives us an indication of how practically relevant edges are: for example if node A is connected to many other nodes but these only explain, let's say, 1% of its variance, how much do I care about these edges? The question of predictability is especially interesting in settings where the goal is to design effective interventions on a network, like in medicine: if a symptom S (e.g. insomnia) of a syndrome is poorly predicted by other nodes in the network, there is little chance that we can intervene efficiently on S via the network. In such a situation we would need to find additional variables or try to intervene on S directly (e.g. by administering sleeping pills).
-
-In this blogpost we show how to estimate a network, compute predictability of its nodes and visualize both together using the R-packages [mgm](https://cran.r-project.org/web/packages/mgm/index.html) and [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html). As an example data set we use a publicly available dataset on [Post Traumatic Stress Disorder (PTSD) symptoms reported by survivors](http://cpx.sagepub.com/content/3/6/836.short) of the [Wenchuan earthquake in China 2008](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake).
-
+In this blogpost, we use the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) to estimate a network model and compute node wise predictability measures for a [dataset]((http://cpx.sagepub.com/content/3/6/836.short)) on [Post Traumatic Stress Disorder (PTSD)](https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder) symptoms of [Chinese earthquake victims](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake). We visualize the network model and predictability using the [qgraph package](https://cran.r-project.org/web/packages/qgraph/index.html) and discuss how the combination of network model and node wise predictability can be used to design effective interventions on the symptom network.
 
 
 Load Data
@@ -44,7 +41,7 @@ fit_obj <- mgmfit(data = data,
                   rule.reg = 'OR')
 {% endhighlight %}
 
-We combine estimates from the neighborhood regression procedure using the OR-rule. For details and info about this and other tuning parameters check the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf). [In a previous post I](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) showed in more detail how to use the `mgmfit()` function to fit Mixed Graphical Models. [This paper](http://www.jstor.org/stable/25463463) by Meinshausen and Buehlmann shows that we use the neighborhood regression approach to estimate the whole graph.
+We combine estimates from the neighborhood regression procedure using the OR-rule. For details and info about this and other tuning parameters check the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf). [In a previous post I](http://jmbh.github.io/Estimation-of-mixed-graphical-models/), showed in more detail how to use the `mgmfit()` function to fit Mixed Graphical Models. [This paper](http://www.jstor.org/stable/25463463) by Meinshausen and Buehlmann shows that we use the neighborhood regression approach to estimate the whole graph.
 
 
 Compute Predictability of Nodes
@@ -159,6 +156,18 @@ cor(pred_obj_train$error$Error, pred_obj_test$error$Error)
 {% endhighlight %}
 
 This means that if a node has high explained variance in the training set, it tends to also have a high explained variance in the test set.
+
+
+
+
+ ((e.g. [huge](https://cran.r-project.org/web/packages/huge/index.html), [glasso](https://cran.r-project.org/web/packages/glasso/index.html), [mgm](https://cran.r-project.org/web/packages/mgm/index.html)) and visualize network models (e.g. [igraph](https://cran.r-project.org/web/packages/igraph/index.html), [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html), [ggnet2](https://briatte.github.io/ggnet/), [ggraph](https://github.com/thomasp85/ggraph)).
+There are now many
+
+
+
+
+
+
 
 
 
