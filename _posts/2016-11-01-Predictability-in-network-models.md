@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Predictability in Network Models
-category: 
+category: r
 ---
 
 Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in [almost any area of science](http://www.sachaepskamp.com/files/NA/NetworkTakeover.pdf). The majority of these applications focuses on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?
