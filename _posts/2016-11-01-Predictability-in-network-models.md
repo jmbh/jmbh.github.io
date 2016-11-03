@@ -167,6 +167,69 @@ cor(pred_obj_train$error$Error, pred_obj_test$error$Error)
 which means that if a node has high explained variance in the training set, it tends to also have a high explained variance in the test set.
 
 
+Edit Nov 3rd: The AND- or OR-rule and Predictability
+------
+
+In the above example I used the OR-rule to combine estimates in the (neighborhood regression approach)[http://www.jstor.org/stable/25463463], without justifying why (thanks to (Wagner de Lara Machado)[https://scholar.google.com.br/citations?user=fH6qCDoAAAAJ&hl=en] for pointing this out) Here comes the explanation:
+
+In the neighborhood regression approach to graph estimation we pick each node in the graph and regress all other nodes on this node. If we have three nodes x1, x2, x3, this procedure leads to three regression models:
+
+1. x1 = beta_01 + beta_2\*x2 + beta_3\*x3
+2. x2 = beta_02 + beta_1\*x1 + beta_3\*x3
+3. x3 = beta_03 + beta_1\*x1 + beta_2\*x2
+
+We now have to estimates for the edge between x1 and x2: beta_2 from regression (1) and beta_1 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation. The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
+
+Now, to compute predictions and hence a measure of predictability we use the regression models 1-3. If there is no disagreement between the betas, we have no problem. But if there is, we have the following:
+
+- When using the AND-rule: if the parameter x1 <- x2 is nonzero but x1 -> x2 is zero, the AND rule sets the edge-parameter x1-x2 in the graph to zero; however the parameter x1 <- x2 will still be used for estimation of x1. This leads to a too large predictability. This can lead to the situation that a node has no connection in the graph (obtained using the AND-rule) but has a nonzero predictability measure.
+
+- When using the OR-rule: if the parameter x1 -> x2 is nonzero but x1 <- x2 is zero, the OR-rule sets the edge-parameter x1-x2 in the graph to be present; however we use the (zero) parameter in regression (1) for prediction. This leads to a too small predictability. This can lead to the situation that a node has a connetion in the graph but has a zero predictability measure.
+
+Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence gives a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
+
+Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this by a simple example with three nodes:
+
+
+{% highlight r %}
+n <- 60 # number of observations
+set.seed(7) # selected to get the pathological case
+x1 <- rnorm(n)
+x2 <- rnorm(n)
+x3 <- .7*x1 + 0.3*x2 + 0.7*rnorm(n) # linear combination of x1, x2 plus some noise
+
+\# Binarize variable x2, x3
+x2 <- scale(x2)
+x3 <- scale(x3)
+x2b <- rep(NA, n)
+x2b[x2< -.8] <- 0
+x2b[x2> -.8] <- 1
+x3b <- rep(NA, n)
+x3b[x3< -.8] <- 0
+x3b[x3> -.8] <- 1
+
+\# Check marginal probability of 1
+mean(x2b)
+mean(x3b)
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
