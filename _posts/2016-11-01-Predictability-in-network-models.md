@@ -170,7 +170,7 @@ which means that if a node has high explained variance in the training set, it t
 Edit Nov 3rd: The AND- or OR-rule and Predictability
 ------
 
-In the above example I used the OR-rule to combine estimates in the (neighborhood regression approach)[http://www.jstor.org/stable/25463463], without justifying why (thanks to (Wagner de Lara Machado)[https://scholar.google.com.br/citations?user=fH6qCDoAAAAJ&hl=en] for pointing this out) Here comes the explanation:
+In the above example I used the OR-rule to combine estimates in the [neighborhood regression approach](http://www.jstor.org/stable/25463463), without justifying why (thanks to [Wagner de Lara Machado](https://scholar.google.com.br/citations?user=fH6qCDoAAAAJ&hl=en) for pointing this out) Here comes the explanation:
 
 In the neighborhood regression approach to graph estimation we pick each node in the graph and regress all other nodes on this node. If we have three nodes x1, x2, x3, this procedure leads to three regression models:
 
