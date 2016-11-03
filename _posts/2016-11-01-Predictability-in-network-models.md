@@ -170,27 +170,27 @@ which means that if a node has high explained variance in the training set, it t
 Edit Nov 3rd: The AND- or OR-rule and Predictability
 ------
 
-In the above example I used the OR-rule to combine estimates in the [neighborhood regression approach](http://www.jstor.org/stable/25463463), without justifying why (thanks to [Wagner de Lara Machado](https://scholar.google.com.br/citations?user=fH6qCDoAAAAJ&hl=en) for pointing this out) Here comes the explanation:
+In the above example I used the OR-rule to combine estimates in the [neighborhood regression approach](http://www.jstor.org/stable/25463463), without justifying why (thanks to [Wagner de Lara Machado](https://scholar.google.com.br/citations?user=fH6qCDoAAAAJ&hl=en) for pointing this out). Here comes the explanation:
 
 In the neighborhood regression approach to graph estimation we pick each node in the graph and regress all other nodes on this node. If we have three nodes x1, x2, x3, this procedure leads to three regression models:
 
-1. x1 = beta_01 + beta_2\*x2 + beta_3\*x3
-2. x2 = beta_02 + beta_1\*x1 + beta_3\*x3
-3. x3 = beta_03 + beta_1\*x1 + beta_2\*x2
+1. x1 = beta_10 + beta_12\*x2 + beta_13\*x3
+2. x2 = beta_20 + beta_21\*x1 + beta_23\*x3
+3. x3 = beta_30 + beta_31\*x1 + beta_32\*x2
 
-We now have to estimates for the edge between x1 and x2: beta_2 from regression (1) and beta_1 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation. The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
+This leads to two estimates for the edge between x1 and x2: beta_12 from regression (1) and beta_21 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation: The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
 
-Now, to compute predictions and hence a measure of predictability we use the regression models 1-3. If there is no disagreement between the betas, we have no problem. But if there is, we have the following:
+Now, to compute predictions and hence a measure of predictability we use the regression models 1-3. Let's take regression model (3), where we predict x3 by x1 and x2. Now, if the betas agree (beta_31 and beta_13 agree and beta_32 and beta_23 agree), everything is fine. But if there is disagreement, we have the following problem:
 
-- When using the AND-rule: if the parameter x1 <- x2 is nonzero but x1 -> x2 is zero, the AND rule sets the edge-parameter x1-x2 in the graph to zero; however the parameter x1 <- x2 will still be used for estimation of x1. This leads to a too large predictability. This can lead to the situation that a node has no connection in the graph (obtained using the AND-rule) but has a nonzero predictability measure.
+- When using the AND-rule: if let's say the parameter beta_32 is nonzero but beta_23 is zero, the AND rule sets the edge-parameter x3-x2 in the graph to zero; however the parameter beta_32 will still be used for estimation of x3. This leads to a predictability that is too high. Hence we could have a situation in which a node has no connection in the graph (obtained using the AND-rule) but has a nonzero predictability measure.
 
-- When using the OR-rule: if the parameter x1 -> x2 is nonzero but x1 <- x2 is zero, the OR-rule sets the edge-parameter x1-x2 in the graph to be present; however we use the (zero) parameter in regression (1) for prediction. This leads to a too small predictability. This can lead to the situation that a node has a connetion in the graph but has a zero predictability measure.
+- When using the OR-rule: if the parameter beta_23 is nonzero but beta_32 is zero, the OR-rule sets the edge-parameter x1-x2 in the graph to be present; however we use the (zero) parameter beta_32 in regression (3) for prediction. This leads to a predictability that is too small. Hence we could hae the situation that a node has a connetion in the graph but has a zero predictability measure.
 
-Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence gives a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
+Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence get a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
 
-Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter x3 <- x2 to zero (because x2 <- x3 is zero):
+Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter beta_32 to zero (because beta_23 is zero):
 
-We generate a network of three variables, x1, x2, x3, with edges between x1-x3 ans x2-x3. x1 is continuous and x2, x3 are binary.
+We generate a network of three variables, x1, x2, x3, with edges between x1-x3 ans x2-x3. x1 is continuous and x2, x3 are binary:
 
 {% highlight r %}
 n <- 60 # number of observations
@@ -306,6 +306,7 @@ x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to or
 
 # compute % correct classification:
 mean(x3_predicted == x3b) 
+[1] 0.75
 {% endhighlight %}
 
 We see that we get an accuracy of .75, which is *lower* than the accuracy we would expect from the intercept model (0.78). However, we should get a larger accuracy than 0.78, because we know that x1 is a predictor of x3. This shows that we cannot simply delete parameters from a regression model. We could show a similar example by adding nonzero predictors.
