@@ -282,7 +282,7 @@ mean(x3_predicted == x3b)
 [1] 0.85
 {% endhighlight %}
 
-We get an accuracy of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for the betas indicating that we predict x3. Instead we add a subscript c0, c1 to indicate the predicted category. Also note that beta_c02 and beta_c12 correspond to beta_32 in the above notation; we have two parameters, because we have a binary predictor. We now set the parameters between x2 and x3 (beta_c02 and beta_c12) to zero and compute predictions in exactly the same way as before:
+We get an accuracy of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for the betas indicating that we predict x3. Instead we add a subscript c0, c1 to indicate the predicted category. Also note that beta_c02 and beta_c12 correspond to beta_32 in the above notation; we have two parameters, because we have a binary predictor (for details about this symmetric approach to multinomial regression, see the [glmnet paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/)). We now set the parameters between x2 and x3 (beta_c02 and beta_c12) to zero and compute predictions in exactly the same way as before:
 
 {% highlight r %}
 # Getting Parameters out of MGM:
