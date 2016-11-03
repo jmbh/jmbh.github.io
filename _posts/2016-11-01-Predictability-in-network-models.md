@@ -198,7 +198,8 @@ x1 <- rnorm(n)
 x2 <- rnorm(n)
 x3 <- .7*x1 + 0.3*x2 + 0.7*rnorm(n) # linear combination of x1, x2 plus some noise
 
-\# Binarize variable x2, x3
+\\# Binarize variable x2, x3
+# Binarize variable x2, x3
 x2 <- scale(x2)
 x3 <- scale(x3)
 x2b <- rep(NA, n)
