@@ -178,13 +178,13 @@ In the neighborhood regression approach to graph estimation we pick each node in
 2. x2 = beta_20 + beta_21\*x1 + beta_23\*x3
 3. x3 = beta_30 + beta_31\*x1 + beta_32\*x2
 
-This leads to two estimates for the edge between x1 and x2: beta_12 from regression (1) and beta_21 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation: The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
+This procedure leads to two estimates for the edge between x1 and x2: beta_12 from regression (1) and beta_21 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation: The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
 
 Now, to compute predictions and hence a measure of predictability we use the regression models 1-3. Let's take regression model (3), where we predict x3 by x1 and x2. Now, if the betas agree (beta_31 and beta_13 agree and beta_32 and beta_23 agree), everything is fine. But if there is disagreement, we have the following problem:
 
 - When using the AND-rule: if let's say the parameter beta_32 is nonzero but beta_23 is zero, the AND rule sets the edge-parameter x3-x2 in the graph to zero; however the parameter beta_32 will still be used for estimation of x3. This leads to a predictability that is too high. Hence we could have a situation in which a node has no connection in the graph (obtained using the AND-rule) but has a nonzero predictability measure.
 
-- When using the OR-rule: if the parameter beta_23 is nonzero but beta_32 is zero, the OR-rule sets the edge-parameter x1-x2 in the graph to be present; however we use the (zero) parameter beta_32 in regression (3) for prediction. This leads to a predictability that is too small. Hence we could hae the situation that a node has a connetion in the graph but has a zero predictability measure.
+- When using the OR-rule: if the parameter beta_23 is nonzero but beta_32 is zero, the OR-rule sets the edge-parameter x3-x2 in the graph to be present; however we use the (zero) parameter beta_32 in regression (3) for prediction. This leads to a predictability that is too small. Hence we could hae the situation that a node has a connetion in the graph but has a zero predictability measure.
 
 Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence get a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
 
@@ -246,9 +246,9 @@ fit_obj$mpar.matrix
 
 From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter beta_32 of the regression (3) was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter beta_23 in regression (2) was zero (for an explanation of the the model parameter matrix, see [here](http://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/))
 
-We now do the following: we first go through all steps of using the parameters of regression model (3) to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according the AND-rule and set the regression parameter beta_32 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
+We now do the following: we first go through all steps of using the parameters of regression model (3) to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according to the graph obtained with the AND-rule and set the regression parameter beta_32 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
 
-We first show how to compute predictions for x3 using the unmodified model:
+We first show how to compute predictions for x3 using the *unmodified* model:
 
 {% highlight r %}
 # Getting Parameters out of MGM fit object:
@@ -282,7 +282,7 @@ mean(x3_predicted == x3b)
 [1] 0.85
 {% endhighlight %}
 
-We get an accuracty of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for be betas indicating that we predict x3. Instead we add a subscript c0, c1 to indicate the predicted category. Also note that beta_c02 and beta_c12 correspond to beta_32 in the above notation; we have two parameters, because we have a binary predictor. We now set the parameters between x2 and x3 (beta_c02 and beta_c12) to zero and compute predictions in exactly the same way as before:
+We get an accuracy of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for the betas indicating that we predict x3. Instead we add a subscript c0, c1 to indicate the predicted category. Also note that beta_c02 and beta_c12 correspond to beta_32 in the above notation; we have two parameters, because we have a binary predictor. We now set the parameters between x2 and x3 (beta_c02 and beta_c12) to zero and compute predictions in exactly the same way as before:
 
 {% highlight r %}
 # Getting Parameters out of MGM:
@@ -309,7 +309,8 @@ mean(x3_predicted == x3b)
 [1] 0.75
 {% endhighlight %}
 
-We see that we get an accuracy of .75, which is *lower* than the accuracy we would expect from the intercept model (0.78). However, we should get a larger accuracy than 0.78, because we know that x1 is a predictor of x3. This shows that we cannot simply delete parameters from a regression model. We could show a similar example by adding nonzero predictors.
+We see that we get an accuracy of .75, which is *lower* than the accuracy we would expect from the intercept model (0.78). However, we *should* get a larger accuracy than 0.78, because we know that x1 is a predictor of x3. This shows that we cannot simply delete parameters from a regression model. We could show a similar example by adding nonzero predictors.
 
-A possible way around this would be take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables that were connected via an edge to the node at hand. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of the neighborhood of different nodes and hence probably to an inconsistent algorithm.
+A possible way around this would be to take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables as predictors that were connected to the predicted node in the initial graph. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of each of the neighborhoods of the different nodes. This is likely to lead to an algorithm that does not consistently recover the true graph/network.
+
 
