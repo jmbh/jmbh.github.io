@@ -188,8 +188,9 @@ Now, to compute predictions and hence a measure of predictability we use the reg
 
 Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence gives a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
 
-Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this by a simple example with three nodes:
+Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter x3 <- x2 to zero (because x2 <- x3 is zero):
 
+We generate a network of three variables, x1, x2, x3, with edges between x1-x3 ans x2-x3. x1 is continuous and x2, x3 are binary.
 
 {% highlight r %}
 n <- 60 # number of observations
@@ -198,7 +199,6 @@ x1 <- rnorm(n)
 x2 <- rnorm(n)
 x3 <- .7*x1 + 0.3*x2 + 0.7*rnorm(n) # linear combination of x1, x2 plus some noise
 
-\\# Binarize variable x2, x3
 # Binarize variable x2, x3
 x2 <- scale(x2)
 x3 <- scale(x3)
@@ -209,14 +209,77 @@ x3b <- rep(NA, n)
 x3b[x3< -.8] <- 0
 x3b[x3> -.8] <- 1
 
-\# Check marginal probability of 1
+data <- cbind(x1, x2b, x3b) # Combine in one matrix
+
+# Check marginal probability of 1
 mean(x2b)
+[1] 0.7833333
 mean(x3b)
+[1] 0.7833333
+{% endhighlight %}
+
+We now fit a mixed graphical model:
+
+{% highlight r %}
+library(mgm)
+fit_obj <- mgmfit(data = data, 
+                  type = c('g', 'c', 'c'),
+                  lev = c(1, 2, 2), 
+                  rule.reg = 'AND')
+                  
+fit_obj$wadj
+          [,1] [,2]      [,3]
+[1,] 0.0000000    0 0.7017516
+[2,] 0.0000000    0 0.0000000
+[3,] 0.7017516    0 0.0000000
+
+fit_obj$mpar.matrix
+           [,1] [,2]       [,3] [,4]      [,5]
+[1,]         NA   NA  0.0000000   NA 0.7943015
+[2,]  0.0000000   NA         NA   NA 0.0000000
+[3,]  0.0000000   NA         NA   NA 0.0000000
+[4,] -0.6092017   NA -0.7593007   NA        NA
+[5,]  0.6092017   NA  0.7593007   NA        NA
+
 {% endhighlight %}
 
 
+From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present - between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter of the regression x3 <- x2 was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter in the regression x2 -> x2 was zero.
+
+We now do the following: we first go through all steps of using the parameters of the regression model x3 <- x2 to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according the AND-rule and set the regression parameter x3 <- x2 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
+
+We first show how to compute predictions for x3 using the unmodified model:
 
 
+{% highlight r %}
+# Getting Parameters out of MGM fit object:
+threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
+threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
+
+beta_01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
+beta_02 <- fit_obj$node.models[[3]]$coefs[[1]][3]
+beta_11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
+beta_12 <- fit_obj$node.models[[3]]$coefs[[2]][3]
+
+# Computing Potentials for each Category
+potentials_0 <- exp(threshold_0 + beta_01 * x1n +  beta_02 * x2b)
+potentials_1 <- exp(threshold_1 + beta_11 * x1n +  beta_12 * x2b)
+
+# Normalize and get Probabilities
+probability_0 <- potentials_0 / (potentials_0 + potentials_1)
+probability_1 <- potentials_1 / (potentials_0 + potentials_1)
+probabilities <- cbind(probability_0, probability_1)
+
+# Predict class
+x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to original labels 0/1
+
+# just for checking: do same with predict.mgm() function
+x3_predicted_mgm <- as.numeric(predict(fit_obj, data)$pred[,3])
+mean(x3_predicted == x3_predicted_mgm) # exactly the same
+
+# compute % correct classification (accuracy):
+mean(x3_predicted == x3b) 
+{% endhighlight %}
 
 
 
