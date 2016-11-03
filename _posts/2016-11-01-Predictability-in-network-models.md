@@ -244,12 +244,11 @@ fit_obj$mpar.matrix
 {% endhighlight %}
 
 
-From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present - between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter of the regression x3 <- x2 was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter in the regression x2 -> x2 was zero.
+From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter of the regression x3 <- x2 was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter in the regression x2 -> x2 was zero (For an explanation of the the model parameter matrix, see [here](http://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/))
 
 We now do the following: we first go through all steps of using the parameters of the regression model x3 <- x2 to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according the AND-rule and set the regression parameter x3 <- x2 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
 
 We first show how to compute predictions for x3 using the unmodified model:
-
 
 {% highlight r %}
 # Getting Parameters out of MGM fit object:
@@ -276,28 +275,40 @@ x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to or
 # just for checking: do same with predict.mgm() function
 x3_predicted_mgm <- as.numeric(predict(fit_obj, data)$pred[,3])
 mean(x3_predicted == x3_predicted_mgm) # exactly the same
+[1] 1
 
 # compute % correct classification (accuracy):
 mean(x3_predicted == x3b) 
+[1] 0.85
 {% endhighlight %}
 
+We get an accuracty of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). We now set the parameters between x2 and x3 (beta_02 and beta_12) to zero and compute predictions in exactly the same way:
 
+{% highlight r %}
+# Getting Parameters out of MGM:
+threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
+threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
 
+beta_01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
+beta_11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
 
+# Computing Potentials for each Category
+potentials_0 <- exp(threshold_0 + beta_01 * x1n) # predictor x2 deleted
+potentials_1 <- exp(threshold_1 + beta_11 * x1n) # predictor x2 deleted
 
+# Normalize and get Probabilities
+probability_0 <- potentials_0 / (potentials_0 + potentials_1)
+probability_1 <- potentials_1 / (potentials_0 + potentials_1)
+probabilities <- cbind(probability_0, probability_1)
 
+# Predict class
+x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to original labels 0/1
 
+# compute % correct classification:
+mean(x3_predicted == x3b) 
+{% endhighlight %}
 
+We see that we get an accuracy of .75, which is *lower* than the accuracy we would expect from the intercept model (0.78). However, we should get a larger accuracy than 0.78, because we know that x1 is a predictor of x3. This shows that we cannot simply delete parameters from a regression model. We could show a similar example by adding nonzero predictors.
 
-
-
-
-
-
-
-
-
-
-
-
+A possible way around this would be take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables that were connected via an edge to the node at hand. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of the neighborhood of different nodes and hence probably to an inconsistent algorithm.
 
