@@ -188,7 +188,7 @@ Now, to compute predictions and hence a measure of predictability we use the reg
 
 Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence get a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
 
-Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because thinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter beta_32 to zero (because beta_23 is zero):
+Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because tinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter beta_32 to zero (because beta_23 is zero):
 
 We generate a network of three variables, x1, x2, x3, with edges between x1-x3 ans x2-x3. x1 is continuous and x2, x3 are binary:
 
