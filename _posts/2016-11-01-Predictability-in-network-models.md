@@ -244,9 +244,9 @@ fit_obj$mpar.matrix
 {% endhighlight %}
 
 
-From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter of the regression x3 <- x2 was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter in the regression x2 -> x2 was zero (For an explanation of the the model parameter matrix, see [here](http://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/))
+From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present between x1 and x3. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter beta_32 of the regression (3) was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter beta_23 in regression (2) was zero (for an explanation of the the model parameter matrix, see [here](http://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/))
 
-We now do the following: we first go through all steps of using the parameters of the regression model x3 <- x2 to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according the AND-rule and set the regression parameter x3 <- x2 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
+We now do the following: we first go through all steps of using the parameters of regression model (3) to compute predictions for x3. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according the AND-rule and set the regression parameter beta_32 to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
 
 We first show how to compute predictions for x3 using the unmodified model:
 
@@ -255,14 +255,14 @@ We first show how to compute predictions for x3 using the unmodified model:
 threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
 threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
 
-beta_01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
-beta_02 <- fit_obj$node.models[[3]]$coefs[[1]][3]
-beta_11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
-beta_12 <- fit_obj$node.models[[3]]$coefs[[2]][3]
+beta_c01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
+beta_c02 <- fit_obj$node.models[[3]]$coefs[[1]][3]
+beta_c11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
+beta_c12 <- fit_obj$node.models[[3]]$coefs[[2]][3]
 
 # Computing Potentials for each Category
-potentials_0 <- exp(threshold_0 + beta_01 * x1n +  beta_02 * x2b)
-potentials_1 <- exp(threshold_1 + beta_11 * x1n +  beta_12 * x2b)
+potentials_0 <- exp(threshold_0 + beta_c01 * x1n +  beta_c02 * x2b)
+potentials_1 <- exp(threshold_1 + beta_c11 * x1n +  beta_c12 * x2b)
 
 # Normalize and get Probabilities
 probability_0 <- potentials_0 / (potentials_0 + potentials_1)
@@ -282,19 +282,19 @@ mean(x3_predicted == x3b)
 [1] 0.85
 {% endhighlight %}
 
-We get an accuracty of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). We now set the parameters between x2 and x3 (beta_02 and beta_12) to zero and compute predictions in exactly the same way:
+We get an accuracty of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for be betas indicating that we predict x3. Instead we add a subscript c0, c1 to indicate the predicted category. Also note that beta_c02 and beta_c12 correspond to beta_32 in the above notation; we have two parameters, because we have a binary predictor. We now set the parameters between x2 and x3 (beta_c02 and beta_c12) to zero and compute predictions in exactly the same way as before:
 
 {% highlight r %}
 # Getting Parameters out of MGM:
 threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
 threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
 
-beta_01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
-beta_11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
+beta_c01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
+beta_c11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
 
 # Computing Potentials for each Category
-potentials_0 <- exp(threshold_0 + beta_01 * x1n) # predictor x2 deleted
-potentials_1 <- exp(threshold_1 + beta_11 * x1n) # predictor x2 deleted
+potentials_0 <- exp(threshold_0 + beta_c01 * x1n) # predictor x2 deleted
+potentials_1 <- exp(threshold_1 + beta_c11 * x1n) # predictor x2 deleted
 
 # Normalize and get Probabilities
 probability_0 <- potentials_0 / (potentials_0 + potentials_1)
