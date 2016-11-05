@@ -174,6 +174,7 @@ In the above example I used the OR-rule to combine estimates in the [neighborhoo
 
 In the neighborhood regression approach to graph estimation we pick each node in the graph and regress all other nodes on this node. If we have three nodes x1, x2, x3, this procedure leads to three regression models:
 
+1. $$ x_1 = beta_{10} + beta_{12} x_2 + beta_{13} x_3 $$
 1. x1 = beta_10 + beta_12\*x2 + beta_13\*x3
 2. x2 = beta_20 + beta_21\*x1 + beta_23\*x3
 3. x3 = beta_30 + beta_31\*x1 + beta_32\*x2
@@ -313,6 +314,5 @@ We see that we get an accuracy of .75, which is *lower* than the accuracy we wou
 
 A possible way around this would be to take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables as predictors that were connected to the predicted node in the initial graph. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of each of the neighborhoods of the different nodes. This is likely to lead to an algorithm that does not consistently recover the true graph/network.
 
-$$ a^2 + b^2 = c^2 $$
 
 
