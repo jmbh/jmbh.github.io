@@ -313,6 +313,6 @@ We see that we get an accuracy of .75, which is *lower* than the accuracy we wou
 
 A possible way around this would be to take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables as predictors that were connected to the predicted node in the initial graph. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of each of the neighborhoods of the different nodes. This is likely to lead to an algorithm that does not consistently recover the true graph/network.
 
-\"$$ a^2 + b^2 = c^2 $$\"
+$$ a^2 + b^2 = c^2 $$
 
 
