@@ -27,7 +27,7 @@ library(devtools)
 install_github('jmbh/mgm') # we need version 1.1-6
 library(mgm)
 
-fit <- mgmfit(data, type, lev, lamda.sel = "EBIC", d = 2)
+fit <- mgmfit(data, type, lev, lambda.sel = "EBIC", d = 2)
 
 {% endhighlight %}
 
@@ -55,10 +55,10 @@ groups_typeV <- list("Gaussian"=which(datalist$type=='g'),
 group_col <- c("#72CF53", "#53B0CF", "#ED3939")
 
 jpeg("Autism_VarTypes.jpg", height=2*900, width=2*1300, unit='px')
-qgraph(wgraph, 
+qgraph(fit$wadj, # weighted adjacency matrix in model fit object 
        vsize=3.5, 
        esize=5, 
-       layout=Q0$layout, # gives us the same layout as above
+       layout= 'spring', # to get the exact same layout as above take it from qgraph object of the earlier post
        edge.color = fit$edgecolor, 
        color=group_col,
        border.width=1.5,
