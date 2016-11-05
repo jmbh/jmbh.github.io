@@ -174,12 +174,11 @@ In the above example I used the OR-rule to combine estimates in the [neighborhoo
 
 In the neighborhood regression approach to graph estimation we pick each node in the graph and regress all other nodes on this node. If we have three nodes x1, x2, x3, this procedure leads to three regression models:
 
-1. $$ x_1 = beta_{10} + beta_{12} x_2 + beta_{13} x_3 $$
-1. x1 = beta_10 + beta_12\*x2 + beta_13\*x3
-2. x2 = beta_20 + beta_21\*x1 + beta_23\*x3
-3. x3 = beta_30 + beta_31\*x1 + beta_32\*x2
+1. $$ x_1 = \beta_{10} + \beta_{12} x_2 + \beta_{13} x_3 $$
+2. $$ x_2 = \beta_20 + beta_21\*x1 + beta_23\*x3 $$
+3. $$ x3 = beta_30 + beta_31\*x1 + beta_32\*x2 $$
 
-This procedure leads to two estimates for the edge between x1 and x2: beta_12 from regression (1) and beta_21 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation: The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
+This procedure leads to two estimates for the edge between x1 and x2: $$\beta_12$$ from regression (1) and beta_21 from regression (2). If both parameters are nonzero, we clearly set the edge between x1 and x2 to present, and if both parameters are zero, we clearly set the edge between x1 and x2 to not present. However, in some cases the two estimates disagree and we need a rule for this situation: The OR-rule sets an edge to be present if *at least one* of the estimates is nonzero. The AND-rule sets an edge to be present only if *both* estimates are nonzero.
 
 Now, to compute predictions and hence a measure of predictability we use the regression models 1-3. Let's take regression model (3), where we predict x3 by x1 and x2. Now, if the betas agree (beta_31 and beta_13 agree and beta_32 and beta_23 agree), everything is fine. But if there is disagreement, we have the following problem:
 
