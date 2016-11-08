@@ -6,7 +6,7 @@ permalink: /papers_software/
 
 # Papers
 
-Haslbeck J. M. B., Waldorp L. J. sSubmitted). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+Haslbeck J. M. B., Waldorp L. J. (submitted). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
 
 Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
 
