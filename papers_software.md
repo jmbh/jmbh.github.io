@@ -6,7 +6,7 @@ permalink: /papers_software/
 
 # Papers
 
-Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
+Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
 
