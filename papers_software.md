@@ -6,9 +6,11 @@ permalink: /papers_software/
 
 # Papers
 
-Haslbeck J. M. B., Waldorp L. J. (submitted). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
 
-Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
+Haslbeck J. M. B., Waldorp L. J. (under review). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+
+Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical
 Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
@@ -23,14 +25,14 @@ in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimenta
 
 #### Stable
  
-mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://cran.r-project.org/web/packages/mgm/index.html)
+mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://www.rdocumentation.org/packages/mgm/versions/1.1-7)
 
+cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/jmbh/cstab) [[CRAN]](https://www.rdocumentation.org/packages/cstab/versions/0.2)
 
 #### Under Development
 
 mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github.com/jmbh/mta)
 
-cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/jmbh/cstab)
 
 # Presentations
 
