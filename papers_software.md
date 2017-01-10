@@ -4,8 +4,6 @@ title:
 permalink: /papers_software/
 ---
 
-
-
 # Papers
 
 Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
