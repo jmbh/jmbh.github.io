@@ -36,6 +36,8 @@ mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github
 
 # Presentations
 
+Haslbeck J.M.B. (2016). Time-varying mixed graphical models. IOPS Winter Conference 2016, Groningen, The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_IOPS_Winter2016.pdf)
+
 Haslbeck J.M.B. (2016). Time-varying mixed graphical models. Conference on Complex Systems 2016, Amsterdam, The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_CCS2016.pdf)
 
 Haslbeck J.M.B. (2016). Estimating time-varying mixed graphical models in high-dimensional data. COMPSTAT 2016, Oviedo, Spain. [[Slides]](http://jmbh.github.io/figs/About/TVG_compstat2016.pdf)
