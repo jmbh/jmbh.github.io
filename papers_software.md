@@ -4,7 +4,7 @@ title:
 permalink: /papers_software/
 ---
 
-
+# Papers
 
 Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
 
@@ -12,14 +12,11 @@ Haslbeck J. M. B., Waldorp L. J. (under review). How well do Network Models pred
 
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
 
-Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical
-Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
+Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
 
-Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed Graphical models in
-High Dimensions. The Annals of Applied Statistics. [[PDF]](https://arxiv.org/abs/1510.05677)
+Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed Graphical models in High Dimensions. The Annals of Applied Statistics. [[PDF]](https://arxiv.org/abs/1510.05677)
 
-Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction
-in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
+Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
 
 
 # Software
@@ -52,3 +49,6 @@ Haslbeck J.M.B. (2016). Understanding Mental Disorders as Complex Networks. EFPS
 Haslbeck J.M.B. (2016). Structure estimation for mixed graphical models in high-dimensional data. Psychoco 2016, University of Liège, Belgium. [[Slides]](http://jmbh.github.io/figs/About/psychoco2016_slides.pdf)
 
 Haslbeck J.M.B. (2015). Structure estimation for mixed graphical models in high-dimensional data. EMPG 2015, University of Padua, Italy. [[Slides]](http://jmbh.github.io/figs/About/empg2015_slides.pdf)
+
+
+
