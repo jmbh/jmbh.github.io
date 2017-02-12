@@ -18,6 +18,10 @@ Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed 
 
 Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
 
+Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. Journal of Open Psychology Data, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[Data]](https://osf.io/j4fg8/)
+
+Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
+
 
 # Software
 
