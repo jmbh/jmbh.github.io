@@ -84,7 +84,7 @@ Note that $k > 0$ and hence $\frac{r}{k + 1} < r$ and hence the absolute value o
 
 **(4) Properties of the Estimator**
 
-We now consider the estimate $\hat{\sigma}_{1,2}$ for the covariance between $x_1$ and $x_2$ in the bivariate Gaussian with covariance matrix $\Sigma^{A_{norm}}$ which is 'corrupted' by measurement error. We obtain $\hat{\sigma}_{1,2}$ via the least squares estimator, [which is known to be unbiased](http://math.stackexchange.com/questions/787939/show-that-the-least-squares-estimator-of-the-slope-is-an-unbiased-estimator-of-t).
+We now consider the estimate $\hat \sigma_{1,2}$ for the covariance between $x_1$ and $x_2$ in the bivariate Gaussian with covariance matrix $\Sigma^{A_{norm}}$ which is 'corrupted' by measurement error. We obtain $\hat \sigma_{1,2}$ via the least squares estimator, [which is known to be unbiased](http://math.stackexchange.com/questions/787939/show-that-the-least-squares-estimator-of-the-slope-is-an-unbiased-estimator-of-t).
 
 What does this mean? This means that by the [Central limit theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), the sampling distribution will be a Gaussian distribution that is centered on the true coefficient, which is $\frac{r}{k + 1}$. Thus, if we take many samples of size $N$ and compute a coefficient estimate on each of them, the mean coefficient will be equal to $\frac{r}{k + 1}$:
 
