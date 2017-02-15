@@ -110,7 +110,7 @@ For the high noise case the exact same is true, i.e. $\mathcal{P}^\uparrow_H < \
 
 **(5) Summary**
 
-To summarize, what have we found? We found that if our estimator is biased downwards (here by measurement error), then different sample sizes (and hence different variances of the sampling distribution) lead to different proportions of coefficient estimates that overestimate the true effect.
+What have we found? We found that if our estimator is biased downwards (here by measurement error), then different sample sizes (and hence different variances of the sampling distribution) lead to different proportions of coefficient estimates that overestimate the true effect.
 
 However, it is important to stress: when keeping $N$ constant and introducing measurement error, the proportion of overestimating estimates *decreases* compared to the situation without measurement error. The only thing that is increasing is $q$, which means that in the presence of measurement error in a high noise setting (small $N$) we *relatively* overestimate more than in a low noise setting (high $N$). What determines $q$? The larger the difference between the variances of two sampling distributions, the larger $q$. The more we shift the sampling distribution towards zero (by adding measurement error), the larger $q$.
 
@@ -128,7 +128,7 @@ And one more problem: in the right panel in the figure of the paper the authors 
 Conclusion
 -----
 
-This was a fun opportunity to do some statistics detective work. However, the lack of clarity does potentially also do quite some harm by confusing the reader about important concepts. There is of course also the possibility that I just fully misunderstood their paper. In that case I hope the reader will point at my mistakes.
+This was a fun opportunity to do some statistics detective work. However, the lack of clarity does potentially also do quite some harm by confusing the reader about important concepts. There is of course also the possibility that I just fully misunderstood their paper. In that case I hope the reader will point to my mistakes.
 
 I am looking forward to comments, complaints and corrections.
 
