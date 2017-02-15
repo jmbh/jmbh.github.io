@@ -25,7 +25,7 @@ What this statement means is unclear to me. Under the reasonable assumption that
 
 **(2) Terminology (for reference)**
 
-In the paper 'measurement error', 'noise' and 'variance' are used interchangeably. Here, with variances we refer to the variances of the dimensions of the bivariate Gaussian distribution, if not stated otherwise. With measurement error we mean another bivariate Gaussian distribution with zero covariance. By a noisy setting, we refer to a situation with a low signal to noise ratio. This is defined relative to another setting, which is less noisy. The signal to noise ratio is a function of $N$ and is related to the variance of the sampling distribution of the estimator. All these things will become clear in sections (3) and (4).
+In the paper, 'measurement error', 'noise' and 'variance' are used interchangeably. Here, with variances we refer to the variances of the dimensions of the bivariate Gaussian distribution, if not stated otherwise. With measurement error we mean another bivariate Gaussian distribution with zero covariance. By a noisy setting, we refer to a situation with a low signal to noise ratio. This is defined relative to another setting, which is less noisy. The signal to noise ratio is a function of $N$ and is related to the variance of the sampling distribution of the estimator. All these things will become clear in sections (3) and (4).
 
 **(3) What does 'adding measurement error' mean on the population level?**
 
@@ -128,7 +128,7 @@ And one more problem: in the right panel in the figure of the paper the authors 
 Conclusion
 -----
 
-This was a fun opportunity to do some statistics detective work. However, the lack of clarity does potentially also do quite some harm by confusing the reader about important concepts.
+This was a fun opportunity to do some statistics detective work. However, the lack of clarity does potentially also do quite some harm by confusing the reader about important concepts. There is of course also the possibility that I just fully misunderstood their paper. In that case I hope the reader will hint at my mistakes.
 
 I am looking forward to comments, complaints and corrections.
 
