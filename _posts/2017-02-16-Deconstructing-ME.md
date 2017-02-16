@@ -11,7 +11,7 @@ The Short Version
 
 My conclusion is that the authors show the following: 
 
-    if an estimator is biased (here by the presence of measurement error), then the proportion of estimates that overestimate the true effect depends on the variance of the sampling distribution (which depends on $N$).
+  if an estimator is biased (here by the presence of measurement error), then the proportion of estimates that overestimate the true effect depends on the variance of the sampling distribution (which depends on $N$).
     
 While this is an interesting insight, the authors do not say this clearly anywhere in the paper. Instead, they use formulations that suggest that they refer to the expected value of the estimator, which does not depend on the sample size. To make things worse, they plot the estimates in a way that suggest that the variance of the estimators is equal for N = 50 and N = 3000 and that the effect is driven by a difference in expected value, while the reverse is true.
 
@@ -25,7 +25,7 @@ I try to make an argument for my claims in the 'short version' above in 6 steps.
 
 The authors write 
 
-    *'In a low-noise setting, the theoretical results of Hausman and others correctly show that measurement error will attenuate co- efficient estimates. But we can demonstrate with a simple exercise that the opposite occurs in the presence of high noise and selection on statistical significance.' (p. 584/585)*. 
+  *'In a low-noise setting, the theoretical results of Hausman and others correctly show that measurement error will attenuate co- efficient estimates. But we can demonstrate with a simple exercise that the opposite occurs in the presence of high noise and selection on statistical significance.' (p. 584/585)*. 
     
 From this we can deduce that the authors claim that 'In a high noise setting, the presence of measurement error and selection on statistical significance leads to an increase in coefficient estimates'. However, the authors do not select on statistical significance in their simulation, hence we also drop this condition and arrive at the claim 'In a high noise setting, the presence of measurement error leads to an increase in coefficient estimates'. 
 
