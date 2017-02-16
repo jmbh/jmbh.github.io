@@ -9,11 +9,7 @@ Yesterday, I read ['Measurement error and the replication crisis'](http://scienc
 The Short Version
 -----
 
-My conclusion is that the authors show the following: 
-
-  if an estimator is biased (here by the presence of measurement error), then the proportion of estimates that overestimate the true effect depends on the variance of the sampling distribution (which depends on $N$).
-    
-While this is an interesting insight, the authors do not say this clearly anywhere in the paper. Instead, they use formulations that suggest that they refer to the expected value of the estimator, which does not depend on the sample size. To make things worse, they plot the estimates in a way that suggest that the variance of the estimators is equal for N = 50 and N = 3000 and that the effect is driven by a difference in expected value, while the reverse is true.
+My conclusion is that the authors show the following: if an estimator is biased (here by the presence of measurement error), then the proportion of estimates that overestimate the true effect depends on the variance of the sampling distribution (which depends on $N$). While this is an interesting insight, the authors do not say this clearly anywhere in the paper. Instead, they use formulations that suggest that they refer to the expected value of the estimator, which does not depend on the sample size. To make things worse, they plot the estimates in a way that suggest that the variance of the estimators is equal for N = 50 and N = 3000 and that the effect is driven by a difference in expected value, while the reverse is true.
 
 The Long Version
 -----
@@ -23,11 +19,7 @@ I try to make an argument for my claims in the 'short version' above in 6 steps.
 
 **(1) The exact claim**
 
-The authors write 
-
-  *'In a low-noise setting, the theoretical results of Hausman and others correctly show that measurement error will attenuate co- efficient estimates. But we can demonstrate with a simple exercise that the opposite occurs in the presence of high noise and selection on statistical significance.' (p. 584/585)*. 
-    
-From this we can deduce that the authors claim that 'In a high noise setting, the presence of measurement error and selection on statistical significance leads to an increase in coefficient estimates'. However, the authors do not select on statistical significance in their simulation, hence we also drop this condition and arrive at the claim 'In a high noise setting, the presence of measurement error leads to an increase in coefficient estimates'. 
+The authors write *'In a low-noise setting, the theoretical results of Hausman and others correctly show that measurement error will attenuate co- efficient estimates. But we can demonstrate with a simple exercise that the opposite occurs in the presence of high noise and selection on statistical significance.' (p. 584/585)*. From this we can deduce that the authors claim that 'In a high noise setting, the presence of measurement error and selection on statistical significance leads to an increase in coefficient estimates'. However, the authors do not select on statistical significance in their simulation, hence we also drop this condition and arrive at the claim 'In a high noise setting, the presence of measurement error leads to an increase in coefficient estimates'. 
 
 What this statement means is unclear to me. Under the reasonable assumption that the authors did not make a fundamental mistake, the rest of this blogpost is about finding out what the authors could have meant.
 
@@ -132,7 +124,7 @@ I think the results stated in (5) are pretty far away from the claim in the pape
 
 The top row suggests that the difference between the low/high noise setting is because the whole cloud is 'shifted' downwards in the low noise setting. This would mean that the sampling distributions are shifted differently depending on the noise setting (sample size) when adding measurement error. On the other hand, when plotting the data in the same coordinate system, it is clear that the expected values do not change and that effect is driven by the differing variances of the estimator.
 
-And one more thing: in the right panel in the figure of the paper the authors plot $\mathcal{P}^\uparrow$ as a function of $N$. Note that from the discussion in (4) it follows that this value can *never* be larger than $\frac{1}{2}$. So there must have been some mistake.
+And one more thing: in the right panel in the figure of the paper the authors plot $\mathcal{P}^\uparrow$ as a function of $N$. Note that from the discussion in (4) it follows that this value can *never* be larger than $\frac{1}{2}$ as long as the estimator is unbiased or biased downwards. So there must have been some mistake.
 
 
 Conclusion
