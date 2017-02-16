@@ -44,14 +44,14 @@ $$ \Sigma = \begin{bmatrix}
 
 Note that if we scale both dimensions of the Gaussian to $\mu_1 = \mu_2 = 0$ and $\sigma_1 = \sigma_2 = 1$ the correlation coefficient is equal to the coefficient of the regression of $x_1$ on $x_2$ or vice versa. Thus all results obtained here also extend to the regression coefficient that is refered to in the paper.
 
-Now the authors 'add measurement error' to the two variables which consists of independent Gaussian noise with a variance $k > 0$, where $k$ is a constant. Notice that these two variables can also described by a bivariate Gaussian with covariance matrix $\Sigma^N$:
+Now the authors 'add measurement error' to the two variables which consists of independent Gaussian noise with a variance $k > 0$, where $k$ is a constant. Notice that these two variables can also described by a bivariate Gaussian with covariance matrix $\Sigma^{ME}$:
 
-$$ \Sigma^N = \begin{bmatrix}
+$$ \Sigma^{ME} = \begin{bmatrix}
       k & 0           \\[0.3em]
        0           & k
      \end{bmatrix} $$
 
-Notice that adding 'measurement error' as done by the authors is the same as adding these two Gaussians. Addition is a linear transformation and hence the resulting distribution is again a bivariate Gaussian distribution. Indeed, it turns out that the covariance matrix $\Sigma^A$ of the resulting bivariate Gaussian is the sum of the covariance matrices $\Sigma$ and $\Sigma^N$ of the two bivariate Gaussians:
+Notice that adding 'measurement error' as done by the authors is the same as adding these two Gaussians. Addition is a linear transformation and hence the resulting distribution is again a bivariate Gaussian distribution. Indeed, it turns out that the covariance matrix $\Sigma^A$ of the resulting bivariate Gaussian is the sum of the covariance matrices $\Sigma$ and $\Sigma^{ME}$ of the two bivariate Gaussians:
 
 
 $$ \Sigma^A = \begin{bmatrix}
@@ -79,7 +79,7 @@ $$
      \end{bmatrix}
 $$
 
-Note that $k > 0$ and hence $\frac{r}{k + 1} < r$ and hence the absolute value of the covariance is smaller in $\Sigma^{A_n}$ than in $\Sigma$ in the population.
+Note that $k > 0$ and hence $\frac{r}{k + 1} < r$ and hence the absolute value of the covariance is smaller in \Sigma^{A_{norm}} than in $\Sigma$ in the population.
 
 
 **(4) Properties of the Estimator**
@@ -106,7 +106,7 @@ We now make the crucial step by considering $\hat \sigma_{1,2}$ not as an estima
 
 We again look at the proportions of coefficient estimates that under- and overestimate the true effect $r$ (the dashed blue line in the figure). We first consider the low noise case: the first observation is that we overestimate $r$ *less often* than we overestimated $\frac{r}{k + 1}$, which implies $\mathcal{P}^\uparrow_L < \frac{1}{2}$. Again, this is the same as saying that the area under the curve on the right of the blue line is smaller than the area under the curve left to the blue line.
 
-For the high noise case the exact same is true, i.e. $\mathcal{P}^\uparrow_H < \frac{1}{2}$. Let's define $q := \frac{\mathcal{P}^\uparrow_H}{\mathcal{P}^\uparrow_L}$. Now what we *do* we have is that $\mathcal{P}^\uparrow_H > \mathcal{P}^\uparrow_L$ and hence $q > 1$. This means that in the presence of measurement error, we overestimate *absolutely less* in all settings, however, we overestimate *relatively more* in a high noise (small $N$) setting compared to a low noise (large $N$) setting. Let's let this sink in for a moment and then move on to the summary:
+For the high noise case the exact same is true, i.e. $\mathcal{P}^\uparrow_H < \frac{1}{2}$. Let's define $q := \frac{\mathcal{P}^\uparrow_H}{\mathcal{P}^\uparrow_L}$. Now what we *do* we have is that $\mathcal{P}^\uparrow_H > \mathcal{P}^\uparrow_L$ and hence $q > 1$. This means that in the presence of measurement error, we overestimate *absolutely less* often than we underestimate in all settings, however, we overestimate *relatively more* in a high noise (small $N$) setting compared to a low noise (large $N$) setting. Let's let this sink in for a moment and then move on to the summary:
 
 **(5) Summary**
 
