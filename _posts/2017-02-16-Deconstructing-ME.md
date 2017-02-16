@@ -130,6 +130,10 @@ Conclusion
 
 This was a fun opportunity to do some statistics detective work. However, the lack of clarity does potentially also do quite some harm by confusing the reader about important concepts. There is of course also the possibility that I just fully misunderstood their paper. In that case I hope the reader will point to my mistakes.
 
+The code to exactly reproduce the above figures can be found [here](https://raw.githubusercontent.com/jmbh/jmbh.github.io/master/figs/measurementerror/RCode_ME_comment.R).
+
+I also would like to thank [Fabian Dablander](https://twitter.com/fdabl) and [Peter Edelsbrunner](https://www.gess.ethz.ch/en/the-department/people/person-detail.html?persid=191462) for helpful comments on the paper. In addition, I would like to thank [Oisín Ryan](https://www.uu.nl/staff/ORyan/0) and [Joris Broere](https://www.uu.nl/medewerkers/JJBroere/0) for an interesting discussion on a train ride from Eindhoven to Utrecht yesterday, and I apologize to about 15 anonymous Dutch travelers because they had to endure a heated statistical debate.
+
 I am looking forward to comments, complaints and corrections.
 
 
