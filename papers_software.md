@@ -29,12 +29,16 @@ mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github
 
 cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/jmbh/cstab) [[CRAN]](https://www.rdocumentation.org/packages/cstab/versions/0.2)
 
+mousetrap: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/PascalKieslich/mousetrap) [[CRAN]](https://cran.r-project.org/web/packages/mousetrap/index.html)
+
+
 #### Under Development
 
-mta: Preprocessing and Analysis of mouse tracking data [[Github]](https://github.com/jmbh/mta)
 
 
 # Presentations
+
+Haslbeck J.M.B. (2017). Time-varying mixed graphical models. Psychoco 2017, Vienna, Austria. [[Slides]](http://jmbh.github.io/figs/About/TVG_Psychoco2017_online.pdf)
 
 Haslbeck J.M.B. (2016). Time-varying mixed graphical models. IOPS Winter Conference 2016, Groningen, The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_IOPS_Winter2016.pdf)
 
