@@ -1,0 +1,270 @@
+---
+title: "Estimating Psychopathological Networks"
+author: "jonashaslbeck@gmail.com"
+date: "March 15, 2017"
+output: ioslides_presentation
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Necessary Software
+
+- R: https://www.r-project.org
+- RStudio: https://www.rstudio.com
+
+
+Download Code (optional):
+
+http://jmbh.github.io/data/CS_WS_Utrecht_March15.Rmd
+
+
+## Install & Load Packages
+
+```{r, echo = TRUE, message=FALSE}
+
+# For Estimation
+# install.packages('mgm')
+library(mgm)
+
+# For Visualization
+# install.packages('qgraph') 
+library(qgraph)
+
+```
+
+
+## The Data
+
+Subset of 16 continuous variables of larger ESM dataset:
+
+- One individual diagnosed with Major Depression
+- Up to 10 measurements a day
+- Over 238 consecutive days
+- In total 1476 Measurement points
+
+Openly available: https://osf.io/j4fg8/
+
+We select 16 mood related variables: Feeling relaxed, feeling down, feeling irritated, feeling lonely, feeling anxious, feeling satisfied, etc.
+
+
+## The Data
+
+<center><img src="images/data_screenshot.png" height="370px" /></center>
+
+
+## Load Data
+
+```{r, echo = TRUE}
+
+data <- read.csv('http://jmbh.github.io/data/mood_data.csv', 
+                 header = TRUE)
+
+data[1:3, 1:8]
+
+data_mood <- data[, -c(1:3)] # delete id variables
+dim(data_mood)
+p <- ncol(data_mood)
+
+
+```
+
+
+## Estimate Mixed Graphical Model
+
+```{r, echo = TRUE, message  = FALSE}
+
+mgm_obj <- mgmfit(data = data_mood, 
+               type = rep('g', p), 
+               lev = rep(1, p),
+               d = 1,
+               lambda.sel = 'CV', 
+               pbar = FALSE)
+
+# Subset of weighted adjacency matrix
+round(mgm_obj$wadj, 2)[1:4, 1:4]
+
+```
+
+
+## Get Signs of Pairwise Interactions
+
+```{r, echo = TRUE}
+
+# Add signs to weighted adjacency matrix
+wadj <- mgm_obj$wadj * mgm_obj$signs
+wadj[is.na(wadj)] <- 0
+
+round(wadj, 2)[1:4, 1:4]
+
+```
+
+
+## Visualize as Network
+
+```{r, echo = TRUE}
+
+Q <- qgraph(wadj, layout = 'spring', labels = colnames(data_mood))
+
+
+
+
+```
+
+
+## Compute Prediction Error
+
+```{r, echo = TRUE}
+
+pred_obj <- predict(mgm_obj, data_mood, error.continuous = 'VarExpl')
+
+pred_obj$error[1:10,]
+
+```
+
+
+## Visualize Network with Prediction Error
+
+```{r, echo = TRUE}
+
+qgraph(wadj, layout = 'spring', labels = colnames(data_mood), 
+       pie = pred_obj$error$Error, pieColor = 'darkgrey')
+
+
+```
+
+
+## Estimate lagged (VAR) model
+
+```{r, echo = TRUE, messages=FALSE}
+
+var_obj <- var.mgm(data = data_mood, 
+               type = rep('g', p), 
+               lev = rep(1, p),
+               lags = 1,
+               lambda.sel = 'CV', 
+               pbar = FALSE)
+
+round(var_obj$wadj, 2)[1:4, 1:4]
+
+```
+
+## Get Signs of Lag-1 effects
+
+```{r, echo = TRUE}
+
+# Add signs to lagged effects
+evar <- var_obj$wadj * var_obj$signs
+evar[is.na(evar)] <- 0
+
+round(evar, 2)[1:4, 1:4]
+
+```
+
+## Visualize VAR Network
+
+```{r, echo = TRUE}
+
+qgraph(evar, layout = 'spring', labels = colnames(data_mood))
+
+```
+
+
+
+## Assumption of Stationarity
+
+<center><img src="images/Stationary.png" height="370px" /></center>
+
+
+## Assumption of Stationarity?
+
+<center><img src="images/UnStationary.png" height="370px" /></center>
+
+
+## Specification of Time Vector
+
+```{r, echo = TRUE, fig.width=4, fig.height=3}
+
+# Calculate Time Vector
+dates <- as.character(data$date)
+times <- as.character(data$beeptime)
+x <- paste(dates, times)
+date_time <- strptime(x, "%d/%m/%y %H:%M")
+timeFromZero <- date_time - date_time[1]
+timeFromZero <- as.numeric(timeFromZero)
+plot(timeFromZero, type = 'l') # how irregular?
+
+
+```
+
+
+## Estimating time-varying MGM
+
+```{r, echo = TRUE}
+
+tv_mgm <- tv.mgmfit(data = data_mood, 
+                    type = rep('g', p), 
+                    lev = rep(1, p), 
+                    timepoints = timeFromZero,
+                    tsteps = 15,
+                    bandwidth = .1,
+                    d = 1,
+                    pbar = FALSE)
+
+# Add signs
+tvwadj <- tv_mgm$wadj * tv_mgm$sign
+tvwadj[is.na(tvwadj)] <- 0
+
+
+```
+
+
+## Visualize tv MGM at t = 1, 8, 15
+
+```{r, echo = TRUE, fig.width=8, fig.height=3}
+
+cln <- colnames(data_mood)
+
+par(mfrow=c(1,3))
+qgraph(tvwadj[, , 1], layout = Q$layout, labels = cln, title = 'Time = 1')
+qgraph(tvwadj[, , 8], layout = Q$layout, labels = cln, title = 'Time = 8')
+qgraph(tvwadj[, , 15], layout = Q$layout, labels = cln, title = 'Time = 15')
+
+```
+
+
+## Visualize tv MGM: Specific edges
+
+```{r, echo = TRUE, fig.width=7, fig.height=4}
+plot(tvwadj[2, 5, ], type = 'l', ylim = c(-.2,.8),
+     xlab = 'Time', ylab = 'Parameter value')
+lines(tvwadj[5, 15, ], col = 'red')
+legend('topleft', c('Down - Lonely', 'Lonely - Worrying'), 
+       lwd=c(1, 1), col = c('black', 'red'))
+
+```
+
+
+## Other features
+
+- Mixed Variables
+- Higher-order interactions
+- Time-lagged (VAR) models with lag k > 1
+
+More Info:
+
+- Paper & Tutorials: http://jmbh.github.io
+- Package: https://cran.r-project.org/package=mgm
+
+
+
+
+
+
+
+
+
+
+
