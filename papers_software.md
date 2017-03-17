@@ -42,9 +42,9 @@ mousetrap: Functions for importing, preprocessing, analyzing, aggregating, and v
 
 # Presentations
 
-Haslbeck J.M.B. (2017). Estimating Psychopathological Networks. [[Complex Systems Studies Workshop]](https://www.uu.nl/en/events/complex-systems-studies-workshop-networks), Utrecht, Netherlands. [[Slides Talk]](http://jmbh.github.io/figs/About/UCW17_talk.pdf) [[Workshop HTML]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.html) [[Workshop Markdown]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.Rmd)
+Haslbeck J.M.B. (2017). Estimating Psychopathological Networks. [Complex Systems Studies Workshop](https://www.uu.nl/en/events/complex-systems-studies-workshop-networks), Utrecht, Netherlands. [[Slides Talk]](http://jmbh.github.io/figs/About/UCW17_talk.pdf) [[Workshop HTML]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.html) [[Workshop Markdown]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.Rmd)
 
-Haslbeck J.M.B. (2017). Time-varying mixed graphical models. [[Psychoco 2017]](https://eeecon.uibk.ac.at/psychoco/2017/index.html), Vienna, Austria. [[Slides]](http://jmbh.github.io/figs/About/TVG_Psychoco2017_online.pdf)
+Haslbeck J.M.B. (2017). Time-varying mixed graphical models. [Psychoco 2017](https://eeecon.uibk.ac.at/psychoco/2017/index.html), Vienna, Austria. [[Slides]](http://jmbh.github.io/figs/About/TVG_Psychoco2017_online.pdf)
 
 Haslbeck J.M.B. (2016). Time-varying mixed graphical models. [[IOPS Winter Conference 2016, Groningen]](http://www.iops.nl/conferences/previous-iops-conferences/), The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_IOPS_Winter2016.pdf)
 
