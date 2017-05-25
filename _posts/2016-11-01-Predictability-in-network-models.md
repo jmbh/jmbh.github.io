@@ -4,7 +4,7 @@ title: Predictability in Network Models
 category: r
 ---
 
-Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in [almost any area of science](http://www.sachaepskamp.com/files/NA/NetworkTakeover.pdf). The majority of these applications focuses on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can an arbitrarily picked node in the network predicted by all remaining nodes in the network?
+Network models have become a popular way to abstract complex systems and gain insights into relational patterns among observed variables in [many areas of science](http://www.sachaepskamp.com/files/NA/NetworkTakeover.pdf). The majority of these applications focuses on analyzing the structure of the network. However, if the network is not directly observed (Alice and Bob are friends) but *estimated* from data (there is a relation between smoking and cancer), we can analyze - in addition to the network structure - the predictability of the nodes in the network. That is, we would like to know: how well can a given node in the network predicted by all remaining nodes in the network?
 
 Predictability is interesting for several reasons:
 
@@ -37,12 +37,14 @@ Estimate Network Model
 We estimate a [Mixed Graphical Model (MGM)](http://www.jmlr.org/proceedings/papers/v33/yang14a.pdf), where we treat all variables as continuous-Gaussian variables. Hence we set the type of all variables to `type = 'g'` and the number of categories for each variable to 1, which is the default for continuous variables `lev = 1`:
 
 {% highlight r %}
-install.packages('mgm')
 library(mgm)
-fit_obj <- mgmfit(data = data, 
-                  type = rep('g', p),
-                  lev = rep(1, p),
-                  rule.reg = 'OR')
+
+set.seed(1)
+fit_obj <- mgm(data = data, 
+               type = rep('g', p),
+               level = rep(1, p),
+               lambdaSel = 'CV',
+               ruleReg = 'OR')
 {% endhighlight %}
 
 For more info on how to estimate Mixed Graphical Models using the mgm package see [this previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) or the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf).
@@ -54,33 +56,34 @@ Compute Predictability of Nodes
 After estimating the network model we are ready to compute the predictability for each node. Node wise predictability (or error) can be easily computed, because the graph is estimated by taking each node in turn and regressing all other nodes on it. As a measure for predictability we pick the propotion of explained variance, as it is straight forward to interpret:  0 means the node at hand is not explained at all by other nodes in the nentwork, 1 means perfect prediction. We centered all variables before estimation in order to remove any influence of the intercepts. For a detailed description of how to compute predictions and to choose predictability measures, [check out this preprint](https://arxiv.org/abs/1610.09108). In case there are additional variable types (e.g. categorical) in the network, we can choose an appropriate measure for these variables (e.g. % correct classification, see `?predict.mgm`).
 
 {% highlight r %}
-pred_obj <- predict(fit_obj, data, 
-                    error.continuous = 'VarExpl')
+
+pred_obj <- predict(object = fit_obj, 
+                    data = data, 
+                    errorCon = 'R2')
 
 > pred_obj$error
-    Variable Error ErrorType
-1  intrusion 0.583   VarExpl
-2     dreams 0.590   VarExpl
-3      flash 0.513   VarExpl
-4      upset 0.615   VarExpl
-5    physior 0.601   VarExpl
-6    avoidth 0.648   VarExpl
-7   avoidact 0.626   VarExpl
-8    amnesia 0.327   VarExpl
-9    lossint 0.419   VarExpl
-10   distant 0.450   VarExpl
-11      numb 0.333   VarExpl
-12    future 0.450   VarExpl
-13     sleep 0.531   VarExpl
-14     anger 0.483   VarExpl
-15    concen 0.604   VarExpl
-16     hyper 0.602   VarExpl
-17   startle 0.605   VarExpl
+    Variable Error.R2
+1  intrusion    0.639
+2     dreams    0.661
+3      flash    0.601
+4      upset    0.636
+5    physior    0.627
+6    avoidth    0.686
+7   avoidact    0.681
+8    amnesia     0.41
+9    lossint     0.52
+10   distant    0.498
+11      numb    0.451
+12    future     0.54
+13     sleep    0.565
+14     anger    0.562
+15    concen    0.638
+16     hyper    0.676
+17   startle    0.626
 
 {% endhighlight %}
 
 We calculated the percentage of variance explained in each of the nodes in the network. Next, we visualize the estimated network and discuss its structure in relation to explained variance.
-
 
 Visualize Network & Predictability
 ------
@@ -88,21 +91,20 @@ Visualize Network & Predictability
 We provide the estimated weighted adjacency matrix and the node wise predictability measures as arguments to `qgraph()` ...
 
 {% highlight r %}
-install.packages('qgraph')
 library(qgraph)
-jpeg(paste0(figDir, 'McNallyNetwork.jpg'), width = 1500, height = 1500)
-qgraph(fit_obj$wadj, # weighted adjacency matrix as input
+
+qgraph(fit_obj$pairwise$wadj, # weighted adjacency matrix as input
        layout = 'spring', 
-       pie = pred_obj$error$Error, # provide errors as input
+       pie = pred_obj$error[,2], # provide errors as input
        pieColor = rep('#377EB8',p),
-       node.color = fit_obj$edgecolor,
+       node.color = fit_obj$pairwise$edgecolor,
        labels = colnames(data))
-dev.off()
+       
 {% endhighlight %}
 
 ... and get the following network visualization:
 
-![center](http://jmbh.github.io/figs/2016-11-01-Predictability-in-network-models/McNellyNetwork.jpg) 
+![center](http://jmbh.github.io/figs/2016-11-01-Predictability-in-network-models/McNellyNetwork.png) 
 
 [[Click here for the original post with larger figures]](http://jmbh.github.io/Predictability-in-network-models/)
 
@@ -127,41 +129,50 @@ So far we looked into how well we can predict nodes by all other nodes within ou
 We first split the data in two parts: a training part (60% of the data), which we use to estimate the network model and a test part, which we will use to compute predictability measures on:
 
 {% highlight r %}
-
 set.seed(1)
-ind <- sample(c(TRUE,FALSE), prob=c(.6, .4), size=nrow(data), replace=T) # divide data in 2 parts (60% training set, 40% test set)
+ind <- sample(c(TRUE,FALSE), prob=c(.6, .4), size=nrow(data), replace=T)
 {% endhighlight %}
 
 Next, we estimate the network only on the training data and compute the predictability measure both on the training data and the test data:
 
 {% highlight r %}
-fit_obj_cv <- mgmfit(data = data[ind,], 
-                    type = rep('g', p),
-                    lev = rep(1, p),
-                    rule.reg = 'OR')
+set.seed(1)
+fit_obj_ts <- mgm(data = data[ind,], 
+               type = rep('g', p),
+               level = rep(1, p),
+               lambdaSel = 'CV',
+               ruleReg = 'OR')
 
-pred_obj_train <- predict(fit_obj_cv, data[ind,], error.continuous = 'VarExpl') # Compute Preditions on training data 60%
-pred_obj_test <- predict(fit_obj_cv, data[!ind,], error.continuous = 'VarExpl')# Compute Predictions on test data 40%
+# Compute Preditions on training data 60%
+pred_obj_train <- predict(object = fit_obj_ts, 
+                          data = data[ind,], 
+                          errorCon = 'R2')
+
+# Compute Predictions on test data 40%
+pred_obj_test <- predict(object = fit_obj_ts, 
+                          data = data[!ind,], 
+                          errorCon = 'R2')
 
 {% endhighlight %}
 
 We now look at the mean predictability over nodes for the training- and test dataset:
 
 {% highlight r %}
-mean(pred_obj_train$error$Error) # mean explained variance training data
-[1] 0.5384118
+mean(pred_obj_train$error[,2]) # mean explained variance training data
+[1] 0.6258235
 
-mean(pred_obj_test$error$Error) # mean explained variance test data
-[1] 0.4494118
+mean(pred_obj_test$error[,2]) # mean explained variance test data
+[1] 0.4915882
+
 {% endhighlight %}
 
-As to be expected, the explained variance is higher in the training dataset. This is because we fit the model to structure that is specific to the training data and is not present in the population (noise). Note that both means are lower than the mean we would get by taking the mean of the explained variances above, because we used less observation to estimate the model and hence have less power to detect edges.
+As expected, the explained variance is higher in the training dataset. This is because we fit the model to structure that is specific to the training data and is not present in the population (noise). Note that both means are lower than the mean we would get by taking the mean of the explained variances above, because we used less observation to estimate the model and hence have less power to detect edges.
 
-While the explained variance values are lower in the test set, there is a strong correlation between the explained variance of a node in the training- and the test set
+While the explained variance values are lower in the test set, there is a positive relationship between the explained variance of a node in the training- and the test set
 
 {% highlight r %}
-cor(pred_obj_train$error$Error, pred_obj_test$error$Error)
-[1] 0.8018155
+cor(pred_obj_train$error[,2], pred_obj_test$error[,2])
+[1] 0.5539814
 {% endhighlight %}
 
 which means that if a node has high explained variance in the training set, it tends to also have a high explained variance in the test set.
@@ -188,130 +199,7 @@ Now, to compute predictions and hence a measure of predictability we use the reg
 
 Hence, when using the OR-rule, we *underestimate* the true predictability given the graph and hence get a *conservative* estimate of predictability in the graph. This is why I chose the OR-rule above.
 
-Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? The following example shows that this can't be done easily, because tinkering with the parameters can destroy the prediction model. We show this for the situation of the AND-rule, where we set the parameter $$\beta_{32}$$ to zero (because $$\beta_{23}$$ is zero):
-
-We generate a network of three variables, $$x_1$$, $$x_2$$, $$x_3$$, with edges between $$x_1$$-$$x_3$$ and $$x_2$$-$$x_3$$, where $$x_1$$ is continuous and $$x_2$$, $$x_3$$ are binary:
-
-{% highlight r %}
-n <- 60 # number of observations
-set.seed(7) # selected to get the pathological case
-x1 <- rnorm(n)
-x2 <- rnorm(n)
-x3 <- .7*x1 + 0.3*x2 + 0.7*rnorm(n) # linear combination of x1, x2 plus some noise
-
-# Binarize variable x2, x3
-x2 <- scale(x2)
-x3 <- scale(x3)
-x2b <- rep(NA, n)
-x2b[x2< -.8] <- 0
-x2b[x2> -.8] <- 1
-x3b <- rep(NA, n)
-x3b[x3< -.8] <- 0
-x3b[x3> -.8] <- 1
-
-data <- cbind(x1, x2b, x3b) # Combine in one matrix
-
-# Check marginal probability of 1
-mean(x2b)
-[1] 0.7833333
-mean(x3b)
-[1] 0.7833333
-{% endhighlight %}
-
-We now fit a mixed graphical model:
-
-{% highlight r %}
-library(mgm)
-fit_obj <- mgmfit(data = data, 
-                  type = c('g', 'c', 'c'),
-                  lev = c(1, 2, 2), 
-                  rule.reg = 'AND')
-                  
-fit_obj$wadj
-          [,1] [,2]      [,3]
-[1,] 0.0000000    0 0.7017516
-[2,] 0.0000000    0 0.0000000
-[3,] 0.7017516    0 0.0000000
-
-fit_obj$mpar.matrix
-           [,1] [,2]       [,3] [,4]      [,5]
-[1,]         NA   NA  0.0000000   NA 0.7943015
-[2,]  0.0000000   NA         NA   NA 0.0000000
-[3,]  0.0000000   NA         NA   NA 0.0000000
-[4,] -0.6092017   NA -0.7593007   NA        NA
-[5,]  0.6092017   NA  0.7593007   NA        NA
-
-{% endhighlight %}
-
-
-From the weighted adjacency matrix `fit_obj$wadj` we see that there is only one edge present between $$x_1$$ and $$x_3$$. However, when looking at the model parameter matrix `fit_obj$mpar.matrix` we see that the parameter $$\beta_{32}$$ of the regression (3) was actually nonzero, but the edge was set to be absent by the AND-rule because the parameter $$\beta_{23}$$ in regression (2) was zero (for an explanation of the the model parameter matrix, see [here](http://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/))
-
-We now do the following: we first go through all steps of using the parameters of regression model (3) to compute predictions for $$x_3$$. We will see that these steps lead to the exactly the same predictions as the function `predict.mgm()`. Then we modify the regression model according to the graph obtained with the AND-rule and set the regression parameter $$\beta_{32}$$ to zero - we will see that this 'destroys' the parameter scaling and leads to a predictability that is *worse than the intercept model*.
-
-We first show how to compute predictions for x3 using the *unmodified* model:
-
-{% highlight r %}
-# Getting Parameters out of MGM fit object:
-threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
-threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
-
-beta_c01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
-beta_c02 <- fit_obj$node.models[[3]]$coefs[[1]][3]
-beta_c11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
-beta_c12 <- fit_obj$node.models[[3]]$coefs[[2]][3]
-
-# Computing Potentials for each Category
-potentials_0 <- exp(threshold_0 + beta_c01 * x1n +  beta_c02 * x2b)
-potentials_1 <- exp(threshold_1 + beta_c11 * x1n +  beta_c12 * x2b)
-
-# Normalize and get Probabilities
-probability_0 <- potentials_0 / (potentials_0 + potentials_1)
-probability_1 <- potentials_1 / (potentials_0 + potentials_1)
-probabilities <- cbind(probability_0, probability_1)
-
-# Predict class
-x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to original labels 0/1
-
-# just for checking: do same with predict.mgm() function
-x3_predicted_mgm <- as.numeric(predict(fit_obj, data)$pred[,3])
-mean(x3_predicted == x3_predicted_mgm) # exactly the same
-[1] 1
-
-# compute % correct classification (accuracy):
-mean(x3_predicted == x3b) 
-[1] 0.85
-{% endhighlight %}
-
-We get an accuracy of 0.85. Note that the intercept model alone would already give us an accuracy of 0.78 (see above). Note that here we dropped the subscript for the betas indicating that we predict $$x_3$$. Instead we add a subscript $$c0$$, $$c1$$ to indicate the predicted category. Also note that $$\beta_{c02}$$ and $$\beta_{c12}$$ correspond to $$\beta_{32}$$ in the above notation; we have two parameters, because we have a binary predictor (for details about this symmetric approach to multinomial regression, see the [glmnet paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/)). We now set the parameters between $$x_2$$ and $$x_3$$ ($$\beta_{c02}$$ and $$\beta_{c12}$$) to zero and compute predictions in exactly the same way as before:
-
-{% highlight r %}
-# Getting Parameters out of MGM:
-threshold_0 <- fit_obj$node.models[[3]]$coefs[[1]][1]
-threshold_1 <- fit_obj$node.models[[3]]$coefs[[2]][1]
-
-beta_c01 <- fit_obj$node.models[[3]]$coefs[[1]][2]
-beta_c11 <- fit_obj$node.models[[3]]$coefs[[2]][2]
-
-# Computing Potentials for each Category
-potentials_0 <- exp(threshold_0 + beta_c01 * x1n) # predictor x2 deleted
-potentials_1 <- exp(threshold_1 + beta_c11 * x1n) # predictor x2 deleted
-
-# Normalize and get Probabilities
-probability_0 <- potentials_0 / (potentials_0 + potentials_1)
-probability_1 <- potentials_1 / (potentials_0 + potentials_1)
-probabilities <- cbind(probability_0, probability_1)
-
-# Predict class
-x3_predicted <- apply(probabilities, 1,  which.max) - 1 # minus one to get to original labels 0/1
-
-# compute % correct classification:
-mean(x3_predicted == x3b) 
-[1] 0.75
-{% endhighlight %}
-
-We see that we get an accuracy of .75, which is *lower* than the accuracy we would expect from the intercept model (0.78). However, we *should* get a higher accuracy than 0.78, because we know that $$x_1$$ *is* a predictor of $$x_3$$. This shows that we cannot simply delete parameters from a regression model. We could show a similar example by adding nonzero predictors.
+Okay, but why don't we adjust the parameters of the regression models 1-3 by setting parameters to zero (AND-rule) or filling in parameters (OR-rule)? This is not possible, because tinkering with the parameters will destroy the prediction model in most situations.
 
 A possible way around this would be to take the estimated graph and then re-estimate the graph (by performing p regressions) but only use those variables as predictors that were connected to the predicted node in the initial graph. However, this 2-stage procedure would lead to a (possibly) completely different scaling for the estimation of each of the neighborhoods of the different nodes. This is likely to lead to an algorithm that does not consistently recover the true graph/network.
-
-
 
