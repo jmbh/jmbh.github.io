@@ -8,99 +8,84 @@ Determining conditional independence relationships through undirected graphical 
 
 As an example, take a typical dataset in the social, behavioral and medical sciences, where one is interested in interactions, for example between gender or country (categorical), frequencies of behaviors or experiences (count) and the dose of a drug (continuous). Other examples are Internet-scale marketing data or high-throughput sequencing data. 
 
-There are methods available to estimate mixed graphical models from mixed continuous data, however, these usually have two drawbacks: first, there is a possible information loss due to necessary transformations and second, they cannot incorporate (nominal) categorical variables (for an overview see [here](http://arxiv.org/abs/1510.05677)). A [new method](http://arxiv.org/abs/1510.06871) implemented in the R-package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) addresses these limitations. 
+There are methods available to estimate mixed graphical models from mixed continuous data, however, these usually have two drawbacks: first, there is a possible information loss due to necessary transformations and second, they cannot incorporate (nominal) categorical variables (for an overview see [here](http://arxiv.org/abs/1510.05677)). When using the recently introduced class of Mixed Graphical Models (MGMs), we avoid this problem because we are able to model each variable on its proper domain.
 
+In the following, we use the R package [mgm](https://cran.r-project.org/web/packages/mgm/index.html) to estimate a Mixed Graphical Model on a data set consisting of questionnaire responses of individuals diagnosed with Autism Spectrum Disorder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
 
-In the following, we use the mgm-package to estimate the conditional independence network in a dataset of questionnaire responses of individuals diagnosed with Autism Spectrum Disorder. This dataset includes  variables of different domains, such as age (continuous), type of housing (categorical) and number of treatments (count).
-
-
-The dataset consists of responses of 3521 individuals to a questionnaire including 28 variables of domains continuous, count and categorical and is available [here](https://github.com/jmbh/AutismData).
+The dataset consists of responses of 3521 individuals diagnosed with Autism Spectrum Disorder (ASD) to a questionnaire including 28 variables of domains continuous, count and categorical and is automatically loaded with the [mgm](https://cran.r-project.org/web/packages/mgm/index.html) package.
 
 
 {% highlight r %}
 
-datalist <- readRDS('autism_datalist.RDS')
-data <- datalist$data
-type <- datalist$type
-lev <- datalist$lev
+> dim(autism_data_large$data)
+[1] 3521   28
 
-> dim(data)
- [1] 3521   28
-
-> round(data[1:4, 1:5],2)
-      sex IQ agediagnosis opennessdiagwp successself
- [1,]   1  6        -0.96              1        2.21
- [2,]   2  6        -0.52              1        6.11
- [3,]   1  5        -0.71              2        5.62
- [4,]   1  6        -0.45              1        8.00
+> autism_data_large$data[1:4, 1:5]
+  Gender IQ Age diagnosis Openness about Diagnosis Success selfrating
+1      1  6    -0.9605781                        1               2.21
+2      2  6    -0.5156103                        1               6.11
+3      1  5    -0.7063108                        2               5.62
+4      1  6    -0.4520435                        1               8.00
 
 {% endhighlight %}
 
-We used our knowledge about the variables to specify the domain (type) of each variable and the number of categories for categorical variables (for non-categorical variables we choose 1). "c", "g", "p" stands for categorical, Gaussian and Poisson (count), respectively:
+We use our knowledge about the variables to specify the domain (type) of each variable and the number of levels for categorical variables (for non-categorical variables we choose 1 by convention). "c", "g", "p" stands for categorical, Gaussian and Poisson (count), respectively:
 
 {% highlight r %}
 
-> type
+> autism_data_large$type
  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p"
 [14] "c" "p" "c" "g" "p" "p" "p" "p" "g" "g" "g" "g" "g"
 [27] "c" "g"
 
-> lev
+> autism_data_large$level
  [1] 2 1 1 2 1 5 3 1 1 1 1 1 1 2 1 4 1 1 1 1 1 1 1 1 1 1 3
 [28] 1
 
 {% endhighlight %}
 
-The estimation algorithm requires us to make an assumption about the highest order interaction in the true graph. Here we assume that there are at most pairwise interactions in the true graph and set d = 2. The algorithm includes an L1-penalty to obtain a sparse estimate. We can select the regularization parameter lambda using cross validation (CV) or the Extended Bayesian Information Criterion (EBIC). Here, we choose the EBIC, which is known to be a bit more conservative than CV but is computationally faster.
+https://arxiv.org/abs/1510.06871
 
+[mgm](https://cran.r-project.org/web/packages/mgm/index.html) allows to estimate k-order MGMs (for more details see [here](https://arxiv.org/abs/1510.06871)). Here we are interested in fitting a pairwise MGM, and we therefore choose `k = 2`. In order to get a sparse graph, we use L1-penalized regression, which minimizes the negative log likelihood together with the L1 norm of the parameter vector. This penality is weighted by a parameter $$\lambda$$, which can be selected either using cross validation (`lambdaSel = "CV"`) or an information criterion, such as the Extended Bayesian Information Criterion (EBIC) (`lambdaSel = "EBIC"`). Here, we choose to use the EBIC with a hyper parameter of $$\gamma = 0.25$$.
 
 {% highlight r %}
 library(mgm)
 
-fit <- mgmfit(data, type, cat, lambda.sel="EBIC", d=2)
+fit_ADS <- mgm(data = autism_data_large$data, 
+               type = autism_data_large$type,
+               level = autism_data_large$level,
+               k = 2, 
+               lambdaSel = 'EBIC', 
+               lambdaGam = 0.25)
 
 {% endhighlight %}
 
 
-The fit function returns all estimated parameters and a weighted and unweighted (binarized) adjacency matrix. Here we use the [qgraph](http://www.jstatsoft.org/article/view/v048i04/v48i04.pdf) package to visualize the graph:
-
+The fit function returns all estimated parameters and a weighted adjacency matrix. Here we use the [qgraph](http://www.jstatsoft.org/article/view/v048i04/v48i04.pdf) package to visualize the weighted adjacency matrix. The separately provide the edge color for each edge, which indicates the sign of the edge-parmeter, if defined. For more info on the signs of edge-parameters and when they are defined, see the [mgm paper](https://arxiv.org/abs/1510.06871) or the help file `?mgm`. We also provide a grouping of the variables and associated colors, both of which are contained in the data list `autism_data_large`.
 
 {% highlight r %}
-
-# define group labels
-groups_type <- list("Demographics"=c(1,14,15,28), 
-                    "Psychological"=c(2,4,5,6,18,20,21),
-                    "Social environment" = c(7,16,17,19,26,27),
-                    "Medical"=c(3,8,9,10,11,12,13,22,23,24,25))
-
-# pick some nice colors
-group_col <- c("#72CF53", "#53B0CF", "#FFB026", "#ED3939")
 
 # plot
 library(qgraph)
 
-qgraph(fit$adj, 
-       vsize=3.5, 
-       esize=4, 
-       layout="spring", 
-       edge.color = rgb(33,33,33,100, maxColorValue = 255), 
-       color=group_col,
-       border.width=1.5,
-       border.color="black",
-       groups=groups_type,
-       nodeNames=datalist$colnames,
-       legend=TRUE, 
-       legend.mode="style2",
-       legend.cex=.5)
+qgraph(fit_ADS$pairwise$wadj, 
+       layout = 'spring', repulsion = 1.3,
+       edge.color = fit_ADS$pairwise$edgecolor, 
+       nodeNames = autism_data_large$colnames,
+       color = autism_data_large$groups_color, 
+       groups = autism_data_large$groups_list,
+       legend.mode="style2", legend.cex=.4, 
+       vsize = 3.5, esize = 15)
              
 {% endhighlight %}
 
-![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/JSS_autism_figure.jpg) 
+![center](http://jmbh.github.io/figs/2015-10-31-Estimation-of-mixed-graphical-models/Fig_mgm_application_Autism.png) 
+
+The layout is created using the [Fruchterman-Reingold algorithm](https://en.wikipedia.org/wiki/Force-directed_graph_drawing), which places nodes such that all the edges are of more or less equal length and there are as few crossing edges as possible. Green edges indicate positive relationships, red edges indicate negative relationships and grey edges indicate relationships involving categorical variables for which no sign is defined. The width of the edges is proportional to the absolute value of the edge-parameter. The node color maps to the different domains Demographics, Psychological, Social Environment and Medical.
+
+We observe, for instance, a strong positive relationship between age and age of diagnosis, which makes sense because the two variables are logically connected (one cannot be diagnosed before being born).The negative relationship between number of unfinished educations and satisfaction at work seems plausible, too. Well-being is strongly connected in the graph, with the strongest connections to satisfaction with social contacts and integration in society. These three variables are categorical variables with 5, 3 and 3 categories, respectively. In order to investigate the exact nature of the interaction, one needs to look up all parameters in `fit_ADS$rawfactor$indicator` and `fit_ADS$rawfactor$weights`.
+
+For more examples on how to use the mgm package see the helpfiles in the package or the [mgm paper](https://arxiv.org/abs/1510.06871). For a tutorial on how to interpret interactions between categorical variables in MGMs see [here](https://jmbh.github.io/Interactions-between-categorical-Variables-in-mixed-graphical-models/). For a tutorial on how to compute nodewise predictability in MGMs see [here](https://jmbh.github.io/Predictability-in-network-models/).
 
 
-The data to reproduce this analysis can be found [here](https://github.com/jmbh/AutismData). More information about estimating mixed graphical models and the [mgm packagepackage](https://cran.r-project.org/web/packages/mgm/index.html) can be found [in this paper](http://arxiv.org/abs/1510.06871). [Here](http://arxiv.org/abs/1510.05677) is a paper explaining the theory behind the implemented algorithm.
-
-Computationally efficient methods for Gaussian data are implemented in the [huge](https://cran.r-project.org/web/packages/huge/index.html) package and the [glasso](https://cran.r-project.org/web/packages/glasso/index.html) package. For binary data, there is the [IsingFit](https://cran.fhcrc.org/web/packages/IsingFit/index.html) package.
-
-Great free resources about graphical models are Chapter 17 in the freely available book [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/local.ftp/Springer/OLD/ESLII_print4.pdf) and the Coursera course [Probabilistic Graphical Models](https://www.coursera.org/course/pgm).
 
