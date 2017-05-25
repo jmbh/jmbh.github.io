@@ -5,124 +5,127 @@ category: r
 ---
 
 {:center: style="text-align: center"}
-In a [previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) we recovered the conditional independence structure in a dataset of *mixed variables* describing different aspects of the life of individuals diagnosed with Autism Spectrum Disorder, using the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html). While depicting the independence structure in multivariate data set gives a first overview of the relations between variables, in most applications we interested in the exact parameter estimates. For instance, for interactions between continuous variables, we would like to know the sign and the size of parameters - i.e., if the nodes in the graph are positively or negatively related, and how strong these associations are. In the case of interactions between categorical variables, we are interested in the signs and sizes of the set of parameters that describes the exact non-linear relationship between variables.
+In a [previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) we estimated a Mixed Graphical Model (MGM) on a dataset of *mixed variables* describing different aspects of the life of individuals diagnosed with Autism Spectrum Disorder, using the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html). For interactions between continuous variables, the weighted adjacency matrix fully describes the underlying interaction parameter. Correspondinly, the parameters are represented in the graph visualization: the width of the edges is proportional to the absolute value of the parameter, and the edge color indicates the sign of the parameter. This means that we can clearly interpret an edge between two continuous variables as a positive or negative linear relationship of some strength.
 
-In this post, we take the analysis a step further and show how to use the output of the [mgm package](https://cran.r-project.org/web/packages/mgm/index.html) to take a closer look at the recovered dependencies. Specifically, we will recover the sign and weight of interaction parameter between continuous variables and zoom into interactions between categorical and continuous variables and between two categorical variables. Both the dataset and the code are available on [Github](https://github.com/jmbh/AutismData).
+Interactions between categorical variables, however, can involve several parameter that can describe non-linear relationships. A present edge between two categorical variables, or between a categorical and a continuous variable only tells us that there is *some* interaction. In order to find out the exact nature of the interaction, we have to look at all estimated parameters. This is what this blog post is about.
 
-We start out with the conditional dependence graph estimated in the previous post, however, now with *variables grouped by their type*:
+We first re-estimate the MGM on the Autism Spectrum Disorder (ADS) dataset from this [previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/):
 
-![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Autism_VarTypes.jpg) 
-
-We obtained this graph by fitting a mixed graphical model using the mgmfit() function as in the [previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/):
 
 {% highlight r %}
 
-# load data; available on Github
-datalist <- readRDS('autism_datalist.RDS')
-data <- datalist$data
-type <- datalist$type
-lev <- datalist$lev
-
-library(devtools)
-install_github('jmbh/mgm') # we need version 1.1-6
-library(mgm)
-
-fit <- mgmfit(data, type, lev, lambda.sel = "EBIC", d = 2)
+set.seed(1)
+fit_ADS <- mgm(data = autism_data_large$data, 
+               type = autism_data_large$type,
+               level = autism_data_large$level,
+               k = 2, 
+               lambdaSel = 'EBIC', 
+               lambdaGam = 0.25)
 
 {% endhighlight %}
 
-
-Display Edge Weights and Signs
-------
-
-We now also display the weights of the dependencies. In addition, for interactions between continuous (Gaussian, Poisson) variables, we are able determine the sign of the dependency, as it only depends on one parameter. The signs are saved in `fit$signs`. To make plotting easier, there is also a matrix `fit$edgecolor`, which gives colors to positive (green), negative (red) and undefined (grey) edge signs. 
-
-Now, to plot the weighted adjacency matrix with signs (where defined), we give `fit$edgecolor` as input to the argument edge.color in [qgraph](https://cran.r-project.org/web/packages/qgraph/index.html) and plot the weighted adjacency matrix `fit$wadj` instead of the unweighted adjacency matrix `fit$adj`:
-
+We then plot the weighted adjacency matrix as in the previous blog post, however, we now group the variables by their type:
 
 {% highlight r %}
 
-library(devtools)
-install_github('SachaEpskamp/qgraph') # we need version 1.3.3
-library(qgraph)
-
-# define variable types
-groups_typeV <- list("Gaussian"=which(datalist$type=='g'), 
-                     "Poisson"=which(datalist$type=='p'),
-                     "Categorical"=which(datalist$type=='c'))
-
-# pick some nice colors
-group_col <- c("#72CF53", "#53B0CF", "#ED3939")
-
-jpeg("Autism_VarTypes.jpg", height=2*900, width=2*1300, unit='px')
-qgraph(fit$wadj, # weighted adjacency matrix in model fit object 
-       vsize=3.5, 
-       esize=5, 
-       layout= 'spring', # to get the exact same layout as above take it from qgraph object of the earlier post
-       edge.color = fit$edgecolor, 
-       color=group_col,
-       border.width=1.5,
-       border.color="black",
-       groups=groups_typeV,
-       nodeNames=datalist$colnames,
-       legend=TRUE, 
-       legend.mode="style2",
-       legend.cex=1.5)
+groups_typeV <- list("Gaussian"=which(autism_data_large$type=='g'), 
+                     "Poisson"=which(autism_data_large$type=='p'),
+                     "Categorical"=which(autism_data_large$type=='c'))
+                     
+qgraph(fit_ADS$pairwise$wadj, 
+       layout = 'spring', repulsion = 1.3,
+       edge.color = fit_ADS$pairwise$edgecolor, 
+       nodeNames = autism_data_large$colnames,
+       color = autism_data_large$groups_color, 
+       groups = groups_typeV,
+       legend.mode="style2", legend.cex=.8, 
+       vsize = 3.5, esize = 15)
+       
 dev.off()
 
 
 {% endhighlight %}
 
-This gives us the following figure:
+The above code produces the following figure:
 
-![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Autism_VarTypes_WeightAndSign.jpg) 
+![center](http://jmbh.github.io/figs/2017-11-30-Closer-Look/Fig_mgm_application_Autism_byTypes.png) 
 
 Red edges correspond to negative edge weights and green edge weights correspond to positive edge weights. The width of the edges is proportional to the absolut value of the parameter weight. Grey edges connect categorical variables to continuous variables or to other categorical variables and are computed from more than one parameter and thus we cannot assign a sign to these edges.
 
-While the interaction between continuous variables can be interpreted as a conditional covariance similar to the well-known multivariate Gaussian case, the interpretation of edge-weights involving categorical variables is more intricate as they are comprised of several parameters.
+While the interaction between continuous variables can be interpreted as a conditional covariance similar to the well-known multivariate Gaussian case, the interpretation of edge-weights involving categorical variables is more intricate as they are comprised of several parameters. In the following two sections we show how to retrieve necessary parameters from the `fit_ADS` object in order to interpret interactions between continuous and categorical, and betwen categorical and categorical variables.
 
 Interpretation of Interaction: Continuous - Categorical
 ------
 
+We first consider the edge weight between the continuous Gaussian variable 'Working hours' and the categorical variable 'Type of Work', which has the categories (1) No work, (2) Supervised work, (3) Unpaid work and (4) Paid work. 
 
-We first consider the edge weight between the continuous Gaussian variable 'Working hours' and the categorical variable 'Type of Work', which has the categories (1) No work, (2) Supervised work, (3) Unpaid work and (4) Paid work. We get the estimated parameters behind this edge weight from the matrix of all estimated parameters in the mixed graphical model `fit$mpar.matrix`:
+In order to get the necessary parameter, we look up in which row this pairwise interaction is listed in `fit_ADS$rawfactor$indicator[[1]]`. We look at the first list entry here, because we are looking for a pairwise interaction. If we estimated an MGM involving 3-way interactions, the 3-way interactions would be listed in the second list entry, etc. Here, however, we look for the pairwise interaction between 'Type of Work' (16) and 'Working hours' (17), and find it in row 86:
 
 {% highlight r %}
 
-matrix(fit$mpar.matrix[fit$par.labels == 16, fit$par.labels == 17], ncol=1)
-
-           [,1]
-[1,] -3.7051782
-[2,]  0.0000000
-[3,]  0.0000000
-[4,]  0.5059143
+> fit_ADS$rawfactor$indicator[[1]][86, ]
+[1] 16 17
 
 {% endhighlight %}
 
-`fit$par.labels` indicates which parameters in `fit$mpar.matrix` belong to the interaction between which two variables. Note that in the case of jointly Gaussian data, `fit$mpar.matrix` is equivalent to the inverse covariance matrix and each interaction would be represented by 1 value only.
+Using the row number, we can now look up all estimated parameters in `fit_ADS$rawfactor$weights`:
 
-The four values we got from the model parameter matrix represent the interactions of the continuous variable 'Working hours' with each of the categories of 'Type of work'. These can be interpreted in a straight forward way of incraesing/decreasing the probability of a category depending on 'Working hours'. We see that the probability of category (a) 'No work' is greatly decreased by an increase of 'Working hours'. This makes sense as somebody who does not work has to work 0 hours. Next, working hours seem not to predict the probability of categories (b) 'Supervised work' and (c) 'Unpaid work'. However, increasing working hours does increase the probabilty of category (d) 'Paid work', which indicates that individuals who get paid for their work, work longer hours. Note that these interactions are unique in the sense that the influence of all other variables is partialed out!
+{% highlight r %}
+> fit_ADS$rawfactor$weights[[1]][[86]]
+
+[[1]]
+[1] -14.6460488  -0.7576681   0.7576681   1.4885513
+
+[[2]]
+           [,1]
+V16.2 0.5150313
+V16.3 1.3871043
+V16.4 1.7926628
+
+{% endhighlight %}
+
+The first entry corresponds to the regression on 'Type of Work' (16). Since we model the probability of every level of a categorical variable (see the [glmnet paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/pdf/nihms201118.pdf) for a detailed explanation), we get for each of the four levels of 'Type of Work' a parameter for 'Working hours'. We see that there is a huge negative parameter for the first category of 'Type of Work', which is 'No work'. This makes sense, since in the data, all individuals with no work logically also work 0 hours. The differences between the remaining categories are less strong. However, we see that the more hours one works, the more one is likely to be in category (4) 'Paid work'.
+
+The second entry corresponds to the regression on 'Working hours' (17). Now the categorical variable is a predictor variable, which means that the first category is coded as a dummy category which is absorbed in the intercept. Note that we could also model all categories explicitly by using the overparameterized parameterization by setting `overparameterize = TRUE` in `mgm()`. Here we see that being in category (3) 'Unpaid work' predicts a larger amount of working hours than being in category (2) 'Supervised work', and that being in category (4) 'Paid work' predicts a larger amount of working hours than being in category (3) 'Unpaid work', which makes sense.
+
+In order to interpret the interaction between 'Type of Work' (16) and 'Working hours' (17) one can choose either of the two regressions. One or the other regression may be more appropriate, depending on which interpretation is easier to understand, or depending on which regression reflects the more plausible causal direction.
+
 
 Interpretation of Interaction: Categorical - Categorical
 ------
 
-Next we consider the edge weight between the categorical variables (14) 'Type of Housing' and the variable (15) 'Type of Work' from above. 'Type of Housing' has to categories, (a) 'Not independent' and (b) 'Independent'. As in the previous example, we take the relevant parameters from the model parameter matrix:
+Next we consider the edge weight between the categorical variables (14) 'Type of Housing' and the variable (16) 'Type of Work' from above. 'Type of Housing' has two categories, (a) 'Not independent' and (b) 'Independent'. As in the previous example, we look up the row of the pairwise interaction in `fit_ADS$rawfactor$indicator[[1]]`:
+
+{% highlight r %}
+> fit_ADS$rawfactor$indicator[[1]][81, ]
+[1] 14 16
+{% endhighlight %}
 
 
 {% highlight r %}
 
-fit$mpar.matrix[fit$par.labels == 14, fit$par.labels == 16]
+> fit_ADS$rawfactor$weights[[1]][[81]]
+[[1]]
+[[1]][[1]]
+             [,1]
+V16.2  0.00000000
+V16.3 -0.08987943
+V16.4 -0.62798733
 
-     [,1] [,2] [,3]       [,4]
-[1,]   NA    0    0 -0.5418989
-[2,]   NA    0    0  0.5418989
+[[1]][[2]]
+            [,1]
+V16.2 0.00000000
+V16.3 0.08987943
+V16.4 0.62798733
+
+
+[[2]]
+[1] -0.5882431 -0.1582227  0.1582227  1.7812274
 
 {% endhighlight %}
 
-Again, the rows represent the categories of variable (14) 'Type of Housing'. The columns indicate how the different catgories of variable (16) 'Type of Work' predict the probability of these categories. The first column is the dummy category 'No work'. The parameters can therefore be interpreted as follows:
+The first entry of `fit_ADS$rawfactor$weights[[1]][[81]]` shows the interaction between (14) 'Type of Housing' and (16) 'Type of Work' from the regression on 'Type of Housing'. We predict the probability of both (a) 'Not independent' and (b) 'Independent'. 'Type of Work' is a predictor variable, hence the first category is a dummy category that gets absorbed in the intercept. We see that 'Unpaid Job' and 'Paid Job' increase the probability of living independently, whereas the latter does increase this probability more.
 
-Having supervised or unpaid work, does not predict a probability of living independently or not that is different for individuals with no work. Having paid work, however, decreases the probability of living not independently and increases the probability of living independently, compared to the reference category 'no work'.
+The second entry shows the same interaction from the regression on 'Type of Work'. We now have 4 parameters, corresponding to the 4 categories of 'Type of Work'. Since 'Type of Housing' has only two categories, and the first one (a) is a dummy category that gets absorbed in the intercept and only the indicator function for (b) is left as a predictor. We see that the better the works situation is, the higher the probability that the individual is living independently, which makes sense.
 
-
-The interpretations above correspond to the typical interpretation of parameters in a multinomial regression model, which is indeed what is used in the node wise regression approach we use in the mgm packge to estimate mixed graphical models. For details about the exact parameterization of the multinomial regression model check chapter 4 in the [glmnet paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/pdf/nihms201118.pdf). Note that because we use the node wise regression approach, we could also look at how the categories in (16) 'Type of work' predict (17) 'Working hours' or how the categories of (14) 'Type of housing' predict the probabilities of (16) 'Type of Work'. These parameters can be obtained by exchanging the row indices with the column indices when subsetting `fit$mpar.matrix`. For an elaborate explanation of the node wise regresssion approach and the exact structure of the model parameter matrix please check the [mgm paper](http://arxiv.org/pdf/1510.06871v2.pdf).
-
+As above, in order to choose one of the two regressions in order to interpret the interaction, one might want to take the regression that is easier to interpret or/and the regression that reflects the more plausible causal direction.
