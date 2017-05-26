@@ -18,7 +18,7 @@ Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixe
 
 Haslbeck J. M. B., Waldorp L. J. (in press). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
 
-Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://jmbh.github.io/files/NP_PM_inpress.pdf) [[Supplement]](SupMaterial_new.zip) [[OSF]](https://osf.io/fg6u2/)
+Haslbeck J. M. B., Fried E. I. (in press). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://jmbh.github.io/files/NP_PM_inpress.pdf) [[Supplement]](SupMaterial_new.zip) [[OSF]](https://osf.io/fg6u2/)
 
 Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. Journal of Open Psychology Data, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[Data]](https://osf.io/j4fg8/)
 
