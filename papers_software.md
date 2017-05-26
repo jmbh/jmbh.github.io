@@ -8,17 +8,17 @@ permalink: /papers_software/
 
 #### Submitted / under revision
 
-Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://osf.io/fg6u2/)
-
-Haslbeck J. M. B., Waldorp L. J. (under review). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
-
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
 
-Haslbeck J. M. B., Waldorp L. J. (under review). Structure Estimation for Mixed Graphical models in High Dimensions. The Annals of Applied Statistics. [[PDF]](https://arxiv.org/abs/1510.05677)
+Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[PDF]](https://arxiv.org/abs/1510.05677)
 
-#### Published
+#### Published / in press
+
+Haslbeck J. M. B., Waldorp L. J. (in press). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+
+Haslbeck J. M. B., Fried E. I. (submitted). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 17 Published Datasets. Psychological Medicine. [[PDF]](https://jmbh.github.io/files/NP_PM_inpress.pdf) [[Supplement]](SupMaterial_new.zip) [[OSF]](https://osf.io/fg6u2/)
 
 Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. Journal of Open Psychology Data, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[Data]](https://osf.io/j4fg8/)
 
@@ -29,7 +29,7 @@ Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space i
 
 #### Stable
  
-mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://www.rdocumentation.org/packages/mgm/versions/1.1-7)
+mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://www.rdocumentation.org/packages/mgm/)
 
 cstab: Selection of Number of Clusters via Resampled Normalized Cluster Stability [[Github]](https://github.com/jmbh/cstab) [[CRAN]](https://www.rdocumentation.org/packages/cstab/versions/0.2)
 
@@ -37,8 +37,6 @@ mousetrap: Functions for importing, preprocessing, analyzing, aggregating, and v
 
 
 #### Under Development
-
-
 
 # Presentations
 
