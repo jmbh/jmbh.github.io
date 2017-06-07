@@ -40,6 +40,8 @@ mousetrap: Functions for importing, preprocessing, analyzing, aggregating, and v
 
 # Presentations
 
+Haslbeck J.M.B. (2017). Predictability in Psychopathological Network Models. APS 2017, Boston, USA. [[Slides]](http://jmbh.github.io/files/aps_NP_talk.pdf) 
+
 Haslbeck J.M.B. (2017). Time-varying Mixed Graphical Models. [Data Science Amsterdam Meetup](https://www.meetup.com/Data-Science-Amsterdam/events/238378768/), Amsterdam, Netherlands. [[Slides]](http://jmbh.github.io/figs/About/DSA_Meetup_TVG_jonashaslbeck_online.pdf) 
 
 Haslbeck J.M.B. (2017). Estimating Psychopathological Networks. [Complex Systems Studies Workshop](https://www.uu.nl/en/events/complex-systems-studies-workshop-networks), Utrecht, Netherlands. [[Slides Talk]](http://jmbh.github.io/figs/About/UCW17_talk.pdf) [[Workshop HTML]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.html) [[Workshop Markdown]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.Rmd)
