@@ -6,17 +6,17 @@ permalink: /papers_software/
 
 # Papers
 
-#### Submitted / under revision
+#### Submitted / under review
 
-Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Biometrika. [[PDF]](https://arxiv.org/abs/1608.07494)
+Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[PDF]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
 
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[PDF]](https://arxiv.org/abs/1510.05677)
 
-#### Published / in press
+#### Published
 
-Haslbeck J. M. B., Waldorp L. J. (in press). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://arxiv.org/abs/1610.09108)
+Haslbeck J. M. B., Waldorp L. J. (2017). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://link.springer.com/article/10.3758/s13428-017-0910-x) [[arXiv]](https://arxiv.org/abs/1610.09108)
 
 Haslbeck J. M. B., Fried E. I. (2017). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 18 Published Datasets. Psychological Medicine. [[PDF]](https://jmbh.github.io/files/NP_PM.pdf) [[Supplement]](SupMaterial_new.zip) [[OSF]](https://osf.io/fg6u2/)
 
