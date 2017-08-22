@@ -51,7 +51,7 @@ https://arxiv.org/abs/1510.06871
 {% highlight r %}
 library(mgm)
 
-fit_ADS <- mgm(data = autism_data_large$data, 
+fit_ADS <- mgm(data = as.matrix(autism_data_large$data), 
                type = autism_data_large$type,
                level = autism_data_large$level,
                k = 2, 

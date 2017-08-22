@@ -23,6 +23,7 @@ We load the data which the authors made freely available:
 {% highlight r %}
 data <- read.csv('http://psychosystems.org/wp-content/uploads/2014/10/Wenchuan.csv')
 data <- na.omit(data)
+data <- as.matrix(data)
 p <- ncol(data)
 dim(data)
 [1] 344  17
@@ -97,7 +98,7 @@ qgraph(fit_obj$pairwise$wadj, # weighted adjacency matrix as input
        layout = 'spring', 
        pie = pred_obj$error[,2], # provide errors as input
        pieColor = rep('#377EB8',p),
-       node.color = fit_obj$pairwise$edgecolor,
+       edge.color = fit_obj$pairwise$edgecolor,
        labels = colnames(data))
        
 {% endhighlight %}
