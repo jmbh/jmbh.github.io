@@ -1,0 +1,218 @@
+---
+title: "Estimating MGM on Symptom Data Set"
+author: "jonashaslbeck@gmail.com"
+date: "October 20, 2017"
+output: html_document
+---
+
+## The Dataset
+
+We use data from a ecological momentary assessment (EMA) study from a single individual diagnosed with major depression. The data set consits of 51 variables measured on 1476 time points on 238 consecutive days (Wichers et al. 2016). The variables include questions regarding mood, self-esteem, social interaction, physical activity, events and symptoms of depression.
+
+The measurements were taken from at 10 pseudo-randomized time intervals with average length of 90 min between 07:30 and 22:30. During the measured time interval, a double-blind medication dose reduction was carried out, consisting of a baseline period, the dose reduction, and two post assessment periods. For a detailed description of this data set see Kossakowski et al. (2017).
+
+In order to keep things clear, we focus on a subset of 12 continuous mood-related variables and two categorical contextual variables.
+
+
+## The Modeling Goal
+
+The goal is to look into the interactions between all pairs of variables, while taking all other variables into account. This means that we can interpret each interaction as a unique interaction between two variables that cannot be explained away by other (mediating) variables in the data set. 
+
+The interactions in a Mixed Graphical Model (MGM) are parameters associated with products of two variables if the two variables are continous. If the two variables are categorical, there are $m \times k - 1$ parameters associated to $m \times k - 1$ products of indicator functions (dummy variables). For a detailed description of the model see Haslbeck and Waldorp (2017).
+
+
+## Data preprocessing
+
+We begin by loading the mgm package and subsetting the 14 variables we use in this practical. The dataset is loaded automatically with the mgm package.
+
+```{r preprocessing}
+
+# Loading the mgm package
+library(mgm)
+
+# Subset Mood variables and two behavioral variables
+symptom_data_short <- symptom_data
+selection_ind <- c(which(symptom_data$groups == "Mood"), 
+                   which(symptom_data$colnames %in% c("Action", "Who with")))
+
+# Subset
+symptom_data_short$data <- symptom_data_short$data[,selection_ind]
+symptom_data_short$data <- as.matrix(symptom_data_short$data)
+symptom_data_short$type <- symptom_data_short$type[selection_ind]
+symptom_data_short$level <- symptom_data_short$level[selection_ind]
+symptom_data_short$colnames <- symptom_data_short$colnames[selection_ind]
+symptom_data_short$groups <- symptom_data_short$groups[selection_ind]
+
+# Look at first 3 rows
+symptom_data_short$data[1:3, ]
+
+# Look at type of variables
+symptom_data_short$type # 12 continuous ("g"), 2 categorical ("c")
+
+# Look at levels of variables
+symptom_data_short$level # 1 for continuous variables by convention; >1 for categoricals
+
+```
+
+
+## Fit MGM to Data
+
+We provide the data and two vectors specifying the type and number of levels (or categories) for each variable. 
+
+The MGM is estimated using $\ell_1$-regularization, which biases all parameter estimates towards zero and sets very small parameter estimates to exactly zero. For an excellent treatment on $\ell_1$-regularized (LASSO) regression see Hastie, Tibshirani, and Wainwright (2015). The strength of the penalty is controlled by a tuning parameter lambda $\lambda$. Via `lambdaSel = "CV"|` and `lambdaFolds = 10` we specify that $\lambda$ is selected using 10-fold cross-validation, `k = 2` indicates that we only include pairwise interactions and `pbar = FALSE` switches off the default progress bar. We save the output of the estimation function in the object `mgm_obj`.
+
+Note that the cross-validation scheme adds randomness to the estimation procedure. We therefore set a random seed to make the analysis reproducible. 
+
+
+```{r fit mgm, message=FALSE, warning=FALSE}
+
+set.seed(1)
+
+mgm_obj <- mgm(data = symptom_data_short$data,
+               type = symptom_data_short$type,
+               level = symptom_data_short$level,
+               lambdaSel = "CV",
+               lambdaFolds = 10,
+               k = 2,
+               pbar = FALSE,
+               scale = TRUE)
+
+```
+
+
+## Look at Output
+
+### Markov Random Field (MRF) of MGM
+
+We first focus on the Markov Random Field (MRF) of the MGM, which indicates the conditional independence structure of the MGM, i.e. if any pair of variables are independent conditional on all other variables in the data set. The MRF is represented in a matrix, where a 0 at entry [i, j] indicates conditional *independence* of variables i and j, and a 1 at entry [i, j] indicates conditional *dependence* of variables i and j. Seen from a graph- or network perspective this is the adjacency matrix of the MRF.
+
+```{r MRF matrix}
+(mgm_obj$pairwise$wadj!=0)*1
+
+```
+
+The object `mgm_obj$pairwise$wadj` contains the absolute value of the strength of the dependencies. From a network perspective, it can be seen as a weighted adjacency matrix.
+
+
+### Visualize MRF 
+
+In order to get a better intuition of the structure in the adjacency matrix, we can visualize it with a force-directed graph drawing algorithm. Here we use the implementation of the *qgraph* package  (Epskamp et al. 2012):
+
+```{r MRF viz, fig.align="center", fig.width=10, fig.height=5}
+
+library(qgraph) # Load qgraph package
+
+qgraph(input = (mgm_obj$pairwise$wadj!=0)*1, 
+       nodeNames = symptom_data_short$colnames)
+
+
+
+```
+
+
+### Actual parameters of MGM
+
+The MRF is a summary of the MGM: the interaction parameter for a pairwise interaction between two continuous variables i and j is a real number, while the MRF only indicates whether this parameter is zero (0) or not (1). In the case of interactions between categorical variables even more information is lost, since $m \times k - 1$ parameters are mapped to $\{0, 1\}$. Here the definition of independence is as in cross-tables or log-linear modeling, i.e. two variables are independent if all cell probabilities are equal.
+
+Here we show how to retrieve the actual parameters estimated for three different types of interactions: (a) continuous-continuous, (b) continuous-categorical and (c) categorical-categorical.
+
+#### (a) continuous-continuous interaction
+
+We look at the interaction between the two continuous variables *Down* (2) and *Lonely* (5):
+
+```{r}
+
+showInteraction(object = mgm_obj, 
+                int = c(2,5))
+
+
+```
+
+This is the typical pairwise interaction known from (linear) multiple regression. Since we estimate the MGM via nodewise regression, we have two estimates for this pairwise interaction: one from the regression on variable 2, and one from the regression on variable 5. The interaction parameter can be interpreted as follows: Increasing variable 5 "Lonely" by 1 unit increases variable 2 "Down" by 0.397, when keeping all other variables constant. Note that the unit is one standard deviation, since we standardized the data by default via the argument `scale = TRUE` in `mgm()`.
+
+
+#### (b) continuous-categorical interaction
+
+We look at the interaction between the continuous variable *Irritated* (3) and the categorical variable *Last Action* (14).
+
+```{r}
+
+showInteraction(object = mgm_obj, 
+                int = c(3, 14))
+
+
+```
+
+The interpretation of this interaction depends on whether we look at the parameters of the regression on variable 3 or the parameters on variable 14. The coding of the categorical variable 14 is: nothing=0, 10=work/studies, 21=caring for others, 27=taking care of oneself, 43=active relaxation, 45=passive relaxation, 60=eating/drinking, 88=traveling.
+
+If we take the regression on the continuous variable 3, we get m-1 = 8 dummy variables for the categorical predictor (the first category is absorbed in the intercept). Hence, the parameters of the dummy variables are interpreted relative to the first category. We see that all activities increase the level of "Irritated" more than doing nothing. The extent to which these activities increase the level of "Irritated" compared to doing nothing varies: for instance working/studying increases the level of "Irritated" more (relative to doing nothing) than traveling.
+
+If we interpret the regression on the categorical variable 14, we get a parameter for each of the categories. We see that increasing "Irritated" by one unit reduces the probability of doing nothing (0) at the same time point and it increases the probability of working/studying (10), caring for others (21) or oneself (27). The probabilities of the remaining categories are not affected by the variable "Irritated".
+
+
+#### (c) categorical-categorical interaction
+
+We look at the interaction between the two categorical variables variable *Who with* (13) and *Last Action* (14).
+
+```{r}
+
+showInteraction(object = mgm_obj, 
+                int = c(13, 14))
+
+
+```
+
+Again, the coding of the categorical variable 14 "Last Action" is: nothing=0, 10=work/studies, 21=caring for others, 27=taking care of oneself, 43=active relaxation, 45=passive relaxation, 60=eating/drinking, 88=traveling. 
+
+The coding of the categorical variable 13 "Who with" is: 0=nobody, 10=partner, 19=roommates, 30=friends, 50=strangers/others.
+
+Here we only interpret the regression on variable 13, since the interpretation of the regression on 14 is analogous. We interpret a couple of parameters: for instance we see that being with nobody has a high probability if the person is working/studying (relative to doing nothing, the reference category). We also see that being with nobody has a small probability if the person is actively relaxing (relative to doing nothing). Another strong effect is that the probability of being with strangers/others is high when traveling (relative to doing nothing), which makes sense.
+
+
+### Visualize as much information about parameters as possible
+
+Clearly, we cannot represent all parameters of the model in a $p \times p$ matrix. However, we can represent more information in graph/network than just the MRF. Specifically, here we add the strength of dependencies through the width of edges and information of the sign of edge weights if defined (green=positive, red=negative, grey=undefined). Signs for edges are undefined if edges weights are defined on several parameters, which is the case if at least one of the variables is categorical.
+
+We use again the *qgraph* package to make the network visualization:
+
+```{r, fig.align="center", fig.width=10, fig.height=5}
+
+qgraph(input = mgm_obj$pairwise$wadj,  # now weighted adjacency matrix
+       layout = "spring",
+       nodeNames = symptom_data_short$colnames, 
+       edge.color = mgm_obj$pairwise$edgecolor) # incorporate sign as color
+
+
+```
+
+The graph layout looks different than in the previous visualization, since the graph-drawing algorithm now also takes the weights of edges into account. The width of edges is proportional to the absolute value of the underlying parameter. For interactions between continuous variables, the color of the edges indicates the sign of the underlying parameter. We see that the signs make sense intuitively, since positive and negative mood-variables are negatively related. The edges connecting to the two categorical variables are grey. This is because the edge-weight maps to several parameter, and therefore no sign can be defined.
+
+
+## Other implemented Models not discussed here
+
+#### Time-varying MGMs
+
+In the above analysis we assumed that the system under investigation does not change over time. This assumption is relaxed when estimating time-varying MGMs. The assumption is then that all parameters change smoothly over time. See `?tvmgm` for information on how to estimate time-varying MGMs.
+
+#### mixed Vector Autoregressive (mVAR) modes
+
+In all previously discussed models we look at interactions of variables at the same time point. In many situations, one is interested in interactions over a given time lag. We call MGMs with effects over time lags mixed Vector Autoregressive (mVAR) models. See `?mvar` for information on how to estimate mixed VAR models.
+
+#### time-varying mixed Vector Autoregressive (mVAR) modes
+
+Analogously to MGMs, for mVAR models we assume that the system under investigation does not change over time. Again, we can relax this assumption and allow smooth parameter changes over time. See `?tvmvar` for information on how to estimate time-varying mixed VAR models.
+
+
+[Here](jmbh.github.io) you can find tutorials on the mgm package, and [here](https://arxiv.org/abs/1510.06871) is the paper on the package.
+
+# References
+
+Epskamp, Sacha, Angélique OJ Cramer, Lourens J Waldorp, Verena D Schmittmann, Denny Borsboom, and others. 2012. “Qgraph: Network Visualizations of Relationships in Psychometric Data.” Journal of Statistical Software 48 (4). Foundation for Open Access Statistics: 1–18.
+
+Haslbeck, Jonas, and Lourens J Waldorp. 2017. “Mgm: Estimating Time-Varying Mixed Graphical Models in High-Dimensional Data.” ArXiv Preprint ArXiv:1510.06871.
+
+Hastie, Trevor, Robert Tibshirani, and Martin Wainwright. 2015. Statistical Learning with Sparsity: The Lasso and Generalizations. CRC press.
+
+Kossakowski, Jolanda, Peter Groot, Jonas Haslbeck, Denny Borsboom, and Marieke Wichers. 2017. “Data from ‘Critical Slowing down as a Personalized Early Warning Signal for Depression’.” Journal of Open Psychology Data 5 (1). Ubiquity Press.
+
+Wichers, Marieke, Peter C Groot, ESM Psychosystems, EWS Group, and others. 2016. “Critical Slowing down as a Personalized Early Warning Signal for Depression.” Psychotherapy and Psychosomatics 85 (2). Karger Publishers: 114–16.
