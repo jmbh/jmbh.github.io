@@ -40,6 +40,10 @@ mousetrap: Functions for importing, preprocessing, analyzing, aggregating, and v
 
 # Presentations
 
+Haslbeck J.M.B. (2017). Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
+
+Haslbeck J.M.B. (2017). First steps towards a computational model of Major Depression. Conference on Complex Systems, Cancun, Mexico.
+
 Haslbeck J.M.B. (2017). Predictability in Psychopathological Network Models. APS 2017, Boston, USA. [[Slides]](http://jmbh.github.io/files/aps_NP_talk.pdf) 
 
 Haslbeck J.M.B. (2017). Time-varying Mixed Graphical Models. [Data Science Amsterdam Meetup](https://www.meetup.com/Data-Science-Amsterdam/events/238378768/), Amsterdam, Netherlands. [[Slides]](http://jmbh.github.io/figs/About/DSA_Meetup_TVG_jonashaslbeck_online.pdf) 
