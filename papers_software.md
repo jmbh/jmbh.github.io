@@ -10,7 +10,7 @@ permalink: /papers_software/
 
 Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (submitted). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[PDF]](https://arxiv.org/abs/1711.05204)
 
-Haslbeck J. M. B., Wulff. D. U., (submitted). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[PDF]](https://arxiv.org/abs/1608.07494)
+Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[PDF]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[PDF]](https://arxiv.org/abs/1510.06871)
 
