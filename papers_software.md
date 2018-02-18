@@ -8,6 +8,8 @@ permalink: /papers_software/
 
 #### Submitted / under review
 
+von Stockert S., Haslbeck J. M. B., Lamers F., Pennix B. W. J. H., Schoevers, R.A. & Fried E. I., (Submitted). Depression and (no) inflammation? Using network analysis to examine links between individual depressive symptoms and inflammatory markers. [[PDF]](https://osf.io/h92nk/)
+
 Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (submitted). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[PDF]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[PDF]](https://arxiv.org/abs/1608.07494)
