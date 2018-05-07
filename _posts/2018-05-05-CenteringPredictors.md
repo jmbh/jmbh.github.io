@@ -199,13 +199,15 @@ cols <- brewer.pal(4, "Set1") # Select nice colors
 
 plot.new()
 plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
-axis(1, round(c_sequence, 2))
+axis(1, round(c_sequence, 2), cex.axis=0.75, las=2)
 axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
 lines(c_sequence, A$b0, col = cols[1])
 lines(c_sequence, A$b1, col = cols[2])
 lines(c_sequence, A$b2, col = cols[3])
 legend("topright", c("b0", "b1", "b2"), 
 col = cols[1:3], lty = rep(1,3), bty = "n")
+title(xlab = "Added constant")
+title(ylab = "Parameter value")
 
 {% endhighlight %}
 
@@ -242,7 +244,7 @@ And again we plot all parameters $$\beta_0, \beta_1, \beta_2, \beta_3$$ as a fun
 {% highlight r %}
 plot.new()
 plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
-axis(1, round(c_sequence, 2))
+axis(1, round(c_sequence, 2), cex.axis=0.75, las=2)
 axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
 lines(c_sequence, A$b0, col = cols[1])
 lines(c_sequence, A$b1, col = cols[2])
@@ -250,6 +252,8 @@ lines(c_sequence, A$b2, col = cols[3])
 lines(c_sequence, A$b3, col = cols[4])
 legend("topright", c("b0", "b1", "b2", "b3"), 
 col = cols[1:4], lty = rep(1,3), bty = "n")
+title(xlab = "Added constant")
+title(ylab = "Parameter value")
 
 {% endhighlight %}
 
@@ -367,7 +371,7 @@ We plot the predicted parameters by the derived expressions as points on the emp
 {% highlight r %}
 plot.new()
 plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
-axis(1, round(c_sequence, 2))
+axis(1, round(c_sequence, 2), cex.axis=0.75, las=2)
 axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
 lines(c_sequence, A$b0, col = cols[1])
 lines(c_sequence, A$b1, col = cols[2])
@@ -381,6 +385,8 @@ points(c_sequence, B$b0, col = cols[1])
 points(c_sequence, B$b1, col = cols[2])
 points(c_sequence, B$b2, col = cols[3])
 points(c_sequence, B$b3, col = cols[4])
+title(xlab = "Added constant")
+title(ylab = "Parameter value")
 
 {% endhighlight %}
 
