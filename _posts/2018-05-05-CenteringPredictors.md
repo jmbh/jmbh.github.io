@@ -213,7 +213,7 @@ title(ylab = "Parameter value")
 
 ![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig1.png) 
 
-We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And indeed, when comparing the parameters, they are exactly the same. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. 
+We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And the model at `c = -1` corresponds to the model fitted with centered predictors. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. 
 
 
 **Numerical experiment II: main effects + interaction term**
