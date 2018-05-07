@@ -146,3 +146,45 @@ Therefore, in the uncentered case $$\beta_i$$ is the main effect when the predic
 More precisely, in the regression model with only main effects, $$\beta_1$$ is the main effect of $$X_1$$ on $$Y$$ averaged over all values of $$X_2$$, which is the same as the main effect of $$X_1$$ on $$Y$$ for $$X_2 = \mu_{X_2}$$. This means that if we center predictors, $$\beta_1$$ models the same effect in the data in a model with/without interaction term. This is an attractive property to have when one is interested in comparing models with/without interaction term. It is therefore the main reason to center predictors in regressions with interaction terms, next to reducing the correlations between single predictors and product interaction terms.
 
 
+
+**Explanation 2: Main effects as functions of added constants**
+
+Substracting the mean from predictors is a special case of adding constants to predictors. Here we first show numerically what happens to each regression parameter when adding constants to predictors. Then we show analytically how each parameter is a function of its value in the original regression model (no constant added) and the added constants.
+
+Why are we doing this? We are doing this to develop a more general understanding of what happens when adding constants to predictors. It also puts the above example in a more general context, since we can consider it as a special case of the following analysis.
+
+**Numerical experiment I: only main effects**
+
+We first fit a series of regression models with only main effects and in each of them add a different constant to the predictors. We do this test whether our claim that centering predictors doesn't change main effects extends to the more general situation of adding constants to predictors.
+
+We first define a sequence of constant values we add to the predictors and create storage for parameter estimates:
+
+{% highlight r %}
+n <- 25
+c_sequence <- seq(-1.5, 1.5, length = n)
+
+A <- as.data.frame(matrix(NA, ncol=5, nrow=n))
+colnames(A) <- c("b0", "b1", "b2", "b3", "R2")
+
+{% endhighlight %}
+
+We now fit 25 regression models, and in each of them we add a constant `c` to both predictors, taken from the sequence `c_sequence`:
+
+{% highlight r %}
+for(i in 1:25) {
+
+c <- c_sequence[i]
+x1_c <- x1 + c
+x2_c <- x2 + c
+
+lm_obj <- lm(y ~ x1_c + x2_c) # Fit model
+A$b0[i] <- lm_obj$coefficients[1]
+A$b1[i] <- lm_obj$coefficients[2]
+A$b2[i] <- lm_obj$coefficients[3]
+
+yhat <- predict(lm_obj, data = c(y, x1_c, x2_c))
+A$R2[i] <- 1 - var(yhat - y) / var(y) # Compute R2
+
+}
+{% endhighlight %}
+
