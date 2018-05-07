@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression with Interactions Terms: How Centering Predictors influences Main Effects
+title: Regression with Interactions Terms - How Centering Predictors influences Main Effects
 category: random
 ---
 
@@ -61,7 +61,7 @@ Coefficients:
 {% endhighlight %}
 
 
-The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^*$ and $\hat\beta_2 = \hat\beta_2^*$.
+The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^{*}$ and $\hat\beta_2 = \hat\beta_2^{*}$.
 
 
 **Regression models with main effects + interaction**
