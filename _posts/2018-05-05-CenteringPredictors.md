@@ -209,6 +209,7 @@ col = cols[1:3], lty = rep(1,3), bty = "n")
 
 {% endhighlight %}
 
+![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig1.png) 
 
 We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And indeed, when comparing the parameters, they are exactly the same. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. 
 
@@ -243,14 +244,17 @@ plot.new()
 plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
 axis(1, round(c_sequence, 2))
 axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
-lines(c_sequence, A$$b0, col = cols[1])
-lines(c_sequence, A$$b1, col = cols[2])
-lines(c_sequence, A$$b2, col = cols[3])
-lines(c_sequence, A$$b3, col = cols[4])
+lines(c_sequence, A$b0, col = cols[1])
+lines(c_sequence, A$b1, col = cols[2])
+lines(c_sequence, A$b2, col = cols[3])
+lines(c_sequence, A$b3, col = cols[4])
 legend("topright", c("b0", "b1", "b2", "b3"), 
 col = cols[1:4], lty = rep(1,3), bty = "n")
 
 {% endhighlight %}
+
+![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig2.png) 
+
 
 This time both the intercept $$\beta_0$$ and the main effects $$\beta_1, \beta_2$$ are a function of `c`, while the interaction effect $$\beta_3$$ is constant. At this point the best explanation is simply to go through the algebra, which explains these results exactly. We do this in the next section.
 
@@ -291,6 +295,7 @@ $$
 $$
 \beta_2 = \beta_2^* + \beta_3^*c_1
 $$
+
 and
 
 $$
@@ -334,3 +339,55 @@ $$
 $$
 
 Let's check whether those fomulas predict the parameter changes as a function of `c` in the numerical experiment above.
+
+
+{% highlight r %}
+lm_obj <- lm(y ~ x1 * x2) # Reference model (no constant added)
+b0 <- lm_obj$coefficients[1]
+b1 <- lm_obj$coefficients[2]
+b2 <- lm_obj$coefficients[3]
+b3 <- lm_obj$coefficients[4]
+
+B <- A # Storage for predicted parameters
+
+for(i in 1:25) {
+  
+  c <- c_sequence[i]
+  
+  B$b0[i] <- b0 - b1*c - b2*c + b3*c*c
+  B$b1[i] <- b1 - b3*c
+  B$b2[i] <- b2 - b3*c
+  B$b3[i] <- b3
+  
+}
+{% endhighlight %}
+
+We plot the predicted parameters by the derived expressions as points on the empirical results from the numerical experiments above
+
+{% highlight r %}
+plot.new()
+plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
+axis(1, round(c_sequence, 2))
+axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
+lines(c_sequence, A$b0, col = cols[1])
+lines(c_sequence, A$b1, col = cols[2])
+lines(c_sequence, A$b2, col = cols[3])
+lines(c_sequence, A$b3, col = cols[4])
+legend("topright", c("b0", "b1", "b2", "b3"), 
+       col = cols[1:4], lty = rep(1,3), bty = "n")
+
+# Plot predictions
+points(c_sequence, B$b0, col = cols[1])
+points(c_sequence, B$b1, col = cols[2])
+points(c_sequence, B$b2, col = cols[3])
+points(c_sequence, B$b3, col = cols[4])
+
+{% endhighlight %}
+
+![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig3.png) 
+
+and we see that they match the numerical results exactly.
+
+Thus, the derived expressions explain exactly how the all parameters change as a function of the parameters of the reference model and the added constants.
+
+
