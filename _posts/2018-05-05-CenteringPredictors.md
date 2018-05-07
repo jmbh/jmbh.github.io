@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Regression with Interactions Terms - how Centering Predictors influences Main Effects
-category: random
+category: r
 ---
 
-Centering predictors in a regression model with only main effects has no influence on the main effects. In contrast, in a regression model including interaction terms centering predictors *does* have an influence on the main effects. After getting confused by this, I read [this](https://amstat.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889620) nice paper on the topic and played around with the examples in R. I summarized the resulting notes and code snippets in this blogpost.
+Centering predictors in a regression model with only main effects has no influence on the main effects. In contrast, in a regression model including interaction terms centering predictors *does* have an influence on the main effects. After getting confused by this, I read [this](https://amstat.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889620) nice paper on the topic and played around with the examples in R. I summarize the resulting notes and code snippets in this blogpost.
 
 We give an explanation on two levels:
 
@@ -20,13 +20,13 @@ Explanation 1: Simplest example
 -----
 
 
-The simplest possible example to illustrate the issue is a regression model in which variable $$Y$$ is a linear function of variables $$X_1$$, $$X_2$$ and their product $$X_1X_2$$
+The simplest possible example to illustrate the issue is a regression model in which variable $$Y$$ is a linear function of variables $$X_1$$, $$X_2$$, and their product $$X_1X_2$$
 
 $$
 Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_1X_2 + \epsilon,
 $$
 
-where we set $$\beta_0 = 1, \beta_1 = 0.3, \beta_2 = 0.2, \beta_3 = 0.2$$, and $$\epsilon \sim N(0, \sigma^2)$$ is a draw from a Gaussian distribution with mean zero and variance $$\sigma^2$$. We define the predictors $$X_1, X_2$$ as Gaussians with means $$\mu_{X_1} = \mu_{X_2} = 1$$ and $$\sigma_{X_1}^{2}=\sigma_{X_2}^{2}=1$$. This code samples $$n = 10000$$ observations from this model:
+where we set $$\beta_0 = 1, \beta_1 = 0.3, \beta_2 = 0.2, \beta_3 = 0.2$$, and $$\epsilon \sim N(0, \sigma^2)$$ is Gaussian distribution with mean zero and variance $$\sigma^2$$. We define the predictors $$X_1, X_2$$ as Gaussians with means $$\mu_{X_1} = \mu_{X_2} = 1$$ and $$\sigma_{X_1}^{2}=\sigma_{X_2}^{2}=1$$. This code samples $$n = 10000$$ observations from this model:
 
 {% highlight r %}
 
@@ -35,14 +35,14 @@ b0 <- 1; b1 <- .3; b2 <- .2; b3 <- .2
 set.seed(1)
 x1 <- rnorm(n, mean = 1, sd = 1)
 x2 <- rnorm(n, mean = 1, sd = 1)
-y <- b0 + b1 * x1 + b2 * x2 + b3 * x1 * x2 + rnorm(n)
+y <- b0 + b1 * x1 + b2 * x2 + b3 * x1 * x2 + rnorm(n, mean = 0, sd = 1)
 
 {% endhighlight %}
 
 
 **Regression models with main effects**
   
-  We first verify that centering variables indeed does not affect the main effects. To do so, we first fit the linear regression with only main effects with uncenetered predictors
+We first verify that centering variables indeed does not affect the main effects. To do so, we first fit the linear regression with only main effects with uncentered predictors
 
 {% highlight r %}
 lm(y ~ x1 + x2)
@@ -55,7 +55,7 @@ Coefficients:
 0.8088       0.4983       0.4015  
 {% endhighlight %}
 
-and then with centered predictors
+and then with mean centered predictors
 
 {% highlight r %}
 x1_c <- x1 - mean(x1) # center predictors
@@ -122,7 +122,7 @@ $$
 \end{aligned}
 $$
   
-  shows that in the model with interaction term, the main effect of $$X_1$$ on $$Y$$ is equal to $$(\beta_1 + \beta_3 X_2)$$ and therefore a funtion of $$X_2$$. What the parameter $$\beta_1$$ model here? It models the effect of $$X_1$$ on $$Y$$ when $$X_2 = 0$$. Similarly we could rewrite the effect of $$X_1$$ on $$Y$$ as a function of $$X_2$$.
+shows that in the model with interaction term, the effect of $$X_1$$ on $$Y$$ is equal to $$(\beta_1 + \beta_3 X_2)$$ and therefore a function of $$X_2$$. What does the parameter $$\beta_1$$ model here? It models the effect of $$X_1$$ on $$Y$$ when $$X_2 = 0$$. Similarly we could rewrite the effect of $$X_1$$ on $$Y$$ as a function of $$X_2$$.
 
 Now let $$X_1^c = X_1 - \mu_{X_1}$$ and $$X_2^c = X_2 - \mu_{X_2}$$ be the centered predictors. We get the same model equations, now with the parameters estimated using the centered predictors $$X_1^c, X_2^c$$:
   
@@ -134,7 +134,7 @@ $$
 \end{aligned}
 $$
   
-  Again we focus on the main effect $$(\beta_1^* + \beta_3^*  X_2^c)$$ of $$X_1^c$$ on $$Y$$. What does the the parameter $$\beta_1^*$$ model here? It models the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = \mu_{X_2^c} = 0$$. What remained the same is that $$\beta_1^*$$ is the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = 0$$. But what is new is that $$\mu_{X_2^c} = 0$$.
+Again we focus on the effect $$(\beta_1^* + \beta_3^*  X_2^c)$$ of $$X_1^c$$ on $$Y$$. What does the the parameter $$\beta_1^*$$ model here? It models the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = \mu_{X_2^c} = 0$$. What remained the same is that $$\beta_1^*$$ is the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = 0$$. But what is new is that $$\mu_{X_2^c} = 0$$.
 
 Therefore, in the uncentered case $$\beta_i$$ is the main effect when the predictor variable $$X_i$$ is equal to zero. In the centered case, $$\beta_i^*$$ is the main effect when the predictor variable $$X_i$$ is equal to its mean. Clearly, $$\beta_i$$ and $$\beta_i^*$$ model different effects in the data and it is therefore not surprising that the two regressions give us very different estimates.
 
@@ -143,8 +143,7 @@ Therefore, in the uncentered case $$\beta_i$$ is the main effect when the predic
   
   Our second observation above was that the estimates of main effects are the same with/without interaction term when centering the predictor variables. This is because in the models *without* interaction term (centered or uncentered predictors) the interpretation of $$\beta_1$$ is the same as in the model *with* interaction term and centered predictors.
 
-More precisely, in the regression model with only main effects, $$\beta_1$$ is the main effect of $$X_1$$ on $$Y$$ averaged over all values of $$X_2$$, which is the same as the main effect of $$X_1$$ on $$Y$$ for $$X_2 = \mu_{X_2}$$. This means that if we center predictors, $$\beta_1$$ models the same effect in the data in a model with/without interaction term. This is an attractive property to have when one is interested in comparing models with/without interaction term. It is therefore the main reason to center predictors in regressions with interaction terms, next to reducing the correlations between single predictors and product interaction terms.
-
+More precisely, in the regression model with only main effects, $$\beta_1$$ is the main effect of $$X_1$$ on $$Y$$ averaged over all values of $$X_2$$, which is the same as the main effect of $$X_1$$ on $$Y$$ for $$X_2 = \mu_{X_2}$$. This means that if we center predictors, $$\beta_1$$ models the same effect in the data in a model with/without interaction term. This is an attractive property to have when one is interested in comparing models with/without interaction term.
 
 
 Explanation 2: Main effects as functions of added constants
@@ -154,9 +153,9 @@ Substracting the mean from predictors is a special case of adding constants to p
 
 Why are we doing this? We are doing this to develop a more general understanding of what happens when adding constants to predictors. It also puts the above example in a more general context, since we can consider it as a special case of the following analysis.
 
-**Numerical experiment I: only main effects**
+**Numerical experiment I: Only main effects**
 
-We first fit a series of regression models with only main effects and in each of them add a different constant to the predictors. We do this test whether our claim that centering predictors doesn't change main effects extends to the more general situation of adding constants to predictors.
+We first fit a series of regression models with only main effects. In each of them we add a different constant to the predictors. We do this verify that our claim that centering predictors does not change main effects extends to the more general situation of adding constants to predictors.
 
 We first define a sequence of constant values we add to the predictors and create storage for parameter estimates:
 
@@ -183,7 +182,7 @@ A$b0[i] <- lm_obj$coefficients[1]
 A$b1[i] <- lm_obj$coefficients[2]
 A$b2[i] <- lm_obj$coefficients[3]
 
-yhat <- predict(lm_obj, data = c(y, x1_c, x2_c))
+yhat <- predict(lm_obj)
 A$R2[i] <- 1 - var(yhat - y) / var(y) # Compute R2
 
 }
@@ -214,7 +213,7 @@ title(ylab = "Parameter value")
 
 ![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig1.png) 
 
-We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And the model at `c = -1` corresponds to the model fitted with centered predictors. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. 
+We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And the model at `c = -1` corresponds to the model fitted with centered predictors. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. A proof of this and an exact expression for the intercept will fall out of our analysis of the model with interaction term in the last section of this blogpost.
 
 
 **Numerical experiment II: main effects + interaction term**
@@ -367,7 +366,7 @@ for(i in 1:25) {
 }
 {% endhighlight %}
 
-We plot the predicted parameters by the derived expressions as points on the empirical results from the numerical experiments above
+We plot the computed parameters by the derived expressions as points on the empirical results from the numerical experiments above
 
 {% highlight r %}
 plot.new()
@@ -393,8 +392,10 @@ title(ylab = "Parameter value")
 
 ![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig3.png) 
 
-and we see that they match the numerical results exactly.
+and they match the numerical results exactly.
 
-Thus, the derived expressions explain exactly how the all parameters change as a function of the parameters of the reference model and the added constants.
+We see that the derived expressions explain exactly how the all parameters change as a function of the parameters of the reference model and the added constants.
+
+If we set $$\beta_3 = 0$$, we get the same derivation for the regression model *without* interaction term. We find that $$\beta_1^* = \beta_1$$, $$\beta_2^* = \beta_2$$, and $$\beta_0^* = \beta_0 - \beta_1 c_1 - \beta_2 c_2$$.
 
 
