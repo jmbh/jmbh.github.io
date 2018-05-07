@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression with Interactions Terms - how Centering Predictors influences Main Effects
+title: Regression with Interactions Terms - How Centering Predictors influences Main Effects
 category: r
 ---
 
@@ -394,7 +394,7 @@ title(ylab = "Parameter value")
 
 and they match the numerical results exactly.
 
-We see that the derived expressions explain exactly how the all parameters change as a function of the parameters of the reference model and the added constants.
+We see that the derived expressions explain exactly how parameters change as a function of the parameters of the reference model and the added constants.
 
 If we set $$\beta_3 = 0$$, we get the same derivation for the regression model *without* interaction term. We find that $$\beta_1^* = \beta_1$$, $$\beta_2^* = \beta_2$$, and $$\beta_0^* = \beta_0 - \beta_1 c_1 - \beta_2 c_2$$.
 
