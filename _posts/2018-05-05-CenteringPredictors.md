@@ -4,7 +4,7 @@ title: Regression with Interaction Terms - How Centering Predictors influences M
 category: r
 ---
 
-Centering predictors in a regression model with only main effects has no influence on the main effects. In contrast, in a regression model including interaction terms centering predictors *does* have an influence on the main effects. After getting confused by this, I read [this](https://amstat.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889620) nice paper on the topic and played around with the examples in R. I summarize the resulting notes and code snippets in this blogpost.
+Centering predictors in a regression model with only main effects has no influence on the main effects. In contrast, in a regression model including interaction terms centering predictors *does* have an influence on the main effects. After getting confused by this, I read [this](https://amstat.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889620) nice paper by Afshartous & Preston (2011) on the topic and played around with the examples in R. I summarize the resulting notes and code snippets in this blogpost.
 
 We give an explanation on two levels:
 
