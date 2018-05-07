@@ -188,3 +188,149 @@ A$R2[i] <- 1 - var(yhat - y) / var(y) # Compute R2
 }
 {% endhighlight %}
 
+
+Remark: in Explanation 1 we said that the coefficient of determination $$R^2$$ does not change when adding constants to the predictors. We invite the reader to verify this by inspecting `A$R2`.
+
+We plot all parameters $$\beta_0, \beta_1, \beta_2$$ as a function of `c`:
+
+{% highlight r %}
+library(RColorBrewer)
+cols <- brewer.pal(4, "Set1") # Select nice colors
+
+plot.new()
+plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
+axis(1, round(c_sequence, 2))
+axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
+lines(c_sequence, A$b0, col = cols[1])
+lines(c_sequence, A$b1, col = cols[2])
+lines(c_sequence, A$b2, col = cols[3])
+legend("topright", c("b0", "b1", "b2"), 
+col = cols[1:3], lty = rep(1,3), bty = "n")
+
+{% endhighlight %}
+
+
+We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And indeed, when comparing the parameters, they are exactly the same. But the key observation is that the main effects $$\beta_1, \beta_2$$ do not change. 
+
+
+**Numerical experiment II: main effects + interaction term**
+
+Next we show that this is different when adding the interaction term. We use the same sequence of `c` as above and fit regression models with interaction term:
+
+{% highlight r %}
+for(i in 1:25) {
+
+c <- c_sequence[i]
+x1_c <- x1 + c
+x2_c <- x2 + c
+
+lm_obj <- lm(y ~ x1_c * x2_c) # Fit model
+A$b0[i] <- lm_obj$coefficients[1]
+A$b1[i] <- lm_obj$coefficients[2]
+A$b2[i] <- lm_obj$coefficients[3]
+A$b3[i] <- lm_obj$coefficients[4]
+
+yhat <- predict(lm_obj, data = c(y, x1_c, x2_c))
+A$R2[i] <- 1 - var(yhat - y) / var(y) # Compute R2
+
+}
+{% endhighlight %}
+
+And again we plot all parameters $$\beta_0, \beta_1, \beta_2, \beta_3$$ as a function of `c`:
+
+{% highlight r %}
+plot.new()
+plot.window(xlim=range(c_sequence), ylim=c(-.5, 2.5))
+axis(1, round(c_sequence, 2))
+axis(2, c(-.5, 0, .5, 1, 1.5, 2, 2.5), las=2)
+lines(c_sequence, A$$b0, col = cols[1])
+lines(c_sequence, A$$b1, col = cols[2])
+lines(c_sequence, A$$b2, col = cols[3])
+lines(c_sequence, A$$b3, col = cols[4])
+legend("topright", c("b0", "b1", "b2", "b3"), 
+col = cols[1:4], lty = rep(1,3), bty = "n")
+
+{% endhighlight %}
+
+This time both the intercept $$\beta_0$$ and the main effects $$\beta_1, \beta_2$$ are a function of `c`, while the interaction effect $$\beta_3$$ is constant. At this point the best explanation is simply to go through the algebra, which explains these results exactly. We do this in the next section.
+
+
+**Deriving function for all effects**
+
+We plug in the definition of centering in the population regression model we introduced at the very beginning of this blogpost. This gives us every parameter as a function of two things: (1) the parameters in the original model and (b) the added constant. Above we added the same constant to both predictors. Here we consider the general case where the constants can differ.
+
+Our original (unaltered) model is given by:
+
+$$
+\begin{aligned}
+\mathbb{E}[Y] &= \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_1X_2
+\end{aligned}
+$$
+
+Now we plug in the predictors with added constants $$c_1, c_2$$, multiply out, and rearrange:
+
+$$
+\begin{aligned}
+\mathbb{E}[Y] &= \beta_0^* + \beta_1^* (X_1 + c_1) + \beta_2 (X_2 + c_2) + \beta_3^* (X_1 + c_1) (X_2 + c_2) \\
+& = \beta_0^* + \beta_1^*X_1 + \beta_1^*c_1 + \beta_2^*X_2 + \beta_2^*c_2
++ \beta_3^* X_1X_2 + \beta_3^*X_1 c_2 + \beta_3^* c_1X_2 + \beta_3^* c_1c_2 \\
+&= (\beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2) + (\beta_1^* + \beta_3^*c_2)X_1 + (\beta_2^* + \beta_3^*c_1)X_2 + \beta_3^* X_1X_2
+\end{aligned}
+$$
+
+Now if we equate the respective interecept and slope terms we get:
+
+$$
+\beta_0 = \beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2
+$$
+
+$$
+\beta_1 = \beta_1^* + \beta_3^*c_2
+$$
+
+$$
+\beta_2 = \beta_2^* + \beta_3^*c_1
+$$
+and
+
+$$
+\beta_3 = \beta_3^*
+$$
+
+Now we solve for the parameters $$\beta_0^*, \beta_1^*, \beta_2^*, \beta_3^*$$ from the models with constants added to the predictors.
+
+Because we know $$\beta_3 = \beta_3^*$$ we can write $$\beta_2 = \beta_2^* + \beta_3 c_1$$ and can solve
+
+$$
+\beta_2^* = \beta_2 - \beta_3 c_1
+$$
+
+The same goes for $$\beta_1^*$$ so we have
+
+$$
+\beta_1^* = \beta_1 - \beta_3 c_2
+$$
+
+Finally, to obtain a formula for $$\beta_0^*$$ we plug the just obtained expressions for $$\beta_1^*$$, $$\beta_2^*$$ and $$\beta_3^*$$ into
+
+$$
+\beta_0 = \beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2
+$$
+
+and get 
+
+$$
+\begin{aligned}
+\beta_0 &= \beta_0^* + (\beta_1 - \beta_3 c_2)c_1 +  (\beta_2 - \beta_3 c_1)c_2 + \beta_3 c_1c_2 \\
+&= \beta_0^* + \beta_1 c_1 - \beta_3 c_2 c_1 + \beta_2 c_2 - \beta_3 c_2 c_1 + \beta_3 c_1c_2 \\
+&=  \beta_0^* + \beta_1 c_1 + \beta_2 c_2 - \beta_3 c_1c_2
+\end{aligned}
+$$
+
+and can solve for $$\beta_0^*$$:
+
+$$
+\beta_0^* = \beta_0 - \beta_1 c_1 - \beta_2 c_2 + \beta_3 c_1c_2
+$$
+
+Let's check whether those fomulas predict the parameter changes as a function of `c` in the numerical experiment above.
