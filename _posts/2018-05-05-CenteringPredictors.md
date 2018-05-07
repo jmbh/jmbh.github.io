@@ -66,7 +66,15 @@ Coefficients:
 {% endhighlight %}
 
 
-The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^2$ and $\hat{\beta}_{2} = \hat{\beta}_{2}^{*}$. XX
+The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^*$ and $\hat{\beta}_{2} = \hat{\beta}_{2}^{*}$. XX
+
+$\hat\beta_1^* \approx \hat\beta_1^*$ and
+
+$\hat\beta_1^* \approx \hat\beta_1$ and
+
+$\hat\beta_1^* = \hat\beta_1$ and
+
+$\hat\beta_1 = \hat\beta_1^*$ and
 
 
 **Regression models with main effects + interaction**
