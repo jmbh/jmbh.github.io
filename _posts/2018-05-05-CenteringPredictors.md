@@ -106,12 +106,12 @@ We see that $$\hat\beta_1 \approx 0.29$$ and $$\hat\beta_2 \approx 0.19$$ and $$
 
 We make two observations: 
   
-  1. In the model with interaction terms, the main effects differ between the regressions with/without centering of predictors
+1. In the model with interaction terms, the main effects differ between the regressions with/without centering of predictors
 2. When centering predictors, the main effects are the same in the model with/without the interaction term (up to some numerical inaccuracy)
 
 **Why does centering influence main effects in the presence of an interaction term?**
   
-  The reason is that in the model with the interaction term, the parameter $$\beta_1$$ (uncentered predictors) is the main effect of $$X_1$$ on $$Y$$ if $$X_2 = 0$$, and the parameter $$\beta_1^*$$ (centered predictors) is the main effect of $$X_1$$ on $$Y$$ if $$X_2 = \mu_{X_2}$$. This means that $$\beta_1$$ and $$\beta_1^*$$ are modeling different effects in the data. Here is a more detailed explanation:
+The reason is that in the model with the interaction term, the parameter $$\beta_1$$ (uncentered predictors) is the main effect of $$X_1$$ on $$Y$$ if $$X_2 = 0$$, and the parameter $$\beta_1^*$$ (centered predictors) is the main effect of $$X_1$$ on $$Y$$ if $$X_2 = \mu_{X_2}$$. This means that $$\beta_1$$ and $$\beta_1^*$$ are modeling different effects in the data. Here is a more detailed explanation:
   
   Rewriting the model equation in the following way
 
@@ -136,12 +136,12 @@ $$
   
 Again we focus on the effect $$(\beta_1^* + \beta_3^*  X_2^c)$$ of $$X_1^c$$ on $$Y$$. What does the the parameter $$\beta_1^*$$ model here? It models the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = \mu_{X_2^c} = 0$$. What remained the same is that $$\beta_1^*$$ is the main effect of $$X_1^c$$ on $$Y$$ when $$X_2^c = 0$$. But what is new is that $$\mu_{X_2^c} = 0$$.
 
-Therefore, in the uncentered case $$\beta_i$$ is the main effect when the predictor variable $$X_i$$ is equal to zero. In the centered case, $$\beta_i^*$$ is the main effect when the predictor variable $$X_i$$ is equal to its mean. Clearly, $$\beta_i$$ and $$\beta_i^*$$ model different effects in the data and it is therefore not surprising that the two regressions give us very different estimates.
+To summarize, in the uncentered case $$\beta_i$$ is the main effect when the predictor variable $$X_i$$ is equal to zero; and in the centered case, $$\beta_i^*$$ is the main effect when the predictor variable $$X_i$$ is equal to its mean. Clearly, $$\beta_i$$ and $$\beta_i^*$$ model different effects in the data and it is therefore not surprising that the two regressions give us very different estimates.
 
 
 **Centering $$\rightarrow$$ interpretation of $$\beta$$ remains the same when adding interaction**
   
-  Our second observation above was that the estimates of main effects are the same with/without interaction term when centering the predictor variables. This is because in the models *without* interaction term (centered or uncentered predictors) the interpretation of $$\beta_1$$ is the same as in the model *with* interaction term and centered predictors.
+Our second observation above was that the estimates of main effects are the same with/without interaction term when centering the predictor variables. This is because in the models *without* interaction term (centered or uncentered predictors) the interpretation of $$\beta_1$$ is the same as in the model *with* interaction term and centered predictors.
 
 More precisely, in the regression model with only main effects, $$\beta_1$$ is the main effect of $$X_1$$ on $$Y$$ averaged over all values of $$X_2$$, which is the same as the main effect of $$X_1$$ on $$Y$$ for $$X_2 = \mu_{X_2}$$. This means that if we center predictors, $$\beta_1$$ models the same effect in the data in a model with/without interaction term. This is an attractive property to have when one is interested in comparing models with/without interaction term.
 
