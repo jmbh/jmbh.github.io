@@ -21,7 +21,7 @@ The simplest possible example to illustrate the issue is a regression model in w
 $$
 Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_1X_2 + \epsilon,
 $$
-where we set $\beta_0 = 1, \beta_1 = 0.3, \beta_2 = 0.2, \beta_3 = 0.2$, and $\epsilon \sim N(0, \sigma^2)$ is a draw from a Gaussian distribution with mean zero and variance $\sigma^2$. We define the predictors $X_1, X_2$ as Gaussians with means $\mu_{X_1} = \mu_{X_2} = 1$ and $\sigma^{2}_{X_1}=\sigma^{2}_{X_2}=1$. This code samples $n = 10000$ observations from this model:
+where we set $\beta_0 = 1, \beta_1 = 0.3, \beta_2 = 0.2, \beta_3 = 0.2$, and $\epsilon \sim N(0, \sigma^2)$ is a draw from a Gaussian distribution with mean zero and variance $\sigma^2$. We define the predictors $X_1, X_2$ as Gaussians with means $\mu_{X_1} = \mu_{X_2} = 1$ and $\sigma_{X_1}^{2}=\sigma_{X_2}^{2}=1$. This code samples $n = 10000$ observations from this model:
 
 {% highlight r %}
 
