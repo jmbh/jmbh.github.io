@@ -17,7 +17,7 @@ We give an explanation on two levels:
 
 
 Explanation 1: Simplest example
----
+-----
 
 
 The simplest possible example to illustrate the issue is a regression model in which variable $$Y$$ is a linear function of variables $$X_1$$, $$X_2$$ and their product $$X_1X_2$$
@@ -147,7 +147,8 @@ More precisely, in the regression model with only main effects, $$\beta_1$$ is t
 
 
 
-**Explanation 2: Main effects as functions of added constants**
+Explanation 2: Main effects as functions of added constants
+-----
 
 Substracting the mean from predictors is a special case of adding constants to predictors. Here we first show numerically what happens to each regression parameter when adding constants to predictors. Then we show analytically how each parameter is a function of its value in the original regression model (no constant added) and the added constants.
 
