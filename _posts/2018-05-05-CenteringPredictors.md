@@ -17,7 +17,7 @@ We give an explanation on two levels:
 
 
 Explanation 1: Simplest example
------
+---
 
 
 The simplest possible example to illustrate the issue is a regression model in which variable $$Y$$ is a linear function of variables $$X_1$$, $$X_2$$ and their product $$X_1X_2$$
