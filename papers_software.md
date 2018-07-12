@@ -46,6 +46,8 @@ mousetrap: Functions for importing, preprocessing, analyzing, aggregating, and v
 
 # Presentations
 
+Haslbeck J.M.B. (2018). Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf) 
+
 Haslbeck J.M.B. (2017). Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
 
 Haslbeck J.M.B. (2017). First steps towards a computational model of Major Depression. Conference on Complex Systems, Cancun, Mexico.
