@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Graphical Analysis of German Parliament Voting Pattern
 category: r
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Deconstructing 'Measurement error and the replication crisis'
 category: random
 ---

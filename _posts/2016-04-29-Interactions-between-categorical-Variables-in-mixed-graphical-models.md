@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Interactions between Categorical Variables in Mixed Graphical Models
 category: r
 ---

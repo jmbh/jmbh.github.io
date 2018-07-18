@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Regression with Interaction Terms - How Centering Predictors influences Main Effects
 category: r
 ---
