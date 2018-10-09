@@ -50,7 +50,8 @@ A Dynamical Model of Panic Disorder. Conference on Complex Systems 2018, Thessal
 
 The Evolution of Beliefs in Natural Language Conversations. Complex Systems Summer School 2018, Santa Fe, USA [[Slides]](http://jmbh.github.io/files/CSSS2018.pdf).
 
-Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf) 
+Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf)
+
 Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
 
 First steps towards a computational model of Major Depression. Conference on Complex Systems 2017, Cancun, Mexico.
