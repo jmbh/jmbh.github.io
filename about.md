@@ -10,3 +10,12 @@ Hi, I am third year PhD student at the [Psychosystems](http://psychosystems.org)
 ### Contact
 
 jonashaslbeck@gmail.com
+
+
+### Links
+
+[psychosystems.org](http://psychosystems.org)
+
+[R-bloggers.com](http://www.r-bloggers.com/)
+
+[R-users.com](http://www.r-users.com/)
