@@ -20,7 +20,9 @@ Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixe
 
 #### Published
 
-Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (2018). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PDF]](https://psyarxiv.com/6edca/)
+Kieslich, P. J., Henninger, F., Wulff, D. U., Haslbeck, J. M. B., & Schulte-Mecklenbeck, M. (in press). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PDF]](https://psyarxiv.com/zuvqa/)
+
+Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (in press). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PDF]](https://psyarxiv.com/6edca/)
 
 Haslbeck J. M. B., Waldorp L. J. (2017). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://link.springer.com/article/10.3758/s13428-017-0910-x) [[arXiv]](https://arxiv.org/abs/1610.09108)
 
