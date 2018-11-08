@@ -6,11 +6,13 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (submitted). Moderated Network Models. [[PDF]](https://arxiv.org/abs/1807.02877)
+Haslbeck J. M. B., Epskamp S. & Marsman M. & Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[PDF]](http://arxiv.org/abs/1811.02916)
 
-von Stockert S., Haslbeck J. M. B., Lamers F., Pennix B. W. J. H., Schoevers, R.A. & Fried E. I., (Submitted). Depression and (no) inflammation? Using network analysis to examine links between individual depressive symptoms and inflammatory markers. [[PDF]](https://osf.io/h92nk/)
+Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (under review). Moderated Network Models. [[PDF]](https://arxiv.org/abs/1807.02877)
 
-Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (submitted). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[PDF]](https://arxiv.org/abs/1711.05204)
+von Stockert S., Haslbeck J. M. B., Lamers F., Pennix B. W. J. H., Schoevers, R.A. & Fried E. I., (submitted). Depression and (no) inflammation? Using network analysis to examine links between individual depressive symptoms and inflammatory markers. [[PDF]](https://osf.io/h92nk/)
+
+Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under review). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[PDF]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[PDF]](https://arxiv.org/abs/1608.07494)
 
