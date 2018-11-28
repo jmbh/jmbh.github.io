@@ -10,7 +10,7 @@ Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpre
 
 Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (under review). Moderated Network Models. [[arXiv]](https://arxiv.org/abs/1807.02877)
 
-von Stockert S., Haslbeck J. M. B., Lamers F., Pennix B. W. J. H., Schoevers, R.A. & Fried E. I., (submitted). Depression and (no) inflammation? Using network analysis to examine links between individual depressive symptoms and inflammatory markers. [[OSF]](https://osf.io/h92nk/)
+Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (submitted). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. [[OSF]](https://osf.io/h92nk/)
 
 Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under review). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[arXiv]](https://arxiv.org/abs/1711.05204)
 
@@ -20,7 +20,7 @@ Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for T
 
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[arXiv]](https://arxiv.org/abs/1510.05677)
 
-#### Published
+#### Published / in press
 
 Kieslich, P. J., Henninger, F., Wulff, D. U., Haslbeck, J. M. B., & Schulte-Mecklenbeck, M. (in press). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PsyArXiv]](https://psyarxiv.com/zuvqa/)
 
@@ -33,4 +33,5 @@ Haslbeck J. M. B., Fried E. I. (2017). How Predictable are Symptoms in Psychopat
 Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. Journal of Open Psychology Data, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[OSF]](https://osf.io/j4fg8/)
 
 Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
+
 
