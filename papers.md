@@ -6,6 +6,12 @@ permalink: /papers/
 
 #### Submitted / under review
 
+* shared first authorship
+
+Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
+
+Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
+
 Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
 Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (under review). Moderated Network Models. [[arXiv]](https://arxiv.org/abs/1807.02877)
