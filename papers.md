@@ -12,8 +12,6 @@ Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR
 
 Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
-Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
-
 Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (under review). Moderated Network Models. [[arXiv]](https://arxiv.org/abs/1807.02877)
 
 Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (submitted). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. [[OSF]](https://osf.io/h92nk/)
