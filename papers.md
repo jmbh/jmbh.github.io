@@ -6,7 +6,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-\* shared first authorship
+\* *shared first authorship*
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
