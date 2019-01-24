@@ -26,17 +26,21 @@ Haslbeck J. M. B., Waldorp L. J. (under review). mgm: Structure Estimation for T
 
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[arXiv]](https://arxiv.org/abs/1510.05677)
 
-#### Published / in press
+#### In press
 
 Kieslich, P. J., Henninger, F., Wulff, D. U., Haslbeck, J. M. B., & Schulte-Mecklenbeck, M. (in press). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PsyArXiv]](https://psyarxiv.com/zuvqa/)
 
 Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (in press). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PsyArXiv]](https://psyarxiv.com/6edca/)
+
+#### 2017
 
 Haslbeck J. M. B., Waldorp L. J. (2017). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. Behavior Research Methods. [[PDF]](https://link.springer.com/article/10.3758/s13428-017-0910-x) [[arXiv]](https://arxiv.org/abs/1610.09108)
 
 Haslbeck J. M. B., Fried E. I. (2017). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 18 Published Datasets. Psychological Medicine. [[PDF]](https://jmbh.github.io/files/NP_PM.pdf) [[Supplement]](https://jmbh.github.io/files/SupMaterial_new.zip)
 
 Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. Journal of Open Psychology Data, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[OSF]](https://osf.io/j4fg8/)
+
+#### 2015
 
 Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
 
