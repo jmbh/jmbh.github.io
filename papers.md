@@ -8,7 +8,9 @@ permalink: /papers/
 
 \* *shared first authorship*
 
-Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
+Dablander, F., Epskamp, S., & Haslbeck, J.M.B. (under review). Studying Statistics Anxiety Requires Sound Statistics: A Comment on Siew, McCartney, and Vitevitch (2019). [[PsyArXiv]](https://psyarxiv.com/pfnys)
+
+Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
 Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (submitted). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
