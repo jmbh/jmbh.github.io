@@ -8,6 +8,8 @@ permalink: /papers/
 
 \* *shared first authorship*
 
+Robinaugh, D., Haslbeck, J. M. B., Waldorp, L., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (Submitted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
+
 Dablander, F., Epskamp, S., & Haslbeck, J.M.B. (under review). Studying Statistics Anxiety Requires Sound Statistics: A Comment on Siew, McCartney, and Vitevitch (2019). [[PsyArXiv]](https://psyarxiv.com/pfnys)
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
