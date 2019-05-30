@@ -4,19 +4,19 @@ title: []
 permalink: /talks/
 ---
 
-Haslbeck J.M.B. (2019) Psychopathology as Complex Systems: Past and Current Projects. McNally Lab at Harvard University, 2019, Boston, US.
+Haslbeck J. M. B. (2019) Psychopathology as Complex Systems: Past and Current Projects. McNally Lab at Harvard University, 2019, Boston, US.
 
-Haslbeck J.M.B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. Real-Time Monitoring Statistics and Methods Reading Group at Harvard University, Boston, US.
+Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. Real-Time Monitoring Statistics and Methods Reading Group at Harvard University, Boston, US.
 
-Haslbeck J.M.B. & Robinaugh J.D. (2018) A Dynamical Model of Panic Disorder. Conference on Complex Systems 2018, Thessaloniki, Greece [[Slides]](http://jmbh.github.io/files/CCS2018_PanicModel_onlineVersion.pdf).
+Haslbeck J. M. B. & Robinaugh J. D. (2018) A Dynamical Model of Panic Disorder. Conference on Complex Systems 2018, Thessaloniki, Greece [[Slides]](http://jmbh.github.io/files/CCS2018_PanicModel_onlineVersion.pdf).
 
-Pescetelli N., Asano, Y., Jankowski, S., Haslbeck J.M.B & Le N. (2018) The Evolution of Beliefs in Natural Language Conversations. Complex Systems Summer School 2018, Santa Fe, USA [[Slides]](http://jmbh.github.io/files/CSSS2018.pdf).
+Pescetelli N., Asano, Y., Jankowski, S., Haslbeck J. M. B & Le N. (2018) The Evolution of Beliefs in Natural Language Conversations. Complex Systems Summer School 2018, Santa Fe, USA [[Slides]](http://jmbh.github.io/files/CSSS2018.pdf).
 
-Haslbeck J.M.B, Waldorp L.J. & Borsboom D. (2018) Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf)
+Haslbeck J. M. B, Waldorp L.J. & Borsboom D. (2018) Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf)
 
-Haslbeck J.M.B (2017) Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
+Haslbeck J. M. B (2017) Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
 
-Haslbeck J.M.B (2017) First steps towards a computational model of Major Depression. Conference on Complex Systems 2017, Cancun, Mexico.
+Haslbeck J. M. B. (2017) First steps towards a computational model of Major Depression. Conference on Complex Systems 2017, Cancun, Mexico.
 
 Haslbeck J. M. B. & Waldorp L. J. (2017) Predictability in Psychopathological Network Models. APS 2017, Boston, USA. [[Slides]](http://jmbh.github.io/files/aps_NP_talk.pdf) 
 
