@@ -6,7 +6,7 @@ permalink: /talks/
 
 Haslbeck J.M.B. (2019) Psychopathology as Complex Systems: Past and Current Projects. McNally Lab at Harvard University, 2019, Boston, US.
 
-Haslbeck J.M.B. & Ryan O. (2019) Psychopathology as Complex Systems: Past and Current Projects. Real-Time Monitoring Statistics and Methods at Harvard University, Boston, US.
+Haslbeck J.M.B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. Real-Time Monitoring Statistics and Methods Reading Group at Harvard University, Boston, US.
 
 Haslbeck J.M.B. & Robinaugh J.D. (2018) A Dynamical Model of Panic Disorder. Conference on Complex Systems 2018, Thessaloniki, Greece [[Slides]](http://jmbh.github.io/files/CCS2018_PanicModel_onlineVersion.pdf).
 
