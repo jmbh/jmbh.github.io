@@ -12,7 +12,6 @@ Haslbeck J.M.B. & Robinaugh J.D. (2018) A Dynamical Model of Panic Disorder. Con
 
 Pescetelli N., Asano, Y., Jankowski, S., Haslbeck J.M.B & Le N. (2018) The Evolution of Beliefs in Natural Language Conversations. Complex Systems Summer School 2018, Santa Fe, USA [[Slides]](http://jmbh.github.io/files/CSSS2018.pdf).
 
-
 Haslbeck J.M.B, Waldorp L.J. & Borsboom D. (2018) Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf)
 
 Haslbeck J.M.B (2017) Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
@@ -42,6 +41,4 @@ Haslbeck J.M.B (2016) Understanding Mental Disorders as Complex Networks. EFPSA 
 Haslbeck J.M.B & Waldorp L.J.(2016) Structure estimation for mixed graphical models in high-dimensional data. Psychoco 2016, University of Liège, Belgium. [[Slides]](http://jmbh.github.io/figs/About/psychoco2016_slides.pdf)
 
 Haslbeck J.M.B & Waldorp L.J.(2016) Structure estimation for mixed graphical models in high-dimensional data. EMPG 2015, University of Padua, Italy. [[Slides]](http://jmbh.github.io/figs/About/empg2015_slides.pdf)
-
-
 
