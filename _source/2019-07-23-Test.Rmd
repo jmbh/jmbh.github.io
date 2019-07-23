@@ -21,8 +21,9 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, results="hide", echo=FALSE}
 plot(pressure)
+print(2)
 ```
 
 And some formulas:
