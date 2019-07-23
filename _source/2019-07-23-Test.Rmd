@@ -4,6 +4,7 @@ title: "Test post Mathjax switch"
 date: 2019-07-23 17:30:00 +0100
 categories: 
 status: process
+comments: true
 published: true
 ---
 
