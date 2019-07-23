@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Test post Mathjax switch"
-date: 2019-07-23 17:30:00 +0100
-categories: 
-status: process
+date: 2019-06-29 11:00:00 +0100
+categories:
 comments: true
+status: process
 published: true
+# status: development
+# published: false
 ---
+
 
 Some code:
 
