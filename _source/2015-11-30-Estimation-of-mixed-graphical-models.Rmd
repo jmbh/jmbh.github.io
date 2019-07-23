@@ -66,7 +66,7 @@ qgraph(fit_ADS$pairwise$wadj,
        nodeNames = autism_data_large$colnames,
        color = autism_data_large$groups_color, 
        groups = autism_data_large$groups_list,
-       legend.mode="style2", legend.cex=.35, 
+       legend.mode="style2", legend.cex=.45, 
        vsize = 3.5, esize = 15)
 
 ```
