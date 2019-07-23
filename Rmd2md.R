@@ -47,6 +47,11 @@ rmd2md <- function( path_site = getwd(),
           message(paste('Processing ', f, sep=''))
           content[statusLine] <- 'status: publish'
           content[publishedLine] <- 'published: true'
+          
+          # browser()
+          
+          # Edit Jonas July 23rd; delete the "status: XX" line, because it interferes with the blogpost preview on the landing page
+          content <- content[-7]
 
           #andy change to path
           outFile <- file.path(path_site, dir_md, paste0(substr(f, 1, (nchar(f)-(nchar(in_ext)))), out_ext))
