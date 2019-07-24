@@ -4,6 +4,7 @@ title: "Graphical Analysis of German Parliament Voting Pattern"
 date: 2016-05-18 11:00:00 +0100
 categories: r
 comments: true
+status: process
 # published: true
 # status: development
 # published: false
