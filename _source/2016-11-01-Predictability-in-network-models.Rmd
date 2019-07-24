@@ -48,7 +48,8 @@ fit_obj <- mgm(data = data,
                type = rep('g', p),
                level = rep(1, p),
                lambdaSel = 'CV',
-               ruleReg = 'OR')
+               ruleReg = 'OR', 
+               pbar = FALSE)
 ```
 
 For more info on how to estimate Mixed Graphical Models using the mgm package see [this previous post](http://jmbh.github.io/Estimation-of-mixed-graphical-models/) or the [mgm paper](https://arxiv.org/pdf/1510.06871v2.pdf).
