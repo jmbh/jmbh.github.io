@@ -52,6 +52,9 @@ rmd2md <- function( path_site = getwd(),
           
           # Edit Jonas July 23rd; delete the "status: XX" line, because it interferes with the blogpost preview on the landing page
           content <- content[-7]
+          
+          # Turn " " lines into "" lines
+          content[content == " "] <- ""
 
           #andy change to path
           outFile <- file.path(path_site, dir_md, paste0(substr(f, 1, (nchar(f)-(nchar(in_ext)))), out_ext))
