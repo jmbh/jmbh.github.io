@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Interactions between Categorical Variables in Mixed Graphical Models"
-date: 2016-04-29 11:00:00 +0100
-categories: r
 comments: true
-# published: true
-# status: development
-# published: false
+title: Interactions between Categorical Variables in Mixed Graphical Models
+category: r
 ---
  
 {:center: style="text-align: center"}
