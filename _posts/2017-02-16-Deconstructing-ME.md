@@ -140,7 +140,7 @@ This was a fun opportunity to do some statistics detective work. However, the la
 
 The code to exactly reproduce the above figures can be found [here](https://raw.githubusercontent.com/jmbh/jmbh.github.io/master/figs/measurementerror/RCode_ME_comment.R).
 
-I would like to thank [Fabian Dablander](https://twitter.com/fdabl) and [Peter Edelsbrunner](https://www.gess.ethz.ch/en/the-department/people/person-detail.html?persid=191462) for helpful comments on this blogpost. In addition, I would like to thank [Ois<c3><ad>n Ryan](https://www.uu.nl/staff/ORyan/0) and [Joris Broere](https://www.uu.nl/medewerkers/JJBroere/0) for an interesting discussion on a train ride from Eindhoven to Utrecht yesterday, and I apologize to about 15 anonymous Dutch travelers because they had to endure a heated statistical debate.
+I would like to thank [Fabian Dablander](https://fdabl.github.io/) and [Peter Edelsbrunner](https://www.peteredelsbrunner.com/) for helpful comments on this blogpost. In addition, I would like to thank [Ois<c3><ad>n Ryan](https://www.uu.nl/staff/ORyan/0) and [Joris Broere](https://www.uu.nl/medewerkers/JJBroere/0) for an interesting discussion on a train ride from Eindhoven to Utrecht yesterday, and I apologize to about 15 anonymous Dutch travelers because they had to endure a heated statistical debate.
 
 I am looking forward to comments, complaints and corrections.
 
