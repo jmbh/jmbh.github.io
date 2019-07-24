@@ -79,7 +79,7 @@ lm(y ~ x1_c + x2_c)
 {% endhighlight %}
 
 
-The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^*$ and $\hat\beta_2 = \hat\beta_2^*$.
+The parameter estimates of the regression with uncentered predictors are $\hat\beta_1 \approx 0.50$ and $\hat\beta_2 \approx 0.40$. The estimates of the regression with *centered* predictors are $\hat\beta_1^\ast \approx 0.50$ and $\hat\beta_2^\ast \approx 0.40$ (we denote estimates from regressions with centered predictors with an asterisk). And indeed, $\hat\beta_1 = \hat\beta_1^\ast$ and $\hat\beta_2 = \hat\beta_2^\ast$.
 
 **Regression models with main effects + interaction**
 
@@ -121,7 +121,7 @@ lm(y ~ x1_c * x2_c)
 ##      1.7026       0.4984       0.3995       0.2111
 {% endhighlight %}
 
-We see that $\hat\beta_1 \approx 0.29$ and $\hat\beta_2 \approx 0.19$ and $\hat\beta_1^* \approx 0.50$ and $\hat\beta_2^* \approx 0.40$. While the two models have different parameters, they are statistically equivalent. Here this means that expected values of both models are the same. In empirical terms this means that their coefficient of determination $R^2$ is the same. The reader will be able to verify this in Explanation 2 below.
+We see that $\hat\beta_1 \approx 0.29$ and $\hat\beta_2 \approx 0.19$ and $\hat\beta_1^\ast \approx 0.50$ and $\hat\beta_2^\ast \approx 0.40$. While the two models have different parameters, they are statistically equivalent. Here this means that expected values of both models are the same. In empirical terms this means that their coefficient of determination $R^2$ is the same. The reader will be able to verify this in Explanation 2 below.
 
 We make two observations: 
 
@@ -130,7 +130,7 @@ We make two observations:
 
 **Why does centering influence main effects in the presence of an interaction term?**
 
-The reason is that in the model with the interaction term, the parameter $\beta_1$ (uncentered predictors) is the main effect of $X_1$ on $Y$ if $X_2 = 0$, and the parameter $\beta_1^*$ (centered predictors) is the main effect of $X_1$ on $Y$ if $X_2 = \mu_{X_2}$. This means that $\beta_1$ and $\beta_1^*$ are modeling different effects in the data. Here is a more detailed explanation:
+The reason is that in the model with the interaction term, the parameter $\beta_1$ (uncentered predictors) is the main effect of $X_1$ on $Y$ if $X_2 = 0$, and the parameter $\beta_1^\ast$ (centered predictors) is the main effect of $X_1$ on $Y$ if $X_2 = \mu_{X_2}$. This means that $\beta_1$ and $\beta_1^\ast$ are modeling different effects in the data. Here is a more detailed explanation:
 
 Rewriting the model equation in the following way
 
@@ -148,14 +148,14 @@ Now let $X_1^c = X_1 - \mu_{X_1}$ and $X_2^c = X_2 - \mu_{X_2}$ be the centered 
 
 $$
 \begin{aligned}
-\mathbb{E}[Y] &= \beta_0^* + \beta_1^* X_1^c + \beta_2^* X_2^c + \beta_3^* X_1^c X_2^c \\
-&= \beta_0^* + (\beta_1^* + \beta_3^*  X_2^c) X_1^c + \beta_2^*  X_2^c \\
+\mathbb{E}[Y] &= \beta_0^\ast + \beta_1^\ast X_1^c + \beta_2^\ast X_2^c + \beta_3^\ast X_1^c X_2^c \\
+&= \beta_0^\ast + (\beta_1^\ast + \beta_3^\ast  X_2^c) X_1^c + \beta_2^\ast  X_2^c \\
 \end{aligned}
 $$
 
-Again we focus on the effect $(\beta_1^* + \beta_3^*  X_2^c)$ of $X_1^c$ on $Y$. What does the the parameter $\beta_1^*$ model here? It models the main effect of $X_1^c$ on $Y$ when $X_2^c = \mu_{X_2^c} = 0$. What remained the same is that $\beta_1^*$ is the main effect of $X_1^c$ on $Y$ when $X_2^c = 0$. But what is new is that $\mu_{X_2^c} = 0$.
+Again we focus on the effect $(\beta_1^\ast + \beta_3^\ast  X_2^c)$ of $X_1^c$ on $Y$. What does the the parameter $\beta_1^\ast$ model here? It models the main effect of $X_1^c$ on $Y$ when $X_2^c = \mu_{X_2^c} = 0$. What remained the same is that $\beta_1^\ast$ is the main effect of $X_1^c$ on $Y$ when $X_2^c = 0$. But what is new is that $\mu_{X_2^c} = 0$.
 
-To summarize, in the uncentered case $\beta_i$ is the main effect when the predictor variable $X_i$ is equal to zero; and in the centered case, $\beta_i^*$ is the main effect when the predictor variable $X_i$ is equal to its mean. Clearly, $\beta_i$ and $\beta_i^*$ model different effects in the data and it is therefore not surprising that the two regressions give us very different estimates.
+To summarize, in the uncentered case $\beta_i$ is the main effect when the predictor variable $X_i$ is equal to zero; and in the centered case, $\beta_i^\ast$ is the main effect when the predictor variable $X_i$ is equal to its mean. Clearly, $\beta_i$ and $\beta_i^\ast$ model different effects in the data and it is therefore not surprising that the two regressions give us very different estimates.
 
 
 **Centering $\rightarrow$ interpretation of $\beta$ remains the same when adding interaction**
@@ -298,67 +298,67 @@ Now we plug in the predictors with added constants $c_1, c_2$, multiply out, and
 
 $$
 \begin{aligned}
-\mathbb{E}[Y] &= \beta_0^* + \beta_1^* (X_1 + c_1) + \beta_2 (X_2 + c_2) + \beta_3^* (X_1 + c_1) (X_2 + c_2) \\
-& = \beta_0^* + \beta_1^*X_1 + \beta_1^*c_1 + \beta_2^*X_2 + \beta_2^*c_2
-+ \beta_3^* X_1X_2 + \beta_3^*X_1 c_2 + \beta_3^* c_1X_2 + \beta_3^* c_1c_2 \\
-&= (\beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2) + (\beta_1^* + \beta_3^*c_2)X_1 + (\beta_2^* + \beta_3^*c_1)X_2 + \beta_3^* X_1X_2
+\mathbb{E}[Y] &= \beta_0^\ast + \beta_1^\ast (X_1 + c_1) + \beta_2 (X_2 + c_2) + \beta_3^\ast (X_1 + c_1) (X_2 + c_2) \\
+& = \beta_0^\ast + \beta_1^\ast X_1 + \beta_1^\ast c_1 + \beta_2^\ast X_2 + \beta_2^\ast c_2
++ \beta_3^\ast X_1X_2 + \beta_3^\ast X_1 c_2 + \beta_3^\ast c_1X_2 + \beta_3^\ast c_1c_2 \\
+&= (\beta_0^\ast + \beta_1^\ast c_1 + \beta_2^* c_2 + \beta_3^\ast c_1c_2) + (\beta_1^\ast + \beta_3^\ast c_2)X_1 + (\beta_2^\ast + \beta_3^\ast c_1)X_2 + \beta_3^\ast X_1X_2
 \end{aligned}
 $$
 
 Now if we equate the respective interecept and slope terms we get:
 
 $$
-\beta_0 = \beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2
+\beta_0 = \beta_0^\ast + \beta_1^\ast c_1 + \beta_2^\ast c_2 + \beta_3^\ast c_1c_2
 $$
 
 $$
-\beta_1 = \beta_1^* + \beta_3^*c_2
+\beta_1 = \beta_1^\ast + \beta_3^\ast c_2
 $$
 
 $$
-\beta_2 = \beta_2^* + \beta_3^*c_1
+\beta_2 = \beta_2^\ast + \beta_3^\ast c_1
 $$
 
 and
 
 $$
-\beta_3 = \beta_3^*
+\beta_3 = \beta_3^\ast
 $$
 
-Now we solve for the parameters $\beta_0^{*}, \beta_1^{*}, \beta_2^{*}, \beta_3^{*}$ from the models with constants added to the predictors.
+Now we solve for the parameters $\beta_0^\ast, \beta_1^\ast, \beta_2^\ast, \beta_3^\ast$ from the models with constants added to the predictors.
 
-Because we know $\beta_3 = \beta_3^\ast$ we can write $\beta_2 = \beta_2^* + \beta_3 c_1$ and can solve
-
-$$
-\beta_2^* = \beta_2 - \beta_3 c_1
-$$
-
-The same goes for $\beta_1^{*}$ so we have
+Because we know $\beta_3 = \beta_3^\ast$ we can write $\beta_2 = \beta_2^\ast + \beta_3 c_1$ and can solve
 
 $$
-\beta_1^* = \beta_1 - \beta_3 c_2
+\beta_2^\ast = \beta_2 - \beta_3 c_1
 $$
 
-Finally, to obtain a formula for $\beta_0^*$ we plug the just obtained expressions for $\beta_1^*$, $\beta_2^*$ and $\beta_3^*$ into
+The same goes for $\beta_1^\ast$ so we have
 
 $$
-\beta_0 = \beta_0^* + \beta_1^*c_1 + \beta_2^*c_2 + \beta_3^* c_1c_2
+\beta_1^\ast = \beta_1 - \beta_3 c_2
+$$
+
+Finally, to obtain a formula for $\beta_0^\ast$ we plug the just obtained expressions for $\beta_1^\ast$, $\beta_2^\ast$ and $\beta_3^\ast$ into
+
+$$
+\beta_0 = \beta_0^\ast + \beta_1^\ast c_1 + \beta_2^\ast c_2 + \beta_3^\ast c_1c_2
 $$
 
 and get 
 
 $$
 \begin{aligned}
-\beta_0 &= \beta_0^* + (\beta_1 - \beta_3 c_2)c_1 +  (\beta_2 - \beta_3 c_1)c_2 + \beta_3 c_1c_2 \\
-&= \beta_0^* + \beta_1 c_1 - \beta_3 c_2 c_1 + \beta_2 c_2 - \beta_3 c_2 c_1 + \beta_3 c_1c_2 \\
-&=  \beta_0^* + \beta_1 c_1 + \beta_2 c_2 - \beta_3 c_1c_2
+\beta_0 &= \beta_0^\ast + (\beta_1 - \beta_3 c_2)c_1 +  (\beta_2 - \beta_3 c_1)c_2 + \beta_3 c_1c_2 \\
+&= \beta_0^\ast + \beta_1 c_1 - \beta_3 c_2 c_1 + \beta_2 c_2 - \beta_3 c_2 c_1 + \beta_3 c_1c_2 \\
+&=  \beta_0^\ast + \beta_1 c_1 + \beta_2 c_2 - \beta_3 c_1c_2
 \end{aligned}
 $$
 
-and can solve for $\beta_0^*$:
+and can solve for $\beta_0^\ast$:
 
 $$
-\beta_0^* = \beta_0 - \beta_1 c_1 - \beta_2 c_2 + \beta_3 c_1c_2
+\beta_0^\ast = \beta_0 - \beta_1 c_1 - \beta_2 c_2 + \beta_3 c_1c_2
 $$
 
 Let's check whether those fomulas predict the parameter changes as a function of `c` in the numerical experiment above.
