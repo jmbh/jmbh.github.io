@@ -327,7 +327,7 @@ $$
 
 Now we solve for the parameters $\beta_0^{*}, \beta_1^{*}, \beta_2^{*}, \beta_3^{*}$ from the models with constants added to the predictors.
 
-Because we know $\beta_3 = \beta_3^{*}$ we can write $\beta_2 = \beta_2^* + \beta_3 c_1$ and can solve
+Because we know $\beta_3 = \beta_3^\ast$ we can write $\beta_2 = \beta_2^* + \beta_3 c_1$ and can solve
 
 $$
 \beta_2^* = \beta_2 - \beta_3 c_1
