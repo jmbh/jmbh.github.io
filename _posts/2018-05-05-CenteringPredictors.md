@@ -325,15 +325,15 @@ $$
 \beta_3 = \beta_3^*
 $$
 
-Now we solve for the parameters $\beta_0^*, \beta_1^*, \beta_2^*, \beta_3^*$ from the models with constants added to the predictors.
+Now we solve for the parameters $\beta_0^{*}, \beta_1^{*}, \beta_2^{*}, \beta_3^{*}$ from the models with constants added to the predictors.
 
-Because we know $\beta_3 = \beta_3^*$ we can write $\beta_2 = \beta_2^* + \beta_3 c_1$ and can solve
+Because we know $\beta_3 = \beta_3^{*}$ we can write $\beta_2 = \beta_2^* + \beta_3 c_1$ and can solve
 
 $$
 \beta_2^* = \beta_2 - \beta_3 c_1
 $$
 
-The same goes for $\beta_1^*$ so we have
+The same goes for $\beta_1^{*}$ so we have
 
 $$
 \beta_1^* = \beta_1 - \beta_3 c_2
