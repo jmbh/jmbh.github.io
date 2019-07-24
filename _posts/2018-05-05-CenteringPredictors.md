@@ -16,11 +16,6 @@ We give an explanation on two levels:
 1. By illustrating the issue with the simplest possible example
 2. By showing in general how main effects are a function of the constants (e.g. means) that are substracted from predictor variables
 
-<script type="text/javascript" async
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-
 ## Explanation 1: Simplest example
 
 The simplest possible example to illustrate the issue is a regression model in which variable $Y$ is a linear function of variables $X_1$, $X_2$, and their product $X_1X_2$
@@ -235,9 +230,7 @@ title(xlab = "Added constant")
 title(ylab = "Parameter value")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/assets/img/2018-05-05-CenteringPredictors.Rmd/unnamed-chunk-8-1.png)
-
-![center](http://jmbh.github.io/figs/CenteringPredictors/Centering_Fig1.png) 
+<img src="/assets/img/2018-05-05-CenteringPredictors.Rmd/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
 
 We see that the intercept changes as a function of `c`. The model at `c = 0` corresponds to the very first model we fitted above. And the model at `c = -1` corresponds to the model fitted with centered predictors. But the key observation is that the main effects $\beta_1, \beta_2$ do not change. A proof of this and an exact expression for the intercept will fall out of our analysis of the model with interaction term in the last section of this blogpost.
 
