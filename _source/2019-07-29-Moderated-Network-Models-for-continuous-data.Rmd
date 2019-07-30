@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Regression with Interaction Terms - How Centering Predictors influences Main Effects'"
+title: "Moderated Network Models for Continuous Data'"
 date: 2017-02-16 11:00:00 +0100
 categories: r
 comments: true
@@ -11,27 +11,140 @@ status: development
 ---
 
 
+One paragraph motivation and what the blogpost will be about
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+## Moderated Network Models
+
+Quick explainer what this is about.
+
+
+## The XX Data set
+
+Read the data:
+
+```{r, message=FALSE}
+load("/Users/jonas/Dropbox/adolescent_networks/data/workspace_1.RData")
+data_long_complete <- na.omit(data_long)
+
+
+# Subsetting
+labels <- c("tv", "socialmedia", "familyeat", "friends", "lifesatisfaction", "alcohol", "smoking", "stay_late", "age")
+data_short <- data_long_complete[, labels]
+
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Fitting a Network Model (Gaussian Graphical Model)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+```{r, message=FALSE}
+library(mgm)
+mgm_obj <- mgm(data = data_short, 
+               type = rep("g", 9), 
+               level = rep(1, 9), 
+               lambdaSel = "EBIC", 
+               pbar=FALSE)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+Visualizing:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r, fig.align="center", fig.width=6, fig.height=6}
+
+library(qgraph)
+qgraph(mgm_obj$pairwise$wadj, 
+       edge.color = mgm_obj$pairwise$edgecolor, 
+       edge.labels = TRUE,
+       layout = "circle", 
+       labels = labels)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Fitting a Moderated Network Model
+
+Fit moderated network model:
+
+```{r, messages=FALSE}
+mgm_obj_wM <- mgm(data = data_short, 
+                  type = c(rep("g", 9)), 
+                  level = c(rep(1, 9)), 
+                  moderators = 9,
+                  lambdaSel = "EBIC", 
+                  pbar = FALSE)
+```
+
+Are there any moderation effects?
+
+```{r}
+mgm_obj_wM$interactions$indicator
+```
+
+Visualize as factor graph:
+
+
+```{r}
+FactorGraph(mgm_obj_wM, PairwiseAsEdge = TRUE, edge.labels=TRUE)
+```
+
+
+
+## Condition on the Moderator age
+
+
+We again condition. However, in contrast to categorical moderators, we do not condition on group, but we can condition on any value for age. First, we look at which values we actually have data for age. Here we look at the z-transformed versions of age, because this is what is used in mgm internally (to ensure that the reguarlization is independent of the variance of variables):
+
+```{r, fig.align="center", fig.width=4, fig.height=4}
+
+hist(scale(data_long_complete$age), main = "age", xlab="")
+
+```
+
+The values -1.5, 0, 1.5 reasonably cover the range and we therefore choose those for now:
+
+
+```{r}
+mgm_obj_wM_age_0 <- condition(object = mgm_obj_wM, 
+                              values = list("9"=-1.5))
+
+mgm_obj_wM_age_1 <- condition(object = mgm_obj_wM, 
+                              values = list("9"=0))
+
+mgm_obj_wM_age_2 <- condition(object = mgm_obj_wM, 
+                              values = list("9"=1.5))
+
+l_mgm_obj <- list(mgm_obj_wM_age_0, mgm_obj_wM_age_1, mgm_obj_wM_age_2)
+values = c(-1.5, 0, 1.5)
+
+```
+
+
+Visualize:
+
+```{r, fig.align="center", fig.width=15, fig.height=5}
+
+par(mfrow=c(1,3))
+
+for(i in 1:3) qgraph(l_mgm_obj[[i]]$pairwise$wadj, 
+                     edge.color = l_mgm_obj[[i]]$pairwise$edgecolor, 
+                     edge.labels = TRUE,
+                     layout = "circle", 
+                     labels = labels_wM, title = "Age = -1.5", maximum = .3)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
