@@ -348,7 +348,7 @@ In case anything is unclear or if you have any questions or comments, please let
 
 ---
 
-I would like to thank [Fabian Dablander](https://fabiandablander.com/) and [Heino Matti](https://mattiheino.com/) for their feedback on this blog post.
+I would like to thank [Fabian Dablander](https://fabiandablander.com/) and [Matti Heino](https://mattiheino.com/) for their feedback on this blog post.
 
 
 
