@@ -29,7 +29,7 @@ head(data)
 
 Because MNMs include next to 2-way (pairwise) interactions also 3-way interactions, they are more sensitive to extreme values. This is because multiplying three of them naturally leads to more extreme values than when multiplying only two extreme values. It is therefore especially important to check the marginal distributions of all variables:
 
-```{r, fig.align='center', fig.width=6.5, fig.height=4}
+```{r, fig.align='center', fig.width=7.8, fig.height=4.8}
 par(mfrow=c(2,3))
 for(i in 1:5) {
   barplot(table(data[, i]), axes = FALSE, xlab = "", ylim = c(0, 3000))
@@ -172,7 +172,7 @@ Before visualizing this model as a factor graph, let's consider why we actually 
 A factor graph includes, as usual, nodes as variables. But it includes additional variables for interaction parameters. That is, we add an additional (factor) node for each 2-way and 3-way interaction. With an `mgm()` output object as input, the `FactorGraph()` function plots the factor graph for us:
 
 
-```{r, fig.align='center', fig.width=7, fig.height=5}
+```{r, fig.align='center', fig.width=7, fig.height=7}
 FactorGraph(mgm_mod_all, 
             labels = colnames(data), 
             layout = "circle")
@@ -202,7 +202,7 @@ res_obj <- resample(object = mgm_mod,
 We can then visualize the summary of all sampling distributions using `plotRes()`:
 
 
-```{r, fig.align='center', fig.width=7, fig.height=5}
+```{r, fig.align='center', fig.width=9.1, fig.height=6.5}
 plotRes(res_obj, 
         axis.ticks = c(-.1, 0, .1, .2, .3, .4, .5), 
         axis.ticks.mod = c(-.1, -.05, 0, .05, .1), 
