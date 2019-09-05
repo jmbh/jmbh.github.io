@@ -85,23 +85,23 @@ pred_obj$error
 
 {% highlight text %}
 ##     Variable    R2
-## 1  intrusion 0.637
-## 2     dreams 0.650
-## 3      flash 0.602
-## 4      upset 0.637
+## 1  intrusion 0.639
+## 2     dreams 0.661
+## 3      flash 0.601
+## 4      upset 0.636
 ## 5    physior 0.627
 ## 6    avoidth 0.686
 ## 7   avoidact 0.681
 ## 8    amnesia 0.410
-## 9    lossint 0.521
+## 9    lossint 0.520
 ## 10   distant 0.498
-## 11      numb 0.458
-## 12    future 0.543
-## 13     sleep 0.564
-## 14     anger 0.561
-## 15    concen 0.630
-## 16     hyper 0.675
-## 17   startle 0.621
+## 11      numb 0.451
+## 12    future 0.540
+## 13     sleep 0.565
+## 14     anger 0.562
+## 15    concen 0.638
+## 16     hyper 0.676
+## 17   startle 0.626
 {% endhighlight %}
 
 We calculated the percentage of explained variance ($R^2$) for each of the nodes in the network. Next, we visualize the estimated network and discuss its structure in relation to explained variance.
