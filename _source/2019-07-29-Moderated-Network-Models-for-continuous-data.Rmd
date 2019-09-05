@@ -172,7 +172,7 @@ Before visualizing this model as a factor graph, let's consider why we actually 
 A factor graph includes, as usual, nodes as variables. But it includes additional variables for interaction parameters. That is, we add an additional (factor) node for each 2-way and 3-way interaction. With an `mgm()` output object as input, the `FactorGraph()` function plots the factor graph for us:
 
 
-```{r, fig.align='center', fig.width=7, fig.height=7}
+```{r, fig.align='center', fig.width=7, fig.height=6}
 FactorGraph(mgm_mod_all, 
             labels = colnames(data), 
             layout = "circle")
