@@ -8,6 +8,8 @@ permalink: /papers/
 
 \* *shared first authorship*
 
+Haslbeck, J. M. B.\* & Ryan O.\* (submitted). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
+
 Robinaugh, D., Haslbeck, J. M. B., Waldorp, L., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (submitted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
@@ -16,8 +18,6 @@ Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (under review). Inter
 
 Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (under review). Moderated Network Models. [[arXiv]](https://arxiv.org/abs/1807.02877)
 
-Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (submitted). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. [[OSF]](https://osf.io/h92nk/)
-
 Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under review). How to estimate time-varying Vector Autoregressive Models? A comparison of two methods. [[arXiv]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[arXiv]](https://arxiv.org/abs/1608.07494)
@@ -25,6 +25,8 @@ Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Cluste
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[arXiv]](https://arxiv.org/abs/1510.05677)
 
 #### In press
+
+Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (in press). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. [[OSF]](https://osf.io/h92nk/)
 
 Haslbeck J. M. B., Waldorp L. J. (in press). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871)
 
