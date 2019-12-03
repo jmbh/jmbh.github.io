@@ -26,13 +26,13 @@ Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixe
 
 Haslbeck J. M. B., Waldorp L. J. (in press). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871)
 
-Kieslich, P. J., Henninger, F., Wulff, D. U., Haslbeck, J. M. B., & Schulte-Mecklenbeck, M. (in press). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PsyArXiv]](https://psyarxiv.com/zuvqa/)
-
-Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (in press). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PsyArXiv]](https://psyarxiv.com/6edca/)
-
 #### 2019
 
 Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (2019). Moderated Network Models. Multivariate Behavioral Research. [[PDF]](https://www.tandfonline.com/doi/full/10.1080/00273171.2019.1677207) [[arXiv]](https://arxiv.org/abs/1807.02877)
+
+Kieslich, P. J., Henninger, F., Wulff, D. U., Haslbeck, J. M. B., & Schulte-Mecklenbeck, M. (2019). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PsyArXiv]](https://psyarxiv.com/zuvqa/)
+
+Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (2019). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PsyArXiv]](https://psyarxiv.com/6edca/)
 
 Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (2019). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. Psychological Medicine. [[PDF]](https://www.cambridge.org/core/journals/psychological-medicine/article/using-network-analysis-to-examine-links-between-individual-depressive-symptoms-inflammatory-markers-and-covariates/E2C8D6857450A832AF10CD9E8DA757BB) [[OSF]](https://osf.io/h92nk/)
 
