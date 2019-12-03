@@ -32,7 +32,7 @@ Wulff, D. U., Haslbeck, J. M. B., Kieslich, P. J., Henninger, F., Schulte-Meckle
 
 #### 2019
 
-Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (2019). Moderated Network Models. Multivariate Behavioral Reserach. [[PDF]](https://www.tandfonline.com/doi/full/10.1080/00273171.2019.1677207) [[arXiv]](https://arxiv.org/abs/1807.02877)
+Haslbeck J. M. B., Borsboom D. & Waldorp L. J. (2019). Moderated Network Models. Multivariate Behavioral Research. [[PDF]](https://www.tandfonline.com/doi/full/10.1080/00273171.2019.1677207) [[arXiv]](https://arxiv.org/abs/1807.02877)
 
 Fried E. I., von Stockert S., Haslbeck J. M. B., Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (2019). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. Psychological Medicine. [[PDF]](https://www.cambridge.org/core/journals/psychological-medicine/article/using-network-analysis-to-examine-links-between-individual-depressive-symptoms-inflammatory-markers-and-covariates/E2C8D6857450A832AF10CD9E8DA757BB) [[OSF]](https://osf.io/h92nk/)
 
