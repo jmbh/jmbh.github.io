@@ -8,9 +8,11 @@ permalink: /papers/
 
 \* *shared first authorship*
 
-Haslbeck, J. M. B.\* & Ryan O.\* (submitted). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
+Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (submitted). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
-Robinaugh, D., Haslbeck, J. M. B., Waldorp, L., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (submitted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
+Haslbeck, J. M. B.\* & Ryan O.\* (under review). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
+
+Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (submitted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under revision). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
