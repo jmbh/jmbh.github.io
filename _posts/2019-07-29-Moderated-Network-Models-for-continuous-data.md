@@ -130,7 +130,7 @@ showInteraction(object = mgm_mod, int = c(1,3))
 ## Sign:  1  (Positive)
 {% endhighlight %}
 
-We can interpret this parameter using the usual linear regression interpretation: when increasing Nervous (Hostile) by 1 unit, Lonely (Hostile) increases by $\approx 0.114$, keeping everything else constant.
+We can interpret this parameter using the usual linear regression interpretation: when increasing Nervous (Hostile) by 1 unit, Hostile (Nervous) increases by $\approx 0.114$, keeping everything else constant.
 
 Note, however, that variables 1 and 3 are also involved in a 3-way interaction with 5 (Depressed), that is, the pairwise interaction between 1 and 3 is moderated by 5 (Depression). Similarly to above, we can retrieve the moderation effect using `showInteraction()`:
 
@@ -147,7 +147,9 @@ showInteraction(object = mgm_mod, int = c(1,3,5))
 ## Sign:  1  (Positive)
 {% endhighlight %}
 
-We see that there is a *positive* moderation effect. This means that, if one *increases* the values of Depression, the pairwise interaction between Hostile and Lonely becomes *stronger*. For example, if Depression = 0, then the parameter for the pairwise interaction between Hostile and Lonely is equal to $0.114 +  0.053 \times 0 = 0.114$. If Depression = 1, then the pairwise interaction parameter is equal to  $0.114 +  0.053 \times 1 = 0.167$. In this example, we fixed Depression to a given value and computed the resulting pairwise interaction between Hostile and Lonely. We can also do this for the entire network, and inspect the network for different values of Depression. The function `condition()` does that for you.
+We see that there is a *positive* moderation effect. This means that, if one *increases* the values of Depression, the pairwise interaction between Hostile and Nervous becomes *stronger*. For example, if Depression = 0, then the parameter for the pairwise interaction between Hostile and Nervous is equal to $0.114 +  0.053 \times 0 = 0.114$. If Depression = 1, then the pairwise interaction parameter is equal to  $0.114 +  0.053 \times 1 = 0.167$. In this example, we fixed Depression to a given value and computed the resulting pairwise interaction between Hostile and Nervous We can also do this for the entire network, and inspect the network for different values of Depression. The function `condition()` does that for you (see below). The discussion of the modereation effect shows that we have to correct our above interpretation of the pairwise interaction between Hostile and Nervous: when increasing Nervous (Hostile) by 1 unit, Hostile (Nervous) increases by $\approx 0.114$, *if Depression is equal to zero* and when keeping everything else constant. 
+
+Why does the pairwise effect represent exactly the effect when Depression is equal to zero? The reason is that we mean-centered all variables before estimation by default. This leads to the situation that the pairwise interaction parameter represents the moderated effect when conditioning on the moderator value with the highest density (assuming that the moderator variable is symmetric and unimodel, which we do here because we assume all variables to be conditional Gaussians). Uncentered variables often lead to pairwise parameters that are conditioned on moderator values that do not exist in the data, which leads to pairwise parameters that have no meaningful interpretation. For a detailed discussion of this  [see here](https://jmbh.github.io/CenteringPredictors/).
 
 
 ### Conditioning on the Moderator
