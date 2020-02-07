@@ -8,23 +8,23 @@ permalink: /papers/
 
 \* *shared first authorship*
 
-Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (submitted). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
+Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
-Haslbeck, J. M. B.\* & Ryan O.\* (under review). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
+Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under revision). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
-Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (submitted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
+Haslbeck, J. M. B.\* & Ryan O.\* (under revision). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
 
-Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under revision). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
+Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (under review). Interpreting the Ising Model: The Input Matters. [[arXiv]](http://arxiv.org/abs/1811.02916)
-
-Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under revision). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. [[arXiv]](https://arxiv.org/abs/1711.05204)
+Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under review). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. [[arXiv]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[arXiv]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[arXiv]](https://arxiv.org/abs/1510.05677)
 
-#### In press
+#### Accepted / In press
+
+Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (accepted). Interpreting the Ising Model: The Input Matters. Multivariate Behavioral Research. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
 Haslbeck J. M. B., Waldorp L. J. (in press). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871)
 
