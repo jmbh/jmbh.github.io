@@ -16,13 +16,13 @@ Haslbeck, J. M. B.\* & Ryan O.\* (under revision). Recovering Bistable Systems f
 
 Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (under review). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. [[arXiv]](https://arxiv.org/abs/1711.05204)
-
 Haslbeck J. M. B., Wulff. D. U., (under review). Estimating the Number of Clusters via Normalized Cluster Instability. Journal of Computational and Graphical Statistics. [[arXiv]](https://arxiv.org/abs/1608.07494)
 
 Haslbeck J. M. B., Waldorp L. J. (in preparation). Structure Estimation for Mixed Graphical models in High Dimensions. [[arXiv]](https://arxiv.org/abs/1510.05677)
 
 #### Accepted / In press
+
+Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (accepted). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. Multivariate Behavioral Research. [[arXiv]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (accepted). Interpreting the Ising Model: The Input Matters. Multivariate Behavioral Research. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
