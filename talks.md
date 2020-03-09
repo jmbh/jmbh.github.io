@@ -4,6 +4,10 @@ title: []
 permalink: /talks/
 ---
 
+Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. IOPS Winter Conference, Leiden University [[Slides]](http://jmbh.github.io/files/RecovBS_Dec12_IOPS2019.pdf)
+
+Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. 12th DynaNet Meeting, University of Amsterdam [[Slides]](http://jmbh.github.io/files/bistability_DynaNet_Dec4.pdf)
+
 Haslbeck J. M. B. (2019) Psychopathology as Complex Systems: Past and Current Projects. McNally Lab at Harvard University, 2019, Boston, US.
 
 Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. Real-Time Monitoring Statistics and Methods Reading Group at Harvard University, Boston, US.
