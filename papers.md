@@ -8,7 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (submitted). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
+Robinaugh, D., Haslbeck, J. M. B., Ryan, O., Fried, E. I., & Waldorp, L. (under review). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y)
+
+Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
 Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under revision). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
