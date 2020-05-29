@@ -22,6 +22,17 @@ We use a data set with $n=3896$ observations including the variables Hostile, Lo
 {% highlight r %}
 library(psych)
 data <- msq[, c("hostile", "lonely", "nervous", "sleepy", "depressed")]
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'msq' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 data <- na.omit(data) # exclude rows with missing values
 
 head(data)
@@ -30,13 +41,20 @@ head(data)
 
 
 {% highlight text %}
-##   hostile lonely nervous sleepy depressed
-## 1       0      1       1      1         0
-## 2       0      0       0      1         0
-## 3       0      0       0      0         0
-## 4       0      1       2      1         1
-## 5       0      0       0      1         0
-## 6       0      0       0      2         1
+##   intrusion dreams flash upset physior avoidth avoidact amnesia lossint distant numb future
+## 1         2      2     2     2       3       2        3       2       3       2    2      1
+## 2         2      2     2     3       3       3        3       2       3       3    2      2
+## 3         2      4     4     4       3       3        3       5       4       3    2      3
+## 4         2      1     2     2       1       1        2       2       2       1    1      2
+## 5         2      2     2     2       2       2        2       2       3       2    2      2
+## 6         4      3     2     2       2       2        3       3       2       2    2      3
+##   sleep anger concen hyper startle
+## 1     3     4      3     4       2
+## 2     3     3      2     3       3
+## 3     4     4      4     3       4
+## 4     2     1      2     3       3
+## 5     3     2      3     2       3
+## 6     2     3      2     3       2
 {% endhighlight %}
 
 Because MNMs include next to 2-way (pairwise) interactions also 3-way interactions, they are more sensitive to extreme values. This is because multiplying three of them naturally leads to more extreme values than when multiplying only two extreme values. It is therefore especially important to check the marginal distributions of all variables:
@@ -77,7 +95,13 @@ mgm_mod <- mgm(data = data,
 
 
 {% highlight text %}
-## Note that the sign of parameter estimates is stored separately; see ?mgm
+## Warning in level != emp_lev: longer object length is not a multiple of shorter object length
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in if (sum(level_check) > 0) stop(paste0("Provided levels not equal to levels in data for variables ", : missing value where TRUE/FALSE needed
 {% endhighlight %}
 
 One can specify a particular set of moderation effects by providing a $M \times 3$ matrix to the `moderators` argument which indicates the specific set of 3-way interactions to be included in the model, where $M$ is the number of included moderation effects. If one provides a vector, then all moderation effects involving the specified variables are included. For the present example we include all moderation effects of the variable Depressed by setting `moderators = 5` (Depressed is in column 5).
@@ -94,25 +118,7 @@ mgm_mod$interactions$indicator
 
 
 {% highlight text %}
-## [[1]]
-##       [,1] [,2]
-##  [1,]    1    2
-##  [2,]    1    3
-##  [3,]    1    4
-##  [4,]    1    5
-##  [5,]    2    3
-##  [6,]    2    4
-##  [7,]    2    5
-##  [8,]    3    4
-##  [9,]    3    5
-## [10,]    4    5
-## 
-## [[2]]
-##      [,1] [,2] [,3]
-## [1,]    1    2    5
-## [2,]    1    3    5
-## [3,]    2    4    5
-## [4,]    3    4    5
+## Error in eval(expr, envir, enclos): object 'mgm_mod' not found
 {% endhighlight %}
 
 We see that we estimated ten pairwise interactions (that is, all possible $\frac{5(5-1)}{2} = 10$ pairwise interactions) and four 3-way interactions or moderation effects. We see that each nonzero 3-way interaction involves variable 5 (Depression), which has to be the case since we only specified Depression as a moderator. The parameter estimates can be retrieved with the `showInteraction()` function. For example, for the pairwise interaction between variables 1 (Hostile) and 3 (Nervous) can be obtained like this:
@@ -125,9 +131,7 @@ showInteraction(object = mgm_mod, int = c(1,3))
 
 
 {% highlight text %}
-## Interaction: 1-3 
-## Weight:  0.1138858 
-## Sign:  1  (Positive)
+## Error in showInteraction(object = mgm_mod, int = c(1, 3)): object 'mgm_mod' not found
 {% endhighlight %}
 
 We can interpret this parameter using the usual linear regression interpretation: when increasing Nervous (Hostile) by 1 unit, Hostile (Nervous) increases by $\approx 0.114$, keeping everything else constant.
@@ -142,9 +146,7 @@ showInteraction(object = mgm_mod, int = c(1,3,5))
 
 
 {% highlight text %}
-## Interaction: 1-3-5 
-## Weight:  0.05277068 
-## Sign:  1  (Positive)
+## Error in showInteraction(object = mgm_mod, int = c(1, 3, 5)): object 'mgm_mod' not found
 {% endhighlight %}
 
 We see that there is a *positive* moderation effect. This means that, if one *increases* the values of Depression, the pairwise interaction between Hostile and Nervous becomes *stronger*. For example, if Depression = 0, then the parameter for the pairwise interaction between Hostile and Nervous is equal to $0.114 +  0.053 \times 0 = 0.114$. If Depression = 1, then the pairwise interaction parameter is equal to  $0.114 +  0.053 \times 1 = 0.167$. In this example, we fixed Depression to a given value and computed the resulting pairwise interaction between Hostile and Nervous We can also do this for the entire network, and inspect the network for different values of Depression. The function `condition()` does that for you (see below). The discussion of the modereation effect shows that we have to correct our above interpretation of the pairwise interaction between Hostile and Nervous: when increasing Nervous (Hostile) by 1 unit, Hostile (Nervous) increases by $\approx 0.114$, *if Depression is equal to zero* and when keeping everything else constant. 
@@ -159,12 +161,49 @@ The function `condition` conditions on (fixes values of) a set of moderators. In
 
 {% highlight r %}
 tb <- table(scale(data$depressed))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in data$depressed: $ operator is invalid for atomic vectors
+{% endhighlight %}
+
+
+
+{% highlight r %}
 names(tb) <- round(as.numeric(names(tb)), 2)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'tb' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 barplot(tb, axes=FALSE, xlab="", ylim=c(0, 3000))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in barplot(tb, axes = FALSE, xlab = "", ylim = c(0, 3000)): object 'tb' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 axis(2, las=2, c(0, 1000, 2000, 3000))
 {% endhighlight %}
 
-<img src="/assets/img/2019-07-29-Moderated-Network-Models-for-continuous-data.Rmd/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+
+
+{% highlight text %}
+## Error in axis(2, las = 2, c(0, 1000, 2000, 3000)): plot.new has not been called yet
+{% endhighlight %}
 
 Here, we choose the values 0, 1 and 2.
 
@@ -174,12 +213,38 @@ To condition on, that is, fix a set of variables we provide two arguments to `co
 {% highlight r %}
 cond0 <- condition(object = mgm_mod, 
                    values = list('5' = 0))
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in condition(object = mgm_mod, values = list(`5` = 0)): object 'mgm_mod' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 cond1 <- condition(object = mgm_mod, 
                    values = list('5' = 1))
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in condition(object = mgm_mod, values = list(`5` = 1)): object 'mgm_mod' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 cond2 <- condition(object = mgm_mod, 
                    values = list('5' = 2))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in condition(object = mgm_mod, values = list(`5` = 2)): object 'mgm_mod' not found
 {% endhighlight %}
 
 The output of `condition()` is a complete mgm model object, conditioned on the provided set of variables. For example, `cond0` contains the model object conditioned on Depression = 0. On the population level (i.e. if sample size does not play a role), this is the model one would obtain if one took only the rows in which Depression = 0 in the data set, and estimated a pairwise model on this subset of the data.
@@ -191,14 +256,34 @@ Since we only specified a single moderator in the present example, the three con
 
 {% highlight r %}
 l_cond <- list(cond0, cond1, cond2)
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'cond0' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 library(qgraph)
 par(mfrow=c(1,3))
 
 max_val <- max(max(l_cond[[1]]$pairwise$wadj),
                max(l_cond[[2]]$pairwise$wadj),
                max(l_cond[[3]]$pairwise$wadj))
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'l_cond' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 for(i in 1:3) qgraph(l_cond[[i]]$pairwise$wadj, layout="circle", 
                      edge.color=l_cond[[i]]$pairwise$edgecolor, 
                      labels = colnames(msq_p5), 
@@ -208,7 +293,11 @@ for(i in 1:3) qgraph(l_cond[[i]]$pairwise$wadj, layout="circle",
                      title = paste0("Depression = ", (0:2)[i]))
 {% endhighlight %}
 
-<img src="/assets/img/2019-07-29-Moderated-Network-Models-for-continuous-data.Rmd/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
+
+
+{% highlight text %}
+## Error in qgraph(l_cond[[i]]$pairwise$wadj, layout = "circle", edge.color = l_cond[[i]]$pairwise$edgecolor, : object 'l_cond' not found
+{% endhighlight %}
 
 Let's focus again on the pairwise interaction between Hostile and Nervous. As illustrated above, the relationship becomes stronger when increasing Depression. We also see changes in the three other pairwise interactions that are moderated by Depression: Hostile-Lonely, Lonely-Sleepy, and Nervous-Sleepy. All these conditional pairwise effects can be interpreted as partial correlations. However, note that the pairwise interaction between Hostile-Nervous for Depression=1 computed above ($.167$) is not the same as the one shown in the network picture ($.18$). The reason is that `showInteraction()` reports the moderation effect aggregated over the estimates of this parameters from all three regressions, while `condition()` reports the moderation effect aggregated over the two regressions on the two variables in the pairwise interaction. For details have a look at our [paper on Moderated Network Models](https://arxiv.org/abs/1807.02877).
 
@@ -236,7 +325,13 @@ mgm_mod_all <- mgm(data = data,
 
 
 {% highlight text %}
-## Note that the sign of parameter estimates is stored separately; see ?mgm
+## Warning in level != emp_lev: longer object length is not a multiple of shorter object length
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in if (sum(level_check) > 0) stop(paste0("Provided levels not equal to levels in data for variables ", : missing value where TRUE/FALSE needed
 {% endhighlight %}
 
 We again check which interactions have been estimated to be nonzero
@@ -249,28 +344,7 @@ mgm_mod_all$interactions$indicator
 
 
 {% highlight text %}
-## [[1]]
-##       [,1] [,2]
-##  [1,]    1    2
-##  [2,]    1    3
-##  [3,]    1    4
-##  [4,]    1    5
-##  [5,]    2    3
-##  [6,]    2    4
-##  [7,]    2    5
-##  [8,]    3    4
-##  [9,]    3    5
-## [10,]    4    5
-## 
-## [[2]]
-##      [,1] [,2] [,3]
-## [1,]    1    2    3
-## [2,]    1    2    4
-## [3,]    1    3    4
-## [4,]    1    3    5
-## [5,]    2    3    4
-## [6,]    2    4    5
-## [7,]    3    4    5
+## Error in eval(expr, envir, enclos): object 'mgm_mod_all' not found
 {% endhighlight %}
 
 and we see that we recovered a few additional 3-way interactions (moderation effects).
@@ -287,7 +361,11 @@ FactorGraph(mgm_mod_all,
             layout = "circle")
 {% endhighlight %}
 
-<img src="/assets/img/2019-07-29-Moderated-Network-Models-for-continuous-data.Rmd/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
+
+
+{% highlight text %}
+## Error in FactorGraph(mgm_mod_all, labels = colnames(data), layout = "circle"): object 'mgm_mod_all' not found
+{% endhighlight %}
 
 The five round nodes indicate the five variables, while the red square nodes indicate pairwise interactions, and the blue triangle nodes indicate 3-way intereactions. Corresponding to the estimated interactions listed in `mgm_mod_all$interactions$indicator` we see that there are seven 3-way interactions, and 10 pairwise interactions.
 
@@ -310,6 +388,12 @@ res_obj <- resample(object = mgm_mod,
                     pbar = FALSE)
 {% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in resample(object = mgm_mod, data = data, nB = 50, pbar = FALSE): object 'mgm_mod' not found
+{% endhighlight %}
+
 We can then visualize the summary of all sampling distributions using `plotRes()`:
 
 
@@ -323,7 +407,11 @@ plotRes(res_obj,
         layout.width.labels = .40)
 {% endhighlight %}
 
-<img src="/assets/img/2019-07-29-Moderated-Network-Models-for-continuous-data.Rmd/unnamed-chunk-14-1.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" style="display: block; margin: auto;" />
+
+
+{% highlight text %}
+## Error in plotRes(res_obj, axis.ticks = c(-0.1, 0, 0.1, 0.2, 0.3, 0.4, : object 'res_obj' not found
+{% endhighlight %}
 
 The first column displays the pairwise effects, and the second column shows the moderation effects. The horizontal lines show the 5% and 95% quantiles of the bootstrapped sampling distributions. The number is the proportion of bootstrap samples in which a parameter has been estimated to be nonzero, and the number is placed at the location of the mean of the sampling distribution. We observe that the variance of the sampling distribution is small for pairwise effects, indicating that they are stable.
 

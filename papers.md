@@ -12,7 +12,7 @@ Robinaugh, D., Haslbeck, J. M. B., Ryan, O., Fried, E. I., & Waldorp, L. (under 
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
-Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under revision). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
+Haslbeck, J. M. B.\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under review). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
 Haslbeck, J. M. B.\* & Ryan O.\* (under revision). Recovering Bistable Systems from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/kcv3s)
 
@@ -20,13 +20,15 @@ Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried,
 
 #### Accepted / In press
 
-Haslbeck J. M. B., Wulff. D. U., (accepted). Estimating the Number of Clusters via Normalized Cluster Instability. Computational Statistics. [[arXiv]](https://arxiv.org/abs/1608.07494)
+#### 2020
 
-Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (accepted). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. Multivariate Behavioral Research. [[arXiv]](https://arxiv.org/abs/1711.05204)
+Haslbeck J. M. B., Wulff. D. U., (2020). Estimating the Number of Clusters via Normalized Cluster Instability. Computational Statistics. [[PDF]](https://rdcu.be/b4gjj)  [[arXiv]](https://arxiv.org/abs/1608.07494)
 
-Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (accepted). Interpreting the Ising Model: The Input Matters. Multivariate Behavioral Research. [[arXiv]](http://arxiv.org/abs/1811.02916)
+Haslbeck J. M. B., Waldorp L. J. (2020). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871) [[Link]](https://www.jstatsoft.org/article/view/v093i08)
 
-Haslbeck J. M. B., Waldorp L. J. (in press). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871)
+Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (2020). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. Multivariate Behavioral Research. [[arXiv]](https://arxiv.org/abs/1711.05204)
+
+Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (2020). Interpreting the Ising Model: The Input Matters. Multivariate Behavioral Research. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
 #### 2019
 
@@ -53,5 +55,4 @@ Kossakowski, J. J., Groot, P. C., Haslbeck, J. M. B., Borsboom, D., & Wichers, M
 #### 2015
 
 Haslbeck J. M. B., Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. Quarterly Journal of Experimental Psychology. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
-
 
