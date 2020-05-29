@@ -8,6 +8,10 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Haslbeck J. M. B. (submitted). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
+
+Haslbeck J. M. B.\*,  Ryan O.\*, & Dablander F.\* (submitted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
+
 Robinaugh, D., Haslbeck, J. M. B., Ryan, O., Fried, E. I., & Waldorp, L. (under review). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y)
 
 Dablander F.\*, Ryan O.\* & Haslbeck J. M. B.\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
