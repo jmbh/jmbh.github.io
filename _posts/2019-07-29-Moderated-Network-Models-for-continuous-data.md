@@ -41,20 +41,20 @@ head(data)
 
 
 {% highlight text %}
-##   intrusion dreams flash upset physior avoidth avoidact amnesia lossint distant numb future
-## 1         2      2     2     2       3       2        3       2       3       2    2      1
-## 2         2      2     2     3       3       3        3       2       3       3    2      2
-## 3         2      4     4     4       3       3        3       5       4       3    2      3
-## 4         2      1     2     2       1       1        2       2       2       1    1      2
-## 5         2      2     2     2       2       2        2       2       3       2    2      2
-## 6         4      3     2     2       2       2        3       3       2       2    2      3
-##   sleep anger concen hyper startle
-## 1     3     4      3     4       2
-## 2     3     3      2     3       3
-## 3     4     4      4     3       4
-## 4     2     1      2     3       3
-## 5     3     2      3     2       3
-## 6     2     3      2     3       2
+##   intrusion dreams flash upset physior avoidth avoidact amnesia lossint distant numb
+## 1         2      2     2     2       3       2        3       2       3       2    2
+## 2         2      2     2     3       3       3        3       2       3       3    2
+## 3         2      4     4     4       3       3        3       5       4       3    2
+## 4         2      1     2     2       1       1        2       2       2       1    1
+## 5         2      2     2     2       2       2        2       2       3       2    2
+## 6         4      3     2     2       2       2        3       3       2       2    2
+##   future sleep anger concen hyper startle
+## 1      1     3     4      3     4       2
+## 2      2     3     3      2     3       3
+## 3      3     4     4      4     3       4
+## 4      2     2     1      2     3       3
+## 5      2     3     2      3     2       3
+## 6      3     2     3      2     3       2
 {% endhighlight %}
 
 Because MNMs include next to 2-way (pairwise) interactions also 3-way interactions, they are more sensitive to extreme values. This is because multiplying three of them naturally leads to more extreme values than when multiplying only two extreme values. It is therefore especially important to check the marginal distributions of all variables:
@@ -90,12 +90,6 @@ mgm_mod <- mgm(data = data,
                moderators = 5, 
                threshold = "none", 
                pbar = FALSE)
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning in level != emp_lev: longer object length is not a multiple of shorter object length
 {% endhighlight %}
 
 
@@ -320,12 +314,6 @@ mgm_mod_all <- mgm(data = data,
                    moderators = 1:5, 
                    threshold = "none", 
                    pbar = FALSE)
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning in level != emp_lev: longer object length is not a multiple of shorter object length
 {% endhighlight %}
 
 
