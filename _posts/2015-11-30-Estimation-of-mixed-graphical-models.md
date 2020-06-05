@@ -115,7 +115,7 @@ qgraph(fit_ADS$pairwise$wadj,
        vsize = 3.5, esize = 15)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-21](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-21-1.png)
+![plot of chunk unnamed-chunk-8](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-8-1.png)
 
 
 

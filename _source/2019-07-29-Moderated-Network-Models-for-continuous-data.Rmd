@@ -21,7 +21,7 @@ We use a data set with $n=3896$ observations including the variables Hostile, Lo
 
 ```{r}
 data <- read.table("https://jmbh.github.io/files/data/msq.csv")
-data <- msq[, c("hostile", "lonely", "nervous", "sleepy", "depressed")]
+data <- data[, c("hostile", "lonely", "nervous", "sleepy", "depressed")] # subset
 data <- na.omit(data) # exclude rows with missing values
 
 head(data)

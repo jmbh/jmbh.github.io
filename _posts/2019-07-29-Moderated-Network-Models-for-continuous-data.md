@@ -21,13 +21,13 @@ We use a data set with $n=3896$ observations including the variables Hostile, Lo
 
 {% highlight r %}
 data <- read.table("https://jmbh.github.io/files/data/msq.csv")
-data <- msq[, c("hostile", "lonely", "nervous", "sleepy", "depressed")]
+data <- data[, c("hostile", "lonely", "nervous", "sleepy", "depressed")] # subset
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error in eval(expr, envir, enclos): object 'msq' not found
+## Error in `[.data.frame`(data, , c("hostile", "lonely", "nervous", "sleepy", : undefined columns selected
 {% endhighlight %}
 
 
