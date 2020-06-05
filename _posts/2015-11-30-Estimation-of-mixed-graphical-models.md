@@ -60,8 +60,8 @@ autism_data_large$type
 
 
 {% highlight text %}
-##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c" "g" "p" "p" "p" "p"
-## [22] "g" "g" "g" "g" "g" "c" "g"
+##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c" "g" "p"
+## [19] "p" "p" "p" "g" "g" "g" "g" "g" "c" "g"
 {% endhighlight %}
 
 
@@ -115,7 +115,7 @@ qgraph(fit_ADS$pairwise$wadj,
        vsize = 3.5, esize = 15)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-4](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-21](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-21-1.png)
 
 
 

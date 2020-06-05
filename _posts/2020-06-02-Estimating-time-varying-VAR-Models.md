@@ -62,20 +62,20 @@ head(mood_data)
 
 
 {% highlight text %}
-##      Relaxed Down Irritated Satisfied Lonely Anxious Enthusiastic Suspicious Cheerful
-## [1,]       5   -1         1         5     -1      -1            4          1        5
-## [2,]       4    0         3         3      0       0            3          1        4
-## [3,]       4    0         2         3      0       0            4          1        4
-## [4,]       4    0         1         4      0       0            4          1        4
-## [5,]       4    0         2         4      0       0            4          1        4
-## [6,]       5    0         1         4      0       0            3          1        3
-##      Guilty Doubt Strong
-## [1,]     -1     1      5
-## [2,]      0     1      4
-## [3,]      0     2      4
-## [4,]      1     1      4
-## [5,]      1     2      3
-## [6,]      1     2      3
+##      Relaxed Down Irritated Satisfied Lonely Anxious Enthusiastic Suspicious
+## [1,]       5   -1         1         5     -1      -1            4          1
+## [2,]       4    0         3         3      0       0            3          1
+## [3,]       4    0         2         3      0       0            4          1
+## [4,]       4    0         1         4      0       0            4          1
+## [5,]       4    0         2         4      0       0            4          1
+## [6,]       5    0         1         4      0       0            3          1
+##      Cheerful Guilty Doubt Strong
+## [1,]        5     -1     1      5
+## [2,]        4      0     1      4
+## [3,]        4      0     2      4
+## [4,]        4      1     1      4
+## [5,]        4      1     2      3
+## [6,]        3      1     2      3
 {% endhighlight %}
 
 `time_data` contains temporal information about each measurement. We will make use of the day on which the measurement occured (`dayno`), the measurement prompt (`beepno`) and the overall time stamp (`time_norm`).
@@ -202,10 +202,22 @@ for(tp in c(1,10,20)) qgraph(t(tvvar_obj$wadj[, , 1, tp]),
                              vsize=14, esize=15, asize=13,
                              maximum = .5, 
                              pie = pred_obj$tverrors[[tp]][, 3],
-                             title = paste0("Estimation point = ", tp))
+                             title = paste0("Estimation point = ", tp), 
+                             title.cex=1.2)
 {% endhighlight %}
 
 <img src="/assets/img/2020-06-02-Estimating-time-varying-VAR-Models.Rmd/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+
+{% highlight r %}
+dev.off()
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## null device 
+##           1
+{% endhighlight %}
 
 We see that some parameters in the VAR models are varying considerably over time. For example, the autocorrelation effect of Relaxed seems to be decreasing over time, the positive effect of Strong on Satisfied only appears at estimation point 20, and also the negative effect of Satisfied on Guilty only appears at estimation point 20.
 

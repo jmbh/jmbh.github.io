@@ -16,11 +16,11 @@ Moderated Network Models (MNMs) for continuous data are extending the pairwise m
 
 ### Loading & Inspecting the Data
 
-We use a data set with $n=3896$ observations including the variables Hostile, Lonely, Nervous, Sleepy and Depressed, which we took from the 92-item Motivational State Questionnaire (MSQ) data set that comes with the [R-package psych](https://cran.r-project.org/web/packages/psych/index.html). Each item is answered on a Likert scale with responses 0 (Not at all), 1 (A little), 2 (Moderately), and 3 (Very much).
+We use a data set with $n=3896$ observations including the variables Hostile, Lonely, Nervous, Sleepy and Depressed, which we took from the 92-item Motivational State Questionnaire (MSQ) data set that comes with the [R-package psych](https://cran.r-project.org/web/packages/psych/index.html). Update June 5 2020: the msq data is not available anymore from the psych package, and we therefore load it man Each item is answered on a Likert scale with responses 0 (Not at all), 1 (A little), 2 (Moderately), and 3 (Very much).
 
 
 {% highlight r %}
-library(psych)
+data <- read.table("https://jmbh.github.io/files/data/msq.csv")
 data <- msq[, c("hostile", "lonely", "nervous", "sleepy", "depressed")]
 {% endhighlight %}
 
@@ -41,20 +41,20 @@ head(data)
 
 
 {% highlight text %}
-##   intrusion dreams flash upset physior avoidth avoidact amnesia lossint distant numb
-## 1         2      2     2     2       3       2        3       2       3       2    2
-## 2         2      2     2     3       3       3        3       2       3       3    2
-## 3         2      4     4     4       3       3        3       5       4       3    2
-## 4         2      1     2     2       1       1        2       2       2       1    1
-## 5         2      2     2     2       2       2        2       2       3       2    2
-## 6         4      3     2     2       2       2        3       3       2       2    2
-##   future sleep anger concen hyper startle
-## 1      1     3     4      3     4       2
-## 2      2     3     3      2     3       3
-## 3      3     4     4      4     3       4
-## 4      2     2     1      2     3       3
-## 5      2     3     2      3     2       3
-## 6      3     2     3      2     3       2
+##   V1
+## 2  1
+## 3  2
+## 4  3
+## 5  4
+## 6  5
+## 7  6
+##                                                                                                                                                                                                                    V2
+## 2     ,1,1,1,0,1,1,0,0,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,NA,NA,NA,12,15,10,5,9,20,1,3,4,15,193,2,15.3,15,NA,"r","Rim.1"
+## 3     ,1,0,1,0,0,0,0,0,1,1,0,0,0,1,1,0,1,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,0,2,1,1,0,0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,1,0,0,1,1,1,0,NA,NA,NA,12,11,7,0,18,8,1,11,6,15,130,2,15.3,15,NA,"r","Rim.2"
+## 4     ,1,0,0,0,0,0,0,0,2,2,0,0,2,1,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,2,0,2,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,1,1,NA,NA,NA,10,8,1,0,15,11,3,8,5,15,2135,2,15.3,15,NA,"r","Rim.2"
+## 5      ,1,0,1,0,1,1,1,0,1,2,1,1,0,1,2,0,0,2,2,1,2,1,1,0,1,2,3,3,0,1,2,1,0,2,2,0,0,1,2,1,2,1,3,2,1,2,1,1,2,0,1,2,1,2,1,1,1,1,3,0,0,2,1,0,1,0,1,1,0,3,3,1,NA,NA,NA,NA,NA,NA,NA,20,20,1,12,7,NA,18,2,NA,NA,NA,"r","COPE"
+## 6 ,2,0,1,0,NA,2,0,3,3,1,1,0,1,3,NA,0,2,2,0,0,2,0,1,1,0,0,1,2,0,0,2,0,0,0,2,0,NA,NA,0,1,1,0,1,2,0,0,3,1,0,0,3,3,0,2,0,3,1,1,1,0,3,1,3,0,1,NA,0,0,0,1,2,0,2,2,0,13,4,11,1,13,15,4,5,7,6,2,5,5.75,5.83,5.5,"msq","rob-1"
+## 7 ,2,0,1,0,NA,1,0,0,1,1,1,1,1,2,NA,0,1,1,0,1,0,0,2,1,0,1,1,0,0,1,1,1,1,0,1,0,NA,NA,0,0,1,1,0,1,0,0,1,1,1,0,2,2,1,2,0,1,2,1,2,0,1,1,0,0,2,NA,1,0,0,2,2,1,0,2,0,11,8,8,1,19,15,2,10,7,6,3,5,5.75,5.83,5.5,"msq","rob-1"
 {% endhighlight %}
 
 Because MNMs include next to 2-way (pairwise) interactions also 3-way interactions, they are more sensitive to extreme values. This is because multiplying three of them naturally leads to more extreme values than when multiplying only two extreme values. It is therefore especially important to check the marginal distributions of all variables:
@@ -67,6 +67,12 @@ for(i in 1:5) {
   axis(2, las = 2, c(0, 1000, 2000, 3000))
   title(main = colnames(data)[i])
 }
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in `[.data.frame`(data, , i): undefined columns selected
 {% endhighlight %}
 
 <img src="/assets/img/2019-07-29-Moderated-Network-Models-for-continuous-data.Rmd/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
@@ -95,7 +101,7 @@ mgm_mod <- mgm(data = data,
 
 
 {% highlight text %}
-## Error in if (sum(level_check) > 0) stop(paste0("Provided levels not equal to levels in data for variables ", : missing value where TRUE/FALSE needed
+## Error in mgm(data = data, type = rep("g", 5), level = rep(1, 5), lambdaSel = "CV", : Only integer and numeric values permitted.
 {% endhighlight %}
 
 One can specify a particular set of moderation effects by providing a $M \times 3$ matrix to the `moderators` argument which indicates the specific set of 3-way interactions to be included in the model, where $M$ is the number of included moderation effects. If one provides a vector, then all moderation effects involving the specified variables are included. For the present example we include all moderation effects of the variable Depressed by setting `moderators = 5` (Depressed is in column 5).
@@ -160,7 +166,7 @@ tb <- table(scale(data$depressed))
 
 
 {% highlight text %}
-## Error in data$depressed: $ operator is invalid for atomic vectors
+## Error in array(x, c(length(x), 1L), if (!is.null(names(x))) list(names(x), : 'data' must be of a vector type, was 'NULL'
 {% endhighlight %}
 
 
@@ -319,7 +325,7 @@ mgm_mod_all <- mgm(data = data,
 
 
 {% highlight text %}
-## Error in if (sum(level_check) > 0) stop(paste0("Provided levels not equal to levels in data for variables ", : missing value where TRUE/FALSE needed
+## Error in mgm(data = data, type = rep("g", 5), level = rep(1, 5), lambdaSel = "CV", : Only integer and numeric values permitted.
 {% endhighlight %}
 
 We again check which interactions have been estimated to be nonzero
