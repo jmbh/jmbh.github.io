@@ -136,8 +136,9 @@ for(tp in c(1,10,20)) qgraph(t(tvvar_obj$wadj[, , 1, tp]),
                              vsize=14, esize=15, asize=13,
                              maximum = .5, 
                              pie = pred_obj$tverrors[[tp]][, 3],
-                             title = paste0("Estimation point = ", tp))
-
+                             title = paste0("Estimation point = ", tp), 
+                             title.cex=1.2)
+dev.off()
 
 ```
 
