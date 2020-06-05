@@ -17,10 +17,10 @@ Moderated Network Models (MNMs) for continuous data are extending the pairwise m
 
 ### Loading & Inspecting the Data
 
-We use a data set with $n=3896$ observations including the variables Hostile, Lonely, Nervous, Sleepy and Depressed, which we took from the 92-item Motivational State Questionnaire (MSQ) data set that comes with the [R-package psych](https://cran.r-project.org/web/packages/psych/index.html). Update June 5 2020: the msq data is not available anymore from the psych package, and we therefore load it man Each item is answered on a Likert scale with responses 0 (Not at all), 1 (A little), 2 (Moderately), and 3 (Very much).
+We use a data set with $n=3896$ observations including the variables Hostile, Lonely, Nervous, Sleepy and Depressed, which we took from the 92-item Motivational State Questionnaire (MSQ) data set that comes with the [R-package psych](https://cran.r-project.org/web/packages/psych/index.html). Update June 5 2020: the msq data is not available anymore from the psych package, and we therefore load it manually. Each item is answered on a Likert scale with responses 0 (Not at all), 1 (A little), 2 (Moderately), and 3 (Very much).
 
 ```{r}
-data <- read.table("https://jmbh.github.io/files/data/msq.csv")
+data <- read.table("https://jmbh.github.io/files/data/msq.csv", sep=",", header=TRUE)
 data <- data[, c("hostile", "lonely", "nervous", "sleepy", "depressed")] # subset
 data <- na.omit(data) # exclude rows with missing values
 
