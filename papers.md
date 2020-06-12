@@ -30,7 +30,7 @@ Haslbeck J. M. B., Wulff. D. U., (2020). Estimating the Number of Clusters via N
 
 Haslbeck J. M. B., Waldorp L. J. (2020). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. The Journal of Statistical Software. [[arXiv]](https://arxiv.org/abs/1510.06871) [[Link]](https://www.jstatsoft.org/article/view/v093i08)
 
-Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (2020). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. Multivariate Behavioral Research. [[arXiv]](https://arxiv.org/abs/1711.05204)
+Haslbeck J. M. B., Bringmann L. F., & Waldorp, L. J. (2020). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. Multivariate Behavioral Research. [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2020.1743630) [[arXiv]](https://arxiv.org/abs/1711.05204)
 
 Haslbeck J. M. B., Epskamp S. & Marsman M., Waldorp L. J.  (2020). Interpreting the Ising Model: The Input Matters. Multivariate Behavioral Research. [[arXiv]](http://arxiv.org/abs/1811.02916)
 
