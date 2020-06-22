@@ -26,7 +26,7 @@ Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried,
 
 #### 2020
 
-Haslbeck, J. M. B. (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://www.uva.nl/en/profile/h/a/j.m.b.haslbeck/j.m.b.haslbeck.html#anker-publications-doctoral-thesis)
+Haslbeck, J. M. B. (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://dare.uva.nl/search?identifier=878fd1a0-2932-4114-9950-d783abfbbd10)
 
 Haslbeck J. M. B., Wulff. D. U., (2020). Estimating the Number of Clusters via Normalized Cluster Instability. Computational Statistics. [[PDF]](https://rdcu.be/b4gjj)  [[arXiv]](https://arxiv.org/abs/1608.07494)
 
