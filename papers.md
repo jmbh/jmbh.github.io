@@ -8,9 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Haslbeck J. M. B. (submitted). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
+Haslbeck J. M. B. (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
 
-Haslbeck J. M. B.\*,  Ryan O.\*, & Dablander F.\* (submitted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
+Haslbeck J. M. B.\*,  Ryan O.\*, & Dablander F.\* (under review). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
 Robinaugh, D., Haslbeck, J. M. B., Ryan, O., Fried, E. I., & Waldorp, L. (under review). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y)
 
@@ -25,6 +25,8 @@ Robinaugh, D. J., Haslbeck, J. M. B., Waldorp, L. J., Kossakowski, J. J., Fried,
 #### Accepted / In press
 
 #### 2020
+
+Haslbeck, J. M. B. (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://www.uva.nl/en/profile/h/a/j.m.b.haslbeck/j.m.b.haslbeck.html#anker-publications-doctoral-thesis)
 
 Haslbeck J. M. B., Wulff. D. U., (2020). Estimating the Number of Clusters via Normalized Cluster Instability. Computational Statistics. [[PDF]](https://rdcu.be/b4gjj)  [[arXiv]](https://arxiv.org/abs/1608.07494)
 
