@@ -71,16 +71,24 @@ The parameters associated with this interaction can be accessed with the functio
 
 {% highlight r %}
 int_16_17 <- showInteraction(object = fit_ADS, int = c(17, 16))
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in `rownames<-`(x, value): attempt to set 'rownames' on an object with no dimensions
+{% endhighlight %}
+
+
+
+{% highlight r %}
 int_16_17
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Interaction: 16-17 
-## Weight:  2.822042 
-## Sign:  NA  (Not defined)
+## Error in eval(expr, envir, enclos): object 'int_16_17' not found
 {% endhighlight %}
 
 Printing the object `int_16_17` into the console returns the aggregated edge-weight and the fact that no sign is defined for this interaction. The full set of parameters of this interaction can be accessed via `int_16_17$parameters`:
@@ -93,16 +101,7 @@ int_16_17$parameters
 
 
 {% highlight text %}
-## $Predict_16
-##               17
-## 16.1 -14.6460488
-## 16.2  -0.7576681
-## 16.3   0.7576681
-## 16.4   1.4885513
-## 
-## $Predict_17
-##    16.1      16.2     16.3     16.4
-## 17   NA 0.5150313 1.387104 1.792663
+## Error in eval(expr, envir, enclos): object 'int_16_17' not found
 {% endhighlight %}
 
 We see that there is two set of parameters. This is because `mgm()` uses a nodewise estimation approach. Thus, we have one set of parameters from the regression on variable 16 ("Type of Work"), and one set of parameters from the regression on variable 17 ("Working hours"). We first interpret the regression on "Working hours". Here, we predict a continuous variable with a categorical variable with four categories. As usual in the regression framework, the first category is omitted as the reference category and the three remaining categories are modeled by indicator functions. The estimates show that if an individual engages in "Supervised Work", the working hours increase by $\approx 0.52$ compared to if one engages in "No Work". Similarly, we see that working hours increase by $\approx 1.39$ and $\approx 1.79$ if the individual is engaging in "Unpaid Work" and "Paid Work", respectively. These results make sense: if one doesn't work, the working hours are necessarily equal to zero. And if one moves from "Supervised" to "Unpaid" to "Paid" it is also plausible that the working hours increase.
