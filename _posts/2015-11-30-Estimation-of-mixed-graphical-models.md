@@ -60,8 +60,8 @@ autism_data_large$type
 
 
 {% highlight text %}
-##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c" "g" "p" "p" "p" "p" "g" "g" "g"
-## [25] "g" "g" "c" "g"
+##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c" "g" "p" "p"
+## [20] "p" "p" "g" "g" "g" "g" "g" "c" "g"
 {% endhighlight %}
 
 
