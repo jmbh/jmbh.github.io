@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Moriarity D. P., Horn S. R., Kautz M.M, Haslbeck J. M. B. & Alloy L. B. (submitted) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019) [[PsyArXiv]](https://psyarxiv.com/692m4/)
+
 Haslbeck J. M. B. (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
 
 Haslbeck J. M. B.\*,  Ryan O.\*, & Dablander F.\* (under review). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
