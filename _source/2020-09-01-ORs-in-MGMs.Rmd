@@ -319,7 +319,7 @@ exp(coefs[[1]][2,1] - coefs[[2]][2,1])
 
 One could verify this by repeating the derivation above with swapped numerator/denominator or by using the general approach of calculating ORs that we used above.
 
-This reflects the well-known relation between multiple regression parameters and the OR, $\exp\{\beta_x\} = \text{OR}_x$ (see [here](https://en.wikipedia.org/wiki/Odds_ratio#Role_in_logistic_regression)), since the relation between logistic regression parameterization and the symmetric multinomial regression parameterization used here is $\beta_x = 2 \beta_{x1}$, where $\beta_{x1}$ is the parameter corresponding to $\beta_x$ in the equation modeling $P(X_1=1 \mid \dots)$.
+This reflects the well-known relation between multiple regression parameters and the OR, $\exp\{ \beta_x \} = \text{OR}_x$ (see [here](https://en.wikipedia.org/wiki/Odds_ratio#Role_in_logistic_regression)), since the relation between logistic regression parameterization and the symmetric multinomial regression parameterization used here is $\beta_x = 2 \beta_{x1}$, where $\beta_{x1}$ is the parameter corresponding to $\beta_x$ in the equation modeling $P(X_1=1 \mid \dots)$.
 
 
 ### Is the OR "significant"?
