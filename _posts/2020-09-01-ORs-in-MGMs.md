@@ -431,7 +431,7 @@ exp(coefs[[1]][2,1] - coefs[[2]][2,1])
 
 One could verify this by repeating the derivation above with swapped numerator/denominator or by using the general approach of calculating ORs that we used above.
 
-This reflects the well-known relation between multiple regression parameters and the OR, $\exp\{\beta_x\}=\text{OR}_x$ 
+This reflects the well-known relation between multiple regression parameters and the OR, $\exp \{ \beta_x \} =\text{OR}_x$ (see here)
 
 problem 1 $\exp\{\beta_x\}=\text{OR}_x$
 
