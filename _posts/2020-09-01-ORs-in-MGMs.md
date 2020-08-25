@@ -433,12 +433,6 @@ One could verify this by repeating the derivation above with swapped numerator/d
 
 This reflects the well-known relation between multiple regression parameters and the OR, $\exp \{ \beta_x \} =\text{OR}_x$ (see here)
 
-problem 1 $\exp\{\beta_x\}=\text{OR}_x$
-
-problem 2 $\exp\{\beta_x\}$
-
-problem 3 $\text{OR}_x$
-
 
 (see [here](https://en.wikipedia.org/wiki/Odds_ratio#Role_in_logistic_regression)), since the relation between logistic regression parameterization and the symmetric multinomial regression parameterization used here is $\beta_x = 2 \beta_{x1}$, where $\beta_{x1}$ is the parameter corresponding to $\beta_x$ in the equation modeling $P(X_1=1 \mid \dots)$.
 
