@@ -2,7 +2,7 @@
 layout: post
 title: "Computing Odds Ratios from Mixed Graphical Models"
 date: 2020-08-25 12:00:00 +0100
-categories: r
+categories: 
 comments: true
 status: process
 #status: development
