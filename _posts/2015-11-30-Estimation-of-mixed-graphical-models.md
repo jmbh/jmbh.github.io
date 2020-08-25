@@ -60,8 +60,8 @@ autism_data_large$type
 
 
 {% highlight text %}
-##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c" "g" "p" "p" "p" "p" "g" "g"
-## [24] "g" "g" "g" "c" "g"
+##  [1] "c" "g" "g" "c" "g" "c" "c" "p" "p" "p" "p" "p" "p" "c" "p" "c"
+## [17] "g" "p" "p" "p" "p" "g" "g" "g" "g" "g" "c" "g"
 {% endhighlight %}
 
 
@@ -104,7 +104,17 @@ The fit function returns all estimated parameters and a weighted adjacency matri
 
 {% highlight r %}
 library(qgraph)
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Warning: package 'qgraph' was built under R version 4.0.2
+{% endhighlight %}
+
+
+
+{% highlight r %}
 qgraph(fit_ADS$pairwise$wadj, 
        layout = 'spring', repulsion = 1.3,
        edge.color = fit_ADS$pairwise$edgecolor, 
@@ -115,7 +125,7 @@ qgraph(fit_ADS$pairwise$wadj,
        vsize = 3.5, esize = 15)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-70](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-70-1.png)
+![plot of chunk unnamed-chunk-4](/assets/img/2015-11-30-Estimation-of-mixed-graphical-models.Rmd/unnamed-chunk-4-1.png)
 
 
 

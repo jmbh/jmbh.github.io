@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Computing Odds Ratios from Mixed Graphical Models"
-date: 2020-08-26 12:00:00 +0100
+date: 2020-08-25 12:00:00 +0100
 categories: r
 comments: true
 #status: development
@@ -54,20 +54,20 @@ head(autism_data$data)
 
 
 {% highlight text %}
-##   Gender   IQ Integration in Society No of Comorbidities Type of Housing Workinghours
-## 1      1 6.00                      1                   1               1            0
-## 2      2 6.00                      2                   1               1            0
-## 3      1 5.00                      2                   0               1            0
-## 4      1 6.00                      1                   0               1           10
-## 5      1 5.00                      1                   1               1            0
-## 6      1 4.49                      1                   1               1            0
-##   Satisfaction: Treatment
-## 1                    3.00
-## 2                    2.00
-## 3                    4.00
-## 4                    3.00
-## 5                    1.00
-## 6                    1.75
+##   Gender   IQ Integration in Society No of Comorbidities
+## 1      1 6.00                      1                   1
+## 2      2 6.00                      2                   1
+## 3      1 5.00                      2                   0
+## 4      1 6.00                      1                   0
+## 5      1 5.00                      1                   1
+## 6      1 4.49                      1                   1
+##   Type of Housing Workinghours Satisfaction: Treatment
+## 1               1            0                    3.00
+## 2               1            0                    2.00
+## 3               1            0                    4.00
+## 4               1           10                    3.00
+## 5               1            0                    1.00
+## 6               1            0                    1.75
 {% endhighlight %}
 
 
