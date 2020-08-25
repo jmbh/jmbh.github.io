@@ -2,7 +2,7 @@
 layout: post
 title: "Computing Odds Ratios from Mixed Graphical Models"
 date: 2020-08-25 12:00:00 +0100
-categories: 
+categories: r
 comments: true
 #status: development
 ---
@@ -22,10 +22,11 @@ Since we chose to put $P(X_1=1)$ in the numerator, we interpret these odds as th
 However, these odds may be different in different circumstances. Let's say these circumstances are captured by variable $X_2$ which takes values in $\{0,1\}$. In our example, those circumstances could be whether you live next to a busy street (1) or not (0). If the odds indeed depend on $X_2$ then we have
 
 $$
-\text{Odds}_{X_2=1} = \frac{P(X_1=1\midX_2=1)}{P(X_1=0\midX_2=1)} \neq
-\frac{P(X_1=1\midX_2=0)}{P(X_1=0\midX_2=0)} = \text{Odds}_{X_2=0}
+\text{Odds}_{X_2=1} = \frac{P(X_1=1 \mid X_2=1)}{P(X_1=0 \mid X_2=1)} \neq
+\frac{P(X_1=1 \mid X_2=0)}{P(X_1=0 \mid X_2=0)} = \text{Odds}_{X_2=0}
 .
 $$
+
 A way to quantify the degree to which the odds are different depending whether we set $X_2=1$ or $X_2=0$ is to divide the odds in those two situations
 
 $$
@@ -120,7 +121,7 @@ Some of you might know that there is a simple relationship between the OR and th
 
 In our data set we use the two binary variables type of housing and gender for illustration. Specifically, we look at how the odds of type of housing change as a function of gender. Corresponding to the column numbers of the two variables, let $X_5$ be type of housing, and $X_1$ gender. 
 
-The definition of ORs above shows that we need to calculate four conditional probabilities.  We first calculate $P(X_5=1\midX_1=0)$ and $P(X_5=0\midX_1=0)$ in the numerator. To compute these probabilities, we need the estimated parameters of the multinomial regression on $X_5$. In the standard parameterization of multinomial regression one of the response categories serves as the reference category (see [here](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)). The regularization used within the mgm package allows more direct parameterization in which the probability of each response category can be modeled directly (for details see Chapter 4 in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/) on the [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) package). We therefore get a set of parameters for *each* response category. 
+The definition of ORs above shows that we need to calculate four conditional probabilities. We first calculate $P(X_5=1 \mid X_1=0)$ and $P(X_5=0 \mid X_1=0)$ in the numerator. To compute these probabilities, we need the estimated parameters of the multinomial regression on $X_5$. In the standard parameterization of multinomial regression one of the response categories serves as the reference category (see [here](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)). The regularization used within the mgm package allows more direct parameterization in which the probability of each response category can be modeled directly (for details see Chapter 4 in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929880/) on the [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) package). We therefore get a set of parameters for *each* response category. 
 
 We can find those parameters in `mod$nodemodels[[5]]` which contains the parameters of the multinomial regression on variable $X_5$:
 
@@ -158,19 +159,19 @@ coefs
 ## V7.         -0.04346463
 {% endhighlight %}
 
-The first set of parameters in `coefs[[1]]` models $P(X_5 = 0\mid \dots)$ and the second set of parameters in `coefs[[2]]` models $P(X_5 = 1\mid \dots)$.
+The first set of parameters in `coefs[[1]]` models $P(X_5 = 0 \mid  \dots)$ and the second set of parameters in `coefs[[2]]` models $P(X_5 = 1 \mid  \dots)$.
 
 The data set contains seven variables, which means that we have six variables that predict variable 5. However, since variable 3 (Integration in Society) is a categorical variable with three categories, it is represented by two dummy variables that code for its 2nd and 3rd category. This is why we have a total of 5*1+2=7 predictor variables and 7 associated parameters.
 
-Now, back to computing those probabilities in the enumerator. We would like to compute $P(X_5=1\midX_1=0)$ and $P(X_5=0\midX_1=0)$, however we see that the probability of $P(X_5)$ not only depends on $X_1$ but also on all other variables (none of the parameters are zero). We therefore need to fix all variables to some value in order to obtain a conditional probability. That is, we actually have to write the conditional probabilities as $P(X_5=1\midX_1, X_2, X_3, X_4, X_6, X_7)$ and $P(X_5=0\midX_1, X_2, X_3, X_4, X_6, X_7)$. Here we will fix all other variables to 0, but we will see later that it does not matter for our OR calculation to which value we set all these variables, as long as we choose the same values in all of the four probabilities.
+Now, back to computing those probabilities in the enumerator. We would like to compute $P(X_5=1 \mid X_1=0)$ and $P(X_5=0 \mid X_1=0)$, however we see that the probability of $P(X_5)$ not only depends on $X_1$ but also on all other variables (none of the parameters are zero). We therefore need to fix all variables to some value in order to obtain a conditional probability. That is, we actually have to write the conditional probabilities as $P(X_5=1 \mid X_1, X_2, X_3, X_4, X_6, X_7)$ and $P(X_5=0 \mid X_1, X_2, X_3, X_4, X_6, X_7)$. Here we will fix all other variables to 0, but we will see later that it does not matter for our OR calculation to which value we set all these variables, as long as we choose the same values in all of the four probabilities.
 
-The probability of $P(X_5=0\mid\dots)$ is calculated by dividing the potential for this category by the sum of all (here two) potentials:
+The probability of $P(X_5=0 \mid \dots)$ is calculated by dividing the potential for this category by the sum of all (here two) potentials:
 
 $$
-P(X_5=0\mid\dots) = \frac{
-\text{Potential}(X_5=0\mid\dots)
+P(X_5=0 \mid \dots) = \frac{
+\text{Potential}(X_5=0 \mid \dots)
 }{
-\text{Potential}(X_5=0\mid\dots) + \text{Potential}(X_5=1\mid\dots)
+\text{Potential}(X_5=0 \mid \dots) + \text{Potential}(X_5=1 \mid \dots)
 }
 $$
 If $X_5$ would have $m$ categories, there would be $m$ terms in the denominator.
@@ -178,7 +179,7 @@ If $X_5$ would have $m$ categories, there would be $m$ terms in the denominator.
 The potentials are specified by the estimated parameters
 
 $$
-\text{Potential}(X_5=1\midX_1=0, X_2=0, \dots, X_7=0) =
+\text{Potential}(X_5=1 \mid X_1=0, X_2=0, \dots, X_7=0) =
 \exp \{
 \beta_{0} + \beta_{0,1.2} \mathbb{I}(X_1=1)  + \dots + \beta_{0,7} X_7
 \}
@@ -190,14 +191,14 @@ where $\beta_{0}$ is the intercept and the remaining seven parameters are the on
 Notice that we set all variables to zero, which means that the above potential simplifies to
 
 $$
-\text{Potential}(X_5=1\mid \dots) = 
+\text{Potential}(X_5=1 \mid  \dots) = 
 \exp \{\beta_{0} \} \approx \exp \{ 0.624 \}
 $$
 
 where I took the intercept parameter $\beta_{0}$ from `coefs[[1]][1,1]`. Similarly, we have
 
 $$
-\text{Potential}(X_5=0\mid \dots) = 
+\text{Potential}(X_5=0 \mid  \dots) = 
 \exp \{\beta_{1} \} \approx \exp \{ -0.624 \}
 $$
 taken from `coefs[[1]][1,1]`.
@@ -232,7 +233,7 @@ Prob1
 ## [1] 0.2231425
 {% endhighlight %}
 
-We calculated that the probability of $P(X_5=0\mid\dots)$ (supervised housing) is $\approx 0.78$ and the probability of $P(X_5=0\mid\dots)$ (unsupervised housing) is $\approx 0.22$.
+We calculated that the probability of $P(X_5=0 \mid \dots)$ (supervised housing) is $\approx 0.78$ and the probability of $P(X_5=0 \mid \dots)$ (unsupervised housing) is $\approx 0.22$.
 
 Now we can compute the odds $\text{Odds}_{X_2=0}$:
 
@@ -274,7 +275,7 @@ Potential1 <- exp(coefs[[2]][1,1] + coefs[[2]][2,1] * 1)
 odds_x1_1 <- Potential1 / Potential0
 {% endhighlight %}
 
-Similar to above, `coefs[[1]][1,1]` contains the intercept and `coefs[[1]][2,1]` contains the parameter associated with predictor $X_1$ for probability $P(X_5 = 0\mid \dots)$. `coefs[[2]]` contains the corresponding parameters for probability $P(X_5 = 1\mid \dots)$.
+Similar to above, `coefs[[1]][1,1]` contains the intercept and `coefs[[1]][2,1]` contains the parameter associated with predictor $X_1$ for probability $P(X_5 = 0 \mid  \dots)$. `coefs[[2]]` contains the corresponding parameters for probability $P(X_5 = 1 \mid  \dots)$.
 
 We can now compute the OR:
 
@@ -308,9 +309,9 @@ $$
 \frac{\text{Odds}_{X_2=1}}{\text{Odds}_{X_2=0}}
 =
 \frac{
-\frac{P(X_1=1\midX_2=1,X_3=x_3)}{P(X_1=0\midX_2=1,X_3=x_3)}
+\frac{P(X_1=1 \mid X_2=1,X_3=x_3)}{P(X_1=0 \mid X_2=1,X_3=x_3)}
 }{
-\frac{P(X_1=1\midX_2=0,X_3=x_3)}{P(X_1=0\midX_2=0,X_3=x_3)}
+\frac{P(X_1=1 \mid X_2=0,X_3=x_3)}{P(X_1=0 \mid X_2=0,X_3=x_3)}
 }
 .
 $$
@@ -319,9 +320,9 @@ The question is whether it matters what we fill  in for $x_3$. We will show that
 
 $$
 \frac{
-\frac{P(X_1=1\midX_2=1,X_3=x_3)}{P(X_1=0\midX_2=1,X_3=x_3)}
+\frac{P(X_1=1 \mid X_2=1,X_3=x_3)}{P(X_1=0 \mid X_2=1,X_3=x_3)}
 }{
-\frac{P(X_1=1\midX_2=0,X_3=x_3)}{P(X_1=0\midX_2=0,X_3=x_3)}
+\frac{P(X_1=1 \mid X_2=0,X_3=x_3)}{P(X_1=0 \mid X_2=0,X_3=x_3)}
 }
 =
 \frac{
@@ -345,7 +346,7 @@ $$
 }
 $$
 
-In the first step we fixed $X_1=1$ in the numerator and $X_1=0$ in the denominator and simplified. The parameter $\beta_{21}$ refers to the coefficient associated with $X_2$ in the equation modeling $P(X_1=1\mid\dots)$, while $\beta_{20}$ refers to the coefficient associated with $X_2$ in the equation modeling $P(X_1=0\mid\dots)$. 
+In the first step we fixed $X_1=1$ in the numerator and $X_1=0$ in the denominator and simplified. The parameter $\beta_{21}$ refers to the coefficient associated with $X_2$ in the equation modeling $P(X_1=1 \mid \dots)$, while $\beta_{20}$ refers to the coefficient associated with $X_2$ in the equation modeling $P(X_1=0 \mid \dots)$. 
 
 We further rearrange
 
@@ -430,7 +431,7 @@ exp(coefs[[1]][2,1] - coefs[[2]][2,1])
 
 One could verify this by repeating the derivation above with swapped numerator/denominator or by using the general approach of calculating ORs that we used above.
 
-This reflects the well-known relation between multiple regression parameters and the OR, $\exp{\{\beta_x\}} = \text{OR}_x$ (see [here](https://en.wikipedia.org/wiki/Odds_ratio#Role_in_logistic_regression)), since the relation between logistic regression parameterization and the symmetric multinomial regression parameterization used here is $\beta_x = 2 \beta_{x1}$, where $\beta_{x1}$ is the parameter corresponding to $\beta_x$ in the equation modeling $P(X_1=1\mid\dots)$.
+This reflects the well-known relation between multiple regression parameters and the OR, $\exp{\{\beta_x\}} = \text{OR}_x$ (see [here](https://en.wikipedia.org/wiki/Odds_ratio#Role_in_logistic_regression)), since the relation between logistic regression parameterization and the symmetric multinomial regression parameterization used here is $\beta_x = 2 \beta_{x1}$, where $\beta_{x1}$ is the parameter corresponding to $\beta_x$ in the equation modeling $P(X_1=1 \mid \dots)$.
 
 
 ### Is the OR "significant"?
@@ -445,7 +446,7 @@ An alternative to ORs is to report change in predicted probabilities of $X_5$ de
 When looking at changes in predicted probabilities we are interested in the difference
 
 $$
-P(X_5=1\midX_1=1, \dots) - P(X_5=0\midX_1=0, \dots)
+P(X_5=1 \mid X_1=1, \dots) - P(X_5=0 \mid X_1=0, \dots)
 .
 $$
 
