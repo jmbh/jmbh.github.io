@@ -7,7 +7,7 @@ comments: true
 #status: development
 ---
 
-Interpreting statistical network models typically involves interpreting individual edge parameters. If the network model is a Gaussian Graphical Model (GGM), the interpretation is relatively simple: the pairwise interaction parameters are partial correlations, which indicate conditional linear relationships and vary from -1 to 1. Using the standard deviations of the two involved variables, the partial correlation can also be transformed into a linear regression coefficient (see for example [here](https://arxiv.org/abs/1609.04156])). However, when studying interactions involving categorical variables, such as in an Ising model or a Mixed Graphical Model (MGM), the parameters are not limited to a certain range and their interpretation is less intuitive. In these situations it may be helpful to report the interactions between variables in terms of odds ratios.
+Interpreting statistical network models typically involves interpreting individual edge parameters. If the network model is a Gaussian Graphical Model (GGM), the interpretation is relatively simple: the pairwise interaction parameters are partial correlations, which indicate conditional linear relationships and vary from -1 to 1. Using the standard deviations of the two involved variables, the partial correlation can also be transformed into a linear regression coefficient (see for example [here](https://arxiv.org/abs/1609.04156)). However, when studying interactions involving categorical variables, such as in an Ising model or a Mixed Graphical Model (MGM), the parameters are not limited to a certain range and their interpretation is less intuitive. In these situations it may be helpful to report the interactions between variables in terms of odds ratios.
 
 
 ### Odds Ratios
@@ -55,20 +55,13 @@ head(autism_data$data)
 
 
 {% highlight text %}
-##   Gender   IQ Integration in Society No of Comorbidities Type of Housing Workinghours
-## 1      1 6.00                      1                   1               1            0
-## 2      2 6.00                      2                   1               1            0
-## 3      1 5.00                      2                   0               1            0
-## 4      1 6.00                      1                   0               1           10
-## 5      1 5.00                      1                   1               1            0
-## 6      1 4.49                      1                   1               1            0
-##   Satisfaction: Treatment
-## 1                    3.00
-## 2                    2.00
-## 3                    4.00
-## 4                    3.00
-## 5                    1.00
-## 6                    1.75
+##   Gender   IQ Integration in Society No of Comorbidities Type of Housing Workinghours Satisfaction: Treatment
+## 1      1 6.00                      1                   1               1            0                    3.00
+## 2      2 6.00                      2                   1               1            0                    2.00
+## 3      1 5.00                      2                   0               1            0                    4.00
+## 4      1 6.00                      1                   0               1           10                    3.00
+## 5      1 5.00                      1                   1               1            0                    1.00
+## 6      1 4.49                      1                   1               1            0                    1.75
 {% endhighlight %}
 
 
@@ -291,7 +284,7 @@ OR
 ## [1] 2.144591
 {% endhighlight %}
 
-We see that for females (coded 1) the odds of living in unsupervised housing (coded 1) are about twice as high as for males.
+We see that for females (coded 2) the odds of living in unsupervised housing (coded 2) are about twice as high as for males.
 
 In a similar way, ORs can be calculated when the predicted variable or the predictor variable of interest has more than two categories. One can also compute ORs that combine the effect of several variables, for example by setting several variables to 1 in the numerator, and setting them all to 0 in the denominator.
 
