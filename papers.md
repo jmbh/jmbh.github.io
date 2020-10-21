@@ -10,21 +10,21 @@ permalink: /papers/
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (under revision). Recovering Within-Person Dynamics from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/dymhw)
 
-Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (submitted) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019) [[PsyArXiv]](https://psyarxiv.com/692m4/)
-
 **Haslbeck J. M. B.** (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (under review). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
 Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (under review). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y)
 
-Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (under review). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
-
 **Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under review). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 #### Accepted / In press
+
+Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (in press) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). Brain, Behavior and Immunity. [[PsyArXiv]](https://psyarxiv.com/692m4/)
+
+Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (in press). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. PloS One. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
 
 #### 2020
 
