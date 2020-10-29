@@ -24,9 +24,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (in press) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). Brain, Behavior and Immunity. [[PsyArXiv]](https://psyarxiv.com/692m4/)
 
-Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (in press). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. PloS One. [[PsyArXiv]](https://psyarxiv.com/qgewy/)
-
 #### 2020
+
+Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. PloS One. [[PsyArXiv]](https://psyarxiv.com/qgewy/) [[Link]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240730)
 
 **Haslbeck J. M. B.** (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://dare.uva.nl/search?identifier=878fd1a0-2932-4114-9950-d783abfbbd10)
 
