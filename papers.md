@@ -24,6 +24,8 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (in press) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). Brain, Behavior and Immunity. [[PsyArXiv]](https://psyarxiv.com/692m4/)
 
+Walentek, D., Broere, J., Cinelli, M, Dekker, M., & **Haslbeck J. M. B.** (accepted). Success of Economic Sanctions Threats: Coercion, Information and Commitment. International Interactions. [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/5e728b49331ba40019341500)
+
 #### 2020
 
 Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. PloS One. [[PsyArXiv]](https://psyarxiv.com/qgewy/) [[Link]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240730)
