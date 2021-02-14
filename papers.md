@@ -24,9 +24,13 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (in press) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). Brain, Behavior and Immunity. [[PsyArXiv]](https://psyarxiv.com/692m4/)
+Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (accepted). The Network Structure of Schema Modes. Clinical Psychology & Psychotherapy. [[PsyArXiv]](https://psyarxiv.com/v7rdq/)
 
-Walentek, D., Broere, J., Cinelli, M, Dekker, M., & **Haslbeck J. M. B.** (accepted). Success of Economic Sanctions Threats: Coercion, Information and Commitment. International Interactions. [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/5e728b49331ba40019341500)
+#### 2021
+
+Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (2021) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). Brain, Behavior and Immunity. [[PsyArXiv]](https://psyarxiv.com/692m4/)
+
+Walentek, D., Broere, J., Cinelli, M, Dekker, M., & **Haslbeck J. M. B.** (2021). Success of Economic Sanctions Threats: Coercion, Information and Commitment. International Interactions. [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/5e728b49331ba40019341500)
 
 #### 2020
 
