@@ -10,8 +10,6 @@ permalink: /papers/
 
 Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (submitted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
 
-**Haslbeck J. M. B.**\* & Ryan O.\* (under revision). Recovering Within-Person Dynamics from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/dymhw)
-
 **Haslbeck J. M. B.** (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (under review). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
@@ -23,6 +21,8 @@ Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (und
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 #### Accepted / In press
+
+**Haslbeck J. M. B.**\* & Ryan O.\* (accepted). Recovering Within-Person Dynamics from Psychological Time Series. [[PsyArXiv]](https://psyarxiv.com/dymhw)
 
 Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (accepted). The Network Structure of Schema Modes. Clinical Psychology & Psychotherapy. [[PsyArXiv]](https://psyarxiv.com/v7rdq/)
 
