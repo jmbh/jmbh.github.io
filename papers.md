@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck, J. M. B.** & van Bork, R. (submitted). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Github]](https://github.com/jmbh/EstimateFactorsEFA)
+
 Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (submitted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
 
 **Haslbeck J. M. B.** (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
