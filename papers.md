@@ -16,11 +16,11 @@ Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp,
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (under review). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
-**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (under review). Modeling Psychopathology: From Data Models to Formal Theories. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
-
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 #### Accepted / In press
+
+**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (accepted). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (accepted). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw)
 
