@@ -24,9 +24,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (accepted). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw)
 
-Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (accepted). The Network Structure of Schema Modes. *Clinical Psychology & Psychotherapy*. [[PsyArXiv]](https://psyarxiv.com/v7rdq/)
-
 #### 2021
+
+Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (2021). The Network Structure of Schema Modes. *Clinical Psychology & Psychotherapy*. [[PsyArXiv]](https://psyarxiv.com/v7rdq/) [[Link]](http://doi.org/10.1002/cpp.2577)
 
 Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (2021). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. *Perspectives on Psychological Science*. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y) [[Link]](https://journals.sagepub.com/doi/full/10.1177/1745691620974697)
 
