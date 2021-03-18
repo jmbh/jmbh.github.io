@@ -26,6 +26,8 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### 2021
 
+Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. Frontiers in Psychiatry, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full)
+
 Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (2021). The Network Structure of Schema Modes. *Clinical Psychology & Psychotherapy*. [[PsyArXiv]](https://psyarxiv.com/v7rdq/) [[Link]](http://doi.org/10.1002/cpp.2577)
 
 Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (2021). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. *Perspectives on Psychological Science*. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y) [[Link]](https://journals.sagepub.com/doi/full/10.1177/1745691620974697)
