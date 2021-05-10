@@ -4,6 +4,8 @@ title: []
 permalink: /talks/
 ---
 
+Haslbeck J. M. B., Ryan O., Robinaugh D. J., Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. 2021 APS Virtual Convention [[Slides]](http://jmbh.github.io/files/APS2021_DM2FT_online).
+
 Haslbeck J. M. B., Ryan O., & Fabian Dablander (2020) Modeling Psychological Processes at different Time Scales. Conference on Complex Systems 2020, Satellite Complexities of Adverse Behavior & Urban Mental Health.
 
 Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from Psychological Time Series. IOPS Winter Conference, Leiden University [[Slides]](http://jmbh.github.io/files/RecovBS_Dec12_IOPS2019.pdf)
