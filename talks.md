@@ -4,9 +4,15 @@ title: []
 permalink: /talks/
 ---
 
+#### 2021
+
 Haslbeck J. M. B., Ryan O., Robinaugh D. J., Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. 2021 APS Virtual Convention [[Slides]](http://jmbh.github.io/files/APS2021_DM2FT_online).
 
+#### 2020
+
 Haslbeck J. M. B., Ryan O., & Fabian Dablander (2020) Modeling Psychological Processes at different Time Scales. Conference on Complex Systems 2020, Satellite Complexities of Adverse Behavior & Urban Mental Health.
+
+#### 2019
 
 Haslbeck J. M. B. (2019) Modeling Mental Disorders as Complex Systems. Center for Cognitive and Decision Science, University of Basel, July 2019
 
@@ -18,11 +24,15 @@ Haslbeck J. M. B. (2019) Psychopathology as Complex Systems: Past and Current Pr
 
 Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from ESM Data. Real-Time Monitoring Statistics and Methods Reading Group at Harvard University, Boston, US.
 
+#### 2018
+
 Haslbeck J. M. B. & Robinaugh J. D. (2018) A Dynamical Model of Panic Disorder. Conference on Complex Systems 2018, Thessaloniki, Greece [[Slides]](http://jmbh.github.io/files/CCS2018_PanicModel_onlineVersion.pdf).
 
 Pescetelli N., Asano, Y., Jankowski, S., Haslbeck J. M. B & Le N. (2018) The Evolution of Beliefs in Natural Language Conversations. Complex Systems Summer School 2018, Santa Fe, USA [[Slides]](http://jmbh.github.io/files/CSSS2018.pdf).
 
 Haslbeck J. M. B, Waldorp L.J. & Borsboom D. (2018) Moderated Network Models. IMPS 2018, Columbia University, NYC [[Slides]](http://jmbh.github.io/files/IMPS_ModNW.pdf)
+
+#### 2017
 
 Haslbeck J. M. B (2017) Abstracting Complex Systems using Mixed Graphical Models. CLUe training #8, Complexity Laboratorium Utrecht. [[Slides and Materials]](https://www.uu.nl/en/events/clue-training-8-abstracting-complex-systems-using-mixed-graphical-models) 
 
@@ -35,6 +45,8 @@ Haslbeck J. M. B. (2017) Time-varying Mixed Graphical Models. [Data Science Amst
 Haslbeck J. M. B. (2017) Estimating Psychopathological Networks. [Complex Systems Studies Workshop](https://www.uu.nl/en/events/complex-systems-studies-workshop-networks), 2017, Utrecht, Netherlands. [[Slides Talk]](http://jmbh.github.io/figs/About/UCW17_talk.pdf) [[Workshop HTML]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.html) [[Workshop Markdown]](http://jmbh.github.io/figs/About/CS_WS_Utrecht_March15_jonashaslbeck.Rmd)
 
 Haslbeck J. M. B. & Waldorp L. J. (2017) Time-varying mixed graphical models. [Psychoco 2017](https://eeecon.uibk.ac.at/psychoco/2017/index.html), Vienna, Austria. [[Slides]](http://jmbh.github.io/figs/About/TVG_Psychoco2017_online.pdf)
+
+#### 2016
 
 Haslbeck J. M. B. & Waldorp L. J. (2016) Time-varying mixed graphical models. [[IOPS Winter Conference 2016, Groningen]](http://www.iops.nl/conferences/previous-iops-conferences/), The Netherlands. [[Slides]](http://jmbh.github.io/figs/About/TVG_IOPS_Winter2016.pdf)
 
