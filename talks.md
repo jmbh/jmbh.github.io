@@ -8,6 +8,8 @@ Haslbeck J. M. B., Ryan O., Robinaugh D. J., Waldorp L. J., Borsboom D. (2021). 
 
 Haslbeck J. M. B., Ryan O., & Fabian Dablander (2020) Modeling Psychological Processes at different Time Scales. Conference on Complex Systems 2020, Satellite Complexities of Adverse Behavior & Urban Mental Health.
 
+Haslbeck J. M. B. (2019) Modeling Mental Disorders as Complex Systems. Center for Cognitive and Decision Science, University of Basel, July 2019
+
 Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from Psychological Time Series. IOPS Winter Conference, Leiden University [[Slides]](http://jmbh.github.io/files/RecovBS_Dec12_IOPS2019.pdf)
 
 Haslbeck J. M. B. & Ryan O. (2019) Recovering Bistable Systems from Psychological Time Series. 12th DynaNet Meeting, University of Amsterdam [[Slides]](http://jmbh.github.io/files/bistability_DynaNet_Dec4.pdf)
