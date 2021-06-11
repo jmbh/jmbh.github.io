@@ -18,13 +18,15 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods* [[PsyArXiv]](https://psyarxiv.com/3nxu9)
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
 **Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (accepted). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (accepted). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw)
 
 #### 2021
+
+Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. Journal of Affective Disorders. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100)
 
 Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. Frontiers in Psychiatry, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full)
 
