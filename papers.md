@@ -12,11 +12,11 @@ permalink: /papers/
 
 Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (submitted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
 
-**Haslbeck J. M. B.** (under review). Estimating Group Differences in Network Models using Moderation Analysis. [[PsyArXiv]](https://psyarxiv.com/926pv)
-
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 #### Accepted / In press
+
+**Haslbeck J. M. B.** (accepted). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
@@ -26,9 +26,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### 2021
 
-Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. Journal of Affective Disorders. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100)
+Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. *Journal of Affective Disorders*. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100)
 
-Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. Frontiers in Psychiatry, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full)
+Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. *Frontiers in Psychiatry*, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full)
 
 Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (2021). The Network Structure of Schema Modes. *Clinical Psychology & Psychotherapy*. [[PsyArXiv]](https://psyarxiv.com/v7rdq/) [[Link]](http://doi.org/10.1002/cpp.2577)
 
