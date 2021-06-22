@@ -22,9 +22,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 **Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (accepted). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
-**Haslbeck J. M. B.**\* & Ryan O.\* (accepted). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw)
-
 #### 2021
+
+**Haslbeck J. M. B.**\* & Ryan O.\* (2021). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2021.1896353)
 
 Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. *Journal of Affective Disorders*. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100)
 
