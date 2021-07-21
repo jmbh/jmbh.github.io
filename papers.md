@@ -16,13 +16,13 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-**Haslbeck J. M. B.** (accepted). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv)
-
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
 **Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (accepted). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
 
 #### 2021
+
+**Haslbeck J. M. B.** (accepted). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv) [[Link]](https://link.springer.com/article/10.3758%2Fs13428-021-01637-y)
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (2021). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2021.1896353)
 
