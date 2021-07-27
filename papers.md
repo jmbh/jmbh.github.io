@@ -22,7 +22,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### 2021
 
-**Haslbeck J. M. B.** (accepted). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv) [[Link]](https://link.springer.com/article/10.3758%2Fs13428-021-01637-y)
+Verwimp C., Tijms J., Snellings P., **Haslbeck J. M. B.**, Wiers R. W. (2021) A network approach to dyslexia: Mapping the reading network. *Development and Psychopathology*. [[Link]](https://www.cambridge.org/core/journals/development-and-psychopathology/article/network-approach-to-dyslexia-mapping-the-reading-network/FF8C72F8190A5A6A2C57739BABF7CC8F)
+
+**Haslbeck J. M. B.** (2021). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv) [[Link]](https://link.springer.com/article/10.3758%2Fs13428-021-01637-y)
 
 **Haslbeck J. M. B.**\* & Ryan O.\* (2021). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2021.1896353)
 
