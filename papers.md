@@ -8,9 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
-**Haslbeck, J. M. B.** & van Bork, R. (submitted). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Github]](https://github.com/jmbh/EstimateFactorsEFA)
+**Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Github]](https://github.com/jmbh/EstimateFactorsEFA)
 
-Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (submitted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
+Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (under review). Reporting Standards for Psychological Network Analyses in Cross-sectional Data [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
