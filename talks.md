@@ -6,6 +6,8 @@ permalink: /talks/
 
 #### 2021
 
+Haslbeck J. M. B. (2021). Modeling Psychopathology: From Data Models to Formal Theories. IMPS 2021 [[Slides]](http://jmbh.github.io/files/Talk_IMPS_2021_keynote_DM2FT.pdf)
+
 Haslbeck J. M. B., Ryan O., Robinaugh D. J., Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. IOPS Summer Conference 2021 [[Slides]](http://jmbh.github.io/files/Talk_IOPS_S_2021_DM2FT_online)
 
 Haslbeck J. M. B., Ryan O., Robinaugh D. J., Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. 2021 APS Virtual Convention [[Slides]](http://jmbh.github.io/files/APS2021_DM2FT_online) [[YouTube]](https://www.youtube.com/watch?v=pA8lz3gb4D4)
