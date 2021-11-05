@@ -18,9 +18,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
 
-**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (accepted). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f)
-
 #### 2021
+
+**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f) [[Link]](https://psycnet.apa.org/record/2022-00806-001)
 
 Verwimp C., Tijms J., Snellings P., **Haslbeck J. M. B.**, Wiers R. W. (2021) A network approach to dyslexia: Mapping the reading network. *Development and Psychopathology*. [[Link]](https://www.cambridge.org/core/journals/development-and-psychopathology/article/network-approach-to-dyslexia-mapping-the-reading-network/FF8C72F8190A5A6A2C57739BABF7CC8F)
 
