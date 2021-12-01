@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-**Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Github]](https://github.com/jmbh/EstimateFactorsEFA)
+**Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
@@ -16,33 +16,33 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (accepted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9)
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9) [[Reproducibility Archive]](https://github.com/fdabl/Sum-Score-Paper)
 
 #### 2021
 
-**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f) [[PDF]](https://jmbh.github.io/files/papers/2022-00806-001.pdf)
+**Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f) [[Link]](https://psycnet.apa.org/record/2022-00806-001) [[PDF]](https://jmbh.github.io/files/papers/2022-00806-001.pdf) [[Reproducibility Archive]](https://osf.io/bnteg/)
 
 Verwimp C., Tijms J., Snellings P., **Haslbeck J. M. B.**, Wiers R. W. (2021) A network approach to dyslexia: Mapping the reading network. *Development and Psychopathology*. [[Link]](https://www.cambridge.org/core/journals/development-and-psychopathology/article/network-approach-to-dyslexia-mapping-the-reading-network/FF8C72F8190A5A6A2C57739BABF7CC8F)
 
-**Haslbeck J. M. B.** (2021). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv) [[Link]](https://link.springer.com/article/10.3758%2Fs13428-021-01637-y)
+**Haslbeck J. M. B.** (2021). Estimating Group Differences in Network Models using Moderation Analysis. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/926pv) [[Link]](https://link.springer.com/article/10.3758%2Fs13428-021-01637-y) [[Reproducibility Archive]](https://github.com/jmbh/NetworkGroupDifferences)
 
-**Haslbeck J. M. B.**\* & Ryan O.\* (2021). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2021.1896353)
+**Haslbeck J. M. B.**\* & Ryan O.\* (2021). Recovering Within-Person Dynamics from Psychological Time Series. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/dymhw) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2021.1896353) [[Reproducibility Archive]](https://github.com/jmbh/RecoveringWithinPersonDynamics)
 
-Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. *Journal of Affective Disorders*. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100)
+Hinze, V., Ford, T., Crane, C., **Haslbeck J. M. B.**, Hawton, K., Gjelsvik, B., & The MYRIAD Team (2021). Does depression moderate the relationship between pain and suicidality in adolescence? A moderated network analysis. *Journal of Affective Disorders*. [[Link]](https://doi.org/10.1016/j.jad.2021.05.100) [[Reproducibility Archive]](https://osf.io/r8cg9/)
 
-Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. *Frontiers in Psychiatry*, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full)
+Lunansky, G., van Borkulo, C. D., **Haslbeck J. M. B.**, van der Linden, M. A., Garay, C. J., Etchevers, M. J., & Borsboom, D. (2021). The Mental Health Ecosystem: Extending Symptom Networks with Risk and Protective Factors. *Frontiers in Psychiatry*, 12, 301. [[Link]](https://www.frontiersin.org/articles/10.3389/fpsyt.2021.640658/full) [[Reproducibility Archive]](https://osf.io/jhzk3/)
 
 Aalbers G., Engels T., **Haslbeck J. M. B.**, Borsboom D. & Arntz A (2021). The Network Structure of Schema Modes. *Clinical Psychology & Psychotherapy*. [[PsyArXiv]](https://psyarxiv.com/v7rdq/) [[Link]](http://doi.org/10.1002/cpp.2577)
 
-Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (2021). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. *Perspectives on Psychological Science*. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y) [[Link]](https://journals.sagepub.com/doi/full/10.1177/1745691620974697)
+Robinaugh, D., **Haslbeck J. M. B.**, Ryan, O., Fried, E. I., & Waldorp, L. (2021). Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction. *Perspectives on Psychological Science*. [[PsyArXiv]](https://doi.org/10.31234/osf.io/ugz7y) [[Link]](https://journals.sagepub.com/doi/full/10.1177/1745691620974697) [[Reproducibility Archive]](https://osf.io/gcqnf/)
 
-Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (2021) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). *Brain, Behavior and Immunity*. [[PsyArXiv]](https://psyarxiv.com/692m4/)
+Moriarity D. P., Horn S. R., Kautz M.M, **Haslbeck J. M. B.** & Alloy L. B. (2021) How handling extreme C-reactive protein (CRP) values influences CRP and depression symptom networks: A replication and extension of Fried et al. (2019). *Brain, Behavior and Immunity*. [[PsyArXiv]](https://psyarxiv.com/692m4/) [[Link]](https://www.sciencedirect.com/science/article/pii/S0889159120323709)
 
-Walentek, D., Broere, J., Cinelli, M, Dekker, M., & **Haslbeck J. M. B.** (2021). Success of Economic Sanctions Threats: Coercion, Information and Commitment. *International Interactions*. [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/5e728b49331ba40019341500)
+Walentek, D., Broere, J., Cinelli, M, Dekker, M., & **Haslbeck J. M. B.** (2021). Success of Economic Sanctions Threats: Coercion, Information and Commitment. *International Interactions*. [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/5e728b49331ba40019341500) [[Link]](https://www.tandfonline.com/doi/full/10.1080/03050629.2021.1860034)
 
 #### 2020
 
-Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. *PloS One*. [[PsyArXiv]](https://psyarxiv.com/qgewy/) [[Link]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240730)
+Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(1) and VAR(1) Models in Typical Psychological Applications. *PloS One*. [[PsyArXiv]](https://psyarxiv.com/qgewy/) [[Link]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240730) [[Reproducibility Archive]](https://github.com/jmbh/ARVAR)
 
 **Haslbeck J. M. B.** (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://dare.uva.nl/search?identifier=878fd1a0-2932-4114-9950-d783abfbbd10)
 
@@ -50,9 +50,9 @@ Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(
 
 **Haslbeck J. M. B.**, Waldorp L. J. (2020). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. *The Journal of Statistical Software*. [[arXiv]](https://arxiv.org/abs/1510.06871) [[Link]](https://www.jstatsoft.org/article/view/v093i08)
 
-**Haslbeck J. M. B.**, Bringmann L. F., & Waldorp, L. J. (2020). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. *Multivariate Behavioral Research*. [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2020.1743630) [[arXiv]](https://arxiv.org/abs/1711.05204)
+**Haslbeck J. M. B.**, Bringmann L. F., & Waldorp, L. J. (2020). A Tutorial on Estimating Time-Varying Vector Autoregressive Models. *Multivariate Behavioral Research*. [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2020.1743630) [[arXiv]](https://arxiv.org/abs/1711.05204) [[Reproducibility Archive]](https://github.com/jmbh/tvvar_paper)
 
-**Haslbeck J. M. B.**, Epskamp S. & Marsman M., Waldorp L. J.  (2020). Interpreting the Ising Model: The Input Matters. *Multivariate Behavioral Research*. [[arXiv]](http://arxiv.org/abs/1811.02916)
+**Haslbeck J. M. B.**, Epskamp S. & Marsman M., Waldorp L. J.  (2020). Interpreting the Ising Model: The Input Matters. *Multivariate Behavioral Research*. [[arXiv]](http://arxiv.org/abs/1811.02916) [[Reproducibility Archive]](https://github.com/jmbh/IsingVersions)
 
 #### 2019
 
@@ -62,21 +62,21 @@ Kieslich, P. J., Henninger, F., Wulff, D. U., **Haslbeck J. M. B.**, & Schulte-M
 
 Wulff, D. U., **Haslbeck J. M. B.**, Kieslich, P. J., Henninger, F., Schulte-Mecklenbeck, M. (2019). Mouse- tracking: Detecting types in movement trajectories. In M. Schulte-Mecklenbeck, A. Kuehberger, & J. G. Johnson (Ed.), A handbook of process tracing methods (2. ed.). Psychology Press. [[PsyArXiv]](https://psyarxiv.com/6edca/)
 
-Fried E. I., von Stockert S., **Haslbeck J. M. B.**, Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (2019). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. *Psychological Medicine*. [[PDF]](https://www.cambridge.org/core/journals/psychological-medicine/article/using-network-analysis-to-examine-links-between-individual-depressive-symptoms-inflammatory-markers-and-covariates/E2C8D6857450A832AF10CD9E8DA757BB) [[OSF]](https://osf.io/h92nk/)
+Fried E. I., von Stockert S., **Haslbeck J. M. B.**, Lamers F., Schoevers, R.A. & Pennix B. W. J. H. (2019). Using network analysis to examine links between individual depressive symptoms, inflammatory markers, and covariates. *Psychological Medicine*. [[Link]](https://www.cambridge.org/core/journals/psychological-medicine/article/using-network-analysis-to-examine-links-between-individual-depressive-symptoms-inflammatory-markers-and-covariates/E2C8D6857450A832AF10CD9E8DA757BB) [[PsyArXiv]](https://psyarxiv.com/84ske/) [[Reproducibility Archive]](https://osf.io/5832e/)
 
 Dablander, F., Epskamp, S., & **Haslbeck J. M. B.** (2019). Studying Statistics Anxiety Requires Sound Statistics: A Comment on Siew, McCartney, and Vitevitch (2019). *Scholarship of Teaching and Learning in Psychology*. [[PsyArXiv]](https://psyarxiv.com/pfnys)
 
 #### 2018
 
-**Haslbeck J. M. B.**, Waldorp L. J. (2018). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. *Behavior Research Methods*. [[PDF]](https://link.springer.com/article/10.3758/s13428-017-0910-x) [[arXiv]](https://arxiv.org/abs/1610.09108)
+**Haslbeck J. M. B.**, Waldorp L. J. (2018). How well do Network Models predict Future Observations? On the Importance of Predictability in Network Models. *Behavior Research Methods*. [[Link]](https://link.springer.com/article/10.3758/s13428-017-0910-x) [[arXiv]](https://arxiv.org/abs/1610.09108)
 
 #### 2017
 
-**Haslbeck J. M. B.**, Fried E. I. (2017). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 18 Published Datasets. *Psychological Medicine*. [[PDF]](https://jmbh.github.io/files/NP_PM.pdf) [[Supplement]](https://jmbh.github.io/files/SupMaterial_new.zip)
+**Haslbeck J. M. B.**, Fried E. I. (2017). How Predictable are Symptoms in Psychopathological Networks? A Reanalysis of 18 Published Datasets. *Psychological Medicine*. [[PDF]](https://jmbh.github.io/files/NP_PM.pdf) [[Supplement]](https://jmbh.github.io/files/SupMaterial_new.zip) [[Reproducibility Archive]](https://github.com/jmbh/NetworkPrediction)
 
 Kossakowski, J. J., Groot, P. C., **Haslbeck J. M. B.**, Borsboom, D., & Wichers, M. (2017). Data from ‘Critical Slowing Down as a Personalized Early Warning Signal for Depression’. *Journal of Open Psychology Data*, 5: 1, DOI: https://doi.org/10.5334/jopd.29. [[PDF]](http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/) [[OSF]](https://osf.io/j4fg8/)
 
 #### 2015
 
-**Haslbeck J. M. B.**, Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. *Quarterly Journal of Experimental Psychology*. [[PDF, Experiment, Stimuli, Data, Code]](https://github.com/jmbh/bisectionpaper)
+**Haslbeck J. M. B.**, Wood G., Witte M. (2015). Temporal dynamics of number-space interaction in line bisection: Comment on Cleland and Bull. *Quarterly Journal of Experimental Psychology*. [[Link]](https://journals.sagepub.com/doi/full/10.1080/17470218.2015.1095773) [[Reproducibility Archive]](https://github.com/jmbh/bisectionpaper)
 
