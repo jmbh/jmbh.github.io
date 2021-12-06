@@ -14,11 +14,11 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (accepted). Reporting Standards for Psychological Network Analyses in Cross-sectional Data. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/4y9nz/)
-
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9) [[Reproducibility Archive]](https://github.com/fdabl/Sum-Score-Paper)
 
 #### 2021
+
+Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (2021). Reporting Standards for Psychological Network Analyses in Cross-sectional Data. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/4y9nz/) [[Link]](https://psycnet.apa.org/record/2022-06515-001)
 
 **Haslbeck J. M. B.**\*, Ryan O.\*, Robinaugh D. J.\*, Waldorp L. J., Borsboom D. (2021). Modeling Psychopathology: From Data Models to Formal Theories. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/jgm7f) [[Link]](https://psycnet.apa.org/record/2022-00806-001) [[PDF]](https://jmbh.github.io/files/papers/2022-00806-001.pdf) [[Reproducibility Archive]](https://osf.io/bnteg/)
 
