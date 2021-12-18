@@ -14,9 +14,11 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9) [[Reproducibility Archive]](https://github.com/fdabl/Sum-Score-Paper)
 
 #### 2021
+
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (2021). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9) [[Link]](https://psycnet.apa.org/record/2022-14481-001) [[Reproducibility Archive]](https://github.com/fdabl/Sum-Score-Paper)
+
 
 Burger, J.\*, Isvoranu, A. M.\*,  Lunansky, G., **Haslbeck, J. M. B.**, Epskamp, S., Hoekstra, R. H. A., Fried, E. I., Borsboom, D., Blanken, T. F. (2021). Reporting Standards for Psychological Network Analyses in Cross-sectional Data. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/4y9nz/) [[Link]](https://psycnet.apa.org/record/2022-06515-001)
 
