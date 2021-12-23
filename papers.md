@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Wulff U. D.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (submitted) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
+Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (submitted) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 **Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
 
