@@ -49,7 +49,7 @@ Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(
 
 **Haslbeck J. M. B.** (2020). Modeling psychopathology: From data models to formal theories. *(Doctoral Thesis)* [[Link]](https://dare.uva.nl/search?identifier=878fd1a0-2932-4114-9950-d783abfbbd10)
 
-**Haslbeck J. M. B.**, Wulff. D. U., (2020). Estimating the Number of Clusters via Normalized Cluster Instability. *Computational Statistics*. [[PDF]](https://rdcu.be/b4gjj)  [[arXiv]](https://arxiv.org/abs/1608.07494)
+**Haslbeck J. M. B.**, Wulff. D. U., (2020). Estimating the Number of Clusters via Normalized Cluster Instability. *Computational Statistics*. [[PDF]](https://rdcu.be/b4gjj)  [[arXiv]](https://arxiv.org/abs/1608.07494) [[Reproducibility Archive]](https://github.com/jmbh/cstab_paper_reparchive)
 
 **Haslbeck J. M. B.**, Waldorp L. J. (2020). mgm: Structure Estimation for Time-Varying Mixed Graphical Models in high-dimensional Data. *The Journal of Statistical Software*. [[arXiv]](https://arxiv.org/abs/1510.06871) [[Link]](https://www.jstatsoft.org/article/view/v093i08)
 
@@ -59,7 +59,7 @@ Dablander F.\*, Ryan O.\* & **Haslbeck J. M. B.**\* (2020). Choosing between AR(
 
 #### 2019
 
-**Haslbeck J. M. B.**, Borsboom D. & Waldorp L. J. (2019). Moderated Network Models. *Multivariate Behavioral Research*. [[PDF]](https://www.tandfonline.com/doi/full/10.1080/00273171.2019.1677207) [[arXiv]](https://arxiv.org/abs/1807.02877)
+**Haslbeck J. M. B.**, Borsboom D. & Waldorp L. J. (2019). Moderated Network Models. *Multivariate Behavioral Research*. [[PDF]](https://www.tandfonline.com/doi/full/10.1080/00273171.2019.1677207) [[arXiv]](https://arxiv.org/abs/1807.02877) [[Reproducibility Archive]](https://github.com/jmbh/MNM_reparchive)
 
 Kieslich, P. J., Henninger, F., Wulff, D. U., **Haslbeck J. M. B.**, & Schulte-Mecklenbeck, M. (2019). Mouse-tracking: A practical guide to implementation and analysis. In M. Schulte-Mecklenbeck, A. Kühberger, & J. G. Johnson (Eds.), A Handbook of Process Tracing Methods. New York, NY: Routledge. [[PsyArXiv]](https://psyarxiv.com/zuvqa/)
 
