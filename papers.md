@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (submitted). The Impact of Ordinal Scales on Gaussian Mixture Recovery [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
+
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (submitted) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 **Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
