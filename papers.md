@@ -20,6 +20,12 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### 2021
 
+**Haslbeck J. M. B.**, Ryan, O., van der Maas, H. L., & Waldorp, L. J. Modeling Change in Networks. In Network Psychometrics with R (pp. 193-209). Routledge. [[Link]](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003111238-14/modeling-change-networks-jonas-haslbeck-ois%C3%ADn-ryan-han-van-der-maas-lourens-waldorp)
+
+Dalege, J., **Haslbeck J. M. B.**, & Marsman, M. Idealized Modeling of Psychological Dynamics. In Network Psychometrics with R (pp. 233-245). Routledge. [[Link]](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003111238-17/idealized-modeling-psychological-dynamics-jonas-dalege-jonas-haslbeck-maarten-marsman)
+
+Epskamp, S., **Haslbeck J. M. B.**., Isvoranu, A. M., & van Borkulo, C. D. (2021) Pairwise Markov Random Fields. In Network Psychometrics with R (pp. 93-110). Routledge. [[Link]](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003111238-8/pairwise-markov-random-fields-sacha-epskamp-jonas-haslbeck-adela-maria-isvoranu-claudia-van-borkulo)
+
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (2021). The Sum of All Fears: Comparing Networks Based on Symptom Sum-Scores. *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/3nxu9) [[Link]](https://psycnet.apa.org/record/2022-14481-001) [[Reproducibility Archive]](https://github.com/fdabl/Sum-Score-Paper)
 
 
