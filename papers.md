@@ -8,6 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
+
+Lourens, L. J. & **Haslbeck, J. M. B.** (submitted). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
+
 **Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (under review). The Impact of Ordinal Scales on Gaussian Mixture Recovery [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under review) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
