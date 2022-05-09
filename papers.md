@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (submitted).Multimodality and Skewness in Emotion Time Series. . [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
+
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (submitted). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
 Lourens, L. J. & **Haslbeck, J. M. B.** (submitted). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
