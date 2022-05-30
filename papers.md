@@ -25,9 +25,9 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted). Towards a dynamic account of chronic pain. *PAIN*
+Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted). Towards a dynamic account of chronic pain. *PAIN*.
 
-**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (accepted). The Impact of Ordinal Scales on Gaussian Mixture Recovery [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
+**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (accepted). The Impact of Ordinal Scales on Gaussian Mixture Recovery. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
 
 
 #### 2022
