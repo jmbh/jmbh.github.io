@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Fishbein, J. N., **Haslbeck J. M. B.**\*, & Arch, J. (submitted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
+Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (submitted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (submitted). Multimodality and Skewness in Emotion Time Series. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
