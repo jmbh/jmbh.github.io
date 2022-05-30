@@ -8,17 +8,19 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Fishbein, J. N., **Haslbeck J. M. B.**\*, & Arch, J. (submitted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
+
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (submitted). Multimodality and Skewness in Emotion Time Series. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
-van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (submitted). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
+van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under review). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
-Lourens, L. J. & **Haslbeck, J. M. B.** (submitted). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
+Lourens, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under review) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
-**Haslbeck, J. M. B.** & van Bork, R. (under review). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
+**Haslbeck, J. M. B.** & van Bork, R. (under revision). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
