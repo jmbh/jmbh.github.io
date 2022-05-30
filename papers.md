@@ -14,8 +14,6 @@ van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Ma
 
 Lourens, L. J. & **Haslbeck, J. M. B.** (submitted). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
-**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (under review). The Impact of Ordinal Scales on Gaussian Mixture Recovery [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
-
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under review) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
@@ -26,6 +24,11 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 
 #### Accepted / In press
+
+Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted). Towards a dynamic account of chronic pain. *PAIN*
+
+**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (accepted). The Impact of Ordinal Scales on Gaussian Mixture Recovery [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
+
 
 #### 2022
 
