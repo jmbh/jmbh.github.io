@@ -20,12 +20,13 @@ Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Me
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
-**Haslbeck, J. M. B.** & van Bork, R. (under revision). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
-
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 
 #### Accepted / In press
+
+**Haslbeck, J. M. B.** & van Bork, R. (accepted). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
+
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted). Towards a dynamic account of chronic pain. *PAIN*.
 
