@@ -55,13 +55,20 @@ head(autism_data$data)
 
 
 {% highlight text %}
-##   Gender   IQ Integration in Society No of Comorbidities Type of Housing Workinghours Satisfaction: Treatment
-## 1      1 6.00                      1                   1               1            0                    3.00
-## 2      2 6.00                      2                   1               1            0                    2.00
-## 3      1 5.00                      2                   0               1            0                    4.00
-## 4      1 6.00                      1                   0               1           10                    3.00
-## 5      1 5.00                      1                   1               1            0                    1.00
-## 6      1 4.49                      1                   1               1            0                    1.75
+##   Gender   IQ Integration in Society No of Comorbidities Type of Housing
+## 1      1 6.00                      1                   1               1
+## 2      2 6.00                      2                   1               1
+## 3      1 5.00                      2                   0               1
+## 4      1 6.00                      1                   0               1
+## 5      1 5.00                      1                   1               1
+## 6      1 4.49                      1                   1               1
+##   Workinghours Satisfaction: Treatment
+## 1            0                    3.00
+## 2            0                    2.00
+## 3            0                    4.00
+## 4           10                    3.00
+## 5            0                    1.00
+## 6            0                    1.75
 {% endhighlight %}
 
 

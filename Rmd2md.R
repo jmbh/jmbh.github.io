@@ -15,7 +15,8 @@
 #' @author Jason Bryer <jason@bryer.org> edited by Andy South
 #' 
 rmd2md <- function( path_site = getwd(),
-                    dir_rmd = "_source",
+                    dir_rmd = "_source_new",
+                    # dir_rmd = "_source",
                     dir_md = "_posts",
                     #dir_images = "figures",
                     url_images = "assets/img/",
