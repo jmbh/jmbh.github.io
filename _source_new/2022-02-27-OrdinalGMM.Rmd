@@ -5,14 +5,14 @@ date: 2023-07-14 12:00:00 +0100
 categories: 
 comments: true
 status: process
-status: development
+#status: development
 ---
 
-Gaussian mixture models (GMMs) are a popular and versatile tool for exploring heterogeneity in multivariate continuous data. However, they assume that the observed data are continuous, an assumption that is often not met: for example, the severity of symptoms of diseases is often measured in ordinal categories such as *not at all*, *several days*, *more than half the days*, and *nearly every day*, and survey questions are often assessed using ordinal responses such as *strongly agree*, *agree*, *neutral*, and *agree strongly agree*. In this blog post, I summarize [a paper](https://link.springer.com/article/10.3758/s13428-022-01883-8) which investigates to what extent estimating GMMs is robust against observing ordinal instead of continuous variables.
+[Gaussian mixture models (GMMs)](https://en.wikipedia.org/wiki/Mixture_model#Multivariate_Gaussian_mixture_model) and its special cases Latent Profile Analysis and [k-Means](https://en.wikipedia.org/wiki/K-means_clustering) are a popular and versatile tools for exploring heterogeneity in multivariate continuous data. However, they assume that the observed data are continuous, an assumption that is often not met: for example, the severity of symptoms of diseases is often measured in ordinal categories such as *not at all*, *several days*, *more than half the days*, and *nearly every day*, and survey questions are often assessed using ordinal responses such as *strongly agree*, *agree*, *neutral*, and *agree strongly agree*. In this blog post, I summarize [a paper](https://link.springer.com/article/10.3758/s13428-022-01883-8) which investigates to what extent estimating GMMs is robust against observing ordinal instead of continuous variables.
 
 ### Simulation Setup
 
-To investigate this question we generate data from a number of GMMs that differ in the number of variables/dimensions $p \in \{2, \dots, 10 \}$, the number of components $K \in \{2,3,4\}$ and the pairwise Kullback-Leibler Divergence $\text{D}_{KL} \in \{2, 3.5, 5\}$ between the components. We then generate data from each GMM and threshold the continuous data into 12, 10, 8, 6, 5, 4, 3, or 2 categories, using equally spaced thresholds ranging from the 1% to the 99% quantile. Here we see the result for a bivariate ($p=2$) GMM with two components $K=2$):
+To investigate this question we generate data from a number of GMMs that differ in the number of variables/dimensions $p \in \{2, \dots, 10 \}$, the number of components $K \in \{2,3,4\}$ and the pairwise [Kullback-Leibler Divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) $\text{D}_{KL} \in \{2, 3.5, 5\}$ between the components. We then generate data from each GMM and threshold the continuous data into 12, 10, 8, 6, 5, 4, 3, or 2 categories, using equally spaced thresholds ranging from the 1% to the 99% quantile. Here we see the result for a bivariate ($p=2$) GMM with two components $K=2$):
 
 ## ![center](http://jmbh.github.io/figs/OrdinalGMM/OGMM_setup.png) 
 
@@ -24,10 +24,7 @@ In the following figure we show the accuracy of recovering the correct number of
 
 ## ![center](http://jmbh.github.io/figs/OrdinalGMM/OGMM_results.png) 
 
-In [our paper](https://link.springer.com/article/10.3758/s13428-022-01883-8) we present results in much greater detail: we show the performance as a function of the number of components $K$, the distance between components, and the sample size $N$. In addition, we assess the estimation error for models in which $K$ has been correctly estimated as a function of various characteristics of the data generating GMM, which shows that a sizable bias in parameter estimates remains in all cases which does not decrease as a function of sample size. In addition to the simulation results we discuss possible alternative modeling approaches based on ordinal models with underlying latent Gaussian distributions and based on categorical data analysis in which ordinal variables are manifest variables.
-
-
-
+[In our paper](https://link.springer.com/article/10.3758/s13428-022-01883-8) we present results in much greater detail: we show the performance as a function of the number of components $K$, the distance between components, and the sample size $N$. In addition, we assess the estimation error for models in which $K$ has been correctly estimated as a function of various characteristics of the data generating GMM, which shows that a sizable bias in parameter estimates remains in all cases which does not decrease as a function of sample size. In addition to the simulation results we discuss possible alternative modeling approaches based on ordinal models with underlying latent Gaussian distributions and based on categorical data analysis in which ordinal variables are manifest variables.
 
 
 
