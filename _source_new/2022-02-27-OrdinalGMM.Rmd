@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Impact of Ordinal Scales on Gaussian Mixture Recovery"
-date: 2022-07-14 12:00:00 +0100
+date: 2022-07-14 00:00:00 +0100
 categories: 
 comments: true
 status: process
