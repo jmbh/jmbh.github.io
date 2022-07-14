@@ -16,7 +16,7 @@ To investigate this question we generate data from a number of GMMs that differ 
 
 ## ![center](http://jmbh.github.io/figs/OrdinalGMM/OGMM_setup.png) 
 
-We then estimate the GMM using arguably the most widely used algorithm, the [Expectation-Maximization (EM) algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) and perform model selection with the [Bayesian Information Criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion). The red <p style="color:red;">X</p> in the figure indicate the means of the selected model. We see that the EM-algorithm & BIC correctly recover two components and their means for the continuous data. However, when observing ordinal variables instead we select incorrect numbers of components.
+We then estimate the GMM using arguably the most widely used algorithm, the [Expectation-Maximization (EM) algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) and perform model selection with the [Bayesian Information Criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion). The red  <font color="red">X</font> in the figure indicate the means of the selected model. We see that the EM-algorithm & BIC correctly recover two components and their means for the continuous data. However, when observing ordinal variables instead we select incorrect numbers of components.
 
 ### Summary of Results
 
