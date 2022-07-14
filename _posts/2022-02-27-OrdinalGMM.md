@@ -11,7 +11,7 @@ comments: true
 
 ### Simulation Setup
 
-To investigate this question we generate data from a number of GMMs that differ in the number of variables/dimensions $p \in {2, \dots, 10 }$, the number of components $K \in \{2,3,4\}$ and the pairwise [Kullback-Leibler Divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) $\text{D}_{KL} \in \{2, 3.5, 5\}$ between the components. We then generate data from each GMM and threshold the continuous data into 12, 10, 8, 6, 5, 4, 3, or 2 categories, using equally spaced thresholds ranging from the 1% to the 99% quantile. Here we see the result for a bivariate ($p=2$) GMM with two components $K=2$):
+To investigate this question we generate data from a number of GMMs that differ in the number of variables/dimensions $$p \in \{2, \dots, 10 \}$$, the number of components $K \in \{2,3,4\}$ and the pairwise [Kullback-Leibler Divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) $\text{D}_{KL} \in \{2, 3.5, 5\}$ between the components. We then generate data from each GMM and threshold the continuous data into 12, 10, 8, 6, 5, 4, 3, or 2 categories, using equally spaced thresholds ranging from the 1% to the 99% quantile. Here we see the result for a bivariate ($p=2$) GMM with two components $K=2$):
 
 ## ![center](http://jmbh.github.io/figs/OrdinalGMM/OGMM_setup.png) 
 
