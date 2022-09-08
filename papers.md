@@ -32,7 +32,7 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2022). Towards a dynamic account of chronic pain. *PAIN*. [[Link]](https://journals.lww.com/pain/Citation/2022/09000/Towards_a_dynamic_account_of_chronic_pain.28.aspx) [[PDF]](https://jmbh.github.io/files/papers/Vlaeyen et al. Towards_a_dynamic_account_of_chronic_pain PAIN 2022.pdf)
 
-Borsboom, D., **Haslbeck, J. M. B.**, & Robinaugh D. J. (2022). Systems-based approaches to mental disorders are the only game in town. **World Psychiatry** [[PDF]](https://jmbh.github.io/files/papers/WorldPsychiatry_October2022.pdf)
+Borsboom, D., **Haslbeck, J. M. B.**, & Robinaugh D. J. (2022). Systems-based approaches to mental disorders are the only game in town. *World Psychiatry* [[PDF]](https://jmbh.github.io/files/papers/WorldPsychiatry_October2022.pdf)
 
 **Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (2022). The Impact of Ordinal Scales on Gaussian Mixture Recovery. *Behavior Research Methods*. [[Link]](https://link.springer.com/article/10.3758/s13428-022-01883-8) [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
 
