@@ -8,9 +8,11 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (submitted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
+Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (submitted). A network analysis of factors influencing the purchase intentions for refurbished electronics.
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (submitted). Multimodality and Skewness in Emotion Time Series. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
+Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (under review). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
+
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (under revision). Multimodality and Skewness in Emotion Time Series. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under review). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
