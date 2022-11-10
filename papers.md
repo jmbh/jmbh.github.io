@@ -31,10 +31,10 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-**Haslbeck, J. M. B.** & van Bork, R. (in press). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA)
-
 
 #### 2022
+
+**Haslbeck, J. M. B.** & van Bork, R. (2022). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA) [[Link]](https://psycnet.apa.org/record/2023-13984-001)
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2022). Towards a dynamic account of chronic pain. *PAIN*. [[Link]](https://journals.lww.com/pain/Citation/2022/09000/Towards_a_dynamic_account_of_chronic_pain.28.aspx) [[PDF]](https://jmbh.github.io/files/papers/Vlaeyen et al. Towards_a_dynamic_account_of_chronic_pain PAIN 2022.pdf)
 
