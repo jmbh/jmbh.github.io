@@ -10,8 +10,6 @@ permalink: /papers/
 
 van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (under review) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial.
 
-Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (submitted) Time versus obstacles to recovery in pain management. A reply to Manhapra.
-
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A network analysis of factors influencing the purchase intentions for refurbished electronics.
 
 Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (under review). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
@@ -31,6 +29,8 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 
 #### 2022
+
+Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted) Time versus obstacles to recovery in pain management. A reply to Manhapra. *PAIN*.
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion* [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
