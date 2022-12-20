@@ -16,8 +16,6 @@ Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A
 
 Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (under review). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (under revision). Multimodality and Skewness in Emotion Time Series. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
-
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under review). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
 Lourens, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
@@ -33,6 +31,8 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 
 #### 2022
+
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion* [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
 **Haslbeck, J. M. B.** & van Bork, R. (2022). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA) [[Link]](https://psycnet.apa.org/record/2023-13984-001)
 
