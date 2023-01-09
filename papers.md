@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (submitted) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
+
 van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (under review) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial.
 
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A network analysis of factors influencing the purchase intentions for refurbished electronics.
@@ -27,12 +29,12 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 #### Accepted / In press
 
-
-#### 2022
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted) Time versus obstacles to recovery in pain management. A reply to Manhapra. *PAIN*.
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion* [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
+
+#### 2022
 
 **Haslbeck, J. M. B.** & van Bork, R. (2022). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA) [[Link]](https://psycnet.apa.org/record/2023-13984-001)
 
