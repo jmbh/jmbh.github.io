@@ -10,6 +10,8 @@ permalink: /papers/
 
 Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (submitted) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
 
+Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (submitted) Understanding suicidality in Pacific adolescents in New Zealand using network analysis
+
 van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (under review) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial.
 
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A network analysis of factors influencing the purchase intentions for refurbished electronics.
