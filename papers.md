@@ -20,7 +20,7 @@ Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (under review). Network Inter
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under review). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
-Lourens, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
+Waldorp, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under review) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
@@ -44,7 +44,7 @@ Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2022)
 
 Borsboom, D., **Haslbeck, J. M. B.**, & Robinaugh D. J. (2022). Systems-based approaches to mental disorders are the only game in town. *World Psychiatry* [[PDF]](https://jmbh.github.io/files/papers/WorldPsychiatry_October2022.pdf)
 
-**Haslbeck, J. M. B.**, Vermunt, J. K. & Lourens, L. J. (2022). The Impact of Ordinal Scales on Gaussian Mixture Recovery. *Behavior Research Methods*. [[Link]](https://link.springer.com/article/10.3758/s13428-022-01883-8) [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
+**Haslbeck, J. M. B.**, Vermunt, J. K. & Waldorp, L. J. (2022). The Impact of Ordinal Scales on Gaussian Mixture Recovery. *Behavior Research Methods*. [[Link]](https://link.springer.com/article/10.3758/s13428-022-01883-8) [[PsyArXiv]](https://psyarxiv.com/2cqkj) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalGMMSim_reparchive)
 
 **Haslbeck J. M. B.**, Ryan, O., van der Maas, H. L., & Waldorp, L. J. Modeling Change in Networks. In Network Psychometrics with R (pp. 193-209). Routledge. [[Link]](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003111238-14/modeling-change-networks-jonas-haslbeck-ois%C3%ADn-ryan-han-van-der-maas-lourens-waldorp)
 
