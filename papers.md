@@ -16,8 +16,6 @@ van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein
 
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A network analysis of factors influencing the purchase intentions for refurbished electronics.
 
-Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (under review). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
-
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under review). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
 Waldorp, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
@@ -30,6 +28,8 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 
 #### Accepted / In press
+
+Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (accepted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT). *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
