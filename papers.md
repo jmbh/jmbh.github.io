@@ -26,15 +26,15 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-
 #### Accepted / In press
-
-Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (accepted). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT). *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted) Time versus obstacles to recovery in pain management. A reply to Manhapra. *PAIN*.
 
+#### 2023
+
+Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (2023). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT). *Behaviour Research and Therapy*. [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796723000153?casa_token=lLwArKN1ZR8AAAAA:POHmCLMx-0wMv2VH9jj_9Aw2apHUrD8qVFkQ1L3V-O5-UZhtatYH_CwM80WLTH46OEpjqK0Icvs) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
 #### 2022
 
