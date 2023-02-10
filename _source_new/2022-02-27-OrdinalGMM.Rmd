@@ -26,6 +26,3 @@ In the following figure we show the accuracy of recovering the correct number of
 
 [In our paper](https://link.springer.com/article/10.3758/s13428-022-01883-8) we present performance as a function of the number of components $K$, the distance between components $\text{D}_{KL}$, the number of variables $p$, and the sample sizes $N \in \\{1000, 2500, 10000\\}$. In addition, we assess the estimation error on parameters the models for which $K$ has been correctly estimated, as a function of various characteristics of the data generating GMM. These results show that a sizable bias in parameter estimates remains across scenarios and this bias does not decrease with increasing sample size. Next to the simulation results we discuss possible alternative modeling approaches based on ordinal models with underlying latent Gaussian distributions and based on categorical data analysis in which ordinal variables are manifest variables. The code to reproduce all analyses and results in our paper can be found [here on Github](https://github.com/jmbh/OrdinalGMMSim_reparchive).
 
-
-
-
