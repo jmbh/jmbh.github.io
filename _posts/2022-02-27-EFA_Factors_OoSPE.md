@@ -73,7 +73,7 @@ set.seed(1)
 fspe_out <- fspe(holzinger19,
                  maxK = 10,
                  nfold = 10,
-                 rep = 1,
+                 rep = 10,
                  method = "PE", 
                  pbar = FALSE)
 {% endhighlight %}
