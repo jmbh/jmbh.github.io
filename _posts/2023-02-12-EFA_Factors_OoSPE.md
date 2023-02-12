@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Selecting the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors"
-date: 2023-02-11 12:00:00 +0100
+date: 2023-02-12 12:00:00 +0100
 categories: r
 comments: true
 #status: development
@@ -35,34 +35,34 @@ head(holzinger19)
 
 
 {% highlight text %}
-##   t01_visperc t02_cubes t03_frmbord t04_lozenges t05_geninfo
-## 1          20        31          12            3          40
-## 2          32        21          12           17          34
-## 3          27        21          12           15          20
-## 4          32        31          16           24          42
-## 5          29        19          12            7          37
-## 6          32        20          11           18          31
-##   t06_paracomp t07_sentcomp t08_wordclas t09_wordmean t10_addition
-## 1            7           23           22            9           78
-## 2            5           12           22            9           87
-## 3            3            7           12            3           75
-## 4            8           18           21           17           69
-## 5            8           16           25           18           85
-## 6            3           12           25            6          100
-##   t11_code t12_countdot t13_sccaps t14_wordrecg t15_numbrecg
-## 1       74          115        229          170           86
-## 2       84          125        285          184           85
-## 3       49           78        159          170           85
-## 4       65          106        175          181           80
-## 5       63          126        213          187           99
-## 6       92          133        270          164           84
-##   t16_figrrecg t17_objnumb t18_numbfig t19_figword
-## 1           96           6           9          16
-## 2          100          12          12          10
-## 3           95           1           5           6
-## 4           91           5           3          10
-## 5          104          15          14          14
-## 6          104           6           6          14
+##   t01_visperc t02_cubes t03_frmbord t04_lozenges t05_geninfo t06_paracomp
+## 1          20        31          12            3          40            7
+## 2          32        21          12           17          34            5
+## 3          27        21          12           15          20            3
+## 4          32        31          16           24          42            8
+## 5          29        19          12            7          37            8
+## 6          32        20          11           18          31            3
+##   t07_sentcomp t08_wordclas t09_wordmean t10_addition t11_code t12_countdot
+## 1           23           22            9           78       74          115
+## 2           12           22            9           87       84          125
+## 3            7           12            3           75       49           78
+## 4           18           21           17           69       65          106
+## 5           16           25           18           85       63          126
+## 6           12           25            6          100       92          133
+##   t13_sccaps t14_wordrecg t15_numbrecg t16_figrrecg t17_objnumb t18_numbfig
+## 1        229          170           86           96           6           9
+## 2        285          184           85          100          12          12
+## 3        159          170           85           95           1           5
+## 4        175          181           80           91           5           3
+## 5        213          187           99          104          15          14
+## 6        270          164           84          104           6           6
+##   t19_figword
+## 1          16
+## 2          10
+## 3           6
+## 4          10
+## 5          14
+## 6          14
 {% endhighlight %}
 Next to providing the data to the `fspe()` function we specify that factor models with 1, 2, ... ,10 factors should be considered (`maxK = 10`), that the cross-validation scheme should use with 10 folds (`nfold = 10)` and be repeated 10 times (`rep = 10`), and that prediction errors (`method = "PE"`) should be used. An alternative method (`method = "CovE"`) computes an out-of-sample estimation error on the covariance matrix instead of a prediction error on the raw data. This is a method that is similar to the one proposed by [Browne & Cudeck (1989)](https://www.tandfonline.com/doi/abs/10.1207/s15327906mbr2404_4). Finally, we set a seed so that the analysis demonstrated here is fully reproducible. 
 
@@ -93,7 +93,7 @@ lines(fspe_out$PEs, lwd=2)
 abline(h=min(fspe_out$PEs), col="grey", lty=2, lwd=2)
 {% endhighlight %}
 
-<img src="/assets/img/2022-02-27-EFA_Factors_OoSPE.Rmd/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="/assets/img/2023-02-12-EFA_Factors_OoSPE.Rmd/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 We see that the out-of-sample prediction error is minimized by the factor model with four factors. The number of factors with lowest prediction error can also be directly obtained from the output object:
 
 
