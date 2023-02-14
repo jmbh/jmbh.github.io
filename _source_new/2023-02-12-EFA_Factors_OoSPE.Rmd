@@ -51,7 +51,7 @@ We see that the out-of-sample prediction error is minimized by the factor model 
 fspe_out$nfactor
 ```
 
-The un-aggregated of the 10 repetiations of the cross-validation scheme can be found in `fspe_out$PE_array`.
+The un-aggregated of the 10 repetitions of the cross-validation scheme can be found in `fspe_out$PE_array`.
 
 
 
