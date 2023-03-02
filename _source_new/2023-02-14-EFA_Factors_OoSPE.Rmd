@@ -34,7 +34,7 @@ fspe_out <- fspe(holzinger19,
 
 We can inspect the out-of-sample prediction error averaged across variables, folds, and repetitions as a function of the number of factors:
 
-```{r, fig.align="center", fig.width=6, fig.height=4.5}
+```{r, fig.align="center", fig.width=9, fig.height=6}
 par(mar=c(4.5,4,0,1))
 plot.new()
 plot.window(xlim=c(1,10), ylim=c(0.6, 0.8))
