@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Marsman, M, & **Haslbeck J. M. B.** (submitted) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]][[https://osf.io/qsj4w/]]
+Marsman, M, & **Haslbeck J. M. B.** (submitted) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Oisin, R., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under review). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
