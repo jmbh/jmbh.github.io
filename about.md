@@ -4,20 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am a Postdoc at Maastricht University with the [New Science of Mental Disorders (NSMD)](https://nsmd.eu/) consortium, where I am part of Team Network and Team Mind-Body Interface, but I also support other teams. In addition, I am a visiting researcher at the Psychological Methods department at the University of Amsterdam, where I am part of the [Psychosystems](http://psychosystems.org) group and the [Theory Methods Lab](http://theorymethodslab.com). My research is focused on developing generative formal theories (or computational models) of psychological systems and creating methodology to support this process. This involves statistical methodology and software, various tools for theory development, work on measurement and research design, and exploratory data analysis to establish phenomena to be explained by theories. I also collaborate with many researchers on applied projects, which allow me to test new methodological tools in practice and are an inspiration for new methodological projects. 
+Hi, I am a postdoc at the Maastricht University with the [New Science of Mental Disorders (NSMD)](https://nsmd.eu/) consortium, where I am part of the Network and Mind-Body Interface teams, but also support other teams. I am also a visiting researcher at the Department of Psychological Methods at the University of Amsterdam, where I am part of the [Psychosystems](http://psychosystems.org) group, the [Theory Methods Lab](http://theorymethodslab.com) and the [Bayesian Graphical Modeling Lab](https://bayesiangraphicalmodeling.com/). My research focuses on the development of methods for the social and behavioral sciences. This includes statistical methods for estimating various (network) models for both cross-sectional and time series data. I also work on building (generative) computational models with the goal of clarifying often vague (psychological) theories, accelerating their development, and translating them more quickly into useful applications. My methodological work also includes tools for theory development, work on measurement and research design, and exploratory data analysis to identify phenomena to be explained by theories. In addition to my methodological work, I am involved in many mental health research projects. More recently, I have been involved in a number of projects addressing key social and behavioral science questions related to the unfolding climate and ecological crisis. I am always involved in various interdisciplinary and was also part of the organizing team of the [Winter Workshop on Complex Systems in Amsterdam](https://wwcs2023.github.io/) in 2023.
+
 
 ### Contact
 
-jonashaslbeck@gmail.com
+jonashaslbeck@protonmail.com
 
 
 ### Links
 
 [New Science of Mental Disorders (NSMD)](https://nsmd.eu/)
 
+[psychosystems.org](http://psychosystems.org)
+
 [theorymethodslab.com](http://theorymethodslab.com)
 
-[psychosystems.org](http://psychosystems.org)
+[Bayesian Graphical Modelling Lab](https://bayesiangraphicalmodeling.com/).
 
 [R-bloggers.com](http://www.r-bloggers.com/)
 
