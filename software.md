@@ -4,6 +4,8 @@ title: []
 permalink: /software/
 ---
 
+mnet: A toolbox for modeling manifest and latent group differences and moderation effects in various statistical network models. [[Github]](https://github.com/jmbh/mnet) [[CRAN]](https://cran.r-project.org/web/packages/mnet/index.html)
+
 mgm: Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://www.rdocumentation.org/packages/mgm/)
 
 inet: Performs inference with the lasso in Gaussian Graphical Models [[Github]](https://github.com/jmbh/inet) [[CRAN]](https://cran.r-project.org/web/packages/inet/index.html)

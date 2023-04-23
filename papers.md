@@ -8,16 +8,16 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (submitted). Towards a Generative Model for
+Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for
 Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
-Marsman, M, & **Haslbeck J. M. B.** (submitted) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
+Marsman, M, & **Haslbeck J. M. B.** (under review) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under review). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (submitted) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
+Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (under review) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
 
-Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (submitted) Understanding suicidality in Pacific adolescents in New Zealand using network analysis [[PsyArXiv]](https://psyarxiv.com/v5326/)
+Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (under review) Understanding suicidality in Pacific adolescents in New Zealand using network analysis [[PsyArXiv]](https://psyarxiv.com/v5326/)
 
 van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (under review) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial.
 
@@ -25,9 +25,9 @@ Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under revision). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
-Waldorp, L. J. & **Haslbeck, J. M. B.** (under revision). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
+Waldorp, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
-Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under review) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
+Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
