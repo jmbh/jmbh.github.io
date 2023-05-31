@@ -8,8 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for
-Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
+Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
 Marsman, M, & **Haslbeck J. M. B.** (under review) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
@@ -34,12 +33,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (accepted). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
-
 
 #### 2023
 
-Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (accepted) Time versus obstacles to recovery in pain management. A reply to Manhapra. *PAIN*. [[Link]](https://journals.lww.com/pain/Citation/2023/03000/Reply_to_Manhapra.27.aspx) [[PDF]](https://jmbh.github.io/files/papers/Reply_to_Manhapra.27.pdf)
+**Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (2023). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
+
+Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2023) Time versus obstacles to recovery in pain management. A reply to Manhapra. *PAIN*. [[Link]](https://journals.lww.com/pain/Citation/2023/03000/Reply_to_Manhapra.27.aspx) [[PDF]](https://jmbh.github.io/files/papers/Reply_to_Manhapra.27.pdf)
 
 Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (2023). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT). *Behaviour Research and Therapy*. [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796723000153?casa_token=lLwArKN1ZR8AAAAA:POHmCLMx-0wMv2VH9jj_9Aw2apHUrD8qVFkQ1L3V-O5-UZhtatYH_CwM80WLTH46OEpjqK0Icvs) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
