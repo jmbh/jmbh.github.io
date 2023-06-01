@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck J. M. B.**\* & **Epskamp S.**\*  (submitted). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx)
+
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
 Marsman, M, & **Haslbeck J. M. B.** (under review) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
