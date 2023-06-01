@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-**Haslbeck J. M. B.**\* & **Epskamp S.**\*  (submitted). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx)
+**Haslbeck J. M. B.**\* & Epskamp S.\*  (submitted). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx)
 
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
