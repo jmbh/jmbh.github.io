@@ -8,6 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J (submitted). Non-Stationarity in Time-Series Analysis:
+Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
+
 **Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J.  (submitted). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
 
 **Haslbeck J. M. B.**\* & Epskamp S.\*  (submitted). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
