@@ -38,10 +38,10 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (accepted). *Suicide and Life Threatening Behaviour*. Understanding suicidality in Pacific adolescents in New Zealand using network analysis [[PsyArXiv]](https://psyarxiv.com/v5326/)
-
 
 #### 2023
+
+Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (accepted). *Suicide and Life Threatening Behaviour*. Understanding suicidality in Pacific adolescents in New Zealand using network analysis [[PsyArXiv]](https://psyarxiv.com/v5326/) [[Link]](https://onlinelibrary.wiley.com/doi/10.1111/sltb.12986)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (2023). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
