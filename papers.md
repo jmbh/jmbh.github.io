@@ -8,7 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, Marsman M (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
+Ryan O.\*, **Haslbeck J. M. B.**, & Robinaugh, D. J. https://psyarxiv.com/tyn9z (submitted) [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
+
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (submitted). Non-Stationarity in Time-Series Analysis:
 Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
