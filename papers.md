@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Ryan O.\*, **Haslbeck J. M. B.**, & Robinaugh, D. J. (submitted) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (submitted) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
 Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
