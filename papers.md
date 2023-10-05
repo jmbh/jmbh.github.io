@@ -8,9 +8,11 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (submitted) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
+
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (submitted) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (submitted). Non-Stationarity in Time-Series Analysis:
 Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
