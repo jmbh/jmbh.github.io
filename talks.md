@@ -4,9 +4,29 @@ title: []
 permalink: /talks/
 ---
 
-[Needs to be Updated]
+#### 2023
+
+Haslbeck J. M. B., Ryan O., & Robinaugh D. J. (2023). Improving Treatments for Mental Disorders using Computational Models, MathPsych 2023 Amsterdam
+
+Haslbeck J. M. B. & Marsman M. (2023). Evaluating Network Models for Ordinal Data, MathPsych 2023 Amsterdam
+
+Haslbeck J. M. B., Ryan O., & Dablander F. (2023). Multimodality and Skewness in Emotion Time Series, SAA 2023, Amsterdam
+
+Haslbeck J. M. B.(2023). Integrating different Data Types in Computational Models; Invited workshop Small is Beautiful Symposium 2023
+
+Haslbeck J. M. B., Ryan O., & Robinaugh D. J. (2023). Improving Treatment for Panic disorder using Computational modeling. ICPS 2023 Brussels
+
+#### 2022
+
+Haslbeck J. M. B. (2022). Formalizing theories, Invited lecture at Vrije Universiteit Amsterdam
+
+Haslbeck J. M. B., Ryan O., & Dablander F. (2022). Multimodality and Skewness in Emotion Time Series, IMPS 2022, Bologna
+
+Haslbeck J. M. B., Ryan O., & Dablander F. (2022). Multimodality and Skewness in Emotion Time Series, Lake Como EMA Summer School
 
 #### 2021
+
+Haslbeck J. M. B. (2021). Formalizing theories, Invited lecture at Vrije Universiteit Amsterdam
 
 Haslbeck J. M. B. (2021). Modeling Psychopathology: From Data Models to Formal Theories. IMPS 2021 [[Slides]](http://jmbh.github.io/files/Talk_IMPS_2021_keynote_DM2FT.pdf)
 
