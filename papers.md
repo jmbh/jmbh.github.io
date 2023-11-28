@@ -4,9 +4,11 @@ title: []
 permalink: /papers/
 ---
 
-\* *shared first authorship*
+\* *shared first authorship / authors contributed equally*
 
 #### Submitted / under review
+
+Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (submitted) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (submitted) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
