@@ -10,20 +10,19 @@ permalink: /papers/
 
 Dablander F.\*, Sachisthal M.\*, & **Haslbeck J. M. B.**\* (submitted) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
 
-Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (submitted) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
+Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (under review) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
 
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (submitted) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under review) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (submitted) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under review) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (submitted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (under review) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (submitted). Non-Stationarity in Time-Series Analysis:
-Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under review). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
-**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (submitted). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
+**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (under review). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
 
-**Haslbeck J. M. B.**\* & Epskamp S.\*  (submitted). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
+**Haslbeck J. M. B.**\* & Epskamp S.\*  (under review). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
@@ -37,8 +36,6 @@ Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under revision). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
-Waldorp, L. J. & **Haslbeck, J. M. B.** (under review). Network Inference with the Lasso [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
-
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
@@ -46,12 +43,14 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (accepted) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial. *eClinicalMedicine*
+Waldorp, L. J. & **Haslbeck, J. M. B.** (accepted). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
+
+van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (accepted) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial. *eClinicalMedicine*.
 
 
 #### 2023
 
-Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (accepted). *Suicide and Life Threatening Behaviour*. Understanding suicidality in Pacific adolescents in New Zealand using network analysis [[PsyArXiv]](https://psyarxiv.com/v5326/) [[Link]](https://onlinelibrary.wiley.com/doi/10.1111/sltb.12986)
+Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (accepted). Understanding suicidality in Pacific adolescents in New Zealand using network analysis. *Suicide and Life Threatening Behaviour*. [[PsyArXiv]](https://psyarxiv.com/v5326/) [[Link]](https://onlinelibrary.wiley.com/doi/10.1111/sltb.12986)
 
 **Haslbeck J. M. B.**\*,  Ryan O.\*, & Dablander F.\* (2023). Multimodality and Skewness in Emotion Time Series. *Emotion*. [[PsyArXiv]](https://psyarxiv.com/qudr6) [[Data Archive]](https://github.com/jmbh/EmotionTimeSeries) [[Code Archive]](https://github.com/jmbh/ModalitySkewnessPaper)
 
