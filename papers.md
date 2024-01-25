@@ -32,9 +32,7 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (under review) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
 
-Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under review). A network analysis of factors influencing the purchase intentions for refurbished electronics.
-
-van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (under revision). Improving Psychological Explanations. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
+Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (under revision). A network analysis of factors influencing the purchase intentions for refurbished electronics.
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
@@ -42,6 +40,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 
 #### Accepted / In press
+
+van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (accepted). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
 Waldorp, L. J. & **Haslbeck, J. M. B.** (accepted). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
