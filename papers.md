@@ -39,6 +39,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
+Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
+
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (accepted). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption*
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (accepted). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
