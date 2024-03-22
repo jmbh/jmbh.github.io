@@ -45,15 +45,15 @@ van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Ma
 
 Waldorp, L. J. & **Haslbeck, J. M. B.** (accepted). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
-van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (accepted) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial. *eClinicalMedicine*.
-
 
 #### 2024
 
-Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (2024). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption* [[Link]](https://doi.org/10.1016/j.spc.2024.03.009)
+Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (2024). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption*. [[Link]](https://doi.org/10.1016/j.spc.2024.03.009)
 
 
 #### 2023
+
+van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (accepted) Differential impact of preventive cognitive therapy while tapering antidepressants versus maintenance antidepressant treatment on affect fluctuations and individual affect networks and impact on relapse: a secondary analysis of a randomised controlled trial. *eClinicalMedicine*. [[Link]](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(23)00506-0/fulltext)
 
 Gossage, L., Narayanan, A., Dipnall, J., Berk, M., Sumich, A., **Haslbeck, J. M. B.**, Iusitini, L., Wrapson, W., Tautolo, E. & Siegert, R. (accepted). Understanding suicidality in Pacific adolescents in New Zealand using network analysis. *Suicide and Life Threatening Behaviour*. [[PsyArXiv]](https://psyarxiv.com/v5326/) [[Link]](https://onlinelibrary.wiley.com/doi/10.1111/sltb.12986)
 
