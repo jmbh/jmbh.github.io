@@ -41,13 +41,16 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
 
-Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (accepted). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption*
-
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (accepted). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
 Waldorp, L. J. & **Haslbeck, J. M. B.** (accepted). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
 
 van der Wal, J. M., van Borkulo, C., **Haslbeck, J. M. B.**, Slofstra, C., Klein, N. S., Blanken, T. F., Deserno, M. K., Lok, A., Nauta M. H., & Bockting C. L. (accepted) Effects of various relapse prevention strategies on affect dynamics and its impact on depressive relapse using network analysis: a randomized controlled trial. *eClinicalMedicine*.
+
+
+#### 2024
+
+Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (2024). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption* [[Link]](https://doi.org/10.1016/j.spc.2024.03.009)
 
 
 #### 2023
