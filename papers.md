@@ -8,29 +8,29 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Media Coverage of Climate Activist Groups in Germany [[SocArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
-Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (submitted) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
+Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (under review) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
 
-Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (under review) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
+Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (under revision) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under review) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under review) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (under review) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (under revision) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under review). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
-**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (under review). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
+**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (under revision). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
 
 **Haslbeck J. M. B.**\* & Epskamp S.\*  (under review). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
-Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under review). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
+Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under revision). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
-Marsman, M, & **Haslbeck J. M. B.** (under review) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
+Marsman, M, & **Haslbeck J. M. B.** (under revision) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
-Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under review). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
+Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (under review) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
 
@@ -45,12 +45,14 @@ Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Int
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (accepted). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
 
-Waldorp, L. J. & **Haslbeck, J. M. B.** (accepted). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive)
-
 
 #### 2024
 
+Waldorp, L. J. & **Haslbeck, J. M. B.** (2024). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2317928?src=)
+
 Wallner, T. S., **Haslbeck J. M. B.**, Magnier, L. & Mugge, R. (2024). A network analysis of factors influencing the purchase intentions for refurbished electronics. *Sustainable Production and Consumption*. [[Link]](https://doi.org/10.1016/j.spc.2024.03.009)
+
+**Haslbeck, J. M. B.** & van Bork, R. (2024). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA) [[Link]](https://psycnet.apa.org/record/2023-13984-001)
 
 
 #### 2023
@@ -66,8 +68,6 @@ Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2023)
 Fishbein, J. N., **Haslbeck J. M. B.**, & Arch, J. (2023). Network Intervention Analysis of Anxiety-Related Outcomes and Processes of Acceptance and Commitment Therapy (ACT). *Behaviour Research and Therapy*. [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796723000153?casa_token=lLwArKN1ZR8AAAAA:POHmCLMx-0wMv2VH9jj_9Aw2apHUrD8qVFkQ1L3V-O5-UZhtatYH_CwM80WLTH46OEpjqK0Icvs) [[PsyArXiv]](https://psyarxiv.com/yt84w/)
 
 #### 2022
-
-**Haslbeck, J. M. B.** & van Bork, R. (2022). Estimating the Number of Factors in Exploratory Factor Analysis via out-of-sample Prediction Errors.  *Psychological Methods*. [[PsyArXiv]](https://psyarxiv.com/qktsd) [[Reproducibility Archive]](https://github.com/jmbh/EstimateFactorsEFA) [[Link]](https://psycnet.apa.org/record/2023-13984-001)
 
 Vlaeyen, J. W. S., **Haslbeck, J. M. B.**, Sjouwerman, R. & Peters, M. L. (2022). Towards a dynamic account of chronic pain. *PAIN*. [[Link]](https://journals.lww.com/pain/Citation/2022/09000/Towards_a_dynamic_account_of_chronic_pain.28.aspx) [[PDF]](https://jmbh.github.io/files/papers/Vlaeyen et al. Towards_a_dynamic_account_of_chronic_pain PAIN 2022.pdf)
 
