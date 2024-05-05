@@ -4,6 +4,10 @@ title: []
 permalink: /talks/
 ---
 
+#### 2024
+
+Haslbeck J. M. B., Ryan O., & Robinaugh D. J. (2023). Improving Treatments for Mental Disorders using Computational Models, EACLIPT x UMH Conference 2024 Amsterdam
+
 #### 2023
 
 Haslbeck J. M. B., Ryan O., & Robinaugh D. J. (2023). Improving Treatments for Mental Disorders using Computational Models, MathPsych 2023 Amsterdam
