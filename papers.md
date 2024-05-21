@@ -18,8 +18,6 @@ Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under review) Correctin
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under review) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (under revision) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
-
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
 **Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (under revision). Testing for Group Differences in Multilevel Vector Autoregressive Model [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
@@ -40,6 +38,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 
 #### Accepted / In press
+
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
 Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
 
