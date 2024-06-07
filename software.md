@@ -4,6 +4,8 @@ title: []
 permalink: /software/
 ---
 
+**ClusterVAR:** Fitting Latent Class Vector Autoregressive (VAR) models. [[Github]](https://github.com/aniebee/ClusterVAR) [[CRAN]](https://cran.rstudio.com/web/packages/ClusterVAR/index.html)
+
 **mnet:** A toolbox for modeling manifest and latent group differences and moderation effects in various statistical network models. [[Github]](https://github.com/jmbh/mnet) [[CRAN]](https://cran.r-project.org/web/packages/mnet/index.html)
 
 **mgm:** Estimation of Time-Varying Mixed Graphical Models [[Github]](https://github.com/jmbh/mgm) [[CRAN]](https://www.rdocumentation.org/packages/mgm/)

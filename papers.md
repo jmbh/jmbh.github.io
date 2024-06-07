@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (submitted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper)
+
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
 Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (under review) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
