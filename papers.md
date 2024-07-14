@@ -37,14 +37,14 @@ Marsman, M, & **Haslbeck J. M. B.** (under revision) Bayesian Analysis of the Or
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (under review) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1)
-
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
+
+Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (accepted) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research*
 
 Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
 
@@ -54,6 +54,8 @@ van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Ma
 
 
 #### 2024
+
+Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (2024) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1) [[Link]](https://www.sciencedirect.com/science/article/pii/S0920996424003049)
 
 Waldorp, L. J. & **Haslbeck, J. M. B.** (2024). Network Inference with the Lasso. *Multivariate Behavioral Research*. [[PsyArXiv]](https://psyarxiv.com/v5yzu) [[Reproducibility Archive]](https://github.com/jmbh/networkinference_reparchive) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2317928?src=)
 
