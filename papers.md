@@ -50,10 +50,10 @@ Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sens
 
 Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
 
-van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (accepted). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/)
-
 
 #### 2024
+
+van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (2024). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/) [[Link]](https://psycnet.apa.org/fulltext/2025-04988-001.html)
 
 Barnby, J. M., **Haslbeck, J. M. B.**, Rosen, C. & Harrow, M. (2024) Modelling the Longitudinal Dynamics of Paranoia in Psychosis: A Temporal Network Analysis Over 20 Years [[medRxiv]](https://www.medrxiv.org/content/10.1101/2023.01.06.23284268v1) [[Link]](https://www.sciencedirect.com/science/article/pii/S0920996424003049)
 
