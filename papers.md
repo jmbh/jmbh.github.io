@@ -46,12 +46,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (accepted) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research*
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/)
-
 Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
 
 
 #### 2024
+
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/) [[Link]](https://advances.in/psychology/10.56296/aip00016/)
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (2024). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/) [[Link]](https://psycnet.apa.org/fulltext/2025-04988-001.html)
 
