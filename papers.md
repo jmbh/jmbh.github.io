@@ -19,8 +19,6 @@ Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Media Coverag
 
 Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (under review) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
 
-Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (under revision) Climate Change Engagement of Scientists  [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s)
-
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under review) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under review) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
@@ -50,6 +48,8 @@ Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Int
 
 
 #### 2024
+
+Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (2024) Climate Change Engagement of Scientists. *Nature Climate Change*. [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s) [[Link]](Climate change engagement of scientists)  [[PDF]](https://www.nature.com/articles/s41558-024-02091-2.epdf?sharing_token=xkBJmAb1Oud9czLbgy-JotRgN0jAjWel9jnR3ZoTv0Phrq77IpBMcaX3xXp3kWkBY5Du2ieGxQacCxhLx8I3bHpi0gXYwZmOU96gumvHHJ8F-zDCZmJSMUe3pcWWo753jcoaP21a7rK2HD-FZdzlGhwW4HZ4v_aTIbnSa_W9WuM%3D)
 
 Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/) [[Link]](https://advances.in/psychology/10.56296/aip00016/)
 
