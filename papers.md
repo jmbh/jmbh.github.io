@@ -8,14 +8,14 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (submitted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice
+Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (under revision) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice
 
 Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (submitted) Does the structure of dynamic symptom networks depend on baseline
 psychopathology in students? [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy)
 
 **Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (submitted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper)
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under review) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
 Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (under review) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
 
@@ -44,12 +44,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (accepted) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research*
 
-Borsboom, D. \*  & **Haslbeck J. M. B.**\* (accepted) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk)
-
 
 #### 2024
 
 Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (2024) Climate Change Engagement of Scientists. *Nature Climate Change*. [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s) [[Link]](Climate change engagement of scientists)  [[PDF]](https://www.nature.com/articles/s41558-024-02091-2.epdf?sharing_token=xkBJmAb1Oud9czLbgy-JotRgN0jAjWel9jnR3ZoTv0Phrq77IpBMcaX3xXp3kWkBY5Du2ieGxQacCxhLx8I3bHpi0gXYwZmOU96gumvHHJ8F-zDCZmJSMUe3pcWWo753jcoaP21a7rK2HD-FZdzlGhwW4HZ4v_aTIbnSa_W9WuM%3D)
+
+Borsboom, D. \*  & **Haslbeck J. M. B.**\* (2024) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2336178)
 
 Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/) [[Link]](https://advances.in/psychology/10.56296/aip00016/)
 
