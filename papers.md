@@ -29,8 +29,6 @@ Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Statio
 
 **Haslbeck J. M. B.**\* & Epskamp S.\*  (under review). Observed Correlations between Person-means Depend on Within-person Correlations [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
-Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (under revision). Towards a Generative Model for Emotion Dynamics [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
-
 Marsman, M, & **Haslbeck J. M. B.** (under revision) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
@@ -41,6 +39,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 
 #### Accepted / In press
+
+Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (accepted). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
 Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (accepted) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research*
 
