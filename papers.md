@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (submitted) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
+
 Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (under revision) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice
 
 Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (submitted) Does the structure of dynamic symptom networks depend on baseline
