@@ -31,14 +31,14 @@ Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Statio
 
 Marsman, M, & **Haslbeck J. M. B.** (under revision) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
-Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (under revision). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. [[PsyArXiv]](https://psyarxiv.com/km37w/)
-
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
+
+Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
 **Haslbeck J. M. B.**\* & Epskamp S.\*  (accepted). Observed Correlations between Person-means Depend on Within-person Correlations. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
