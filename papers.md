@@ -8,28 +8,24 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (submitted) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
+Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under review) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
 
-Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (submitted) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
+Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
 
-Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (under revision) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice
-
-Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (submitted) Does the structure of dynamic symptom networks depend on baseline
+Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (under review) Does the structure of dynamic symptom networks depend on baseline
 psychopathology in students? [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy)
 
-**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (submitted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper)
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (under review) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper)
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under review) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
 Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (under review) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr)
 
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under review) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under review) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under revision) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
-
-Marsman, M, & **Haslbeck J. M. B.** (under revision) Bayesian Analysis of the Ordinal Markov Random Field [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
@@ -38,11 +34,13 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
+Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (accepted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
+
+Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
+
 **Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (accepted). Testing for Group Differences in Multilevel Vector Autoregressive Models. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
-
-**Haslbeck J. M. B.**\* & Epskamp S.\*  (accepted). Observed Correlations between Person-means Depend on Within-person Correlations. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (accepted). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
@@ -51,11 +49,13 @@ Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F
 
 #### 2024
 
+**Haslbeck J. M. B.**\* & Epskamp S.\*  (2024). Observed Correlations between Person-means Depend on Within-person Correlations. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
+
 Dablander F.\*, Sachisthal M.\*, Cologna V., Strahm N., Bosshard A., Gruening N-M., Green A., Brick C., Aron A. R., & **Haslbeck J. M. B.**\* (2024) Climate Change Engagement of Scientists. *Nature Climate Change*. [[PsyArXiV]](https://osf.io/preprints/psyarxiv/73w4s) [[Link]](Climate change engagement of scientists)  [[PDF]](https://www.nature.com/articles/s41558-024-02091-2.epdf?sharing_token=xkBJmAb1Oud9czLbgy-JotRgN0jAjWel9jnR3ZoTv0Phrq77IpBMcaX3xXp3kWkBY5Du2ieGxQacCxhLx8I3bHpi0gXYwZmOU96gumvHHJ8F-zDCZmJSMUe3pcWWo753jcoaP21a7rK2HD-FZdzlGhwW4HZ4v_aTIbnSa_W9WuM%3D)
 
 Borsboom, D. \*  & **Haslbeck J. M. B.**\* (2024) Integrating Intra- and Interindividual Phenomena in Psychological Theories *Multivariate Behavioral Research* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/az9qk) [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2336178)
 
-Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (accepted) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/) [[Link]](https://advances.in/psychology/10.56296/aip00016/)
+Sekulovski N., Keetelaar S., **Haslbeck J. M. B.**, & Marsman M. (2024) Sensitivity Analysis of Prior Distributions in Bayesian Graphical Modeling: Guiding Informed Prior Choices for Conditional Independence Testing. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/6m7ca/) [[Link]](https://advances.in/psychology/10.56296/aip00016/)
 
 van Dongen, N., van Bork, R., Finnemann, A., **Haslbeck, J. M. B.**,  van der Maas, H., Robinaugh, D. J., de Ron, J. & Borsboom, D. (2024). Improving Psychological Explanations. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/qd69g/) [[Link]](https://psycnet.apa.org/fulltext/2025-04988-001.html)
 
