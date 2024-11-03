@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Aarts E.\* & **Haslbeck J. M. B.**\* (in preparation) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation and Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/y2u5s)
+
 Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under review) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
 
 Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
