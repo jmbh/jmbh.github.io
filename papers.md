@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (submitted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series
+
 Aarts E.\* & **Haslbeck J. M. B.**\* (in preparation) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation and Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/y2u5s)
 
 Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under review) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
@@ -34,7 +36,9 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (accepted) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr). *NPJ Climate Action*.
+van der Pal Z., Geurts H., **Haslbeck J. M. B.**, van Keeken A., Bruijn A. M., Douw L., van Rooij D., Franke B., Buitelaar J., Lambregts-Rommelse N., Hartman C., Osterlaan J., Luman M., Reneman L, Hoekstra P, Blanken T. & Schrantee A. (accepted) Stimulant medication and symptom interrelations in children, adolescents and adults with attention-deficit/hyperactivity disorder. *European Child & Adolescent Psychiatry* [[PsyArXiV]](https://osf.io/3mebk)
+
+Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (accepted) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers. *NPJ Climate Action* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr). 
 
 Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (accepted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
 
