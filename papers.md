@@ -27,14 +27,14 @@ Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correct
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (under revision) Improving Treatments for Mental Disorders using Computational Models [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (under revision). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
-
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
+
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (accepted). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends. *Multivariate Behavioral Research* [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
 van der Pal Z., Geurts H., **Haslbeck J. M. B.**, van Keeken A., Bruijn A. M., Douw L., van Rooij D., Franke B., Buitelaar J., Lambregts-Rommelse N., Hartman C., Osterlaan J., Luman M., Reneman L, Hoekstra P, Blanken T. & Schrantee A. (accepted) Stimulant medication and symptom interrelations in children, adolescents and adults with attention-deficit/hyperactivity disorder. *European Child & Adolescent Psychiatry* [[PsyArXiV]](https://osf.io/3mebk)
 
