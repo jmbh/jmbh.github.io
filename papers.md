@@ -36,10 +36,6 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (accepted). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends. *Multivariate Behavioral Research* [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
-van der Pal Z., Geurts H., **Haslbeck J. M. B.**, van Keeken A., Bruijn A. M., Douw L., van Rooij D., Franke B., Buitelaar J., Lambregts-Rommelse N., Hartman C., Osterlaan J., Luman M., Reneman L, Hoekstra P, Blanken T. & Schrantee A. (accepted) Stimulant medication and symptom interrelations in children, adolescents and adults with attention-deficit/hyperactivity disorder. *European Child & Adolescent Psychiatry* [[PsyArXiV]](https://osf.io/3mebk)
-
-Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (accepted) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers. *NPJ Climate Action* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr). 
-
 Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (accepted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
 
 Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
@@ -50,10 +46,14 @@ Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fri
 
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (accepted). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
-Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (accepted) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research*
-
 
 #### 2024
+
+Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (2024) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers. *NPJ Climate Action* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr) [[Link]](https://www.nature.com/articles/s44168-024-00187-1). 
+
+Briganti G., Scurati M., Epskamp S., Borsboom D., Hoekstra R. H. A., Golino H. F., Christensen A. P., Morvan Y., Ebrahimi O. V., Costantini G., Heeren A., Van Bork R., De Ron J., Bringmann L. F., Huth K., **Haslbeck J. M. B.**, Isvoranu A., Marsman M., Blanken T., Gilbert A., Henry T. R., Fried E. I., McNally R. J. (2024) Network analysis: an overview for mental health research. *International Journal of Methods in Psychiatric Research* [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/mpr.2034)
+
+van der Pal Z., Geurts H., **Haslbeck J. M. B.**, van Keeken A., Bruijn A. M., Douw L., van Rooij D., Franke B., Buitelaar J., Lambregts-Rommelse N., Hartman C., Osterlaan J., Luman M., Reneman L, Hoekstra P, Blanken T. & Schrantee A. (2024) Stimulant medication and symptom interrelations in children, adolescents and adults with attention-deficit/hyperactivity disorder. *European Child & Adolescent Psychiatry* [[PsyArXiV]](https://osf.io/3mebk) [[Link]]( https://doi.org/10.1007/s00787-024-02610-8)
 
 **Haslbeck J. M. B.**\* & Epskamp S.\*  (2024). Observed Correlations between Person-means Depend on Within-person Correlations. *advances.in/psychology*. [[PsyArXiv]](https://psyarxiv.com/e2qmx) [[Reproducibility Archive]](https://github.com/jmbh/PersonwiseMeanCor)
 
