@@ -33,7 +33,7 @@ jonashaslbeck@protonmail.com
 
 [New Science of Mental Disorders (NSMD)](https://nsmd.eu/)
 
-[Bayesian Graphical Modelling Lab](https://bayesiangraphicalmodeling.com/).
+[Bayesian Graphical Modelling Lab](https://bayesiangraphicalmodeling.com/)
 
 [Theory Methods Lab](http://theorymethodslab.com)
 
