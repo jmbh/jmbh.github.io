@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Should you Submit Papers before Christmas? Submission Percentages across Months of the Year"
-date: 2024-12-22 10:00:00 +0100
+date: 2024-12-22 09:00:00 +0100
 categories: r
 comments: true
 status: process
