@@ -68,6 +68,26 @@ p {
   margin: 15px 0;
 }
 
+// Newly added stuff:
+.post-date {
+  color: #777; /* Light grey but still visible on white */
+  font-size: 0.9em; /* Slightly smaller font */
+}
+
+.post h1 {
+  margin-bottom: 5px; /* Reduce space below the title */
+}
+
+.post-date {
+  margin-top: 0; /* No extra space above the date */
+  margin-bottom: 5px; /* Reduce space below the date */
+}
+
+.entry {
+  margin-top: 0; /* No extra space above the excerpt */
+}
+
+
 a {
   color: $blue;
   text-decoration: none;
