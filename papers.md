@@ -46,10 +46,12 @@ Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analys
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
-Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (accepted). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
+#### 2025
 
 
 #### 2024
+
+Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (2024). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Link]](https://psycnet.apa.org/fulltext/2025-60391-001.html) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
 Dablander F., Sachisthal M., & **Haslbeck J. M. B.** (2024) Going Beyond Research: Climate Actions by Climate and Non-Climate Researchers. *NPJ Climate Action* [[PsyArXiV]](https://osf.io/preprints/psyarxiv/5fqtr) [[Link]](https://www.nature.com/articles/s44168-024-00187-1). 
 

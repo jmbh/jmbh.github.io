@@ -1,0 +1,9 @@
+---
+layout: post
+title: "New Paper: Towards a Generative Model of Emotion Dynamics"
+date: 2025-01-07 09:00:00 +0100
+categories: 
+comments: true
+---
+
+Most theories of emotion suggest that emotions are reactions to situations we encounter in daily life. Process theories of emotion further specify a feedback loop between our environment, attention, emotions, and action that clarifies the adaptive nature of emotions. In principle, such process theories describe how emotions develop in daily life, and consequently, emotion measures collected from individuals many times a day in studies using the experience sampling methodology should be highly useful in advancing these theories. However, current emotion theories are predominantly verbal theories and therefore do not make clear predictions about such data. In this article, we take a first step toward a generative model of emotion dynamics by formalizing the link between situations and emotions, which provides us with a basic generative model of emotions in daily life. We show that this incomplete model already reproduces nine empirical phenomena in emotion time series related to (temporal) statistical associations between emotions and their distributional form. We then discuss how we can draw on existing (process) theories of emotion to extend our basic model into a complete generative model of emotion dynamics. Finally, we discuss how generative models of emotion dynamics can facilitate theory development and advance measurement, study design, and statistical analysis. For details have a look at [the open access publication](https://psycnet.apa.org/fulltext/2025-60391-001.html) in Psychological Review. The model and the reproducibility archives are available [here](https://github.com/ryanoisin/GenerativeEmotion) and [here](https://github.com/ryanoisin/GenerativeEmotionCodeArchive).
