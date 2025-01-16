@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (submitted). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
+
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (submitted). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series
