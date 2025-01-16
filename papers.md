@@ -36,8 +36,6 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (accepted). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends. *Multivariate Behavioral Research* [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
-
 Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (accepted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
 
 Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
@@ -46,7 +44,10 @@ Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analys
 
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
 
+
 #### 2025
+
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (2025). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends. *Multivariate Behavioral Research* [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2436413) [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
 
 #### 2024
