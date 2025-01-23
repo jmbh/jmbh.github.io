@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Preprint: Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies"
+title: "New Preprint: A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables"
 date: 2024-12-20 09:00:00 +0100
 categories: 
 comments: true
