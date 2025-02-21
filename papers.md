@@ -8,13 +8,13 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Ernst A. F. & **Haslbeck J. M. B.** (submitted) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
+Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
 
 Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (submitted) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
 
-Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (submitted). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
+Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (under review). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
 
-Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (submitted). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
+Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under review). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series
 
@@ -43,17 +43,17 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (accepted) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
-
 Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
 
-**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (accepted). Testing for Group Differences in Multilevel Vector Autoregressive Models. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD)
-
 Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
+
+Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (in press) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
 
 
 #### 2025
 
+**Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (2025). Testing for Group Differences in Multilevel Vector Autoregressive Models. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD) [[Link]](https://link.springer.com/article/10.3758/s13428-024-02541-x) [[PDF]](https://link.springer.com/epdf/10.3758/s13428-024-02541-x?sharing_token=G4OpQBf2IfkabHFOyi-3HJAH0g46feNdnc402Wrhzyr2WTk9YG7cLGPuWRo-js9vjVHb2eKhjIMCB2mVqu8tP6z5838olz9yGej1lPaUD2aUjkAJoe9glSfz7l12m_C6kLHL845PtxephlxSf_aXZq1OqlnnIiGa__ten7zKpC4%3D)
+ 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (2025). Non-Stationarity in Time-Series Analysis: Modeling Stochastic and Deterministic Trends. *Multivariate Behavioral Research* [[Link]](https://www.tandfonline.com/doi/full/10.1080/00273171.2024.2436413) [[PsyArXiv]](https://psyarxiv.com/z7ja2) [[Reproducibility Archive]](https://github.com/ryanoisin/NonStationaryTS)
 
 
