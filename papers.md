@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (under review). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1)
+
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (submitted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
