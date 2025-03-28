@@ -10,7 +10,7 @@ permalink: /papers/
 
 Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (under review). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1)
 
-Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (submitted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
+Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
 
@@ -18,7 +18,7 @@ Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. 
 
 Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (under revision). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
 
-Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under review). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
+Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under revision). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series
 
@@ -34,7 +34,7 @@ Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roe
 
 Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (under revision) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain.
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under review) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
@@ -47,14 +47,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (accepted) Improving Treatments for Mental Disorders using Computational Models. *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
 
-Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (accepted) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/)
-
-Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (accepted). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/)
-
-Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (in press) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*.
-
 
 #### 2025
+
+Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (2025) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/) [[Link]](https://www.cambridge.org/core/journals/psychometrika/article/bayesian-analysis-of-the-ordinal-markov-random-field/125653DED6B5406A476A4C75793F710D)
+
+Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (2025) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*. [[Link]](https://psycnet.apa.org/record/2025-81704-001)
 
 **Haslbeck J. M. B.**, Epskamp S. & Waldorp L. J. (2025). Testing for Group Differences in Multilevel Vector Autoregressive Models. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/dhp8s/) [[Reproducibility Archive]](https://github.com/jmbh/mlVARGD) [[Link]](https://link.springer.com/article/10.3758/s13428-024-02541-x) [[PDF]](https://link.springer.com/epdf/10.3758/s13428-024-02541-x?sharing_token=G4OpQBf2IfkabHFOyi-3HJAH0g46feNdnc402Wrhzyr2WTk9YG7cLGPuWRo-js9vjVHb2eKhjIMCB2mVqu8tP6z5838olz9yGej1lPaUD2aUjkAJoe9glSfz7l12m_C6kLHL845PtxephlxSf_aXZq1OqlnnIiGa__ten7zKpC4%3D)
  
@@ -62,6 +60,8 @@ Ryan O.\*, **Haslbeck J. M. B.**\*, & Waldorp L. J. (2025). Non-Stationarity in 
 
 
 #### 2024
+
+Robinaugh, D. J., **Haslbeck J. M. B.**, Waldorp, L. J., Kossakowski, J. J., Fried, E. I., Millner, A., McNally, R. J., Ryan, O., de Ron, J., van der Maasn, H., van Nes, E. H., Scheffer, M., Kendler, K. S.  & Borsboom, D. (2024). Advancing the Network Theory of Mental Disorders: A Computational Model of Panic Disorder. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/km37w/) [[Link]](https://psycnet.apa.org/record/2025-60781-001)
 
 Ryan O.\*, Dablander F.\*, & **Haslbeck J. M. B.**\* (2024). Towards a Generative Model for Emotion Dynamics. *Psychological Review*. [[PsyArXiv]](https://psyarxiv.com/x52ns/) [[Link]](https://psycnet.apa.org/fulltext/2025-60391-001.html) [[Model]](https://github.com/ryanoisin/GenerativeEmotion) [[Reproducibility Archive]](https://github.com/ryanoisin/GenerativeEmotionCodeArchive)
 
