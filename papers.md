@@ -38,17 +38,17 @@ Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Media Co
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
-Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (under revision) Movement tracking of cognitive processes: A tutorial using mousetrap [[PsyArXiv]](https://psyarxiv.com/v685r)
-
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
 
-Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (accepted) Improving Treatments for Mental Disorders using Computational Models. *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment)
+Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (accepted) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 
 #### 2025
+
+Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (2025) Improving Treatments for Mental Disorders using Computational Models. *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment) [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796725000282?casa_token=-zG6SMLm8gIAAAAA:Btercbmxx-nOVJEVsSYs4ICWAzNv1xY9JTgGCmkgkxP3nUFh2MMXJRGK2jDNljNcFB7yfuqGdaI)
 
 Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (2025) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/) [[Link]](https://www.cambridge.org/core/journals/psychometrika/article/bayesian-analysis-of-the-ordinal-markov-random-field/125653DED6B5406A476A4C75793F710D)
 
