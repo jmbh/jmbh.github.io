@@ -32,8 +32,6 @@ Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Car
 
 Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (under review) Does the structure of dynamic symptom networks depend on baseline psychopathology in students? [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy)
 
-Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (under revision) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain.
-
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
@@ -42,6 +40,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 
 #### Accepted / In press
+
+Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (accepted) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy*
 
 **Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) *Behavior Research Methods*.
 
