@@ -41,14 +41,14 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (accepted) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy*
-
 **Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) *Behavior Research Methods*.
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (accepted) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 
 #### 2025
+
+Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (2025) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy* [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0005796725001068)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (2025) Improving Treatments for Mental Disorders using Computational Models. *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment) [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796725000282?casa_token=-zG6SMLm8gIAAAAA:Btercbmxx-nOVJEVsSYs4ICWAzNv1xY9JTgGCmkgkxP3nUFh2MMXJRGK2jDNljNcFB7yfuqGdaI)
 
