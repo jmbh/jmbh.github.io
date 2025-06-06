@@ -1,0 +1,15 @@
+---
+layout: post
+title: "R2"
+date: 2024-12-22 09:00:00 +0100
+categories: r
+comments: true
+status: process
+---
+
+Collecting some refs on R2:
+
+- https://getrecast.com/r-squared/
+- https://library.virginia.edu/data/articles/is-r-squared-useless
+- https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/10/lecture-10.pdf
+
