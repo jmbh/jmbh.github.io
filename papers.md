@@ -39,14 +39,17 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Str
 
 #### Accepted / In press
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (accepted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) *Climatic Change*.
+Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
+A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome. *World Psychiatry*.
 
-**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) *Behavior Research Methods*.
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (accepted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) *Climatic Change*.
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (accepted) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 
 #### 2025
+
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2) *Behavior Research Methods*.
 
 Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (2025) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy* [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0005796725001068)
 
