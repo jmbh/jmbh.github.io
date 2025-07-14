@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S.(submitted) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
+
 Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (under review) A Stochastic Block Prior for Clustering in Graphical Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
 
 Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (under review). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1)
@@ -34,7 +36,7 @@ Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roe
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
 
-Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under review). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
+Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
