@@ -8,7 +8,11 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S.(submitted) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
+Aarts E.\* & **Haslbeck J. M. B.**\* (submitted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
+
+Aarts E.\* & **Haslbeck J. M. B.**\* (submitted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
+
+Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S. (submitted) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
 
 Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (under review) A Stochastic Block Prior for Clustering in Graphical Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
 
@@ -25,8 +29,6 @@ Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. 
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under revision). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series
-
-Aarts E.\* & **Haslbeck J. M. B.**\* (in preparation) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation and Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/y2u5s)
 
 Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under revision) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
 
