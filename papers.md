@@ -36,22 +36,22 @@ Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Car
 
 Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (under review) Does the structure of dynamic symptom networks depend on baseline psychopathology in students? [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy)
 
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model [[OSF Preprint]](https://osf.io/xq8ur/)
-
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
 
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
+
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome. *World Psychiatry*.
-
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (accepted) Media Coverage of Climate Activist Groups in Germany [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) *Climatic Change*.
 
 Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (accepted) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r)
 
 
 #### 2025
+
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2025) Media Coverage of Climate Activist Groups in Germany.  *Climatic Change*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) [[Link]](https://link.springer.com/article/10.1007/s10584-025-03959-8)
 
 **Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2) *Behavior Research Methods*.
 
