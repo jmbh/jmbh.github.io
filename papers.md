@@ -22,8 +22,6 @@ Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) 
 
 Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
 
-Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (under review) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
-
 Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (under revision). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
 
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under revision). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
@@ -40,6 +38,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 
 #### Accepted / In press
+
+Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (under review) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
 
