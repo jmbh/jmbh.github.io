@@ -39,7 +39,7 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
-Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (under review) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
+Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (accepted) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
 
 Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
 
@@ -53,7 +53,7 @@ Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Me
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2025) Media Coverage of Climate Activist Groups in Germany.  *Climatic Change*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) [[Link]](https://link.springer.com/article/10.1007/s10584-025-03959-8)
 
-**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2) *Behavior Research Methods*.
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment. *Behavior Research Methods*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2)
 
 Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (2025) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy* [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0005796725001068)
 
