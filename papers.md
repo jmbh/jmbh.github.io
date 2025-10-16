@@ -8,21 +8,19 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Aarts E.\* & **Haslbeck J. M. B.**\* (submitted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
+Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
-Aarts E.\* & **Haslbeck J. M. B.**\* (submitted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
+Aarts E.\* & **Haslbeck J. M. B.**\* (under review) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
 
-Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S. (submitted) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
+Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S. (under revision) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
 
-Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (under review) A Stochastic Block Prior for Clustering in Graphical Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
+Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (under revision) A Stochastic Block Prior for Clustering in Graphical Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
 
 Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (under review). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1)
 
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
-
-Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (under revision). Statistical Evidence in Psychological Networks: A Bayesian Analysis of 294 Networks from 126 Studies. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/)
 
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under revision). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
@@ -41,15 +39,16 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (accepted) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
 
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (under revision) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (accepted) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome. *World Psychiatry*.
 
-Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (accepted) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r)
-
-
 #### 2025
+
+Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (2025). Statistical Evidence in Psychological Networks *Nature Human Behavior* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/) [[Link]](https://www.nature.com/articles/s41562-025-02314-2)
+
+Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Mecklenbeck M. (2025) Movement tracking of cognitive processes: A tutorial using mousetrap. *Behavior Research Methods*. [[PsyArXiv]](https://psyarxiv.com/v685r) [[Link]](https://link.springer.com/epdf/10.3758/s13428-025-02695-2?sharing_token=RYRPZHiX1115pv5AVlZ2VZAH0g46feNdnc402WrhzyoPl57fb1b_grQED9bubgIqr9KcF8w15SwVvnQPRpfb6BZBfyub2r5mviZ1efXeYA0oXwi6WWJ0OmgzK-Mwzjz9b1dKX7D8XXknTghfUALmoKLvEF3CRtdE6rbY3nbiRoQ%3D)
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2025) Media Coverage of Climate Activist Groups in Germany.  *Climatic Change*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) [[Link]](https://link.springer.com/article/10.1007/s10584-025-03959-8)
 
