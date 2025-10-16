@@ -1,9 +1,0 @@
----
-layout: post
-title: "Tutorial Paper on Movement Tracking of Psychological Processes Using *mousestrap*"
-date: 2025-09-15 09:00:00 +0100
-categories: 
-comments: true
----
-
-Movement tracking is a novel process-tracing method that promises unique access to the temporal dynamics of psychologicalprocesses. The method involves high-resolution tracking of a hand or handheld device (e.g., a computer mouse) while it is usedto make a choice. In contrast to other process-tracing methods, which mostly focus on information acquisition, movementtracking focuses on the processes of information integration and preference formation. In this article, we present a tutorial onmovement tracking of psychological processes with the mousetrap R package. We address all steps of the research process,from design to interpretation, with a particular focus on data processing and analysis and featuring both established and novelapproaches. Using a representative working example, we demonstrate how the various steps of movement-tracking analysiscan be implemented with mousetrap and provide thorough explanations of their theoretical background and interpretation. Finally, we present a list of recommendations to assist researchers in addressing their own research questions using movementtracking of psychological processes. [[Here]](https://link.springer.com/epdf/10.3758/s13428-025-02695-2?sharing_token=RYRPZHiX1115pv5AVlZ2VZAH0g46feNdnc402WrhzyoPl57fb1b_grQED9bubgIqr9KcF8w15SwVvnQPRpfb6BZBfyub2r5mviZ1efXeYA0oXwi6WWJ0OmgzK-Mwzjz9b1dKX7D8XXknTghfUALmoKLvEF3CRtdE6rbY3nbiRoQ%3D) is the paper published in *Behavioral Research Methods*.

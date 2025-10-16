@@ -4,7 +4,19 @@ title: []
 permalink: /talks/
 ---
 
+#### 2025
+
+Haslbeck J. M. B. Advancing Research on PSychological Processes Using Systems Model. Invited Colloqium Talk at M&S Department Tilburg University
+
+Aarts E., Haslbeck J. M. B., & Vink P. Half-day workshop on (multilevel) Hidden Markov Modeling, SAA 2025, Leuven Belgium
+
+Haslbeck J. M. B. & Ernst A. Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class VAR, SAA 2025, Leuven Belgium
+
+Haslbeck J. M. B., Jover A., Roefts A., Fried E., Lemmens L, Groot E., & Edelsbrunner E. Comparing Likert vs. Visual Analogue Scales in Ecological Momentary Assessment, SAA 2025, Leuven Belgium
+
 #### 2024
+
+Haslbeck J. M. B., Ryan O., & Robinaugh D. J.. Improving Treatments for Mental Disorders using Computational Models, IMPS, Prague
 
 Haslbeck J. M. B., Ryan O., & Robinaugh D. J. (2023). Improving Treatments for Mental Disorders using Computational Models, EACLIPT x UMH Conference 2024 Amsterdam
 

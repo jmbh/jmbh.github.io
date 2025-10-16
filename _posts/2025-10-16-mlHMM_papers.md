@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Two New Preprints on Multilevel Hidden Markov Models"
-date: 2025-09-15 09:00:00 +0100
-categories: 
+date: 2025-10-16 09:00:00 +0100
+categories: r
 comments: true
 ---
 
