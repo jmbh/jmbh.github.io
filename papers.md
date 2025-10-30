@@ -8,7 +8,7 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [[openESM]](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
+Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
 
 Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
@@ -32,7 +32,6 @@ Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under revisio
 
 Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
 
-Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (under review) Does the structure of dynamic symptom networks depend on baseline psychopathology in students? [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
@@ -47,6 +46,8 @@ Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. 
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome. *World Psychiatry*.
 
 #### 2025
+
+Jover Martinzes A., Lemmens L. H. J. M., Fried E. I., **Haslbeck J. M. B.**, Roefs A. (2025) Does the structure of dynamic symptom networks depend on baseline psychopathology in students? *Behaviour Research and Therapy* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/en9xy) [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796725002104?via%3Dihub)
 
 Huth K. B. S., **Haslbeck J. M. B.**, Ketelaar S., Van Holst R. J. & Marsman M. (2025). Statistical Evidence in Psychological Networks *Nature Human Behavior* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/62ydg) [[Supplement]](https://osf.io/n8r9g/) [[Link]](https://www.nature.com/articles/s41562-025-02314-2)
 
