@@ -10,9 +10,9 @@ permalink: /papers/
 
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
 
-Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
+Aarts E.\* & **Haslbeck J. M. B.**\* (under review) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
-Aarts E.\* & **Haslbeck J. M. B.**\* (under review) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
+Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
 
 Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S. (under revision) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
 
@@ -22,28 +22,27 @@ Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Sa
 
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
-Ernst A. F. & **Haslbeck J. M. B.** (under review) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
-
-Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (under revision). A Bayesian Independent Samples T Test for Parameter Differences in Networks of Binary and Ordinal Variables [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
-
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
-Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (under revision) The Impact of Dichotomization on Network Recovery [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
-
 Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
-
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
 
+Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (accepted) The Impact of Dichotomization on Network Recovery. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
+
+Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (accepted). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
+
+Ernst A. F. & **Haslbeck J. M. B.** (accepted) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
+
 Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (accepted) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1)
 
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (accepted) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods*. [[OSF Preprint]](https://osf.io/xq8ur/)
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (accepted) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods* [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
-A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome. *World Psychiatry*.
+A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*.
 
 #### 2025
 
@@ -55,13 +54,13 @@ Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Me
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2025) Media Coverage of Climate Activist Groups in Germany.  *Climatic Change*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) [[Link]](https://link.springer.com/article/10.1007/s10584-025-03959-8)
 
-**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment. *Behavior Research Methods*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2)
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2)
 
 Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (2025) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy* [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0005796725001068)
 
 Ryan O.\*, **Haslbeck J. M. B.**\*, & Robinaugh, D. J.\* (2025) Improving Treatments for Mental Disorders using Computational Models. *Behaviour Research and Therapy*. [[PsyArXiv]](https://psyarxiv.com/tyn9z) [[Reproducibility Archive]](https://github.com/ryanoisin/ComputationalTreatment) [[Link]](https://www.sciencedirect.com/science/article/pii/S0005796725000282?casa_token=-zG6SMLm8gIAAAAA:Btercbmxx-nOVJEVsSYs4ICWAzNv1xY9JTgGCmkgkxP3nUFh2MMXJRGK2jDNljNcFB7yfuqGdaI)
 
-Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (2025) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika*. [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/) [[Link]](https://www.cambridge.org/core/journals/psychometrika/article/bayesian-analysis-of-the-ordinal-markov-random-field/125653DED6B5406A476A4C75793F710D)
+Marsman, M., van den Bergh, D.& **Haslbeck J. M. B.** (2025) Bayesian Analysis of the Ordinal Markov Random Field. *Psychometrika* [[PsyArXiv]](https://psyarxiv.com/ukwrf/) [[Reproducibility Archive]](https://osf.io/qsj4w/) [[Link]](https://www.cambridge.org/core/journals/psychometrika/article/bayesian-analysis-of-the-ordinal-markov-random-field/125653DED6B5406A476A4C75793F710D)
 
 Petter J., Mehta A., Petrova K., Kindt M., Sheppes G., **Haslbeck J. M. B.**, Gross J. J. (2025) Emotion Regulation, Fast or Slow: A Computational Model of Strategy Choice. *Emotion*. [[Link]](https://psycnet.apa.org/record/2025-81704-001)
 
