@@ -31,8 +31,6 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
-Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (accepted) The Impact of Dichotomization on Network Recovery. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp)
-
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (accepted). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
 Ernst A. F. & **Haslbeck J. M. B.** (accepted) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
@@ -43,6 +41,8 @@ Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. 
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*.
 
 #### 2025
+
+Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (2025) The Impact of Dichotomization on Network Recovery. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp) [[Link]](https://rdcu.be/ePrK5)
 
 Van der Wijk G., Huygelier H., **Haslbeck J. M. B.**, Evers A. W. M., Peters M. L., Teppers M. , & Vlaeyen J. W.S. (2025) A Network Analysis of Fear-Avoidance Beliefs, Mood and Disability in Chronic Pain. *Clinical Journal of Pain*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/2hs5p_v1) [[Link]](https://journals.lww.com/clinicalpain/fulltext/2025/12000/a_network_analysis_of_fear_avoidance_beliefs,.3.aspx)
 
