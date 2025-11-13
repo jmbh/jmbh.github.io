@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
+
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
 
 Aarts E.\* & **Haslbeck J. M. B.**\* (under review) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
