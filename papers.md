@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
+
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
 
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
@@ -24,14 +26,14 @@ Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Sa
 
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
-Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (under revision) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
-
 Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
 
 Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). Strategy Under Uncertainty: International Conflict and Variation in Information [[Preprint]](https://preprints.apsanet.org/engage/apsa/article-details/6230549810d1436335d0555c)
 
 
 #### Accepted / In press
+
+Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (accepted). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
