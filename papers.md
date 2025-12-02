@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (submitted) Model Checking for Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/k6uz4_v1) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
+
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
 
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
