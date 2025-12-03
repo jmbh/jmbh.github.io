@@ -1,0 +1,9 @@
+---
+layout: post
+title: "New Preprint: Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024"
+date: 2025-12-08 09:00:00 +0100
+categories: 
+comments: true
+---
+
+The media shapes how political leaders and the public understand the causes, impacts, and solutions to climate change. Here, we provide the most extensive analysis to date of how German news media report on climate change between 2010 and 2024. We develop and validate a methodology based on large language models to analyze the contents of over 50,000 articles from seven major newspapers across the political spectrum. We found that aspects relating to causes, impacts, and mitigation were all covered substantially more often than aspects relating to adaptation. While most articles identified climate change as human-caused, coverage about causes was dominated by fossil fuels, with agriculture, overconsumption, carbon inequality, and economic growth rarely mentioned. Left-leaning outlets more frequently reported that climate change is human-caused, highlighted fossil fuels as a cause, emphasized the need to reduce their use, and discussed systemic and social drivers more often. Coverage patterns have remained largely stable over time, except for growing attention to net-zero targets and carbon taxes. Our findings highlight opportunities for more comprehensive climate journalism to better support public understanding and policy debate by reflecting the scientific consensus and the full range of societal transformations needed to address climate change. The preprint is available [here](https://osf.io/preprints/socarxiv/mv2q6_v1).

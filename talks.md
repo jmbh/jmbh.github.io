@@ -6,7 +6,11 @@ permalink: /talks/
 
 #### 2025
 
-Haslbeck J. M. B. Advancing Research on PSychological Processes Using Systems Model. Invited Colloqium Talk at M&S Department Tilburg University
+Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Talk EDGE Lab, University of Oxford, UK
+
+Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Colloquium Talk at LOEWE Center DYNAMIC Group, Hessen Germany
+
+Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Colloquium Talk at M&S Department Tilburg University
 
 Aarts E., Haslbeck J. M. B., & Vink P. Half-day workshop on (multilevel) Hidden Markov Modeling, SAA 2025, Leuven Belgium
 
