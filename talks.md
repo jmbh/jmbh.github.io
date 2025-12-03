@@ -6,7 +6,9 @@ permalink: /talks/
 
 #### 2025
 
-Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Talk EDGE Lab, University of Oxford, UK
+Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Colloquium Talk at Psychological Methods Division, University Jena
+
+Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Talk at EDGE Lab, University of Oxford, UK
 
 Haslbeck J. M. B. Advancing Research on Psychological Processes Using Systems Model. Invited Colloquium Talk at LOEWE Center DYNAMIC Group, Hessen Germany
 
