@@ -37,16 +37,16 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
-Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (accepted). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
-
 Ernst A. F. & **Haslbeck J. M. B.** (accepted) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
-
-Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (accepted) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods* [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*.
 
 #### 2025
+
+Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (2025). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
+
+Boot J., De Ron J., **Haslbeck J. M. B.**, & Epskamp S. (2025) Correcting for selection bias after conditioning on a sum-score in the Ising model. *Behavior Research Methods* [[OSF Preprint]](https://osf.io/xq8ur/)
 
 Sekulovski N., Blanken T. F.,  **Haslbeck J. M. B.**, Marsman, M. (2025) The Impact of Dichotomization on Network Recovery. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/93nxp) [[Link]](https://rdcu.be/ePrK5)
 
@@ -60,7 +60,7 @@ Wulff D. U.,  Kieslich P. J., Henninger F., **Haslbeck, J. M. B.**, & Schulte-Me
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2025) Media Coverage of Climate Activist Groups in Germany.  *Climatic Change*. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yhn54) [[Link]](https://link.springer.com/article/10.1007/s10584-025-03959-8)
 
-**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (accepted) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2)
+**Haslbeck J. M. B.**\*, Jover-Martinez A.\*, Roefs A. J., Fried E. I., Lemmens L. H. J. M., Groot E., Edelsbrunner P. E. (2025) Comparing Likert and Visual Analogue Scales in Ecological Momentary Assessment. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/yt8xw) [[Reproducibility Archive]](https://github.com/jmbh/LikertvsVASPaper) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02706-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250702&utm_content=10.3758/s13428-025-02706-2)
 
 Moshe I., **Haslbeck J. M. B.**, Terhorst Y., Paganini S., Schlicker S., Baumeister H & Lasser S. B. (2025) Network Intervention Analysis of a Digital Intervention for the Prevention of Depression in Patients with Chronic Back Pain. *Behaviour Research and Therapy* [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0005796725001068)
 
