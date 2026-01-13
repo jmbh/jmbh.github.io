@@ -14,9 +14,7 @@ Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Mapping Clima
 
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
 
-Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (submitted) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
-
-Aarts E.\* & **Haslbeck J. M. B.**\* (under review) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
+Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (under review) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
 
 Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Numerical Evaluation [[PsyArXiv]](https://osf.io/preprints/psyarxiv/b5mxk_v2)
 
@@ -35,14 +33,20 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
-Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
+Aarts E.\* & **Haslbeck J. M. B.**\* (accepted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
-Ernst A. F. & **Haslbeck J. M. B.** (accepted) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial)
+Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*.
 
+
+#### 2026
+
+
 #### 2025
+
+Ernst A. F. & **Haslbeck J. M. B.** (2025) Modeling Qualitative Between-Person Heterogeneity in Time-Series using Latent Class Vector Autoregressive Models. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qvdac_v1) [[Code Simulation]](https://osf.io/92mj6/?view_only=db4ab8776b8a41378f4f6b5f0d441b68) [[Code Tutorial]](https://github.com/jmbh/LCVARTutorial) [[Link]](https://link.springer.com/article/10.3758/s13428-025-02909-7)
 
 Marsman M., Waldorp L. J. Skulovski N., **Haslbeck J. M. B.** (2025). Bayes Factor Tests for Group Differences in Ordinal and Binary Graphical Models. *Psychometrika* [[PsyArXiv]](https://osf.io/preprints/osf/f4pk9) [[Reproducibility Archive]](https://osf.io/txhbp/?view_only=19e5c8ebaf164fd5af87f83029fe9b63)
 
