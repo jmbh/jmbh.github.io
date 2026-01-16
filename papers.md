@@ -37,11 +37,11 @@ Aarts E.\* & **Haslbeck J. M. B.**\* (accepted) Modelling Psychological Time Ser
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
-Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (accepted)
-A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*.
-
 
 #### 2026
+
+Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (2026)
+A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*. [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/wps.70021)
 
 
 #### 2025
