@@ -9,7 +9,7 @@ permalink: /papers/
 #### Submitted / under review
 
 **Haslbeck J. M. B.**, Sachisthal M. S. M., Dablander F. (submitted) Techno-Optimism Reduces Willingness to Address Climate Change
-[[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v1) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
+[[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v2) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
 
 Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbeck J. M. B.**, Lischetzke T., Vogelsmeier L. V. D. E. Likert Versus Visual Analogue Scales in Ecological Momentary Assessment: Initial Evidence That Likert Scales Come With Reduced Capacity to Sustain Attentiveness [[PsyArXiv]](https://osf.io/preprints/psyarxiv/p8fg6_v1) [[Reproducibility Archive]](https://osf.io/6eywg)
 
