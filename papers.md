@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
+
 **Haslbeck J. M. B.**, Sachisthal M. S. M., Dablander F. (submitted) Techno-Optimism Reduces Willingness to Address Climate Change
 [[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v2) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
 
