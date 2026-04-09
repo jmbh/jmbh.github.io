@@ -15,7 +15,7 @@ Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken 
 
 Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbeck J. M. B.**, Lischetzke T., Vogelsmeier L. V. D. E. Likert Versus Visual Analogue Scales in Ecological Momentary Assessment: Initial Evidence That Likert Scales Come With Reduced Capacity to Sustain Attentiveness [[PsyArXiv]](https://osf.io/preprints/psyarxiv/p8fg6_v1) [[Reproducibility Archive]](https://osf.io/6eywg)
 
-**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (submitted) Model Checking for Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/k6uz4_v2) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
+**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (submitted) Model Checking for Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/k6uz4_v3) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
 
