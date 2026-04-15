@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Climate Change Coverage in The Guardian, 2010–2025. [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v1) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
+
 Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
 
 **Haslbeck J. M. B.**, Sachisthal M. S. M., Dablander F. (submitted) Techno-Optimism Reduces Willingness to Address Climate Change
@@ -17,7 +19,7 @@ Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbec
 
 **Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (submitted) Model Checking for Vector Autoregressive Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/k6uz4_v3) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
 
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
 
