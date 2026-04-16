@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Preprint: Climate Change Coverage in The Guardian, 2010–2025"
-date: 2026-04-16 09:00:00 +0100
+date: 2026-04-17 09:00:00 +0100
 categories: 
 comments: true
 ---
