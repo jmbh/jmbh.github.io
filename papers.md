@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N., Van Bork R. (submitted) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
+
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Climate Change Coverage in The Guardian, 2010–2025. [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v1) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
 
 Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
