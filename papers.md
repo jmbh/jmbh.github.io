@@ -44,7 +44,7 @@ Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M.
 
 Aarts E.\* & **Haslbeck J. M. B.**\* (accepted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
-Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
+Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (accepted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
 
 #### 2026
