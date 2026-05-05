@@ -31,10 +31,6 @@ Aarts E.\* & **Haslbeck J. M. B.**\* (under revision) Modelling Psychological Ti
 
 Hulsheger U. R., **Haslbeck J. M. B.**, Jongerling J., Fleuren B., Verduyn P., Nübold A. & Uitdewilligen S. (under revision) A Dynamic Network Perspective on the Challenge Hindrance Stressor Framework: Unraveling the Dynamic Interplay of Stressors, Affect, and Work Engagement.
 
-Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (under revision) A Stochastic Block Prior for Clustering in Graphical Models [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
-
-Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (under review). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1)
-
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (under review) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 Fritz J., Stochl J., **Haslbeck J. M. B.**, Widmer B., Galante J., Moore M., Carey E. G., Allen C. G. H., Acton N., Jonas P. B., Ford T. J. (under review) Lessons Learned from the COVID-19 Pandemic: An Intensive Longitudinal Study Exploring the Dynamic Ecosystem of Psychosocial Factors and Mental Distress Among College Students [[PsyArXiv]](https://osf.io/preprints/osf/scy4h)
@@ -44,12 +40,16 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
+Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (accepted) A Stochastic Block Prior for Clustering in Graphical Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
+
 Aarts E.\* & **Haslbeck J. M. B.**\* (accepted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
 
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (acceoted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
 
 #### 2026
+
+Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (2026). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. *BMC Global and Public Health* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1) [[Link]](https://link.springer.com/article/10.1186/s44263-026-00274-x)
 
 Schumacher L., Kriston L., Ebrahimi O. Finneman A. Klein J. F., & **Haslbeck J. M. B.** (2026)
 A data re-analysis confirms the value of symptom networks in predicting psychotherapy outcome *World Psychiatry*. [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/wps.70021)
