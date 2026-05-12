@@ -8,14 +8,16 @@ permalink: /papers/
 
 #### Submitted / under review
 
-De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N., Van Bork R. (submitted) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
+Dablander F., Sachisthal M. S. M. & **Haslbeck J. M. B.**, (submitted) Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action [[PsyArXiv]](https://osf.io/preprints/psyarxiv/fmn7t_v1) [[Reproducibility Archive]](https://github.com/fdabl/LifeSatisfaction-ClimateAction)
+
+De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N. & Van Bork R. (submitted) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
 
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (submitted) Climate Change Coverage in The Guardian, 2010–2025. [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v1) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
 
 Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
 
 **Haslbeck J. M. B.**, Sachisthal M. S. M., Dablander F. (submitted) Techno-Optimism Reduces Willingness to Address Climate Change
-[[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v2) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
+[[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v3) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
 
 Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbeck J. M. B.**, Lischetzke T., Vogelsmeier L. V. D. E. Likert Versus Visual Analogue Scales in Ecological Momentary Assessment: Initial Evidence That Likert Scales Come With Reduced Capacity to Sustain Attentiveness [[PsyArXiv]](https://osf.io/preprints/psyarxiv/p8fg6_v1) [[Reproducibility Archive]](https://osf.io/6eywg)
 
