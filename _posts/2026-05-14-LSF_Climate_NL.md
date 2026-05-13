@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Preprint: Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action"
-date: 2026-05-13 09:00:00 +0100
+date: 2026-05-14 09:00:00 +0100
 categories: 
 comments: true
 ---

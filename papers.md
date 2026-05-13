@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Epelbaum V., Engels S., de Ron J., **Haslbeck J. M. B.**, Wang S., de Beurs D., Borsboom D. & Krzhizhanovskaya V. (submitted) Sensitivity Analysis of Computational Models in Psychology: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/7e9hf_v1/)
+
 Dablander F., Sachisthal M. S. M. & **Haslbeck J. M. B.**, (submitted) Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action [[PsyArXiv]](https://osf.io/preprints/psyarxiv/fmn7t_v1) [[Reproducibility Archive]](https://github.com/fdabl/LifeSatisfaction-ClimateAction)
 
 De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N. & Van Bork R. (submitted) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
