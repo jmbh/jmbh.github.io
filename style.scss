@@ -87,6 +87,12 @@ p {
   margin-top: 0; /* No extra space above the excerpt */
 }
 
+.page > h1:first-child,
+.post > h1:first-child,
+.posts > .post:first-child > h1:first-child {
+  margin-top: 0;
+}
+
 
 a {
   color: $blue;
@@ -171,7 +177,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .masthead {
