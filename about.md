@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a statistician and methodologist developing and applying methodology in the social sciences. My goal is to support research with meaningful societal impact, both by developing new methodology and statistical software, and by leading or collaborating on high-impact empirical projects. My methodological work focuses on network and time-series models, dynamical systems \& computational modeling, and the use of artificial intelligence to analyze complex text data. My empirical work spans clinical psychology and psychiatry, health psychology and pain research, climate communication and environmental social science, decision science, international relations, and sustainability-related consumer behaviour. For more details see below.
+I am a statistician and methodologist developing and applying methodology in the social sciences. My goal is to support research with meaningful societal impact, both by developing new methodology and statistical software, and by leading or collaborating on high-impact empirical projects. My methodological work focuses on network and time-series models, dynamical systems & computational modeling, and the use of artificial intelligence to analyze complex text data. My empirical work spans clinical psychology and psychiatry, health psychology and pain research, climate communication and environmental social science, decision science, international relations, and sustainability-related consumer behaviour. For more details see below.
 
 Currently, I am working as a Veni-funded Postdoctoral Researcher at the Psychological Methods group at the University of Amsterdam, where I am part of the [Bayesian Graphical Modeling Lab](https://bayesiangraphicalmodeling.com/), the [Theory Methods Lab](http://theorymethodslab.com), and the [Psychosystems](http://psychosystems.org) group. I am also partially funded by the [New Science of Mental Disorders (NSMD)](https://nsmd.eu/) gravitation consortium, for which I provide trainings and statistical consultation.
 
@@ -42,6 +42,8 @@ jonashaslbeck@protonmail.com
 
 
 ### Links
+
+[Climate Media Lab](https://climatemedialab.org)
 
 [Amsterdam Complexity School on Climate Change](https://acscc.nl)
 
