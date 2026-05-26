@@ -4,7 +4,7 @@ title: Software
 permalink: /software/
 ---
 
-I (co-)developed a number of R-packages:
+I (co-)developed a maintain number of R-packages:
 
 **VARcheck**  
 Assessing the model fit of Vector Autoregressive (VAR) models.  
