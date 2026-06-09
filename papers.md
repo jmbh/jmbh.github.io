@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Waldorp L., Muertz T., Jansen A. &  **Haslbeck J. M. B.** (submitted) Towards personalised intervention: A causal-dynamical framework to determine psychological treatment trajectories [[arXiv]](http://arxiv.org/abs/2606.09283)
+
 Epelbaum V., Engels S., de Ron J., **Haslbeck J. M. B.**, Wang S., de Beurs D., Borsboom D. & Krzhizhanovskaya V. (submitted) Sensitivity Analysis of Computational Models in Psychology: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/7e9hf_v1/)
 
 Dablander F., Sachisthal M. S. M. & **Haslbeck J. M. B.**, (submitted) Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action [[PsyArXiv]](https://osf.io/preprints/psyarxiv/fmn7t_v1) [[Reproducibility Archive]](https://github.com/fdabl/LifeSatisfaction-ClimateAction)
