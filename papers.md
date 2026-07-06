@@ -25,8 +25,6 @@ Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken 
 
 Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbeck J. M. B.**, Lischetzke T., Vogelsmeier L. V. D. E. Likert Versus Visual Analogue Scales in Ecological Momentary Assessment: Initial Evidence That Likert Scales Come With Reduced Capacity to Sustain Attentiveness [[PsyArXiv]](https://osf.io/preprints/psyarxiv/p8fg6_v1) [[Reproducibility Archive]](https://osf.io/6eywg)
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
-
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (submitted) Techno-optimistic scientists take fewer climate actions [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
 
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (under review) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v1/)
@@ -46,14 +44,16 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 **Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (accepted) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/k6uz4_v5) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
 
-Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (accepted) A Stochastic Block Prior for Clustering in Graphical Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1)
-
-Aarts E.\* & **Haslbeck J. M. B.**\* (accepted) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1)
-
 Petersen F.,  **Haslbeck J. M. B.**, Tendeiro J. N., Langener A. M., Kas M. J. H., Rizopoulos D., Bringmann L. F. (accepted) Comparing Training Window Selection Methods for Prediction in Non-Stationarity Time Series. *British Journal of Mathematical and Statistical Psychology* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/e72q6_v1)
 
 
 #### 2026
+
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2026) Mapping Climate Change Coverage: Causes, Consequences, and Solutions in German News Media, 2010–2024. *Energy Research & Social Science* [[SocArXiv]](https://osf.io/preprints/socarxiv/mv2q6_v1) [[Reproducibility Archive]](https://github.com/jmbh/MappingClimateCoverage)
+
+Sekulovski N., Arena G.,  **Haslbeck J. M. B.**, Huth K., Friel N. & Marsman, M. (2026) A Stochastic Block Prior for Clustering in Graphical Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/29p3m_v1) [[Link]](https://pubmed.ncbi.nlm.nih.gov/42347805/)
+
+Aarts E.\* & **Haslbeck J. M. B.**\* (2026) Modelling Psychological Time Series with Multilevel Hidden Markov Models: A Tutorial. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/prm3t_v1) [[Link]](https://psycnet.apa.org/record/2027-67006-001)
 
 Delamain H., **Haslbeck J. M. B.**, Shaikh M., Buckman J. E. J., Renuka Jena, Saunders R., Stott J., Suh J. W.,  Pilling S., & O'Driscoll C. (2026). Investigating differences in common mental health symptom expression and co-occurrence across ethnicities. *BMC Global and Public Health* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/m3z5j_v1) [[Link]](https://link.springer.com/article/10.1186/s44263-026-00274-x)
 
