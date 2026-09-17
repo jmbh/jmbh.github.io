@@ -180,21 +180,24 @@ img {
   margin-bottom: 15px;
 
   .container {
-    max-width: 840px;
+    max-width: 780px;
   }
 }
 
 .masthead {
+  display: flex;
+  align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
+    display: block;
     text-align: center;
   }
 }
 
 .site-avatar {
-  float: left;
+  flex: 0 0 auto;
   width: 70px;
   height: 70px;
   margin-right: 15px;
@@ -211,7 +214,7 @@ img {
 }
 
 .site-info {
-  float: left;
+  flex: 0 0 auto;
 
   @include mobile {
     float: none;
@@ -241,14 +244,16 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  flex: 0 0 auto;
+  margin-left: 45px;
+  margin-top: 0;
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
+    margin-left: 0;
     display: block;
     font-size: 16px;
   }
