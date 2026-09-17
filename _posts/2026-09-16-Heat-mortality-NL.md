@@ -1,0 +1,9 @@
+---
+layout: post
+title: "New Preprint: Heat-related mortality attributable to climate change across age and sex in the Netherlands, 1971–2019"
+date: 2026-09-17 09:00:00 +0100
+categories: 
+comments: true
+---
+
+Heat-related mortality is increasingly attributed to human-caused climate change, but most estimates are aggregated across time and population groups, masking who carries the burden and how that distribution shifts. We estimated heat-related deaths attributable to climate change in the Netherlands from 1971 to 2019 disaggregated by age and sex using a model in which the temperature--mortality relationship changes continuously from year to year. Among adults aged 65 and over, heat caused an average of 644 deaths per warm season, of which 381 (59%) would not have occurred without global warming. This fraction rose from 46% in 1971-1994 to 79% in 2010-2019. The burden falls overwhelmingly on the oldest: women aged 80 and over account for 55% of climate-change-attributable deaths and men of the same age for 24%, leaving 21% for the 65--79 groups. Per-capita rates at these ages are now similar in both sexes, so the female burden reflects women outliving men rather than greater susceptibility. Over the study period the standardized heat-mortality rate fell by more than half, because vulnerability declined faster than exposure rose. That decline began decades before the 2007 Dutch Heat Plan, which argues against the plan as the main driver, and it followed different paths in men and women. The decline in heat vulnerability must be better understood if it is to be sustained and extended against the unprecedented heat ahead. At the same time, we must urgently limit climate change to prevent further loss of life. The preprint is available [here](https://www.medrxiv.org/content/10.64898/2026.09.03.26362192v1).
