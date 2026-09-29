@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Yuan L., Borsboom D., **Haslbeck J. M. B.**, Nak J., Scheel A. M., van Dongen N., Bringmann L., Evers K., Laskar P., Frankenhuis W., Glöckner A., Helmich M. A., van Lissa C. J., McElreath R., Musfeld P., Oude Maatman F., Popov V., Robinaugh D., Sarafoglou A., van der Maas H. L. J., Volz L., Waaijers M., Wittenborn A. & Fried E. I. (submitted) Theorytopia: Psychological Science in 2050 [[PsyArXiv]](https://osf.io/preprints/psyarxiv/6dtvc_v1)
+
 Finnemann A., Dablander F., Wiers R. & **Haslbeck J. M. B.** (submitted) Heat-related mortality attributable to climate change across age and sex in the Netherlands, 1971--2019 [[MedRArXiv]](https://www.medrxiv.org/content/10.64898/2026.09.03.26362192v1) [[Reproducibility Archive]](https://osf.io/d6rme)
 
 Waldorp L., Muertz T., Jansen A. &  **Haslbeck J. M. B.** (under review) Towards personalised intervention: A causal-dynamical framework to determine psychological treatment trajectories [[arXiv]](http://arxiv.org/abs/2606.09283)
@@ -41,10 +43,10 @@ Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (accepted) Techno-
 
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. *Educational and Psychological Measurement* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
-**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (in press) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
-
 
 #### 2026
+
+**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (2026) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
 
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (2026) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v2/) [[Link]](https://link.springer.com/article/10.3758/s13428-026-03112-y)
 
