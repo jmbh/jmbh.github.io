@@ -46,7 +46,7 @@ Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enha
 
 #### 2026
 
-**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (2026) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR)
+**Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (2026) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR) [[Link]](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fmet0000855)
 
 Siepe B., **Haslbeck J. M. B.**, Kloft M, Büchner A, Zhang Y., Fried E. I. & Heck D. (2026) Introducing [openESM](https://openesmdata.org/): A database of openly available experience sampling datasets. *Behavior Research Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/qfdtb_v2/) [[Link]](https://link.springer.com/article/10.3758/s13428-026-03112-y)
 
