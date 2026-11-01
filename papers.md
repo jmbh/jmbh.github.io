@@ -43,7 +43,7 @@ Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enha
 
 #### 2026
 
-Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (2026) Techno-optimistic scientists take fewer climate actions. *Environmental Research Letters* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1) [[Link]](https://iopscience.iop.org/article/10.1088/1748-9326/aea4c7/meta)
+Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (2026) Techno-optimistic scientists take fewer climate actions. *Environmental Research Letters* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1) [[Link]](https://iopscience.iop.org/article/10.1088/1748-9326/aea4c7/meta) [[The Guardian]](https://www.theguardian.com/environment/2026/oct/07/scientists-technology-less-likely-climate-crisis-action)
 
 **Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (2026) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR) [[Link]](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fmet0000855)
 
