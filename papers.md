@@ -8,9 +8,11 @@ permalink: /papers/
 
 #### Submitted / under review
 
+**Haslbeck J. M. B.**, Klau M, Blanken T & Marsman M. (submitted) Testing Group Differences in Network Models using Bayesian Model Selection: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rx745_v1) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalNetworkGroupTest)
+
 Yuan L., Borsboom D., **Haslbeck J. M. B.**, Nak J., Scheel A. M., van Dongen N., Bringmann L., Evers K., Laskar P., Frankenhuis W., Glöckner A., Helmich M. A., van Lissa C. J., McElreath R., Musfeld P., Oude Maatman F., Popov V., Robinaugh D., Sarafoglou A., van der Maas H. L. J., Volz L., Waaijers M., Wittenborn A. & Fried E. I. (submitted) Theorytopia: Psychological Science in 2050 [[PsyArXiv]](https://osf.io/preprints/psyarxiv/6dtvc_v1)
 
-Finnemann A., Dablander F., Wiers R. & **Haslbeck J. M. B.** (submitted) Heat-related mortality attributable to climate change across age and sex in the Netherlands, 1971--2019 [[MedRArXiv]](https://www.medrxiv.org/content/10.64898/2026.09.03.26362192v1) [[Reproducibility Archive]](https://osf.io/d6rme)
+Finnemann A., Dablander F., Wiers R. & **Haslbeck J. M. B.** (under review) Heat-related mortality attributable to climate change across age and sex in the Netherlands, 1971--2019 [[MedRArXiv]](https://www.medrxiv.org/content/10.64898/2026.09.03.26362192v1) [[Reproducibility Archive]](https://osf.io/d6rme)
 
 Waldorp L., Muertz T., Jansen A. &  **Haslbeck J. M. B.** (under review) Towards personalised intervention: A causal-dynamical framework to determine psychological treatment trajectories [[arXiv]](http://arxiv.org/abs/2606.09283)
 
@@ -19,12 +21,9 @@ Epelbaum V., Engels S., de Ron J., **Haslbeck J. M. B.**, Wang S., de Beurs D., 
 Dablander F., Sachisthal M. S. M. & **Haslbeck J. M. B.**, (under revision) Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action [[PsyArXiv]](https://osf.io/preprints/psyarxiv/fmn7t_v1) [[Reproducibility Archive]](https://github.com/fdabl/LifeSatisfaction-ClimateAction)
 
 De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N. & Van Bork R. (under review) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
-
 Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Climate Change Coverage in The Guardian, 2010–2025. [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v3) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
 
 Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
-
-**Haslbeck J. M. B.**, Sachisthal M. S. M., Dablander F. (under revision) Techno-Optimism Reduces Willingness to Address Climate Change [[PsyArXiv]](https://osf.io/preprints/psyarxiv/x3jqa_v3) [[Reproducibility Archive]](https://github.com/jmbh/TechnoOptimistsNL)
 
 Uitzsch E., Vollbracht D., Zhang L., Hover-Martinez A, Domingue B. W., **Haslbeck J. M. B.**, Lischetzke T., Vogelsmeier L. V. D. E. (under revision) Likert Versus Visual Analogue Scales in Ecological Momentary Assessment: Initial Evidence That Likert Scales Come With Reduced Capacity to Sustain Attentiveness [[PsyArXiv]](https://osf.io/preprints/psyarxiv/p8fg6_v1) [[Reproducibility Archive]](https://osf.io/6eywg)
 
@@ -39,12 +38,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
-Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (accepted) Techno-optimistic scientists take fewer climate actions. *Environmental Research Letters* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1)
-
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. *Educational and Psychological Measurement* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 
 #### 2026
+
+Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (2026) Techno-optimistic scientists take fewer climate actions. *Environmental Research Letters* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1) [[Link]](https://iopscience.iop.org/article/10.1088/1748-9326/aea4c7/meta)
 
 **Haslbeck J. M. B.**, Jongerling J., Siepe B., Epskamp S. & Waldorp L. (2026) Model Checking for Vector Autoregressive Models. *Psychological Methods* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/new-version/k6uz4_v7) [[Reproducibility Archive]](https://github.com/jmbh/ModelCheckingForVAR) [[Link]](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fmet0000855)
 
