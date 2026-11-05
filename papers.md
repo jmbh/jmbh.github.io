@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Scholten, S., van der Wijk, G.,**Haslbeck J. M. B.**, Kininger, F., Glombiewski, J. A., & Vlaeyen, J. W. S. (submitted). Chronic Pain as a Complex Dynamic System: Conceptual Foundations and a Narrative Review of Network Approaches. [PsyArXiv](https://osf.io/preprints/psyarxiv/mnj6b_v1)
+
 **Haslbeck J. M. B.**, Klau M, Blanken T & Marsman M. (submitted) Testing Group Differences in Network Models using Bayesian Model Selection: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rx745_v1) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalNetworkGroupTest)
 
 Yuan L., Borsboom D., **Haslbeck J. M. B.**, Nak J., Scheel A. M., van Dongen N., Bringmann L., Evers K., Laskar P., Frankenhuis W., Glöckner A., Helmich M. A., van Lissa C. J., McElreath R., Musfeld P., Oude Maatman F., Popov V., Robinaugh D., Sarafoglou A., van der Maas H. L. J., Volz L., Waaijers M., Wittenborn A. & Fried E. I. (submitted) Theorytopia: Psychological Science in 2050 [[PsyArXiv]](https://osf.io/preprints/psyarxiv/6dtvc_v1)
@@ -21,7 +23,6 @@ Epelbaum V., Engels S., de Ron J., **Haslbeck J. M. B.**, Wang S., de Beurs D., 
 Dablander F., Sachisthal M. S. M. & **Haslbeck J. M. B.**, (under revision) Material Life Satisfaction Increases Willingness to Engage in Costly Climate Action [[PsyArXiv]](https://osf.io/preprints/psyarxiv/fmn7t_v1) [[Reproducibility Archive]](https://github.com/fdabl/LifeSatisfaction-ClimateAction)
 
 De Ron J., Blanken T. F., Borsboom B., Grommers H, **Haslbeck J. M. B.**, Lancee J., Maurer L., Nak J., Robinaugh D. J., Van der Maas H. L. J., Van Dongen N. & Van Bork R. (under review) Triple-R as an Explanatory Theory for the Efficacy of Sleep Restriction Therapy: An Application of the Productive Explanation Framework [[PsyArXiv]](https://osf.io/preprints/psyarxiv/5cxa3_v1) 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (under revision) Climate Change Coverage in The Guardian, 2010–2025. [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v3) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
 
 Van Dongen N., Nak J., Woodward F., Scheel A., Haig B. D., Van Bork R., Blanken T. F., de Ron J., Finneman A, **Haslbeck J. M. B.**, Francken J. C., Eronen M. I. E., Van Lissa C. Dijstelbloem H., Borsboom D. (submitted) Establishing Psychological Phenomena: An Alternative Methodological Perspective on Scientific Practice [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rh9cu_v1)
 
@@ -37,6 +38,8 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 
 #### Accepted / In press
+
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (accepted) Climate Change Coverage in The Guardian, 2010–2025. *Environmental Research Communications* [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v3) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
 
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. *Educational and Psychological Measurement* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
