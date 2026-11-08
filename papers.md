@@ -8,6 +8,8 @@ permalink: /papers/
 
 #### Submitted / under review
 
+Choukas N. R., Hamm S., Robinaugh D. J., Haddox D. D., **Haslbeck J. M. B.**, Fried E. I., Borsboom D., Wang S. B. & Cohen Z. D. (submitted) From Formal Theory to Personalized Treatment: A Precision Mental Health Roadmap. [PsyArXiv](https://osf.io/preprints/psyarxiv/sbqkh_v1)
+
 Scholten, S., van der Wijk, G.,**Haslbeck J. M. B.**, Kininger, F., Glombiewski, J. A., & Vlaeyen, J. W. S. (submitted). Chronic Pain as a Complex Dynamic System: Conceptual Foundations and a Narrative Review of Network Approaches. [PsyArXiv](https://osf.io/preprints/psyarxiv/mnj6b_v1)
 
 **Haslbeck J. M. B.**, Klau M, Blanken T & Marsman M. (submitted) Testing Group Differences in Network Models using Bayesian Model Selection: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rx745_v1) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalNetworkGroupTest)
