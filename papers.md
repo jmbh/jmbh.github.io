@@ -8,9 +8,9 @@ permalink: /papers/
 
 #### Submitted / under review
 
-Choukas N. R., Hamm S., Robinaugh D. J., Haddox D. D., **Haslbeck J. M. B.**, Fried E. I., Borsboom D., Wang S. B. & Cohen Z. D. (submitted) From Formal Theory to Personalized Treatment: A Precision Mental Health Roadmap. [PsyArXiv](https://osf.io/preprints/psyarxiv/sbqkh_v1)
+Choukas N. R., Hamm S., Robinaugh D. J., Haddox D. D., **Haslbeck J. M. B.**, Fried E. I., Borsboom D., Wang S. B. & Cohen Z. D. (submitted) From Formal Theory to Personalized Treatment: A Precision Mental Health Roadmap. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/sbqkh_v1)
 
-Scholten, S., van der Wijk, G.,**Haslbeck J. M. B.**, Kininger, F., Glombiewski, J. A., & Vlaeyen, J. W. S. (submitted). Chronic Pain as a Complex Dynamic System: Conceptual Foundations and a Narrative Review of Network Approaches. [PsyArXiv](https://osf.io/preprints/psyarxiv/mnj6b_v1)
+Scholten, S., van der Wijk, G.,**Haslbeck J. M. B.**, Kininger, F., Glombiewski, J. A., & Vlaeyen, J. W. S. (submitted). Chronic Pain as a Complex Dynamic System: Conceptual Foundations and a Narrative Review of Network Approaches. [[PsyArXiv]](https://osf.io/preprints/psyarxiv/mnj6b_v1)
 
 **Haslbeck J. M. B.**, Klau M, Blanken T & Marsman M. (submitted) Testing Group Differences in Network Models using Bayesian Model Selection: A Tutorial [[PsyArXiv]](https://osf.io/preprints/psyarxiv/rx745_v1) [[Reproducibility Archive]](https://github.com/jmbh/OrdinalNetworkGroupTest)
 
@@ -41,12 +41,12 @@ Dekker, M., Walentek, D., **Haslbeck J. M. B.** & Broere, J. (under revision). S
 
 #### Accepted / In press
 
-Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (accepted) Climate Change Coverage in The Guardian, 2010–2025. *Environmental Research Communications* [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v3) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian})
-
 Guenole N., D'Urso E. D., Samo A., Sun T & **Haslbeck J. M. B.** (accepted) Enhancing Scale Development: Pseudo Factor Analysis of Language Embedding Similarity Matrices. *Educational and Psychological Measurement* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/vf3se_v2)
 
 
 #### 2026
+
+Dablander F.\*, Wimmer S.\*, & **Haslbeck J. M. B.**\* (2026) Climate Change Coverage in The Guardian, 2010–2025. *Environmental Research Communications* [[SocArXiv]](https://osf.io/preprints/socarxiv/hy6re_v3) [[Reproducibility Archive]](https://github.com/jmbh/ClimateCoverageTheGuardian}) [[Link]](https://iopscience.iop.org/article/10.1088/2515-7620/aec107)
 
 Dablander F, Cologna V. Sachisthal M. & **Haslbeck J. M. B.** (2026) Techno-optimistic scientists take fewer climate actions. *Environmental Research Letters* [[PsyArXiv]](https://osf.io/preprints/psyarxiv/c3skb_v1) [[Link]](https://iopscience.iop.org/article/10.1088/1748-9326/aea4c7/meta) [[The Guardian]](https://www.theguardian.com/environment/2026/oct/07/scientists-technology-less-likely-climate-crisis-action)
 
